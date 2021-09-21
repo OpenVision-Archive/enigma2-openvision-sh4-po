@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-18 15:30+0430\n"
+"POT-Creation-Date: 2021-09-21 07:29+0000\n"
 "PO-Revision-Date: 2021-07-28 15:54+0200\n"
 "Last-Translator: Kuatto\n"
 "Language-Team: Álvaro <mi casa>\n"
@@ -275,6 +275,14 @@ msgid "%-m/%d "
 msgstr ""
 
 msgid "%-m/%d/%Y"
+msgstr ""
+
+#, python-format
+msgid "%.0f GB"
+msgstr ""
+
+#, python-format
+msgid "%.0f MB"
 msgstr ""
 
 #, python-format
@@ -984,6 +992,10 @@ msgid "%d job is running in the background!"
 msgid_plural "%d jobs are running in the background!"
 msgstr[0] "%d tarea está corriendo en segundo plano!"
 msgstr[1] "%d tareas están corriendo en segundo plano!"
+
+#, fuzzy, python-format
+msgid "%d kB"
+msgstr "%d kB/s"
 
 #, python-format
 msgid "%d kB/s"
@@ -1793,6 +1805,9 @@ msgstr ""
 
 msgid "ASS file"
 msgstr "ASS Archivo"
+
+msgid "ATSC"
+msgstr ""
 
 msgid "ATSC provider"
 msgstr "ATSC provider"
@@ -4443,6 +4458,12 @@ msgstr "Tipo de DVB"
 msgid "DVB-C"
 msgstr ""
 
+msgid "DVB-C ANNEX B"
+msgstr ""
+
+msgid "DVB-C ANNEX C"
+msgstr ""
+
 msgid "DVB-C/-S/-T"
 msgstr ""
 
@@ -4458,6 +4479,9 @@ msgstr ""
 msgid "DVB-S/-T/-C"
 msgstr ""
 
+msgid "DVB-S2"
+msgstr ""
+
 msgid "DVB-T"
 msgstr ""
 
@@ -4465,6 +4489,9 @@ msgid "DVB-T/-C/-S"
 msgstr ""
 
 msgid "DVB-T/-S/-C"
+msgstr ""
+
+msgid "DVB-T2"
 msgstr ""
 
 msgid "DVD"
@@ -6686,9 +6713,6 @@ msgstr "Opciones Adicionales"
 msgid "Further options"
 msgstr "Opciones adicionales"
 
-msgid "GB"
-msgstr "GB"
-
 #, fuzzy
 msgid "GCC version"
 msgstr "Versión GCC: "
@@ -8398,9 +8422,6 @@ msgid ""
 msgstr ""
 "La dirección MAC se cambió correctamente.\n"
 "Nueva dirección MAC: "
-
-msgid "MB"
-msgstr "MB"
 
 msgid "MENU"
 msgstr ""

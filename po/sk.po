@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-18 15:30+0430\n"
+"POT-Creation-Date: 2021-09-21 07:29+0000\n"
 "PO-Revision-Date: 2021-08-02 08:54+0200\n"
 "Last-Translator: Andrej Tobola <andrej.tobola@gmail.com>\n"
 "Language-Team: \n"
@@ -275,6 +275,14 @@ msgid "%-m/%d "
 msgstr ""
 
 msgid "%-m/%d/%Y"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "%.0f GB"
+msgstr "%.2f GB"
+
+#, python-format
+msgid "%.0f MB"
 msgstr ""
 
 #, python-format
@@ -986,6 +994,10 @@ msgid_plural "%d jobs are running in the background!"
 msgstr[0] "%d úloha beží na pozadí!"
 msgstr[1] "%d úlohy bežia na pozadí!"
 msgstr[2] "%d úloh beží na pozadí!"
+
+#, fuzzy, python-format
+msgid "%d kB"
+msgstr "%d kB/s"
 
 #, python-format
 msgid "%d kB/s"
@@ -1774,6 +1786,9 @@ msgstr ""
 
 msgid "ASS file"
 msgstr "ASS súbor"
+
+msgid "ATSC"
+msgstr ""
 
 msgid "ATSC provider"
 msgstr "ATSC poskytovateľ"
@@ -4463,6 +4478,12 @@ msgstr "Typ DVB"
 msgid "DVB-C"
 msgstr ""
 
+msgid "DVB-C ANNEX B"
+msgstr ""
+
+msgid "DVB-C ANNEX C"
+msgstr ""
+
 msgid "DVB-C/-S/-T"
 msgstr ""
 
@@ -4478,6 +4499,9 @@ msgstr ""
 msgid "DVB-S/-T/-C"
 msgstr ""
 
+msgid "DVB-S2"
+msgstr ""
+
 msgid "DVB-T"
 msgstr ""
 
@@ -4485,6 +4509,9 @@ msgid "DVB-T/-C/-S"
 msgstr ""
 
 msgid "DVB-T/-S/-C"
+msgstr ""
+
+msgid "DVB-T2"
 msgstr ""
 
 msgid "DVD"
@@ -6749,10 +6776,6 @@ msgid "Further options"
 msgstr "Ďalšie možnosti"
 
 #, fuzzy
-msgid "GB"
-msgstr "RGB"
-
-#, fuzzy
 msgid "GCC version"
 msgstr "Inverzia"
 
@@ -8500,10 +8523,6 @@ msgid ""
 "MAC address successfully changed.\n"
 "New MAC address is: "
 msgstr ""
-
-#, fuzzy
-msgid "MB"
-msgstr "B"
 
 msgid "MENU"
 msgstr ""

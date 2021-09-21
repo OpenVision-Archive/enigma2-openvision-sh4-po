@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OPENPLi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-18 15:30+0430\n"
+"POT-Creation-Date: 2021-09-21 07:29+0000\n"
 "PO-Revision-Date: 2015-12-18 21:05+0200\n"
 "Last-Translator: Yetkin AYDIN <yetkina@gmail.com>\n"
 "Language-Team: http://www.hurforum.com <yetkina@gmail.com>\n"
@@ -280,6 +280,14 @@ msgid "%-m/%d "
 msgstr ""
 
 msgid "%-m/%d/%Y"
+msgstr ""
+
+#, python-format
+msgid "%.0f GB"
+msgstr ""
+
+#, python-format
+msgid "%.0f MB"
 msgstr ""
 
 #, python-format
@@ -979,6 +987,10 @@ msgstr[0] "%d saat"
 msgid "%d job is running in the background!"
 msgid_plural "%d jobs are running in the background!"
 msgstr[0] "Arka planda %d uygulama çalışıyor."
+
+#, python-format
+msgid "%d kB"
+msgstr ""
 
 #, python-format
 msgid "%d kB/s"
@@ -1751,6 +1763,9 @@ msgid "ANNEX-C"
 msgstr ""
 
 msgid "ASS file"
+msgstr ""
+
+msgid "ATSC"
 msgstr ""
 
 msgid "ATSC provider"
@@ -4450,6 +4465,12 @@ msgstr ""
 msgid "DVB-C"
 msgstr ""
 
+msgid "DVB-C ANNEX B"
+msgstr ""
+
+msgid "DVB-C ANNEX C"
+msgstr ""
+
 msgid "DVB-C/-S/-T"
 msgstr ""
 
@@ -4465,6 +4486,9 @@ msgstr ""
 msgid "DVB-S/-T/-C"
 msgstr ""
 
+msgid "DVB-S2"
+msgstr ""
+
 msgid "DVB-T"
 msgstr ""
 
@@ -4472,6 +4496,9 @@ msgid "DVB-T/-C/-S"
 msgstr ""
 
 msgid "DVB-T/-S/-C"
+msgstr ""
+
+msgid "DVB-T2"
 msgstr ""
 
 msgid "DVD"
@@ -6756,10 +6783,6 @@ msgid "Further options"
 msgstr ""
 
 #, fuzzy
-msgid "GB"
-msgstr "RGB"
-
-#, fuzzy
 msgid "GCC version"
 msgstr "Tersine çevir"
 
@@ -8508,10 +8531,6 @@ msgid ""
 "MAC address successfully changed.\n"
 "New MAC address is: "
 msgstr ""
-
-#, fuzzy
-msgid "MB"
-msgstr "B"
 
 msgid "MENU"
 msgstr ""

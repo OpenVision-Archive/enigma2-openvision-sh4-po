@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-21 07:29+0000\n"
+"POT-Creation-Date: 2021-09-26 11:22+0000\n"
 "PO-Revision-Date: 2020-12-05 15:11+0100\n"
 "Last-Translator: mcfly82\n"
 "Language-Team: mcfly82 & wysless\n"
@@ -14004,6 +14004,10 @@ msgstr "Keletre léptetve"
 
 msgid "Stepped west"
 msgstr "Nyugatra léptetve"
+
+#, fuzzy
+msgid "Steps"
+msgstr "Léptetés kelet felé"
 
 msgid "Stop"
 msgstr "Állj"

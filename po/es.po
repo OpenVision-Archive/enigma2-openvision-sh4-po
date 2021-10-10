@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-03 01:57+0000\n"
+"POT-Creation-Date: 2021-10-10 01:55+0000\n"
 "PO-Revision-Date: 2021-07-28 15:54+0200\n"
 "Last-Translator: Kuatto\n"
 "Language-Team: Álvaro <mi casa>\n"
@@ -17,6 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0\n"
+
+#, fuzzy
+msgid ""
+"\n"
+" Do you want to switch to Android ?"
+msgstr "¿Quieres reproducir DVD en la unidad?"
 
 #, fuzzy
 msgid ""
@@ -6996,6 +7002,10 @@ msgstr "Fuente activa de HDMI-CEC"
 
 msgid "HDMI-CEC Source Inactive"
 msgstr "Fuente HDMI-CEC inactiva"
+
+#, fuzzy
+msgid "HDMI-CEC address"
+msgstr "Dirección MAC"
 
 msgid "HDMI-CEC setup"
 msgstr "Ajustes HDMI-CEC"

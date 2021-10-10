@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-03 01:57+0000\n"
+"POT-Creation-Date: 2021-10-10 01:55+0000\n"
 "PO-Revision-Date: 2021-08-26 20:26+0200\n"
 "Last-Translator: Željko <zeljko2@hi.ht.hr>\n"
 "Language-Team: Željko\n"
@@ -12,6 +12,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 3.0\n"
+
+#, fuzzy
+msgid ""
+"\n"
+" Do you want to switch to Android ?"
+msgstr "Želite li reproducirati DVD u pogonu?"
 
 msgid ""
 "\n"
@@ -7067,6 +7073,10 @@ msgstr "HDMI-CEC aktivni izvor"
 
 msgid "HDMI-CEC Source Inactive"
 msgstr "HDMI-CEC neaktivni izvor"
+
+#, fuzzy
+msgid "HDMI-CEC address"
+msgstr "IP-adresa"
 
 msgid "HDMI-CEC setup"
 msgstr "HDMI-CEC postavke"

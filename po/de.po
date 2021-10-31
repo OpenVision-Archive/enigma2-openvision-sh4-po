@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-21 10:45+0000\n"
+"POT-Creation-Date: 2021-10-31 01:55+0000\n"
 "PO-Revision-Date: 2021-04-30 16:06+0200\n"
 "Last-Translator: kueken\n"
 "Language-Team: OpenPLi\n"
@@ -6033,6 +6033,9 @@ msgstr ""
 "Fehler beim Entpacken des Images\n"
 "%s"
 
+msgid "Error in XML file: Try to solve and then restart."
+msgstr ""
+
 msgid "Error stop stream!"
 msgstr "Fehler beim Stoppen des Streams!"
 
@@ -10180,9 +10183,6 @@ msgstr "Pause / Wiedergabe fortsetzen"
 msgid "Pausing"
 msgstr "pausiert"
 
-msgid "Pending restart"
-msgstr "Neustart anstehend"
-
 #, fuzzy
 msgid "Percentage"
 msgstr "Prozentangabe links"
@@ -10981,6 +10981,10 @@ msgstr "Standby aufrufen schützen"
 
 msgid "Protect timer menu"
 msgstr "Timer Menü schützen"
+
+#, fuzzy
+msgid "Protect vision core menu"
+msgstr "Hauptmenü schützen"
 
 #, fuzzy
 msgid "Protocol"

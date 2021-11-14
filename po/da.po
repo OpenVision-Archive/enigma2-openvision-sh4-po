@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 05:28+0000\n"
+"POT-Creation-Date: 2021-11-14 01:55+0000\n"
 "PO-Revision-Date: 2017-01-18 16:38+0100\n"
 "Last-Translator: lupine <a_ecklon@hotmail.com>\n"
 "Language-Team: \n"
@@ -4783,8 +4783,9 @@ msgid "Customize channel list cursor behavior"
 msgstr "Tilpas markør opførslen i kanallisten"
 
 #
-msgid "Cut"
-msgstr "Klip"
+#, fuzzy
+msgid "Cut Menu"
+msgstr "Menu"
 
 msgid "Cutlist editor"
 msgstr "Klipliste editor"
@@ -5290,6 +5291,15 @@ msgstr ""
 
 #
 #, fuzzy
+msgid "Delete cut"
+msgstr "slet klip"
+
+#, fuzzy
+msgid "Delete cut (disabled)"
+msgstr "(afbrudt)"
+
+#
+#, fuzzy
 msgid "Delete directory"
 msgstr "Opret mappe"
 
@@ -5551,6 +5561,11 @@ msgstr "Deaktiver baggrundssøgning"
 
 msgid "Disable current event but not coming events"
 msgstr "Deaktiver nuværende begivenhed men ikke kommende begivenheder"
+
+#
+#, fuzzy
+msgid "Disable cuts (edit)"
+msgstr "Åbne favoritredigering"
 
 #
 msgid "Disable move mode"
@@ -6285,6 +6300,10 @@ msgstr "Aktiver favoritliste valg i multi-EPG"
 msgid "Enable client mode"
 msgstr "Åbne flyttetype"
 
+#, fuzzy
+msgid "Enable cuts (preview)"
+msgstr "aktiver introskærm"
+
 msgid "Enable fade-out functionality"
 msgstr ""
 
@@ -6423,6 +6442,16 @@ msgstr "Afslut favoritlisteredigering"
 #, fuzzy
 msgid "End cut"
 msgstr "Stop tid"
+
+#
+#, fuzzy
+msgid "End cut here"
+msgstr "afslut klip her"
+
+#
+#, fuzzy
+msgid "End cut here (reset)"
+msgstr "afslut klip her"
 
 #
 msgid "End favourites edit"
@@ -7675,6 +7704,11 @@ msgstr "Gå til:"
 msgid "GotoX calibration"
 msgstr "Gå til X calibrering"
 
+#
+#, fuzzy
+msgid "Grab this frame as bitmap"
+msgstr "grab denne frame som bitmap"
+
 msgid "GraphMultiEpg Settings"
 msgstr "GrafiskMultiEpg indstillinger"
 
@@ -8504,6 +8538,16 @@ msgstr ""
 #, fuzzy
 msgid "Input scroll position"
 msgstr "Gå til position"
+
+#
+#, fuzzy
+msgid "Insert mark after each in"
+msgstr "indsæt mærke her"
+
+#
+#, fuzzy
+msgid "Insert mark here"
+msgstr "indsæt mærke her"
 
 #
 msgid "Install"
@@ -11942,6 +11986,11 @@ msgstr "Forbereder... Vent venligst"
 msgid "Preschool"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Preserve bookmarks in cuts"
+msgstr "Fjern bogmærke"
+
 msgid "Press '0' to toggle PiP mode"
 msgstr "Tryk '0' for at skifte BiB modus."
 
@@ -12275,6 +12324,10 @@ msgstr "Kvik"
 
 #, fuzzy
 msgid "Quick Select Actions"
+msgstr "Vælg handling"
+
+#, fuzzy
+msgid "Quick execute"
 msgstr "Vælg handling"
 
 msgid "Quick execute..."
@@ -12641,6 +12694,11 @@ msgid "Remove a nameserver entry"
 msgstr "Fjern en navneserver"
 
 #
+#, fuzzy
+msgid "Remove after this position"
+msgstr "fjern efter denne position"
+
+#
 msgid "Remove all alternatives"
 msgstr "Fjern alle alternativer"
 
@@ -12692,7 +12750,17 @@ msgid "Remove all timer data"
 msgstr "Fjern alle alternativer"
 
 #
+#, fuzzy
+msgid "Remove before this position"
+msgstr "fjern før denne position"
+
+#
 msgid "Remove bookmark"
+msgstr "Fjern bogmærke"
+
+#
+#, fuzzy
+msgid "Remove bookmarks in cuts"
 msgstr "Fjern bogmærke"
 
 msgid "Remove bouquet from parental protection"
@@ -12740,6 +12808,11 @@ msgstr "Fjern terrestrial services"
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr ""
+
+#
+#, fuzzy
+msgid "Remove this mark"
+msgstr "fjern dette mærke"
 
 #
 msgid "Remove title"
@@ -15528,6 +15601,16 @@ msgstr "Alle frekvenser"
 #, fuzzy
 msgid "Start cut"
 msgstr "Start test"
+
+#
+#, fuzzy
+msgid "Start cut here"
+msgstr "start klip her"
+
+#
+#, fuzzy
+msgid "Start cut here (reset)"
+msgstr "start klip her"
 
 #
 msgid "Start directory"
@@ -19461,14 +19544,6 @@ msgstr "daglig"
 msgid "day"
 msgstr "dag"
 
-#
-msgid "delete cut"
-msgstr "slet klip"
-
-#, fuzzy
-msgid "delete cut (disabled)"
-msgstr "(afbrudt)"
-
 msgid "delete time - show delete time (Trash ONLY)"
 msgstr ""
 
@@ -19484,11 +19559,6 @@ msgstr "afkod og gem ecm"
 
 msgid "detective/thriller"
 msgstr "detektiv/thriller"
-
-#
-#, fuzzy
-msgid "disable cuts (edit)"
-msgstr "Åbne favoritredigering"
 
 #
 msgid "disabled"
@@ -19543,10 +19613,6 @@ msgstr "indlejret"
 msgid "empty"
 msgstr "tom"
 
-#, fuzzy
-msgid "enable cuts (preview)"
-msgstr "aktiver introskærm"
-
 #
 msgid "enabled"
 msgstr "Tilsluttet"
@@ -19555,15 +19621,6 @@ msgstr "Tilsluttet"
 #, fuzzy
 msgid "end at this position"
 msgstr "fjern efter denne position"
-
-#
-msgid "end cut here"
-msgstr "afslut klip her"
-
-#
-#, fuzzy
-msgid "end cut here (reset)"
-msgstr "afslut klip her"
 
 msgid "entertainment (10-16 year old)"
 msgstr "underholdning (10-16 år gammel)"
@@ -19588,9 +19645,6 @@ msgid "eth0"
 msgstr ""
 
 msgid "evremote2 is present"
-msgstr ""
-
-msgid "execute cuts and exit"
 msgstr ""
 
 #, fuzzy
@@ -19692,10 +19746,6 @@ msgid "go to standby"
 msgstr "gå til standby"
 
 #
-msgid "grab this frame as bitmap"
-msgstr "grab denne frame som bitmap"
-
-#
 msgid "green"
 msgstr "grøn"
 
@@ -19774,15 +19824,6 @@ msgstr "initialiser modul"
 #
 msgid "init modules"
 msgstr "initier moduler"
-
-#
-#, fuzzy
-msgid "insert mark after each in"
-msgstr "indsæt mærke her"
-
-#
-msgid "insert mark here"
-msgstr "indsæt mærke her"
 
 #
 #, fuzzy
@@ -20100,18 +20141,12 @@ msgstr "populær kultur/traditionel kunst"
 msgid "pre-school children's program"
 msgstr "før-skole børneprogram"
 
-msgid "preserve bookmarks in cuts"
-msgstr ""
-
 #
 #, fuzzy
 msgid "priority"
 msgstr "Prioritet"
 
 msgid "punch cuts"
-msgstr ""
-
-msgid "quick execute"
 msgstr ""
 
 #, fuzzy
@@ -20140,22 +20175,9 @@ msgid "remarkable people"
 msgstr "bemærkelsesværdige folk"
 
 #
-msgid "remove after this position"
-msgstr "fjern efter denne position"
-
-#
 #, fuzzy
 msgid "remove all"
 msgstr "Fjerne titel"
-
-#
-msgid "remove before this position"
-msgstr "fjern før denne position"
-
-#
-#, fuzzy
-msgid "remove bookmarks in cuts"
-msgstr "Fjern bogmærke"
 
 #
 #, fuzzy
@@ -20166,10 +20188,6 @@ msgstr "fjern dette mærke"
 #, fuzzy
 msgid "remove marks (preserve cuts)"
 msgstr "Fjern en navneserver"
-
-#
-msgid "remove this mark"
-msgstr "fjern dette mærke"
 
 #
 msgid "repeated"
@@ -20384,15 +20402,6 @@ msgstr "sport magasin"
 #
 msgid "standard"
 msgstr "standard"
-
-#
-msgid "start cut here"
-msgstr "start klip her"
-
-#
-#, fuzzy
-msgid "start cut here (reset)"
-msgstr "start klip her"
 
 msgid "stepsize"
 msgstr "trinstørrelse"

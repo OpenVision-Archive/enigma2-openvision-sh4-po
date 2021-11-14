@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Openpli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 05:28+0000\n"
+"POT-Creation-Date: 2021-11-14 01:55+0000\n"
 "PO-Revision-Date: 2019-04-03 06:49+0300\n"
 "Last-Translator: \n"
 "Language-Team: Raivo, Henkka, eesatfan, rimas, zeros\\n faas, sateks, valgekotkas, tigekala, rootsikunn\\n kain, i70, mustkass, pelmeen, Scott\\n <digi-tv.ee>\n"
@@ -4405,8 +4405,9 @@ msgstr ""
 msgid "Customize channel list cursor behavior"
 msgstr "Kohanda kursori tegutsemist kanalite nimekirjas"
 
-msgid "Cut"
-msgstr "Lõika"
+#, fuzzy
+msgid "Cut Menu"
+msgstr "Menüü"
 
 msgid "Cutlist editor"
 msgstr "Lõikekohtade monteerija"
@@ -4876,6 +4877,14 @@ msgid "Delete character under cursor or select PM times"
 msgstr ""
 
 #, fuzzy
+msgid "Delete cut"
+msgstr "kustuta lõige"
+
+#, fuzzy
+msgid "Delete cut (disabled)"
+msgstr " (keelatud)"
+
+#, fuzzy
 msgid "Delete directory"
 msgstr "Loo kataloog"
 
@@ -5106,6 +5115,10 @@ msgstr "Keela kanaliotsing taustal"
 
 msgid "Disable current event but not coming events"
 msgstr "Keela toimuv sündmus kuid mitte järgmised"
+
+#, fuzzy
+msgid "Disable cuts (edit)"
+msgstr "Luba lemmikute muutmine"
 
 msgid "Disable move mode"
 msgstr "Keela liigutamine nimekirjades"
@@ -5742,6 +5755,10 @@ msgstr "Luba multiEPG-s nimekirjade valik."
 msgid "Enable client mode"
 msgstr "Luba liigutamine nimekirjades"
 
+#, fuzzy
+msgid "Enable cuts (preview)"
+msgstr "luba tervitusaken"
+
 msgid "Enable fade-out functionality"
 msgstr ""
 
@@ -5864,6 +5881,14 @@ msgstr "Salvesta muudatused ja välju"
 #, fuzzy
 msgid "End cut"
 msgstr "Lõpetamise aeg"
+
+#, fuzzy
+msgid "End cut here"
+msgstr "lõpeta lõige siin"
+
+#, fuzzy
+msgid "End cut here (reset)"
+msgstr "lõpeta lõige siin"
 
 msgid "End favourites edit"
 msgstr "Salvesta muudatused ja välju"
@@ -7009,6 +7034,10 @@ msgstr "Mine:"
 msgid "GotoX calibration"
 msgstr "Mine X kalibreerimisse"
 
+#, fuzzy
+msgid "Grab this frame as bitmap"
+msgstr "salvesta see kaader rasterpildina"
+
 msgid "GraphMultiEpg Settings"
 msgstr "Graafilise MultiEpg seaded"
 
@@ -7774,6 +7803,14 @@ msgstr "Sisendvoo ID"
 #, fuzzy
 msgid "Input scroll position"
 msgstr "Mine kohale"
+
+#, fuzzy
+msgid "Insert mark after each in"
+msgstr "pane märk siia"
+
+#, fuzzy
+msgid "Insert mark here"
+msgstr "pane märk siia"
 
 msgid "Install"
 msgstr "Paigalda"
@@ -10830,6 +10867,10 @@ msgstr "Ettevalmistus...Oota"
 msgid "Preschool"
 msgstr ""
 
+#, fuzzy
+msgid "Preserve bookmarks in cuts"
+msgstr "Kustuta järjehoidja"
+
 msgid "Press '0' to toggle PiP mode"
 msgstr "PiP-režiimi vahetamiseks vajuta '0'."
 
@@ -11128,6 +11169,10 @@ msgstr "Kiire"
 
 #, fuzzy
 msgid "Quick Select Actions"
+msgstr "Vali tegevus"
+
+#, fuzzy
+msgid "Quick execute"
 msgstr "Vali tegevus"
 
 msgid "Quick execute..."
@@ -11450,6 +11495,10 @@ msgstr "Kustuta märk"
 msgid "Remove a nameserver entry"
 msgstr "Kustuta kirje nimeserverist"
 
+#, fuzzy
+msgid "Remove after this position"
+msgstr "kustuta selle koha järel"
+
 msgid "Remove all alternatives"
 msgstr "Kustuta kõik asenduskanalid"
 
@@ -11491,7 +11540,15 @@ msgstr "Kustuta kõik uus kanal-tunnused"
 msgid "Remove all timer data"
 msgstr "Kustuta kõik asenduskanalid"
 
+#, fuzzy
+msgid "Remove before this position"
+msgstr "kustuta kõik enne seda kohta"
+
 msgid "Remove bookmark"
+msgstr "Kustuta järjehoidja"
+
+#, fuzzy
+msgid "Remove bookmarks in cuts"
 msgstr "Kustuta järjehoidja"
 
 msgid "Remove bouquet from parental protection"
@@ -11533,6 +11590,10 @@ msgstr "Eemalda maapealse TV teenused"
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr ""
+
+#, fuzzy
+msgid "Remove this mark"
+msgstr "eemalda see märk"
 
 msgid "Remove title"
 msgstr "Eemalda pealkiri"
@@ -14042,6 +14103,14 @@ msgstr "Kõik sagedused"
 #, fuzzy
 msgid "Start cut"
 msgstr "Käivita test"
+
+#, fuzzy
+msgid "Start cut here"
+msgstr "alusta lõiget siit"
+
+#, fuzzy
+msgid "Start cut here (reset)"
+msgstr "alusta lõiget siit"
 
 msgid "Start directory"
 msgstr "Juurkaust"
@@ -17647,13 +17716,6 @@ msgstr "iga päev"
 msgid "day"
 msgstr "päev"
 
-msgid "delete cut"
-msgstr "kustuta lõige"
-
-#, fuzzy
-msgid "delete cut (disabled)"
-msgstr " (keelatud)"
-
 msgid "delete time - show delete time (Trash ONLY)"
 msgstr ""
 
@@ -17669,10 +17731,6 @@ msgstr "dekodeeri ja salvesta ecm"
 
 msgid "detective/thriller"
 msgstr "detektiiv/triller"
-
-#, fuzzy
-msgid "disable cuts (edit)"
-msgstr "Luba lemmikute muutmine"
 
 msgid "disabled"
 msgstr "keelatud"
@@ -17722,23 +17780,12 @@ msgstr "sisseehitatud"
 msgid "empty"
 msgstr "tühi"
 
-#, fuzzy
-msgid "enable cuts (preview)"
-msgstr "luba tervitusaken"
-
 msgid "enabled"
 msgstr "lubatud"
 
 #, fuzzy
 msgid "end at this position"
 msgstr "kustuta selle koha järel"
-
-msgid "end cut here"
-msgstr "lõpeta lõige siin"
-
-#, fuzzy
-msgid "end cut here (reset)"
-msgstr "lõpeta lõige siin"
 
 msgid "entertainment (10-16 year old)"
 msgstr "meelelahutus (10-16 aastastele)"
@@ -17763,9 +17810,6 @@ msgid "eth0"
 msgstr ""
 
 msgid "evremote2 is present"
-msgstr ""
-
-msgid "execute cuts and exit"
 msgstr ""
 
 #, fuzzy
@@ -17857,9 +17901,6 @@ msgstr "mine sügavootele"
 msgid "go to standby"
 msgstr "mine ooterežiimi"
 
-msgid "grab this frame as bitmap"
-msgstr "salvesta see kaader rasterpildina"
-
 msgid "green"
 msgstr "roheline"
 
@@ -17933,13 +17974,6 @@ msgstr "käivita moodul"
 
 msgid "init modules"
 msgstr "käivita moodulid"
-
-#, fuzzy
-msgid "insert mark after each in"
-msgstr "pane märk siia"
-
-msgid "insert mark here"
-msgstr "pane märk siia"
 
 #, fuzzy
 msgid "installed"
@@ -18222,17 +18256,11 @@ msgstr "populaarkultuur/pärimuskunst"
 msgid "pre-school children's program"
 msgstr "koolieelikute saade"
 
-msgid "preserve bookmarks in cuts"
-msgstr ""
-
 #, fuzzy
 msgid "priority"
 msgstr "Prioriteet"
 
 msgid "punch cuts"
-msgstr ""
-
-msgid "quick execute"
 msgstr ""
 
 #, fuzzy
@@ -18257,19 +18285,9 @@ msgstr "religioon"
 msgid "remarkable people"
 msgstr "tähelepanuväärsed inimesed"
 
-msgid "remove after this position"
-msgstr "kustuta selle koha järel"
-
 #, fuzzy
 msgid "remove all"
 msgstr "Eemalda pealkiri"
-
-msgid "remove before this position"
-msgstr "kustuta kõik enne seda kohta"
-
-#, fuzzy
-msgid "remove bookmarks in cuts"
-msgstr "Kustuta järjehoidja"
 
 #, fuzzy
 msgid "remove cuts (preserve marks)"
@@ -18278,9 +18296,6 @@ msgstr "eemalda see märk"
 #, fuzzy
 msgid "remove marks (preserve cuts)"
 msgstr "Kustuta kirje nimeserverist"
-
-msgid "remove this mark"
-msgstr "eemalda see märk"
 
 msgid "repeated"
 msgstr "korduvalt"
@@ -18476,13 +18491,6 @@ msgstr "spordiajakiri"
 
 msgid "standard"
 msgstr "tavaline"
-
-msgid "start cut here"
-msgstr "alusta lõiget siit"
-
-#, fuzzy
-msgid "start cut here (reset)"
-msgstr "alusta lõiget siit"
 
 msgid "stepsize"
 msgstr "sammu suurus"

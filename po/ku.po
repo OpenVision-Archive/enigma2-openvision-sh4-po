@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 Kurdish translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 05:28+0000\n"
+"POT-Creation-Date: 2021-11-14 01:55+0000\n"
 "PO-Revision-Date: 2013-04-22 04:29+0330\n"
 "Last-Translator: dimili21\n"
 "Language-Team: \n"
@@ -4395,8 +4395,9 @@ msgstr ""
 msgid "Customize channel list cursor behavior"
 msgstr ""
 
-msgid "Cut"
-msgstr "Cut"
+#, fuzzy
+msgid "Cut Menu"
+msgstr "Menu"
 
 msgid "Cutlist editor"
 msgstr ""
@@ -4866,6 +4867,14 @@ msgid "Delete character under cursor or select PM times"
 msgstr ""
 
 #, fuzzy
+msgid "Delete cut"
+msgstr "delete cut"
+
+#, fuzzy
+msgid "Delete cut (disabled)"
+msgstr "delete cut"
+
+#, fuzzy
 msgid "Delete directory"
 msgstr "Create directory"
 
@@ -5092,6 +5101,10 @@ msgstr "Disable background scanning"
 
 msgid "Disable current event but not coming events"
 msgstr ""
+
+#, fuzzy
+msgid "Disable cuts (edit)"
+msgstr "Enable favourites edit"
 
 msgid "Disable move mode"
 msgstr "Disable move mode"
@@ -5734,6 +5747,10 @@ msgstr "Enable bouquet selection in multi-EPG"
 msgid "Enable client mode"
 msgstr "Enable move mode"
 
+#, fuzzy
+msgid "Enable cuts (preview)"
+msgstr "Enable favourites edit"
+
 msgid "Enable fade-out functionality"
 msgstr ""
 
@@ -5855,6 +5872,14 @@ msgstr "End bouquet edit"
 #, fuzzy
 msgid "End cut"
 msgstr "Vext derbas bu"
+
+#, fuzzy
+msgid "End cut here"
+msgstr "end cut here"
+
+#, fuzzy
+msgid "End cut here (reset)"
+msgstr "end cut here"
 
 msgid "End favourites edit"
 msgstr "End favourites edit"
@@ -6974,6 +6999,10 @@ msgstr "Goto:"
 msgid "GotoX calibration"
 msgstr "GotoX calibration"
 
+#, fuzzy
+msgid "Grab this frame as bitmap"
+msgstr "grab this frame as bitmap"
+
 msgid "GraphMultiEpg Settings"
 msgstr "GraphMultiEpg Settings"
 
@@ -7737,6 +7766,14 @@ msgstr ""
 #, fuzzy
 msgid "Input scroll position"
 msgstr "Goto position"
+
+#, fuzzy
+msgid "Insert mark after each in"
+msgstr "insert mark here"
+
+#, fuzzy
+msgid "Insert mark here"
+msgstr "insert mark here"
 
 msgid "Install"
 msgstr "Install"
@@ -10782,6 +10819,10 @@ msgstr "Preparing... Please wait"
 msgid "Preschool"
 msgstr ""
 
+#, fuzzy
+msgid "Preserve bookmarks in cuts"
+msgstr "Remove bookmark"
+
 msgid "Press '0' to toggle PiP mode"
 msgstr ""
 
@@ -11080,6 +11121,10 @@ msgstr "Quick"
 
 #, fuzzy
 msgid "Quick Select Actions"
+msgstr "Select backup location"
+
+#, fuzzy
+msgid "Quick execute"
 msgstr "Select backup location"
 
 msgid "Quick execute..."
@@ -11398,6 +11443,10 @@ msgstr "Remove a mark"
 msgid "Remove a nameserver entry"
 msgstr "Remove a nameserver entry"
 
+#, fuzzy
+msgid "Remove after this position"
+msgstr "remove after this position"
+
 msgid "Remove all alternatives"
 msgstr "Remove all alternatives"
 
@@ -11439,7 +11488,15 @@ msgstr "Remove all new found flags"
 msgid "Remove all timer data"
 msgstr "Remove all alternatives"
 
+#, fuzzy
+msgid "Remove before this position"
+msgstr "remove before this position"
+
 msgid "Remove bookmark"
+msgstr "Remove bookmark"
+
+#, fuzzy
+msgid "Remove bookmarks in cuts"
 msgstr "Remove bookmark"
 
 msgid "Remove bouquet from parental protection"
@@ -11481,6 +11538,10 @@ msgstr ""
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr ""
+
+#, fuzzy
+msgid "Remove this mark"
+msgstr "remove this mark"
 
 msgid "Remove title"
 msgstr "Remove title"
@@ -13971,6 +14032,14 @@ msgstr ""
 #, fuzzy
 msgid "Start cut"
 msgstr "Start test"
+
+#, fuzzy
+msgid "Start cut here"
+msgstr "start cut here"
+
+#, fuzzy
+msgid "Start cut here (reset)"
+msgstr "start cut here"
 
 msgid "Start directory"
 msgstr "Start directory"
@@ -17496,13 +17565,6 @@ msgstr "daily"
 msgid "day"
 msgstr "day"
 
-msgid "delete cut"
-msgstr "delete cut"
-
-#, fuzzy
-msgid "delete cut (disabled)"
-msgstr "delete cut"
-
 msgid "delete time - show delete time (Trash ONLY)"
 msgstr ""
 
@@ -17518,10 +17580,6 @@ msgstr "descramble and record ecm"
 
 msgid "detective/thriller"
 msgstr "detective/thriller"
-
-#, fuzzy
-msgid "disable cuts (edit)"
-msgstr "Enable favourites edit"
 
 msgid "disabled"
 msgstr "disabled"
@@ -17571,22 +17629,12 @@ msgstr ""
 msgid "empty"
 msgstr "empty"
 
-msgid "enable cuts (preview)"
-msgstr ""
-
 msgid "enabled"
 msgstr "enabled"
 
 #, fuzzy
 msgid "end at this position"
 msgstr "remove after this position"
-
-msgid "end cut here"
-msgstr "end cut here"
-
-#, fuzzy
-msgid "end cut here (reset)"
-msgstr "end cut here"
 
 msgid "entertainment (10-16 year old)"
 msgstr "entertainment (10-16 year old)"
@@ -17611,9 +17659,6 @@ msgid "eth0"
 msgstr ""
 
 msgid "evremote2 is present"
-msgstr ""
-
-msgid "execute cuts and exit"
 msgstr ""
 
 #, fuzzy
@@ -17704,9 +17749,6 @@ msgstr "go to deep standby"
 msgid "go to standby"
 msgstr "go to standby"
 
-msgid "grab this frame as bitmap"
-msgstr "grab this frame as bitmap"
-
 msgid "green"
 msgstr "green"
 
@@ -17780,13 +17822,6 @@ msgstr "init module"
 
 msgid "init modules"
 msgstr "init modules"
-
-#, fuzzy
-msgid "insert mark after each in"
-msgstr "insert mark here"
-
-msgid "insert mark here"
-msgstr "insert mark here"
 
 #, fuzzy
 msgid "installed"
@@ -18067,17 +18102,11 @@ msgstr "popular culture/traditional arts"
 msgid "pre-school children's program"
 msgstr "pre-school children's program"
 
-msgid "preserve bookmarks in cuts"
-msgstr ""
-
 #, fuzzy
 msgid "priority"
 msgstr "Priority"
 
 msgid "punch cuts"
-msgstr ""
-
-msgid "quick execute"
 msgstr ""
 
 #, fuzzy
@@ -18102,19 +18131,9 @@ msgstr "religion"
 msgid "remarkable people"
 msgstr "remarkable people"
 
-msgid "remove after this position"
-msgstr "remove after this position"
-
 #, fuzzy
 msgid "remove all"
 msgstr "Remove title"
-
-msgid "remove before this position"
-msgstr "remove before this position"
-
-#, fuzzy
-msgid "remove bookmarks in cuts"
-msgstr "Remove bookmark"
 
 #, fuzzy
 msgid "remove cuts (preserve marks)"
@@ -18123,9 +18142,6 @@ msgstr "remove this mark"
 #, fuzzy
 msgid "remove marks (preserve cuts)"
 msgstr "Remove a nameserver entry"
-
-msgid "remove this mark"
-msgstr "remove this mark"
 
 msgid "repeated"
 msgstr "repeated"
@@ -18321,13 +18337,6 @@ msgstr "sports magazine"
 
 msgid "standard"
 msgstr "standard"
-
-msgid "start cut here"
-msgstr "start cut here"
-
-#, fuzzy
-msgid "start cut here (reset)"
-msgstr "start cut here"
 
 msgid "stepsize"
 msgstr "stepsize"

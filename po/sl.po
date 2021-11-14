@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Project Slovenia\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 05:28+0000\n"
+"POT-Creation-Date: 2021-11-14 01:55+0000\n"
 "PO-Revision-Date: 2020-05-16 18:48+0200\n"
 "Last-Translator: Taykun345 <support@satnigmo.com>\n"
 "Language-Team: Satnigmo <support@satnigmo.com>\n"
@@ -4827,8 +4827,9 @@ msgid "Customize channel list cursor behavior"
 msgstr "Obnašanje kazalca v seznamu kanalov"
 
 #
-msgid "Cut"
-msgstr "Izreži"
+#, fuzzy
+msgid "Cut Menu"
+msgstr "Meni"
 
 msgid "Cutlist editor"
 msgstr ""
@@ -5339,6 +5340,16 @@ msgstr ""
 
 #
 #, fuzzy
+msgid "Delete cut"
+msgstr "Izbrišite del"
+
+#
+#, fuzzy
+msgid "Delete cut (disabled)"
+msgstr "(onemogočeno)"
+
+#
+#, fuzzy
 msgid "Delete directory"
 msgstr "Ustvarite novo mapo"
 
@@ -5607,6 +5618,11 @@ msgstr "Izklop pregledovanja kanalov v ozadju"
 
 msgid "Disable current event but not coming events"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Disable cuts (edit)"
+msgstr "Urejanje priljubljenih paketov"
 
 #
 msgid "Disable move mode"
@@ -6364,6 +6380,11 @@ msgstr "Vklop izbire seznama paketov kanalov v Multi-EPG načinu."
 msgid "Enable client mode"
 msgstr "Premik kanalov znotraj paketa"
 
+#
+#, fuzzy
+msgid "Enable cuts (preview)"
+msgstr "Urejanje priljubljenih paketov"
+
 msgid "Enable fade-out functionality"
 msgstr ""
 
@@ -6505,6 +6526,16 @@ msgstr "Konec urejanja paketa"
 #, fuzzy
 msgid "End cut"
 msgstr "Zaključek"
+
+#
+#, fuzzy
+msgid "End cut here"
+msgstr "zaključi del tukaj"
+
+#
+#, fuzzy
+msgid "End cut here (reset)"
+msgstr "zaključi del tukaj"
 
 #
 msgid "End favourites edit"
@@ -7767,6 +7798,9 @@ msgstr "Pojdi na:"
 msgid "GotoX calibration"
 msgstr "PojdiNaX kalibracija"
 
+msgid "Grab this frame as bitmap"
+msgstr ""
+
 msgid "GraphMultiEpg Settings"
 msgstr "GraphMultiEPG nastavitve"
 
@@ -8601,6 +8635,16 @@ msgstr ""
 #, fuzzy
 msgid "Input scroll position"
 msgstr "Pojdi na"
+
+#
+#, fuzzy
+msgid "Insert mark after each in"
+msgstr "vnesite oznako tukaj"
+
+#
+#, fuzzy
+msgid "Insert mark here"
+msgstr "vnesite oznako tukaj"
 
 #
 msgid "Install"
@@ -12069,6 +12113,11 @@ msgstr "Pripravljam ... Prosim počakajte!"
 msgid "Preschool"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Preserve bookmarks in cuts"
+msgstr "Odstranitev zaznamka"
+
 msgid "Press '0' to toggle PiP mode"
 msgstr "Pritisnite tipko \"0\" za preklapljanje med različnimi načini \"Slike v sliki\"."
 
@@ -12409,6 +12458,11 @@ msgstr "Hitro"
 #
 #, fuzzy
 msgid "Quick Select Actions"
+msgstr "Izberi dogodek"
+
+#
+#, fuzzy
+msgid "Quick execute"
 msgstr "Izberi dogodek"
 
 msgid "Quick execute..."
@@ -12773,6 +12827,11 @@ msgid "Remove a nameserver entry"
 msgstr "Odstranitev imenskega strežnika"
 
 #
+#, fuzzy
+msgid "Remove after this position"
+msgstr "izbris za tem položajem"
+
+#
 msgid "Remove all alternatives"
 msgstr "Izbris vseh alternativ"
 
@@ -12824,7 +12883,17 @@ msgid "Remove all timer data"
 msgstr "Izbris vseh alternativ"
 
 #
+#, fuzzy
+msgid "Remove before this position"
+msgstr "izbris pred tem položajem"
+
+#
 msgid "Remove bookmark"
+msgstr "Odstranitev zaznamka"
+
+#
+#, fuzzy
+msgid "Remove bookmarks in cuts"
 msgstr "Odstranitev zaznamka"
 
 msgid "Remove bouquet from parental protection"
@@ -12874,6 +12943,11 @@ msgstr "Odstrani antenske kanale"
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr ""
+
+#
+#, fuzzy
+msgid "Remove this mark"
+msgstr "izbris oznake"
 
 #
 msgid "Remove title"
@@ -15730,6 +15804,16 @@ msgstr ""
 #, fuzzy
 msgid "Start cut"
 msgstr "Pričnite s preizkusom"
+
+#
+#, fuzzy
+msgid "Start cut here"
+msgstr "pričetek rezanja tukaj"
+
+#
+#, fuzzy
+msgid "Start cut here (reset)"
+msgstr "pričetek rezanja tukaj"
 
 #
 msgid "Start directory"
@@ -19651,15 +19735,6 @@ msgstr "vsak dan"
 msgid "day"
 msgstr "dan"
 
-#
-msgid "delete cut"
-msgstr "Izbrišite del"
-
-#
-#, fuzzy
-msgid "delete cut (disabled)"
-msgstr "(onemogočeno)"
-
 msgid "delete time - show delete time (Trash ONLY)"
 msgstr ""
 
@@ -19675,11 +19750,6 @@ msgstr "odkodiraj in snemaj ECM paketke"
 
 msgid "detective/thriller"
 msgstr ""
-
-#
-#, fuzzy
-msgid "disable cuts (edit)"
-msgstr "Urejanje priljubljenih paketov"
 
 #
 msgid "disabled"
@@ -19731,9 +19801,6 @@ msgstr ""
 msgid "empty"
 msgstr "prazno"
 
-msgid "enable cuts (preview)"
-msgstr ""
-
 #
 msgid "enabled"
 msgstr "vključeno"
@@ -19742,15 +19809,6 @@ msgstr "vključeno"
 #, fuzzy
 msgid "end at this position"
 msgstr "izbris za tem položajem"
-
-#
-msgid "end cut here"
-msgstr "zaključi del tukaj"
-
-#
-#, fuzzy
-msgid "end cut here (reset)"
-msgstr "zaključi del tukaj"
 
 msgid "entertainment (10-16 year old)"
 msgstr ""
@@ -19774,9 +19832,6 @@ msgid "eth0"
 msgstr ""
 
 msgid "evremote2 is present"
-msgstr ""
-
-msgid "execute cuts and exit"
 msgstr ""
 
 #, fuzzy
@@ -19878,10 +19933,6 @@ msgid "go to standby"
 msgstr "pojdi v pripravljenost"
 
 #
-msgid "grab this frame as bitmap"
-msgstr ""
-
-#
 msgid "green"
 msgstr "Zelena"
 
@@ -19959,15 +20010,6 @@ msgstr "zagon modula"
 #
 msgid "init modules"
 msgstr ""
-
-#
-#, fuzzy
-msgid "insert mark after each in"
-msgstr "vnesite oznako tukaj"
-
-#
-msgid "insert mark here"
-msgstr "vnesite oznako tukaj"
 
 #
 #, fuzzy
@@ -20287,18 +20329,12 @@ msgstr ""
 msgid "pre-school children's program"
 msgstr ""
 
-msgid "preserve bookmarks in cuts"
-msgstr ""
-
 #
 #, fuzzy
 msgid "priority"
 msgstr "Prioriteta"
 
 msgid "punch cuts"
-msgstr ""
-
-msgid "quick execute"
 msgstr ""
 
 #, fuzzy
@@ -20327,22 +20363,9 @@ msgid "remarkable people"
 msgstr ""
 
 #
-msgid "remove after this position"
-msgstr "izbris za tem položajem"
-
-#
 #, fuzzy
 msgid "remove all"
 msgstr "Odstranitev naslova"
-
-#
-msgid "remove before this position"
-msgstr "izbris pred tem položajem"
-
-#
-#, fuzzy
-msgid "remove bookmarks in cuts"
-msgstr "Odstranitev zaznamka"
 
 #
 #, fuzzy
@@ -20353,10 +20376,6 @@ msgstr "izbris oznake"
 #, fuzzy
 msgid "remove marks (preserve cuts)"
 msgstr "Odstranitev imenskega strežnika"
-
-#
-msgid "remove this mark"
-msgstr "izbris oznake"
 
 #
 msgid "repeated"
@@ -20571,15 +20590,6 @@ msgstr ""
 #
 msgid "standard"
 msgstr "Standardno"
-
-#
-msgid "start cut here"
-msgstr "pričetek rezanja tukaj"
-
-#
-#, fuzzy
-msgid "start cut here (reset)"
-msgstr "pričetek rezanja tukaj"
 
 msgid "stepsize"
 msgstr ""

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 05:28+0000\n"
+"POT-Creation-Date: 2021-11-14 01:55+0000\n"
 "PO-Revision-Date: 2011-04-14 00:02+0200\n"
 "Last-Translator: majevica <jovanovic@gmx.ch>\n"
 "Language-Team: veselin & majevica CRNABERZA <jovanovic@gmx.ch>\n"
@@ -4827,8 +4827,9 @@ msgid "Customize channel list cursor behavior"
 msgstr ""
 
 #
-msgid "Cut"
-msgstr "Odreži"
+#, fuzzy
+msgid "Cut Menu"
+msgstr "Meni"
 
 msgid "Cutlist editor"
 msgstr ""
@@ -5339,6 +5340,16 @@ msgstr ""
 
 #
 #, fuzzy
+msgid "Delete cut"
+msgstr "obriši rez"
+
+#
+#, fuzzy
+msgid "Delete cut (disabled)"
+msgstr "obriši rez"
+
+#
+#, fuzzy
 msgid "Delete directory"
 msgstr "Kreiraj direktorijum"
 
@@ -5602,6 +5613,11 @@ msgstr ""
 
 msgid "Disable current event but not coming events"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Disable cuts (edit)"
+msgstr "Omogući uređivanje favorita"
 
 #
 msgid "Disable move mode"
@@ -6338,6 +6354,11 @@ msgstr "omogući uređivanje paketa"
 msgid "Enable client mode"
 msgstr "Uključi mod za premeštanje"
 
+#
+#, fuzzy
+msgid "Enable cuts (preview)"
+msgstr "Omogući uređivanje favorita"
+
 msgid "Enable fade-out functionality"
 msgstr ""
 
@@ -6476,6 +6497,16 @@ msgstr "Završi uređivanje buketa"
 #, fuzzy
 msgid "End cut"
 msgstr "Završno vreme"
+
+#
+#, fuzzy
+msgid "End cut here"
+msgstr "završi rez ovde"
+
+#
+#, fuzzy
+msgid "End cut here (reset)"
+msgstr "završi rez ovde"
 
 #
 msgid "End favourites edit"
@@ -7735,6 +7766,11 @@ msgstr ""
 msgid "GotoX calibration"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Grab this frame as bitmap"
+msgstr "Postavite ovaj frejm kao bitmapu"
+
 msgid "GraphMultiEpg Settings"
 msgstr ""
 
@@ -8560,6 +8596,16 @@ msgstr ""
 #, fuzzy
 msgid "Input scroll position"
 msgstr "Idi na poziciju"
+
+#
+#, fuzzy
+msgid "Insert mark after each in"
+msgstr "unesi oznaku ovdje"
+
+#
+#, fuzzy
+msgid "Insert mark here"
+msgstr "unesi oznaku ovdje"
 
 #
 msgid "Install"
@@ -12061,6 +12107,11 @@ msgstr "Pripremam... Molim pričekajte"
 msgid "Preschool"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Preserve bookmarks in cuts"
+msgstr "uklonite oznaku"
+
 msgid "Press '0' to toggle PiP mode"
 msgstr ""
 
@@ -12396,6 +12447,11 @@ msgstr "Brzo"
 #
 #, fuzzy
 msgid "Quick Select Actions"
+msgstr "Izaberite snimljenu lokaciju"
+
+#
+#, fuzzy
+msgid "Quick execute"
 msgstr "Izaberite snimljenu lokaciju"
 
 msgid "Quick execute..."
@@ -12761,6 +12817,11 @@ msgid "Remove a nameserver entry"
 msgstr "Uklonite unos nejmservera"
 
 #
+#, fuzzy
+msgid "Remove after this position"
+msgstr "obriši posle ove pozicije"
+
+#
 msgid "Remove all alternatives"
 msgstr "Obriši sve alternative"
 
@@ -12813,7 +12874,17 @@ msgstr "Obriši sve alternative"
 
 #
 #, fuzzy
+msgid "Remove before this position"
+msgstr "obriši pre ove pozicije"
+
+#
+#, fuzzy
 msgid "Remove bookmark"
+msgstr "uklonite oznaku"
+
+#
+#, fuzzy
+msgid "Remove bookmarks in cuts"
 msgstr "uklonite oznaku"
 
 msgid "Remove bouquet from parental protection"
@@ -12861,6 +12932,11 @@ msgstr ""
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr ""
+
+#
+#, fuzzy
+msgid "Remove this mark"
+msgstr "obriši ovu oznaku"
 
 #
 msgid "Remove title"
@@ -15709,6 +15785,16 @@ msgstr ""
 #, fuzzy
 msgid "Start cut"
 msgstr "Počnite test"
+
+#
+#, fuzzy
+msgid "Start cut here"
+msgstr "počni rez ovde"
+
+#
+#, fuzzy
+msgid "Start cut here (reset)"
+msgstr "počni rez ovde"
 
 #
 msgid "Start directory"
@@ -19604,15 +19690,6 @@ msgstr "dnevno"
 msgid "day"
 msgstr "Dan"
 
-#
-msgid "delete cut"
-msgstr "obriši rez"
-
-#
-#, fuzzy
-msgid "delete cut (disabled)"
-msgstr "obriši rez"
-
 msgid "delete time - show delete time (Trash ONLY)"
 msgstr ""
 
@@ -19629,11 +19706,6 @@ msgstr ""
 
 msgid "detective/thriller"
 msgstr ""
-
-#
-#, fuzzy
-msgid "disable cuts (edit)"
-msgstr "Omogući uređivanje favorita"
 
 #
 msgid "disabled"
@@ -19685,9 +19757,6 @@ msgstr ""
 msgid "empty"
 msgstr "prazno"
 
-msgid "enable cuts (preview)"
-msgstr ""
-
 #
 msgid "enabled"
 msgstr "omogućeno"
@@ -19696,15 +19765,6 @@ msgstr "omogućeno"
 #, fuzzy
 msgid "end at this position"
 msgstr "obriši posle ove pozicije"
-
-#
-msgid "end cut here"
-msgstr "završi rez ovde"
-
-#
-#, fuzzy
-msgid "end cut here (reset)"
-msgstr "završi rez ovde"
 
 msgid "entertainment (10-16 year old)"
 msgstr ""
@@ -19728,9 +19788,6 @@ msgid "eth0"
 msgstr ""
 
 msgid "evremote2 is present"
-msgstr ""
-
-msgid "execute cuts and exit"
 msgstr ""
 
 msgid "exit "
@@ -19834,10 +19891,6 @@ msgid "go to standby"
 msgstr "pođi u pripravnost"
 
 #
-msgid "grab this frame as bitmap"
-msgstr "Postavite ovaj frejm kao bitmapu"
-
-#
 msgid "green"
 msgstr "zeleno"
 
@@ -19915,15 +19968,6 @@ msgstr "Iniciraj blok"
 #
 msgid "init modules"
 msgstr "iniciraj blokove"
-
-#
-#, fuzzy
-msgid "insert mark after each in"
-msgstr "unesi oznaku ovdje"
-
-#
-msgid "insert mark here"
-msgstr "unesi oznaku ovdje"
 
 #
 #, fuzzy
@@ -20235,18 +20279,12 @@ msgstr ""
 msgid "pre-school children's program"
 msgstr ""
 
-msgid "preserve bookmarks in cuts"
-msgstr ""
-
 #
 #, fuzzy
 msgid "priority"
 msgstr "Prioritet"
 
 msgid "punch cuts"
-msgstr ""
-
-msgid "quick execute"
 msgstr ""
 
 #
@@ -20276,22 +20314,9 @@ msgid "remarkable people"
 msgstr ""
 
 #
-msgid "remove after this position"
-msgstr "obriši posle ove pozicije"
-
-#
 #, fuzzy
 msgid "remove all"
 msgstr "Ukloni titl"
-
-#
-msgid "remove before this position"
-msgstr "obriši pre ove pozicije"
-
-#
-#, fuzzy
-msgid "remove bookmarks in cuts"
-msgstr "uklonite oznaku"
 
 #
 #, fuzzy
@@ -20302,10 +20327,6 @@ msgstr "obriši ovu oznaku"
 #, fuzzy
 msgid "remove marks (preserve cuts)"
 msgstr "Uklonite unos nejmservera"
-
-#
-msgid "remove this mark"
-msgstr "obriši ovu oznaku"
 
 #
 msgid "repeated"
@@ -20517,15 +20538,6 @@ msgstr ""
 #
 msgid "standard"
 msgstr "standardno"
-
-#
-msgid "start cut here"
-msgstr "počni rez ovde"
-
-#
-#, fuzzy
-msgid "start cut here (reset)"
-msgstr "počni rez ovde"
 
 msgid "stepsize"
 msgstr ""

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 05:28+0000\n"
+"POT-Creation-Date: 2021-11-14 01:55+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: PLi <ims@openpli.org>\n"
@@ -4836,8 +4836,9 @@ msgid "Customize channel list cursor behavior"
 msgstr "Chování kurzoru v seznamu kanálů"
 
 #
-msgid "Cut"
-msgstr "Střih"
+#, fuzzy
+msgid "Cut Menu"
+msgstr "Menu"
 
 #
 msgid "Cutlist editor"
@@ -5341,6 +5342,16 @@ msgstr "Smazat znak pod kurzorem"
 
 #
 #, fuzzy
+msgid "Delete cut"
+msgstr "odstranit střih"
+
+#
+#, fuzzy
+msgid "Delete cut (disabled)"
+msgstr " (zakázáno)"
+
+#
+#, fuzzy
 msgid "Delete directory"
 msgstr "Založit adresář"
 
@@ -5617,6 +5628,11 @@ msgstr "Zakázat prohledávání na pozadí"
 
 msgid "Disable current event but not coming events"
 msgstr "Zakázat aktuální událost, nikoliv blížící se událost"
+
+#
+#, fuzzy
+msgid "Disable cuts (edit)"
+msgstr "Povolit úpravu oblíbených"
 
 #
 msgid "Disable move mode"
@@ -6348,6 +6364,10 @@ msgstr "Povolí výběr přehledu při spuštění multi-EPG."
 msgid "Enable client mode"
 msgstr "Povolit přesun"
 
+#, fuzzy
+msgid "Enable cuts (preview)"
+msgstr "povolit úvodní obrazovku"
+
 msgid "Enable fade-out functionality"
 msgstr ""
 
@@ -6487,6 +6507,16 @@ msgstr "Ukončit úpravu přehledu"
 #, fuzzy
 msgid "End cut"
 msgstr "Čas konce"
+
+#
+#, fuzzy
+msgid "End cut here"
+msgstr "konec střihu zde"
+
+#
+#, fuzzy
+msgid "End cut here (reset)"
+msgstr "konec střihu zde"
 
 #
 msgid "End favourites edit"
@@ -7753,6 +7783,11 @@ msgstr "Na:"
 msgid "GotoX calibration"
 msgstr "Kalibrace 'Přejít na X'"
 
+#
+#, fuzzy
+msgid "Grab this frame as bitmap"
+msgstr "zachytit tento snímek jako bitmapu"
+
 msgid "GraphMultiEpg Settings"
 msgstr "Nastavení GraphMultiEPG"
 
@@ -8577,6 +8612,16 @@ msgstr "Input Stream ID"
 #, fuzzy
 msgid "Input scroll position"
 msgstr "Jdi na pozici"
+
+#
+#, fuzzy
+msgid "Insert mark after each in"
+msgstr "vložit značku"
+
+#
+#, fuzzy
+msgid "Insert mark here"
+msgstr "vložit značku"
 
 #
 msgid "Install"
@@ -12057,6 +12102,11 @@ msgstr "Připravuji... Prosím čekejte"
 msgid "Preschool"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Preserve bookmarks in cuts"
+msgstr "Smazat záložku"
+
 msgid "Press '0' to toggle PiP mode"
 msgstr "K přepnutí PiP módu stiskněte '0'"
 
@@ -12391,6 +12441,11 @@ msgstr "Rychlý"
 #
 #, fuzzy
 msgid "Quick Select Actions"
+msgstr "Akce pro výběr skinu"
+
+#
+#, fuzzy
+msgid "Quick execute"
 msgstr "Akce pro výběr skinu"
 
 msgid "Quick execute..."
@@ -12761,6 +12816,11 @@ msgid "Remove a nameserver entry"
 msgstr "Odstranit DNS položku"
 
 #
+#, fuzzy
+msgid "Remove after this position"
+msgstr "odebrat po této pozici"
+
+#
 msgid "Remove all alternatives"
 msgstr "Odstranit všechny alternativy"
 
@@ -12811,7 +12871,17 @@ msgid "Remove all timer data"
 msgstr "Odstranit všechny alternativy"
 
 #
+#, fuzzy
+msgid "Remove before this position"
+msgstr "odebrat před touto pozicí"
+
+#
 msgid "Remove bookmark"
+msgstr "Smazat záložku"
+
+#
+#, fuzzy
+msgid "Remove bookmarks in cuts"
 msgstr "Smazat záložku"
 
 msgid "Remove bouquet from parental protection"
@@ -12859,6 +12929,11 @@ msgstr "Odstranit programy pozemního vysílání"
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr ""
+
+#
+#, fuzzy
+msgid "Remove this mark"
+msgstr "odebrat tuto značku"
 
 #
 msgid "Remove title"
@@ -15659,6 +15734,16 @@ msgstr "Všechny frekvence"
 #, fuzzy
 msgid "Start cut"
 msgstr "Spustit test"
+
+#
+#, fuzzy
+msgid "Start cut here"
+msgstr "začátek střihu zde"
+
+#
+#, fuzzy
+msgid "Start cut here (reset)"
+msgstr "začátek střihu zde"
 
 #
 msgid "Start directory"
@@ -19589,15 +19674,6 @@ msgstr "Denně"
 msgid "day"
 msgstr "den"
 
-#
-msgid "delete cut"
-msgstr "odstranit střih"
-
-#
-#, fuzzy
-msgid "delete cut (disabled)"
-msgstr " (zakázáno)"
-
 msgid "delete time - show delete time (Trash ONLY)"
 msgstr ""
 
@@ -19613,11 +19689,6 @@ msgstr "Dekódovat a nahrávat ecm"
 
 msgid "detective/thriller"
 msgstr "detektivka/thriller"
-
-#
-#, fuzzy
-msgid "disable cuts (edit)"
-msgstr "Povolit úpravu oblíbených"
 
 #
 msgid "disabled"
@@ -19672,10 +19743,6 @@ msgstr "vestavěný"
 msgid "empty"
 msgstr "prázdné"
 
-#, fuzzy
-msgid "enable cuts (preview)"
-msgstr "povolit úvodní obrazovku"
-
 #
 msgid "enabled"
 msgstr "Povoleno"
@@ -19684,15 +19751,6 @@ msgstr "Povoleno"
 #, fuzzy
 msgid "end at this position"
 msgstr "odebrat po této pozici"
-
-#
-msgid "end cut here"
-msgstr "konec střihu zde"
-
-#
-#, fuzzy
-msgid "end cut here (reset)"
-msgstr "konec střihu zde"
 
 msgid "entertainment (10-16 year old)"
 msgstr "zábavný (10-16 let)"
@@ -19717,9 +19775,6 @@ msgid "eth0"
 msgstr ""
 
 msgid "evremote2 is present"
-msgstr ""
-
-msgid "execute cuts and exit"
 msgstr ""
 
 #, fuzzy
@@ -19825,10 +19880,6 @@ msgid "go to standby"
 msgstr "Přejít do pohotovostního režimu"
 
 #
-msgid "grab this frame as bitmap"
-msgstr "zachytit tento snímek jako bitmapu"
-
-#
 msgid "green"
 msgstr "Zelené"
 
@@ -19908,15 +19959,6 @@ msgstr "inicializační modul"
 #
 msgid "init modules"
 msgstr "inicializace modulů"
-
-#
-#, fuzzy
-msgid "insert mark after each in"
-msgstr "vložit značku"
-
-#
-msgid "insert mark here"
-msgstr "vložit značku"
 
 #
 #, fuzzy
@@ -20237,18 +20279,12 @@ msgstr "lidová kultura/tradiční umění"
 msgid "pre-school children's program"
 msgstr "program pro předškolní děti"
 
-msgid "preserve bookmarks in cuts"
-msgstr ""
-
 #
 #, fuzzy
 msgid "priority"
 msgstr "Priorita"
 
 msgid "punch cuts"
-msgstr ""
-
-msgid "quick execute"
 msgstr ""
 
 #
@@ -20278,22 +20314,9 @@ msgid "remarkable people"
 msgstr "pozoruhodní lidé"
 
 #
-msgid "remove after this position"
-msgstr "odebrat po této pozici"
-
-#
 #, fuzzy
 msgid "remove all"
 msgstr "Odebrat titul"
-
-#
-msgid "remove before this position"
-msgstr "odebrat před touto pozicí"
-
-#
-#, fuzzy
-msgid "remove bookmarks in cuts"
-msgstr "Smazat záložku"
 
 #
 #, fuzzy
@@ -20304,10 +20327,6 @@ msgstr "odebrat tuto značku"
 #, fuzzy
 msgid "remove marks (preserve cuts)"
 msgstr "Odstranit DNS položku"
-
-#
-msgid "remove this mark"
-msgstr "odebrat tuto značku"
 
 #
 msgid "repeated"
@@ -20523,15 +20542,6 @@ msgstr "sportovní magazín"
 #
 msgid "standard"
 msgstr "Standardní"
-
-#
-msgid "start cut here"
-msgstr "začátek střihu zde"
-
-#
-#, fuzzy
-msgid "start cut here (reset)"
-msgstr "začátek střihu zde"
 
 msgid "stepsize"
 msgstr "krok"

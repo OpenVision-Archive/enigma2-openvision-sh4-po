@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 05:28+0000\n"
+"POT-Creation-Date: 2021-11-14 01:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3505,7 +3505,7 @@ msgstr ""
 msgid "Customize OpenWebIF settings for fallback tuner"
 msgstr ""
 
-msgid "Cut"
+msgid "Cut Menu"
 msgstr ""
 
 msgid "Cutlist editor"
@@ -3900,6 +3900,12 @@ msgstr ""
 msgid "Delete character under cursor or select PM times"
 msgstr ""
 
+msgid "Delete cut"
+msgstr ""
+
+msgid "Delete cut (disabled)"
+msgstr ""
+
 msgid "Delete directory"
 msgstr ""
 
@@ -4088,6 +4094,9 @@ msgid "Disable Picture in Picture"
 msgstr ""
 
 msgid "Disable current event but not coming events"
+msgstr ""
+
+msgid "Disable cuts (edit)"
 msgstr ""
 
 msgid "Disable move mode"
@@ -4588,6 +4597,9 @@ msgstr ""
 msgid "Enable client mode"
 msgstr ""
 
+msgid "Enable cuts (preview)"
+msgstr ""
+
 msgid "Enable fallback remote receiver"
 msgstr ""
 
@@ -4664,6 +4676,12 @@ msgid "End bouquet edit"
 msgstr ""
 
 msgid "End cut"
+msgstr ""
+
+msgid "End cut here"
+msgstr ""
+
+msgid "End cut here (reset)"
 msgstr ""
 
 msgid "End favourites edit"
@@ -5637,6 +5655,9 @@ msgstr ""
 msgid "GotoX calibration"
 msgstr ""
 
+msgid "Grab this frame as bitmap"
+msgstr ""
+
 msgid "GraphMultiEpg Settings"
 msgstr ""
 
@@ -6236,6 +6257,12 @@ msgid "Input Device Driver Setup"
 msgstr ""
 
 msgid "Input Stream ID"
+msgstr ""
+
+msgid "Insert mark after each in"
+msgstr ""
+
+msgid "Insert mark here"
 msgstr ""
 
 msgid "Install"
@@ -8628,6 +8655,9 @@ msgstr ""
 msgid "Preschool"
 msgstr ""
 
+msgid "Preserve bookmarks in cuts"
+msgstr ""
+
 msgid "Press '0' to toggle PiP mode"
 msgstr ""
 
@@ -8909,6 +8939,9 @@ msgstr ""
 msgid "Quick Select Actions"
 msgstr ""
 
+msgid "Quick execute"
+msgstr ""
+
 msgid "Quick execute..."
 msgstr ""
 
@@ -9175,6 +9208,9 @@ msgstr ""
 msgid "Remove a nameserver entry"
 msgstr ""
 
+msgid "Remove after this position"
+msgstr ""
+
 msgid "Remove all alternatives"
 msgstr ""
 
@@ -9208,7 +9244,13 @@ msgstr ""
 msgid "Remove all timer data"
 msgstr ""
 
+msgid "Remove before this position"
+msgstr ""
+
 msgid "Remove bookmark"
+msgstr ""
+
+msgid "Remove bookmarks in cuts"
 msgstr ""
 
 msgid "Remove bouquet from parental protection"
@@ -9242,6 +9284,9 @@ msgid "Remove service"
 msgstr ""
 
 msgid "Remove terrestrial services"
+msgstr ""
+
+msgid "Remove this mark"
 msgstr ""
 
 msgid "Remove title"
@@ -11140,6 +11185,12 @@ msgid "Start boot frequency"
 msgstr ""
 
 msgid "Start cut"
+msgstr ""
+
+msgid "Start cut here"
+msgstr ""
+
+msgid "Start cut here (reset)"
 msgstr ""
 
 msgid "Start directory"
@@ -13754,12 +13805,6 @@ msgstr ""
 msgid "day"
 msgstr ""
 
-msgid "delete cut"
-msgstr ""
-
-msgid "delete cut (disabled)"
-msgstr ""
-
 msgid "delete time - show delete time (Trash ONLY)"
 msgstr ""
 
@@ -13773,9 +13818,6 @@ msgid "descramble and record ecm"
 msgstr ""
 
 msgid "detective/thriller"
-msgstr ""
-
-msgid "disable cuts (edit)"
 msgstr ""
 
 msgid "disabled"
@@ -13823,19 +13865,10 @@ msgstr ""
 msgid "empty"
 msgstr ""
 
-msgid "enable cuts (preview)"
-msgstr ""
-
 msgid "enabled"
 msgstr ""
 
 msgid "end at this position"
-msgstr ""
-
-msgid "end cut here"
-msgstr ""
-
-msgid "end cut here (reset)"
 msgstr ""
 
 msgid "entertainment (10-16 year old)"
@@ -13860,9 +13893,6 @@ msgid "eth0"
 msgstr ""
 
 msgid "evremote2 is present"
-msgstr ""
-
-msgid "execute cuts and exit"
 msgstr ""
 
 msgid "exit "
@@ -13949,9 +13979,6 @@ msgstr ""
 msgid "go to standby"
 msgstr ""
 
-msgid "grab this frame as bitmap"
-msgstr ""
-
 msgid "green"
 msgstr ""
 
@@ -14019,12 +14046,6 @@ msgid "init module"
 msgstr ""
 
 msgid "init modules"
-msgstr ""
-
-msgid "insert mark after each in"
-msgstr ""
-
-msgid "insert mark here"
 msgstr ""
 
 msgid "installed"
@@ -14294,16 +14315,10 @@ msgstr ""
 msgid "pre-school children's program"
 msgstr ""
 
-msgid "preserve bookmarks in cuts"
-msgstr ""
-
 msgid "priority"
 msgstr ""
 
 msgid "punch cuts"
-msgstr ""
-
-msgid "quick execute"
 msgstr ""
 
 msgid "reboot system"
@@ -14327,25 +14342,13 @@ msgstr ""
 msgid "remarkable people"
 msgstr ""
 
-msgid "remove after this position"
-msgstr ""
-
 msgid "remove all"
-msgstr ""
-
-msgid "remove before this position"
-msgstr ""
-
-msgid "remove bookmarks in cuts"
 msgstr ""
 
 msgid "remove cuts (preserve marks)"
 msgstr ""
 
 msgid "remove marks (preserve cuts)"
-msgstr ""
-
-msgid "remove this mark"
 msgstr ""
 
 msgid "repeated"
@@ -14527,12 +14530,6 @@ msgid "sports magazine"
 msgstr ""
 
 msgid "standard"
-msgstr ""
-
-msgid "start cut here"
-msgstr ""
-
-msgid "start cut here (reset)"
 msgstr ""
 
 msgid "stepsize"

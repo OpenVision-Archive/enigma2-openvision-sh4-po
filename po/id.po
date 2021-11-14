@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-11 05:28+0000\n"
+"POT-Creation-Date: 2021-11-14 01:55+0000\n"
 "PO-Revision-Date: 2021-03-06\n"
 "Last-Translator: LinuxSTV\n"
 "Language-Team: \n"
@@ -4460,8 +4460,9 @@ msgstr "Sesuaikan pengaturan OpenWebIF untuk penala mundur"
 msgid "Customize channel list cursor behavior"
 msgstr "Ubahsuai aturan kursor daftar kanal"
 
-msgid "Cut"
-msgstr "Potong"
+#, fuzzy
+msgid "Cut Menu"
+msgstr "Menu"
 
 msgid "Cutlist editor"
 msgstr "Penyunting daftarpotong"
@@ -4935,6 +4936,14 @@ msgid "Delete character under cursor or select PM times"
 msgstr "Hapus karakter di bawah kursor tulisan"
 
 #, fuzzy
+msgid "Delete cut"
+msgstr "potong hapus"
+
+#, fuzzy
+msgid "Delete cut (disabled)"
+msgstr " (dimatikan)"
+
+#, fuzzy
 msgid "Delete directory"
 msgstr "Buat direktori"
 
@@ -5169,6 +5178,10 @@ msgstr "Matikan pelacakan di latar"
 
 msgid "Disable current event but not coming events"
 msgstr "Matikan acara saat ini tapi tidak acara mendatang"
+
+#, fuzzy
+msgid "Disable cuts (edit)"
+msgstr "Aktifkan ubah favorit"
 
 msgid "Disable move mode"
 msgstr "Matikan mode pindahkan"
@@ -5813,6 +5826,10 @@ msgstr "Aktifkan pemilihan buket pada Multi-EPG"
 msgid "Enable client mode"
 msgstr "Aktifkan mode pindahkan"
 
+#, fuzzy
+msgid "Enable cuts (preview)"
+msgstr "aktifkan layar intro"
+
 msgid "Enable fade-out functionality"
 msgstr ""
 
@@ -5935,6 +5952,14 @@ msgstr "Akhiri ubah buket"
 #, fuzzy
 msgid "End cut"
 msgstr "Batas akhir"
+
+#, fuzzy
+msgid "End cut here"
+msgstr "akhiri potong di sini"
+
+#, fuzzy
+msgid "End cut here (reset)"
+msgstr "akhiri potong di sini"
 
 msgid "End favourites edit"
 msgstr "Akhiri ubah favorit"
@@ -7100,6 +7125,10 @@ msgstr "Menuju:"
 msgid "GotoX calibration"
 msgstr "Menuju kalibrasi X"
 
+#, fuzzy
+msgid "Grab this frame as bitmap"
+msgstr "ambil bingkai ini sbg bitmap"
+
 msgid "GraphMultiEpg Settings"
 msgstr "Pengaturan GraphMultiEpg"
 
@@ -7878,6 +7907,14 @@ msgstr "Masukkan ID Stream"
 #, fuzzy
 msgid "Input scroll position"
 msgstr "Menuju letak"
+
+#, fuzzy
+msgid "Insert mark after each in"
+msgstr "masukkan tanda di sini"
+
+#, fuzzy
+msgid "Insert mark here"
+msgstr "masukkan tanda di sini"
 
 msgid "Install"
 msgstr "Pasang"
@@ -10975,6 +11012,10 @@ msgstr "Mempersiapkan... Silakan tunggu"
 msgid "Preschool"
 msgstr ""
 
+#, fuzzy
+msgid "Preserve bookmarks in cuts"
+msgstr "Hapus penandabuku"
+
 msgid "Press '0' to toggle PiP mode"
 msgstr "Tekan '0' untuk alihkan mode PiP"
 
@@ -11273,6 +11314,10 @@ msgstr "Cepat"
 
 #, fuzzy
 msgid "Quick Select Actions"
+msgstr "Pilih tindakan"
+
+#, fuzzy
+msgid "Quick execute"
 msgstr "Pilih tindakan"
 
 msgid "Quick execute..."
@@ -11597,6 +11642,10 @@ msgstr "Hapus penanda"
 msgid "Remove a nameserver entry"
 msgstr "Hapus entri namaserver"
 
+#, fuzzy
+msgid "Remove after this position"
+msgstr "hapus setelah posisi ini"
+
 msgid "Remove all alternatives"
 msgstr "Hapus semua alternatif"
 
@@ -11638,7 +11687,15 @@ msgstr "Hapus semua bendera baru yg ditemukan"
 msgid "Remove all timer data"
 msgstr "Hapus semua alternatif"
 
+#, fuzzy
+msgid "Remove before this position"
+msgstr "hapus sebelum posisi ini"
+
 msgid "Remove bookmark"
+msgstr "Hapus penandabuku"
+
+#, fuzzy
+msgid "Remove bookmarks in cuts"
 msgstr "Hapus penandabuku"
 
 msgid "Remove bouquet from parental protection"
@@ -11680,6 +11737,10 @@ msgstr "Hapus layanan terrestrial"
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr ""
+
+#, fuzzy
+msgid "Remove this mark"
+msgstr "hapus penanda ini"
 
 msgid "Remove title"
 msgstr "Hapus judul"
@@ -14209,6 +14270,14 @@ msgstr "Semua frekuensi"
 #, fuzzy
 msgid "Start cut"
 msgstr "Mulai pengecekan"
+
+#, fuzzy
+msgid "Start cut here"
+msgstr "mulai potong di sini"
+
+#, fuzzy
+msgid "Start cut here (reset)"
+msgstr "mulai potong di sini"
 
 msgid "Start directory"
 msgstr "Direktori mulai"
@@ -17824,13 +17893,6 @@ msgstr "harian"
 msgid "day"
 msgstr "hari"
 
-msgid "delete cut"
-msgstr "potong hapus"
-
-#, fuzzy
-msgid "delete cut (disabled)"
-msgstr " (dimatikan)"
-
 msgid "delete time - show delete time (Trash ONLY)"
 msgstr ""
 
@@ -17846,10 +17908,6 @@ msgstr "descramble dan rekam ecm"
 
 msgid "detective/thriller"
 msgstr "detektif/thriller"
-
-#, fuzzy
-msgid "disable cuts (edit)"
-msgstr "Aktifkan ubah favorit"
 
 msgid "disabled"
 msgstr "dimatikan"
@@ -17899,23 +17957,12 @@ msgstr "tertanam"
 msgid "empty"
 msgstr "kosong"
 
-#, fuzzy
-msgid "enable cuts (preview)"
-msgstr "aktifkan layar intro"
-
 msgid "enabled"
 msgstr "aktifkan"
 
 #, fuzzy
 msgid "end at this position"
 msgstr "hapus setelah posisi ini"
-
-msgid "end cut here"
-msgstr "akhiri potong di sini"
-
-#, fuzzy
-msgid "end cut here (reset)"
-msgstr "akhiri potong di sini"
 
 msgid "entertainment (10-16 year old)"
 msgstr "hiburan (umur 10-16 tahun)"
@@ -17940,9 +17987,6 @@ msgid "eth0"
 msgstr ""
 
 msgid "evremote2 is present"
-msgstr ""
-
-msgid "execute cuts and exit"
 msgstr ""
 
 #, fuzzy
@@ -18034,9 +18078,6 @@ msgstr "menuju deep standby"
 msgid "go to standby"
 msgstr "menuju standby"
 
-msgid "grab this frame as bitmap"
-msgstr "ambil bingkai ini sbg bitmap"
-
 msgid "green"
 msgstr "hijau"
 
@@ -18110,13 +18151,6 @@ msgstr "init module"
 
 msgid "init modules"
 msgstr "init modules"
-
-#, fuzzy
-msgid "insert mark after each in"
-msgstr "masukkan tanda di sini"
-
-msgid "insert mark here"
-msgstr "masukkan tanda di sini"
 
 #, fuzzy
 msgid "installed"
@@ -18399,17 +18433,11 @@ msgstr "budaya populer/seni tradisional"
 msgid "pre-school children's program"
 msgstr "acara anak prasekolah"
 
-msgid "preserve bookmarks in cuts"
-msgstr ""
-
 #, fuzzy
 msgid "priority"
 msgstr "Prioritas"
 
 msgid "punch cuts"
-msgstr ""
-
-msgid "quick execute"
 msgstr ""
 
 #, fuzzy
@@ -18434,19 +18462,9 @@ msgstr "agama"
 msgid "remarkable people"
 msgstr "orang-orang hebat"
 
-msgid "remove after this position"
-msgstr "hapus setelah posisi ini"
-
 #, fuzzy
 msgid "remove all"
 msgstr "Hapus judul"
-
-msgid "remove before this position"
-msgstr "hapus sebelum posisi ini"
-
-#, fuzzy
-msgid "remove bookmarks in cuts"
-msgstr "Hapus penandabuku"
 
 #, fuzzy
 msgid "remove cuts (preserve marks)"
@@ -18455,9 +18473,6 @@ msgstr "hapus penanda ini"
 #, fuzzy
 msgid "remove marks (preserve cuts)"
 msgstr "Hapus entri namaserver"
-
-msgid "remove this mark"
-msgstr "hapus penanda ini"
 
 msgid "repeated"
 msgstr "diulang"
@@ -18653,13 +18668,6 @@ msgstr "majalah olahraga"
 
 msgid "standard"
 msgstr "standar"
-
-msgid "start cut here"
-msgstr "mulai potong di sini"
-
-#, fuzzy
-msgid "start cut here (reset)"
-msgstr "mulai potong di sini"
 
 msgid "stepsize"
 msgstr "ukuranjangka"

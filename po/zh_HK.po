@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: 王彪 <satfan@163.com>\n"
 "Language-Team: 中國\n"
@@ -5751,10 +5751,6 @@ msgid "Enigma2 debug level"
 msgstr ""
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "預設"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "資訊"
 
@@ -9694,9 +9690,6 @@ msgstr ""
 #, fuzzy
 msgid "Open Info"
 msgstr "資訊"
-
-msgid "Open Vision"
-msgstr ""
 
 msgid "Open Vision information"
 msgstr ""
@@ -15959,9 +15952,6 @@ msgstr ""
 msgid "Virtual keyboard"
 msgstr ""
 
-msgid "Virtual keyboard skin"
-msgstr ""
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -16679,9 +16669,6 @@ msgstr ""
 
 msgid "You can remove this plugin."
 msgstr "您可以移除這個插件."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "這個檔不能刪除!"

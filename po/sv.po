@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2017-03-05 13:24+0100\n"
 "Last-Translator: Magnus Nilsson <mag_nilsson@hotmail.com>\n"
 "Language-Team: \n"
@@ -6465,11 +6465,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "grund"
-
-#
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Information"
 
@@ -10923,9 +10918,6 @@ msgstr ""
 #, fuzzy
 msgid "Open Info"
 msgstr "Info"
-
-msgid "Open Vision"
-msgstr ""
 
 #, fuzzy
 msgid "Open Vision information"
@@ -18112,11 +18104,6 @@ msgstr "Virtuellt tangentbord"
 msgid "Virtual keyboard"
 msgstr "Virtuellt tangentbord"
 
-#
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Virtuellt tangentbord"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -18921,9 +18908,6 @@ msgstr "Du kan bara bränna mottagarens inspelningar!"
 #
 msgid "You can remove this plugin."
 msgstr "Du kan ta bort detta plugin."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 #
 msgid "You cannot delete this!"

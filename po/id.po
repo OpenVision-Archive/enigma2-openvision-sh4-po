@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2021-03-06\n"
 "Last-Translator: LinuxSTV\n"
 "Language-Team: \n"
@@ -5994,10 +5994,6 @@ msgid "Enigma2 debug level"
 msgstr ""
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "bawaan"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Informasi"
 
@@ -10100,9 +10096,6 @@ msgstr "Hanya pilih 'ya' jika anda menggunakan saklarmulti yang membutuhkan siny
 #, fuzzy
 msgid "Open Info"
 msgstr "Info"
-
-msgid "Open Vision"
-msgstr ""
 
 #, fuzzy
 msgid "Open Vision information"
@@ -16592,10 +16585,6 @@ msgstr "Teks Papankunci Virtual:"
 msgid "Virtual keyboard"
 msgstr "Papankunci virtual"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Papankunci virtual"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -17362,9 +17351,6 @@ msgstr "Anda hanya bisa membakar rekaman Rx!"
 
 msgid "You can remove this plugin."
 msgstr "Anda bisa menghapus plugin ini."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "Anda tidak bisa menghapus ini!"

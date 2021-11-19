@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2014-11-12 00:49+0200\n"
 "Last-Translator: Taapat <taapat@gmail.com>\n"
 "Language-Team: Taapat <taapat@gmail.com>\n"
@@ -5927,10 +5927,6 @@ msgid "Enigma2 debug level"
 msgstr "Atkļūdošanas līmenis: %d\n"
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "noklusētais"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Informācija"
 
@@ -9945,9 +9941,6 @@ msgstr "Izvēlieties 'jā', ja izmantojat multiswitch, kuram nepieciešams DiSEq
 #, fuzzy
 msgid "Open Info"
 msgstr "Info"
-
-msgid "Open Vision"
-msgstr ""
 
 #, fuzzy
 msgid "Open Vision information"
@@ -16339,10 +16332,6 @@ msgstr "Virtuālās tastatūras teksts:"
 msgid "Virtual keyboard"
 msgstr "Virtuālā tastatūra"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Virtuālā tastatūra"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -17098,9 +17087,6 @@ msgstr "Jūs varat ierakstīt tikai uztvērēja ierakstus!"
 
 msgid "You can remove this plugin."
 msgstr "Jūs varat izdzēst šo spraudni."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "Jūs šo nevarat dzēst!"

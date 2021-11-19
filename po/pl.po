@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2021-05-05 20:00+0200\n"
 "Last-Translator: blzr <blzr@o2.pl>\n"
 "Language-Team: \n"
@@ -5814,10 +5814,6 @@ msgid "Enigma2 debug level"
 msgstr "Enigma debug level: %d\n"
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "Domyślny"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Informacje"
 
@@ -9817,9 +9813,6 @@ msgstr "Wybierz 'Tak' tylko jeżeli używasz multiswitcha który wymaga sygnału
 #, fuzzy
 msgid "Open Info"
 msgstr "Info"
-
-msgid "Open Vision"
-msgstr ""
 
 #, fuzzy
 msgid "Open Vision information"
@@ -16200,10 +16193,6 @@ msgstr "Tekst wirtualnej klawiatury:"
 msgid "Virtual keyboard"
 msgstr "Wirtualna klawiatura"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Wirtualna klawiatura"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -16956,9 +16945,6 @@ msgstr "\"Możesz wypalać tylko nagrania!"
 
 msgid "You can remove this plugin."
 msgstr "Możesz usunąć tą wtyczkę."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "Tego nie można usunąć!"

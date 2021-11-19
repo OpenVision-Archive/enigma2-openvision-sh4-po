@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2013-10-20 19:13-0300\n"
 "Last-Translator: Diogo <pingflood@gmail.com>\n"
 "Language-Team: Traduzido por Frank Viana <franksrviana@gmail.com>\n"
@@ -5848,10 +5848,6 @@ msgid "Enigma2 debug level"
 msgstr ""
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "Padrão"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Informação"
 
@@ -9844,9 +9840,6 @@ msgstr ""
 #, fuzzy
 msgid "Open Info"
 msgstr "Informações"
-
-msgid "Open Vision"
-msgstr ""
 
 msgid "Open Vision information"
 msgstr ""
@@ -16220,10 +16213,6 @@ msgstr "Teclado virtual"
 msgid "Virtual keyboard"
 msgstr "Teclado virtual"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Teclado virtual"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -16981,9 +16970,6 @@ msgstr "Apenas gravações são permitidas!"
 
 msgid "You can remove this plugin."
 msgstr "Este plugin pode ser removido."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "Não é possível remover"

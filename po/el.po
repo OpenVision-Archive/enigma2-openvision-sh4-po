@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLI Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: MCelliotG <mcelliotg@gmail.com>\n"
@@ -5855,10 +5855,6 @@ msgid "Enigma2 debug level"
 msgstr "Επίπεδο αποσφαλμάτωσης Enigma: %d\n"
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "προεπιλογή"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Πληροφορίες"
 
@@ -9871,9 +9867,6 @@ msgstr "Επιλέξτε το 'ναι' μόνο αν χρησιμοποιείτ�
 #, fuzzy
 msgid "Open Info"
 msgstr "Πληροφορίες"
-
-msgid "Open Vision"
-msgstr ""
 
 #, fuzzy
 msgid "Open Vision information"
@@ -16251,10 +16244,6 @@ msgstr "Κείμενο εικονικού πληκτρολογίου:"
 msgid "Virtual keyboard"
 msgstr "Εικονικό πληκτρολόγιο"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Εικονικό πληκτρολόγιο"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -17010,9 +16999,6 @@ msgstr "Μπορείτε μόνο να κάψετε εγγραφές του δέ
 
 msgid "You can remove this plugin."
 msgstr "Μπορείτε να διαγράψετε το πρόσθετο."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "Δεν μπορείτε να διαγράψετε αυτό!"

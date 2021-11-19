@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2020-05-16 18:41+0200\n"
 "Last-Translator: jamu\n"
 "Language-Team: BoxFreak/jamu\n"
@@ -6394,11 +6394,6 @@ msgstr "Enigman debug-taso: %d\n"
 
 #
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "Oletus"
-
-#
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Tietoja"
 
@@ -10845,9 +10840,6 @@ msgstr ""
 #, fuzzy
 msgid "Open Info"
 msgstr "Tietoja"
-
-msgid "Open Vision"
-msgstr ""
 
 msgid "Open Vision information"
 msgstr ""
@@ -18011,11 +18003,6 @@ msgstr "Virtuaalisen näppäimistön teksti:"
 msgid "Virtual keyboard"
 msgstr "Virtuaalinen näppäimistö"
 
-#
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Virtuaalinen näppäimistö"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -18814,9 +18801,6 @@ msgstr "Sinä voit polttaa ainoastaan vastaanottimesi nauhoituksia!"
 #
 msgid "You can remove this plugin."
 msgstr "Voit poistaa tämän lisäosan."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 #
 msgid "You cannot delete this!"

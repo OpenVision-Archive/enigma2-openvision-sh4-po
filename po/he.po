@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2012-03-08 10:40+0330\n"
 "Last-Translator: \n"
 "Language-Team: Arabic <moustafagamal@hotmail.com>\n"
@@ -6081,10 +6081,6 @@ msgstr " איתחול / המתנה"
 msgid "Enigma2 debug level"
 msgstr ""
 
-#, fuzzy
-msgid "Enigma2 default"
-msgstr "ברירת מחדל"
-
 #
 #, fuzzy
 msgid "Enigma2 information"
@@ -10307,9 +10303,6 @@ msgstr ""
 #, fuzzy
 msgid "Open Info"
 msgstr "פרטים"
-
-msgid "Open Vision"
-msgstr ""
 
 msgid "Open Vision information"
 msgstr ""
@@ -17121,11 +17114,6 @@ msgstr "מקלדת וירטואלית"
 msgid "Virtual keyboard"
 msgstr "מקלדת וירטואלית"
 
-#
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "מקלדת וירטואלית"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -17868,9 +17856,6 @@ msgstr ""
 
 msgid "You can remove this plugin."
 msgstr "You can remove this plugin."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 #
 msgid "You cannot delete this!"

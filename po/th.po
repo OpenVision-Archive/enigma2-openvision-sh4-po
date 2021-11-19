@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1-En-Th\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2010-04-08 18:13+0700\n"
 "Last-Translator: Tony - Thaidreambox\n"
 "Language-Team: Tony @ Thai Dreambox <tonyboyth@gmail.com>\n"
@@ -5869,10 +5869,6 @@ msgid "Enigma2 debug level"
 msgstr ""
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "ค่าเริ่มต้น"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "ข้อมูล"
 
@@ -9887,9 +9883,6 @@ msgstr ""
 #, fuzzy
 msgid "Open Info"
 msgstr "ข้อมูล"
-
-msgid "Open Vision"
-msgstr ""
 
 msgid "Open Vision information"
 msgstr ""
@@ -16328,10 +16321,6 @@ msgstr "แป้นพิมพ์จำลอง"
 msgid "Virtual keyboard"
 msgstr "แป้นพิมพ์จำลอง"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "แป้นพิมพ์จำลอง"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -17062,9 +17051,6 @@ msgstr ""
 
 msgid "You can remove this plugin."
 msgstr "ท่านสามารถลบปลั๊กอินตัวนี้ได้"
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "ท่านไม่สามารถลบรายการนี้ได้!"

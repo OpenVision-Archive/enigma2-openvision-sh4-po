@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Openpli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2019-04-03 06:49+0300\n"
 "Last-Translator: \n"
 "Language-Team: Raivo, Henkka, eesatfan, rimas, zeros\\n faas, sateks, valgekotkas, tigekala, rootsikunn\\n kain, i70, mustkass, pelmeen, Scott\\n <digi-tv.ee>\n"
@@ -5923,10 +5923,6 @@ msgid "Enigma2 debug level"
 msgstr ""
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "vaikimisi"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Info"
 
@@ -9964,9 +9960,6 @@ msgstr "Vali 'jah' ainult juhul, kui kasutatav multiswich lüliti nõuab DiSEqC 
 #, fuzzy
 msgid "Open Info"
 msgstr "Info"
-
-msgid "Open Vision"
-msgstr ""
 
 #, fuzzy
 msgid "Open Vision information"
@@ -16420,10 +16413,6 @@ msgstr "Virtuaalklahvistik"
 msgid "Virtual keyboard"
 msgstr "Virtuaalklahvistik"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Virtuaalklahvistik"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -17189,9 +17178,6 @@ msgstr "Plaadile saab kirjutada ainult vastuvõtja salvestusi!"
 
 msgid "You can remove this plugin."
 msgstr "Selle laienduse saab eemaldada."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "Seda ei saa kustutada!"

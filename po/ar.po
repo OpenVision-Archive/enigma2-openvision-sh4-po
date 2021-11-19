@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OBH enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2019-04-12 12:36+0300\n"
 "Last-Translator: mosad - مساعد الجعيد <abo-mishal@hotmail.com>\n"
 "Language-Team: mosad - مساعد الجعيد\n"
@@ -6117,10 +6117,6 @@ msgid "Enigma2 debug level"
 msgstr ""
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "الإفتراضي"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "معلومات"
 
@@ -10263,9 +10259,6 @@ msgstr "حدد فقط 'نعم' إذا كنت تستخدم جهاز القسام 
 #, fuzzy
 msgid "Open Info"
 msgstr "معلومات"
-
-msgid "Open Vision"
-msgstr ""
 
 #, fuzzy
 msgid "Open Vision information"
@@ -16920,10 +16913,6 @@ msgstr ""
 msgid "Virtual keyboard"
 msgstr "لوحة مفاتيح الحروف بالترتيب"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "لوحة مفاتيح الحروف بالترتيب"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -17715,9 +17704,6 @@ msgstr "يمكنك حرق فقط %s %s التسجيلات!"
 
 msgid "You can remove this plugin."
 msgstr "تستطيع حذف هذا البلج إنز."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "لايمكنك مسح هذه!"

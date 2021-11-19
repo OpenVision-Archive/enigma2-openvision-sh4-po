@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 Kurdish translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2013-04-22 04:29+0330\n"
 "Last-Translator: dimili21\n"
 "Language-Team: \n"
@@ -5914,10 +5914,6 @@ msgid "Enigma2 debug level"
 msgstr ""
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "default"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Hakké İmagéda"
 
@@ -9919,9 +9915,6 @@ msgstr ""
 #, fuzzy
 msgid "Open Info"
 msgstr "Info"
-
-msgid "Open Vision"
-msgstr ""
 
 msgid "Open Vision information"
 msgstr ""
@@ -16294,10 +16287,6 @@ msgstr "Virtual keyboard"
 msgid "Virtual keyboard"
 msgstr "Virtual keyboard"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Virtual keyboard"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -17055,9 +17044,6 @@ msgstr "You can only burn receiver recordings!"
 
 msgid "You can remove this plugin."
 msgstr "You can remove this plugin."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "You cannot delete this!"

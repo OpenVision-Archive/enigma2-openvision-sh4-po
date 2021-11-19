@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2021-08-02 08:54+0200\n"
 "Last-Translator: Andrej Tobola <andrej.tobola@gmail.com>\n"
 "Language-Team: \n"
@@ -5923,10 +5923,6 @@ msgid "Enigma2 debug level"
 msgstr "Úroveň ladenia Enigmy: %d\n"
 
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "predvolené"
-
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Informácie"
 
@@ -9944,9 +9940,6 @@ msgstr "Vyberte 'áno' iba v prípade, ak používate multiprepínač ktorý vy�
 #, fuzzy
 msgid "Open Info"
 msgstr "Info"
-
-msgid "Open Vision"
-msgstr ""
 
 #, fuzzy
 msgid "Open Vision information"
@@ -16339,10 +16332,6 @@ msgstr "Text virtuálnej klávesnice:"
 msgid "Virtual keyboard"
 msgstr "Virtuálna klávesnica"
 
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Virtuálna klávesnica"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -17098,9 +17087,6 @@ msgstr "Môžete napáliť iba nahrávky z prijímača!"
 
 msgid "You can remove this plugin."
 msgstr "Tento doplnok môžete odstrániť."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 msgid "You cannot delete this!"
 msgstr "Toto nemôžete zmazať!"

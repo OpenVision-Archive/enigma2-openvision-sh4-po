@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2014-12-15 19:38-0000\n"
 "Last-Translator: Phenom <phenomxy@gmail.com>\n"
 "Language-Team: Muaitai <muaitai@gmail.com>\n"
@@ -6519,11 +6519,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "padrão"
-
-#
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Informação"
 
@@ -11027,9 +11022,6 @@ msgstr ""
 #, fuzzy
 msgid "Open Info"
 msgstr "Informação"
-
-msgid "Open Vision"
-msgstr ""
 
 msgid "Open Vision information"
 msgstr ""
@@ -18339,11 +18331,6 @@ msgstr "Teclado virtual"
 msgid "Virtual keyboard"
 msgstr "Teclado virtual"
 
-#
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Teclado virtual"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -19151,9 +19138,6 @@ msgstr "Só pode gravar gravações do receptor!"
 #
 msgid "You can remove this plugin."
 msgstr "Pode remover este Plugin."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 #
 msgid "You cannot delete this!"

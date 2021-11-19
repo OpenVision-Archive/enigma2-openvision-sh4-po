@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Project Slovenia\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-14 01:55+0000\n"
+"POT-Creation-Date: 2021-11-19 06:23+0000\n"
 "PO-Revision-Date: 2020-05-16 18:48+0200\n"
 "Last-Translator: Taykun345 <support@satnigmo.com>\n"
 "Language-Team: Satnigmo <support@satnigmo.com>\n"
@@ -6575,11 +6575,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Enigma2 default"
-msgstr "Privzeto"
-
-#
-#, fuzzy
 msgid "Enigma2 information"
 msgstr "Informacije"
 
@@ -11082,9 +11077,6 @@ msgstr ""
 #, fuzzy
 msgid "Open Info"
 msgstr "Info"
-
-msgid "Open Vision"
-msgstr ""
 
 msgid "Open Vision information"
 msgstr ""
@@ -18363,11 +18355,6 @@ msgstr "Navidezna tipkovnica"
 msgid "Virtual keyboard"
 msgstr "Navidezna tipkovnica"
 
-#
-#, fuzzy
-msgid "Virtual keyboard skin"
-msgstr "Navidezna tipkovnica"
-
 msgid "Visually impaired commentary"
 msgstr ""
 
@@ -19176,9 +19163,6 @@ msgstr ""
 #
 msgid "You can remove this plugin."
 msgstr "Izbrani vtičnik lahko izbrišete."
-
-msgid "You can select the skin of virtual keyboard."
-msgstr ""
 
 #
 msgid "You cannot delete this!"

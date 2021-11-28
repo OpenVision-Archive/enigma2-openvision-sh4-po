@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 06:23+0000\n"
+"POT-Creation-Date: 2021-11-28 01:50+0000\n"
 "PO-Revision-Date: 2021-08-02 09:19+0700\n"
 "Last-Translator: krong\n"
 "Language-Team: none\n"
@@ -60,9 +60,6 @@ msgid ""
 msgstr ""
 "\n"
 "Hẹn giờ '%s' bị vô hiệu hóa!"
-
-msgid " "
-msgstr ""
 
 #, fuzzy
 msgid "    Encryption key:"
@@ -1867,7 +1864,7 @@ msgstr ""
 msgid "Adapter settings"
 msgstr "Cài đặt bộ điều hợp"
 
-msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.\t It hides the day of the week for recordings made in previous years."
+msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.  It hides the day of the week for recordings made in previous years."
 msgstr ""
 
 msgid "Add"
@@ -2128,6 +2125,9 @@ msgstr "Cho phép các chế độ không được hỗ trợ"
 msgid "Allows the TV remote to be used to control the receiver."
 msgstr "Cho phép sử dụng điều khiển từ xa của TV để điều khiển đầu thu."
 
+msgid "Allows you to assign the selected function to the this button."
+msgstr ""
+
 msgid "Allows you to enable/disable displaying icons on the frontpanel."
 msgstr ""
 
@@ -2135,9 +2135,6 @@ msgid "Allows you to hide the extensions of known file types."
 msgstr ""
 
 msgid "Allows you to set a schedule to import the EPG and channels list. The EPG and channels list will always be imported on reboot or GUI restart."
-msgstr ""
-
-msgid "Allows you to setup the button to do what you choose."
 msgstr ""
 
 #, fuzzy
@@ -2652,6 +2649,9 @@ msgstr "BER"
 msgid "BER:"
 msgstr "BER:"
 
+msgid "BLUE button"
+msgstr ""
+
 msgid "BT 2020 CL"
 msgstr ""
 
@@ -2844,10 +2844,6 @@ msgstr "Giảm tiếng ồn"
 msgid "Blue"
 msgstr "Màu xanh da trời"
 
-#, fuzzy
-msgid "Blue long"
-msgstr "Màu xanh da trời"
-
 msgid "Bolivia"
 msgstr ""
 
@@ -2995,11 +2991,42 @@ msgstr "Burundi"
 msgid "Bus: "
 msgstr "Xe buýt: "
 
-msgid "Button"
+msgid "By date, then by name"
 msgstr ""
 
 msgid "By default, SNR will be shown in dB (when supported by the tuner). This setting forces SNR to be shown as a percentage instead."
 msgstr "Theo mặc định, SNR sẽ được hiển thị bằng dB (khi được bộ chỉnh tần số hỗ trợ). Thay vào đó, cài đặt này buộc SNR được hiển thị dưới dạng phần trăm."
+
+msgid "By description, then by name"
+msgstr ""
+
+msgid "By duration, then by name"
+msgstr ""
+
+msgid "By file size, then by name"
+msgstr ""
+
+msgid "By name, then by date"
+msgstr ""
+
+msgid "By name, then by reverse date"
+msgstr ""
+
+msgid "By reverse date, then by reverse name"
+msgstr ""
+
+msgid "By reverse duration, then by name"
+msgstr ""
+
+msgid "By reverse file size, then by name"
+msgstr ""
+
+#, fuzzy
+msgid "By reverse name, then by date"
+msgstr "đảo ngược theo ngày"
+
+msgid "By reverse name, then by reverse date"
+msgstr ""
 
 msgid "Bypass HDMI EDID checking"
 msgstr "Bỏ qua kiểm tra HDMI EDID"
@@ -6336,16 +6363,16 @@ msgid "Extra start time to ignore inactivity sleeptimer"
 msgstr "Thêm thời gian bắt đầu để bỏ qua sleeptimer không hoạt động"
 
 #, fuzzy
-msgid "F1"
-msgstr "1"
+msgid "F1 button"
+msgstr "Nút màu đỏ ..."
 
 #, fuzzy
-msgid "F2"
-msgstr "2"
+msgid "F2 button"
+msgstr "Nút màu đỏ ..."
 
 #, fuzzy
-msgid "F3"
-msgstr "3"
+msgid "F3 button"
+msgstr "Nút màu đỏ ..."
 
 msgid "FAILED"
 msgstr "THẤT BẠI"
@@ -6660,9 +6687,15 @@ msgstr "chữ cái phẳng"
 msgid "Flat by key group on remote"
 msgstr ""
 
+msgid "Flat by name, then by date"
+msgstr ""
+
 #, fuzzy
 msgid "Flat by position on remote"
 msgstr "Vị trí cuối cùng tại"
+
+msgid "Flat by reverse name, then by reverse date"
+msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "Các tác vụ sau sẽ được thực hiện sau khi bạn nhấn OK!"
@@ -6796,6 +6829,10 @@ msgstr "Tùy chọn khác"
 #, fuzzy
 msgid "GCC version"
 msgstr "Nghịch đảo"
+
+#, fuzzy
+msgid "GREEN button"
+msgstr "Nút màu đỏ ..."
 
 #, fuzzy
 msgid "GStreamer version"
@@ -7007,10 +7044,6 @@ msgstr "Người Hy Lạp"
 
 msgid "Green"
 msgstr "Màu xanh lá"
-
-#, fuzzy
-msgid "Green long"
-msgstr "Đất xanh"
 
 msgid "Greenland"
 msgstr "Đất xanh"
@@ -8498,6 +8531,18 @@ msgstr "Cài đặt sử dụng"
 msgid "Logs folder location *"
 msgstr "<Vị trí hẹn giờ cuối>"
 
+msgid "Long BLUE button"
+msgstr ""
+
+msgid "Long GREEN button"
+msgstr ""
+
+msgid "Long RED button"
+msgstr ""
+
+msgid "Long YELLOW button"
+msgstr ""
+
 msgid "Long filenames"
 msgstr "Tên tập tin dài"
 
@@ -9123,12 +9168,16 @@ msgid "Movie List Actions"
 msgstr "Lựa chọn phim"
 
 #, fuzzy
-msgid "Movie List Setup"
+msgid "Movie List Context Menu"
 msgstr "Menu danh sách phim"
 
 #, fuzzy
 msgid "Movie Player Actions"
 msgstr "Lựa chọn phim"
+
+#, fuzzy
+msgid "Movie Selection Setup"
+msgstr "Sự lựa chọn ngôn ngữ"
 
 msgid "Movie selection"
 msgstr "Lựa chọn phim"
@@ -9866,6 +9915,10 @@ msgstr "Trên"
 
 msgid "On end of movie"
 msgstr "Cuối phim"
+
+#, fuzzy
+msgid "On end of movie (As menu)"
+msgstr "Vào cuối phim (dưới dạng menu)"
 
 msgid "On end of movie (as menu)"
 msgstr "Vào cuối phim (dưới dạng menu)"
@@ -11117,6 +11170,10 @@ msgstr ""
 msgid "Quick zap"
 msgstr "Nhanh chóng"
 
+#, fuzzy
+msgid "RADIO button"
+msgstr "Nút màu đỏ ..."
+
 msgid "RAM (Details)"
 msgstr ""
 
@@ -11163,6 +11220,10 @@ msgstr "Ngoài ra ở chế độ chờ"
 
 msgid "REC symbol in use"
 msgstr ""
+
+#, fuzzy
+msgid "RED button"
+msgstr "Nút màu đỏ ..."
 
 msgid "RF Modulator Output Setup"
 msgstr ""
@@ -11315,6 +11376,9 @@ msgstr "Ghi chép"
 msgid "Recordings always have priority"
 msgstr "Ghi chép luôGhi chép luôn được ưu tiênn được ưu tiên"
 
+msgid "Recordings by date, other media by name"
+msgstr ""
+
 #, fuzzy
 msgid "Recover"
 msgstr "Ghi lại"
@@ -11331,10 +11395,6 @@ msgstr "Nút màu đỏ ..."
 
 msgid "Red colored"
 msgstr "Màu đỏ"
-
-#, fuzzy
-msgid "Red long"
-msgstr "dài"
 
 msgid "Red/HbbTV Button Actions"
 msgstr ""
@@ -13521,6 +13581,10 @@ msgstr "Hiển thị trạng thái kết nối mạng LAN không dây của bạ
 msgid "Shows the watched status of the movie."
 msgstr "Không có thẻ được đặt trên những bộ phim này."
 
+#, fuzzy
+msgid "Shuffle"
+msgstr "xáo trộn"
+
 msgid "Shuffle playlist"
 msgstr "Danh sách phát ngẫu nhiên"
 
@@ -14519,6 +14583,9 @@ msgstr "Chế độ RAW T2MI"
 msgid "TEXT"
 msgstr "TEXT"
 
+msgid "TEXT button"
+msgstr ""
+
 msgid "TMBD Details"
 msgstr ""
 
@@ -14544,6 +14611,10 @@ msgstr "CHẠY"
 
 msgid "TV"
 msgstr ""
+
+#, fuzzy
+msgid "TV button"
+msgstr "Nút màu đỏ ..."
 
 msgid "TV physical address report"
 msgstr "Báo cáo địa chỉ vật lý TV"
@@ -14691,9 +14762,6 @@ msgstr "Kiểm tra"
 
 msgid "Testscreens that are helpfull to fine-tune your display"
 msgstr "Kiểm tra màn hình hữu ích để tinh chỉnh màn hình của bạn"
-
-msgid "Text"
-msgstr ""
 
 msgid "Text View On"
 msgstr "Chế độ xem văn bản đang bật"
@@ -16835,7 +16903,7 @@ msgstr ""
 msgid "When set, each directory will show the previous state used. When off, the default values will be shown."
 msgstr ""
 
-msgid "When set, sort changes via the sort key will be permanent."
+msgid "When set, sort changes via the sort key will be permanent.  When unset, sort changes will be temporary, just for this view of a directory."
 msgstr ""
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
@@ -16849,9 +16917,6 @@ msgstr ""
 
 msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
 msgstr "Khi máy thu hoạt động từ chế độ chờ hoặc chế độ chờ sâu, nó sẽ gửi lệnh đến TV để đưa TV ra khỏi chế độ chờ."
-
-msgid "When unset, sort changes will be temporary - just for this view of a directory."
-msgstr ""
 
 msgid "Where to save temporary timeshift recordings?"
 msgstr "Lưu bản ghi timeshift tạm thời ở đâu?"
@@ -16933,6 +16998,9 @@ msgstr ""
 msgid "YCbCr444"
 msgstr ""
 
+msgid "YELLOW button"
+msgstr ""
+
 msgid "YES"
 msgstr "VÂNG"
 
@@ -16950,10 +17018,6 @@ msgstr "Màu vàng"
 
 msgid "Yellow DVB subtitles"
 msgstr "Phụ đề DVB màu vàng"
-
-#, fuzzy
-msgid "Yellow long"
-msgstr "Màu vàng"
 
 msgid "Yemen"
 msgstr "Yemen"
@@ -17372,18 +17436,6 @@ msgstr "tất cả các"
 msgid "all tuners"
 msgstr "tất cả các bộ điều chỉnh"
 
-msgid "alpha then oldest"
-msgstr ""
-
-msgid "alphabetic"
-msgstr "bảng chữ cái"
-
-msgid "alphabetic reverse"
-msgstr "bảng chữ cái ngược"
-
-msgid "alpharev then newest"
-msgstr ""
-
 msgid "always"
 msgstr "luôn luôn"
 
@@ -17472,9 +17524,6 @@ msgstr "dưới cùng"
 
 msgid "broadcasting/press"
 msgstr "phát thanh / báo chí"
-
-msgid "by date"
-msgstr "theo ngày"
 
 msgid "cable (DVB-C)"
 msgstr ""
@@ -17711,12 +17760,6 @@ msgstr "mỹ thuật"
 msgid "fitness & health"
 msgstr "thể dục & sức khỏe"
 
-msgid "flat alphabetic"
-msgstr "chữ cái phẳng"
-
-msgid "flat alphabetic reverse"
-msgstr "đảo ngược chữ cái"
-
 msgid "folk/traditional music"
 msgstr "nhạc dân gian / truyền thống"
 
@@ -17884,10 +17927,6 @@ msgid "locked"
 msgstr "bị khóa"
 
 msgid "long"
-msgstr "dài"
-
-#, fuzzy
-msgid "longest"
 msgstr "dài"
 
 msgid "magazines/reports/documentary"
@@ -18159,9 +18198,6 @@ msgstr "tua lại chương trước"
 msgid "restore previous cuts & exit"
 msgstr "tua lại chương trước"
 
-msgid "reverse by date"
-msgstr "đảo ngược theo ngày"
-
 msgid "rewind to the previous chapter"
 msgstr "tua lại chương trước"
 
@@ -18220,10 +18256,6 @@ msgstr "nghiêm túc / cổ điển / tôn giáo / lịch sử phim / kịch"
 msgid "set default"
 msgstr "Đặt mặc định"
 
-#, fuzzy
-msgid "shortest"
-msgstr "Kiểm tra mạng"
-
 msgid "show DVD main menu"
 msgstr "hiển thị menu chính DVD"
 
@@ -18241,9 +18273,6 @@ msgstr "hiển thị softwaremanager trên nút màu xanh"
 
 msgid "show/game show (general)"
 msgstr "chương trình / trò chơi (nói chung)"
-
-msgid "shuffle"
-msgstr "xáo trộn"
 
 msgid "shut down"
 msgstr "tắt"

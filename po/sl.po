@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Project Slovenia\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 06:23+0000\n"
+"POT-Creation-Date: 2021-11-28 01:50+0000\n"
 "PO-Revision-Date: 2020-05-16 18:48+0200\n"
 "Last-Translator: Taykun345 <support@satnigmo.com>\n"
 "Language-Team: Satnigmo <support@satnigmo.com>\n"
@@ -63,9 +63,6 @@ msgid ""
 msgstr ""
 "\n"
 "Časovnik '%s' je izklopljen!"
-
-msgid " "
-msgstr ""
 
 #
 #, fuzzy
@@ -2006,7 +2003,7 @@ msgstr ""
 msgid "Adapter settings"
 msgstr "Nastavitve omrežnega vmesnika"
 
-msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.\t It hides the day of the week for recordings made in previous years."
+msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.  It hides the day of the week for recordings made in previous years."
 msgstr ""
 
 #
@@ -2318,6 +2315,9 @@ msgstr "ni podprto"
 msgid "Allows the TV remote to be used to control the receiver."
 msgstr "Uporabite daljinski upravljalnik"
 
+msgid "Allows you to assign the selected function to the this button."
+msgstr ""
+
 msgid "Allows you to enable/disable displaying icons on the frontpanel."
 msgstr ""
 
@@ -2325,9 +2325,6 @@ msgid "Allows you to hide the extensions of known file types."
 msgstr ""
 
 msgid "Allows you to set a schedule to import the EPG and channels list. The EPG and channels list will always be imported on reboot or GUI restart."
-msgstr ""
-
-msgid "Allows you to setup the button to do what you choose."
 msgstr ""
 
 #, fuzzy
@@ -2920,6 +2917,9 @@ msgstr "BER"
 msgid "BER:"
 msgstr "BER:"
 
+msgid "BLUE button"
+msgstr ""
+
 msgid "BT 2020 CL"
 msgstr ""
 
@@ -3132,9 +3132,6 @@ msgstr ""
 msgid "Blue"
 msgstr ""
 
-msgid "Blue long"
-msgstr ""
-
 msgid "Bolivia"
 msgstr ""
 
@@ -3304,11 +3301,42 @@ msgstr ""
 msgid "Bus: "
 msgstr "Vodilo:"
 
-msgid "Button"
+msgid "By date, then by name"
 msgstr ""
 
 msgid "By default, SNR will be shown in dB (when supported by the tuner). This setting forces SNR to be shown as a percentage instead."
 msgstr "V osnovi je SNR vrednost prikazana v dB (če je to podprto). Ta nastavitev pa omogoči, da se SNR vrednost prikazuje v odstotkih."
+
+msgid "By description, then by name"
+msgstr ""
+
+msgid "By duration, then by name"
+msgstr ""
+
+msgid "By file size, then by name"
+msgstr ""
+
+msgid "By name, then by date"
+msgstr ""
+
+msgid "By name, then by reverse date"
+msgstr ""
+
+msgid "By reverse date, then by reverse name"
+msgstr ""
+
+msgid "By reverse duration, then by name"
+msgstr ""
+
+msgid "By reverse file size, then by name"
+msgstr ""
+
+#, fuzzy
+msgid "By reverse name, then by date"
+msgstr "razvrščanje po datumu (obratno)"
+
+msgid "By reverse name, then by reverse date"
+msgstr ""
 
 msgid "Bypass HDMI EDID checking"
 msgstr ""
@@ -7056,20 +7084,17 @@ msgstr "Dodatne možnosti rotorja"
 msgid "Extra start time to ignore inactivity sleeptimer"
 msgstr "Dodatni začetni čas za ignoriranje časovnika neaktivnosti"
 
-#
 #, fuzzy
-msgid "F1"
-msgstr "1"
+msgid "F1 button"
+msgstr "Rdeča tipka"
 
-#
 #, fuzzy
-msgid "F2"
-msgstr "2"
+msgid "F2 button"
+msgstr "Rdeča tipka"
 
-#
 #, fuzzy
-msgid "F3"
-msgstr "3"
+msgid "F3 button"
+msgstr "Rdeča tipka"
 
 msgid "FAILED"
 msgstr ""
@@ -7420,7 +7445,13 @@ msgstr "razvrščanje po abecedi"
 msgid "Flat by key group on remote"
 msgstr ""
 
+msgid "Flat by name, then by date"
+msgstr ""
+
 msgid "Flat by position on remote"
+msgstr ""
+
+msgid "Flat by reverse name, then by reverse date"
 msgstr ""
 
 #
@@ -7576,6 +7607,10 @@ msgstr ""
 #, fuzzy
 msgid "GCC version"
 msgstr "Inverzija"
+
+#, fuzzy
+msgid "GREEN button"
+msgstr "Rdeča tipka"
 
 #, fuzzy
 msgid "GStreamer version"
@@ -7813,9 +7848,6 @@ msgid "Greek"
 msgstr "Grško"
 
 msgid "Green"
-msgstr ""
-
-msgid "Green long"
 msgstr ""
 
 msgid "Greenland"
@@ -9468,6 +9500,18 @@ msgstr "Nastavitve"
 msgid "Logs folder location *"
 msgstr "<Prejšnja \"timer\" lokacija>"
 
+msgid "Long BLUE button"
+msgstr ""
+
+msgid "Long GREEN button"
+msgstr ""
+
+msgid "Long RED button"
+msgstr ""
+
+msgid "Long YELLOW button"
+msgstr ""
+
 msgid "Long filenames"
 msgstr "Dolga imena datotek"
 
@@ -10181,12 +10225,17 @@ msgstr "Izbirnik posnetkov"
 
 #
 #, fuzzy
-msgid "Movie List Setup"
+msgid "Movie List Context Menu"
 msgstr "Nastavitve"
 
 #, fuzzy
 msgid "Movie Player Actions"
 msgstr "Izbirnik posnetkov"
+
+#
+#, fuzzy
+msgid "Movie Selection Setup"
+msgstr "Izbira jezik"
 
 msgid "Movie selection"
 msgstr "Izbirnik posnetkov"
@@ -11032,6 +11081,10 @@ msgstr "Vklop"
 
 msgid "On end of movie"
 msgstr "Na koncu posnetka"
+
+#, fuzzy
+msgid "On end of movie (As menu)"
+msgstr "Na koncu posnetka (kot meni)"
 
 msgid "On end of movie (as menu)"
 msgstr "Na koncu posnetka (kot meni)"
@@ -12464,6 +12517,10 @@ msgstr ""
 msgid "Quick zap"
 msgstr "Hitri preklop"
 
+#, fuzzy
+msgid "RADIO button"
+msgstr "Rdeča tipka"
+
 msgid "RAM (Details)"
 msgstr ""
 
@@ -12515,6 +12572,10 @@ msgstr "Tudi v stanju pripravljenosti"
 
 msgid "REC symbol in use"
 msgstr ""
+
+#, fuzzy
+msgid "RED button"
+msgstr "Rdeča tipka"
 
 msgid "RF Modulator Output Setup"
 msgstr ""
@@ -12690,6 +12751,9 @@ msgstr "Posnetki"
 msgid "Recordings always have priority"
 msgstr "Snemanje ima vedno višjo prioriteto"
 
+msgid "Recordings by date, other media by name"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Recover"
@@ -12706,9 +12770,6 @@ msgid "Red button..."
 msgstr "Rdeča tipka"
 
 msgid "Red colored"
-msgstr ""
-
-msgid "Red long"
 msgstr ""
 
 msgid "Red/HbbTV Button Actions"
@@ -15226,6 +15287,10 @@ msgstr "Prikaz stanja brezžične omrežne povezave.\n"
 msgid "Shows the watched status of the movie."
 msgstr "Ni postavljenih oznak na izbranih filmih."
 
+#, fuzzy
+msgid "Shuffle"
+msgstr "naključni izbor"
+
 #
 msgid "Shuffle playlist"
 msgstr "Naključni izbor datotek iz seznama za predvajanje"
@@ -16390,6 +16455,9 @@ msgstr ""
 msgid "TEXT"
 msgstr ""
 
+msgid "TEXT button"
+msgstr ""
+
 msgid "TMBD Details"
 msgstr ""
 
@@ -16418,6 +16486,10 @@ msgstr ""
 
 msgid "TV"
 msgstr ""
+
+#, fuzzy
+msgid "TV button"
+msgstr "Rdeča tipka"
 
 msgid "TV physical address report"
 msgstr ""
@@ -16580,9 +16652,6 @@ msgid "Testscreens"
 msgstr "Kalibracija barv"
 
 msgid "Testscreens that are helpfull to fine-tune your display"
-msgstr ""
-
-msgid "Text"
 msgstr ""
 
 msgid "Text View On"
@@ -18926,7 +18995,7 @@ msgstr ""
 msgid "When set, each directory will show the previous state used. When off, the default values will be shown."
 msgstr ""
 
-msgid "When set, sort changes via the sort key will be permanent."
+msgid "When set, sort changes via the sort key will be permanent.  When unset, sort changes will be temporary, just for this view of a directory."
 msgstr ""
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
@@ -18939,9 +19008,6 @@ msgid "When the input cursor reaches this point (percentage of the width, from e
 msgstr ""
 
 msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
-msgstr ""
-
-msgid "When unset, sort changes will be temporary - just for this view of a directory."
 msgstr ""
 
 #
@@ -19031,6 +19097,9 @@ msgstr ""
 msgid "YCbCr444"
 msgstr ""
 
+msgid "YELLOW button"
+msgstr ""
+
 msgid "YES"
 msgstr ""
 
@@ -19050,10 +19119,6 @@ msgstr "Rumena"
 #
 msgid "Yellow DVB subtitles"
 msgstr "Rumeni DVB podnapisi"
-
-#, fuzzy
-msgid "Yellow long"
-msgstr "Rumena"
 
 #, fuzzy
 msgid "Yemen"
@@ -19504,19 +19569,6 @@ msgstr "vse"
 msgid "all tuners"
 msgstr "Naslov rezervnega oddaljenega sprejemnika"
 
-msgid "alpha then oldest"
-msgstr ""
-
-#
-msgid "alphabetic"
-msgstr "razvrščanje po abecedi"
-
-msgid "alphabetic reverse"
-msgstr "razvrščanje po abecedi (obratno)"
-
-msgid "alpharev then newest"
-msgstr ""
-
 #
 msgid "always"
 msgstr "vedno"
@@ -19617,10 +19669,6 @@ msgstr ""
 
 msgid "broadcasting/press"
 msgstr ""
-
-#
-msgid "by date"
-msgstr "razvrsčanje po datumu"
 
 msgid "cable (DVB-C)"
 msgstr ""
@@ -19872,13 +19920,6 @@ msgstr ""
 msgid "fitness & health"
 msgstr ""
 
-#
-msgid "flat alphabetic"
-msgstr "razvrščanje po abecedi"
-
-msgid "flat alphabetic reverse"
-msgstr "razvrščanje po abecedi (obratno)"
-
 msgid "folk/traditional music"
 msgstr ""
 
@@ -20063,9 +20104,6 @@ msgid "locked"
 msgstr "zaklenjen"
 
 msgid "long"
-msgstr ""
-
-msgid "longest"
 msgstr ""
 
 msgid "magazines/reports/documentary"
@@ -20380,9 +20418,6 @@ msgstr "previjanje na prejšnje poglavje"
 msgid "restore previous cuts & exit"
 msgstr "previjanje na prejšnje poglavje"
 
-msgid "reverse by date"
-msgstr "razvrščanje po datumu (obratno)"
-
 #
 msgid "rewind to the previous chapter"
 msgstr "previjanje na prejšnje poglavje"
@@ -20451,11 +20486,6 @@ msgid "set default"
 msgstr "Nastavi kot privzeto"
 
 #
-#, fuzzy
-msgid "shortest"
-msgstr "Preizkus omrežja"
-
-#
 msgid "show DVD main menu"
 msgstr "Prikaz glavnega DVD menija"
 
@@ -20475,9 +20505,6 @@ msgstr "Prikaz softwaremanager vtičnika po pritisku na modro tipko"
 
 msgid "show/game show (general)"
 msgstr ""
-
-msgid "shuffle"
-msgstr "naključni izbor"
 
 #
 msgid "shut down"

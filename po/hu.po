@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 06:23+0000\n"
+"POT-Creation-Date: 2021-11-28 01:50+0000\n"
 "PO-Revision-Date: 2021-11-03 15:10+0100\n"
 "Last-Translator: mcfly82\n"
 "Language-Team: mcfly82 & wysless\n"
@@ -60,9 +60,6 @@ msgid ""
 msgstr ""
 "\n"
 "Időzítő '%s' kikapcsolva!"
-
-msgid " "
-msgstr ""
 
 #, fuzzy
 msgid "    Encryption key:"
@@ -1877,7 +1874,7 @@ msgstr ""
 msgid "Adapter settings"
 msgstr "Adapter beállításai"
 
-msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.\t It hides the day of the week for recordings made in previous years."
+msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.  It hides the day of the week for recordings made in previous years."
 msgstr ""
 
 msgid "Add"
@@ -2138,6 +2135,9 @@ msgstr "Nem támogatott módok engedélyezése"
 msgid "Allows the TV remote to be used to control the receiver."
 msgstr "TV-távirányító használata a beltéri egység irányításához"
 
+msgid "Allows you to assign the selected function to the this button."
+msgstr ""
+
 msgid "Allows you to enable/disable displaying icons on the frontpanel."
 msgstr ""
 
@@ -2145,9 +2145,6 @@ msgid "Allows you to hide the extensions of known file types."
 msgstr ""
 
 msgid "Allows you to set a schedule to import the EPG and channels list. The EPG and channels list will always be imported on reboot or GUI restart."
-msgstr ""
-
-msgid "Allows you to setup the button to do what you choose."
 msgstr ""
 
 #, fuzzy
@@ -2664,6 +2661,9 @@ msgstr "BER"
 msgid "BER:"
 msgstr "BER:"
 
+msgid "BLUE button"
+msgstr ""
+
 msgid "BT 2020 CL"
 msgstr ""
 
@@ -2856,10 +2856,6 @@ msgstr "Blokk-zaj csökkentés"
 msgid "Blue"
 msgstr "Kék"
 
-#, fuzzy
-msgid "Blue long"
-msgstr "Kék"
-
 msgid "Bolivia"
 msgstr ""
 
@@ -3006,11 +3002,42 @@ msgstr "Burundi"
 msgid "Bus: "
 msgstr "Busz: "
 
-msgid "Button"
+msgid "By date, then by name"
 msgstr ""
 
 msgid "By default, SNR will be shown in dB (when supported by the tuner). This setting forces SNR to be shown as a percentage instead."
 msgstr "Alapértelmezetten, a Jel/Zaj viszony (SNR) decibelben jeleník meg (ha a tuner támogatja). Ezzel a beállítással mindenképp százalékra kényszerítheti a megjelenítést."
+
+msgid "By description, then by name"
+msgstr ""
+
+msgid "By duration, then by name"
+msgstr ""
+
+msgid "By file size, then by name"
+msgstr ""
+
+msgid "By name, then by date"
+msgstr ""
+
+msgid "By name, then by reverse date"
+msgstr ""
+
+msgid "By reverse date, then by reverse name"
+msgstr ""
+
+msgid "By reverse duration, then by name"
+msgstr ""
+
+msgid "By reverse file size, then by name"
+msgstr ""
+
+#, fuzzy
+msgid "By reverse name, then by date"
+msgstr "dátum szerint csökkenő"
+
+msgid "By reverse name, then by reverse date"
+msgstr ""
 
 msgid "Bypass HDMI EDID checking"
 msgstr "HDMI EDID ellenőrzés kihagyása"
@@ -6340,16 +6367,16 @@ msgid "Extra start time to ignore inactivity sleeptimer"
 msgstr "Inaktivitás figyelmen kívül hagyásának kezdő ideje (extra időkeret)"
 
 #, fuzzy
-msgid "F1"
-msgstr "1"
+msgid "F1 button"
+msgstr "Piros gomb..."
 
 #, fuzzy
-msgid "F2"
-msgstr "2"
+msgid "F2 button"
+msgstr "Piros gomb..."
 
 #, fuzzy
-msgid "F3"
-msgstr "3"
+msgid "F3 button"
+msgstr "Piros gomb..."
 
 msgid "FAILED"
 msgstr "HIBA"
@@ -6664,9 +6691,15 @@ msgstr "ábécé szerinti rendezés"
 msgid "Flat by key group on remote"
 msgstr ""
 
+msgid "Flat by name, then by date"
+msgstr ""
+
 #, fuzzy
 msgid "Flat by position on remote"
 msgstr "Végleges pozíció"
+
+msgid "Flat by reverse name, then by reverse date"
+msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "A műveletek az OK gomb lenyomása után lesznek végrehajtva!"
@@ -6800,6 +6833,10 @@ msgstr "További beállítások"
 #, fuzzy
 msgid "GCC version"
 msgstr "Invertálás"
+
+#, fuzzy
+msgid "GREEN button"
+msgstr "Piros gomb..."
 
 #, fuzzy
 msgid "GStreamer version"
@@ -7011,10 +7048,6 @@ msgstr "Görög"
 
 msgid "Green"
 msgstr "Zöld"
-
-#, fuzzy
-msgid "Green long"
-msgstr "Grönland"
 
 msgid "Greenland"
 msgstr "Grönland"
@@ -8504,6 +8537,18 @@ msgstr "Használati beállítás"
 msgid "Logs folder location *"
 msgstr "<Időzítés utolsó pozíciója>"
 
+msgid "Long BLUE button"
+msgstr ""
+
+msgid "Long GREEN button"
+msgstr ""
+
+msgid "Long RED button"
+msgstr ""
+
+msgid "Long YELLOW button"
+msgstr ""
+
 msgid "Long filenames"
 msgstr "Hosszú fájlnevek"
 
@@ -9129,12 +9174,16 @@ msgid "Movie List Actions"
 msgstr "Filmválasztás"
 
 #, fuzzy
-msgid "Movie List Setup"
+msgid "Movie List Context Menu"
 msgstr "Filmlista menü"
 
 #, fuzzy
 msgid "Movie Player Actions"
 msgstr "Filmválasztás"
+
+#, fuzzy
+msgid "Movie Selection Setup"
+msgstr "Nyelvválasztás"
 
 msgid "Movie selection"
 msgstr "Filmválasztás"
@@ -9874,6 +9923,10 @@ msgstr "Be"
 
 msgid "On end of movie"
 msgstr "Film végén"
+
+#, fuzzy
+msgid "On end of movie (As menu)"
+msgstr "Film végén (menü)"
 
 msgid "On end of movie (as menu)"
 msgstr "Film végén (menü)"
@@ -11125,6 +11178,10 @@ msgstr ""
 msgid "Quick zap"
 msgstr "Gyors ugrás"
 
+#, fuzzy
+msgid "RADIO button"
+msgstr "Piros gomb..."
+
 msgid "RAM (Details)"
 msgstr ""
 
@@ -11171,6 +11228,10 @@ msgstr "Készenlét alatt is"
 
 msgid "REC symbol in use"
 msgstr ""
+
+#, fuzzy
+msgid "RED button"
+msgstr "Piros gomb..."
 
 msgid "RF Modulator Output Setup"
 msgstr ""
@@ -11323,6 +11384,9 @@ msgstr "Felvételek"
 msgid "Recordings always have priority"
 msgstr "A felvételnek mindig elsőbbsége van"
 
+msgid "Recordings by date, other media by name"
+msgstr ""
+
 #, fuzzy
 msgid "Recover"
 msgstr "Felvétel"
@@ -11339,10 +11403,6 @@ msgstr "Piros gomb..."
 
 msgid "Red colored"
 msgstr "Piros színű"
-
-#, fuzzy
-msgid "Red long"
-msgstr "hosszú"
 
 msgid "Red/HbbTV Button Actions"
 msgstr ""
@@ -13530,6 +13590,10 @@ msgstr "Megjeleníti a vezeték nélküli kapcsolat aktuális állapotát.\n"
 msgid "Shows the watched status of the movie."
 msgstr "Ezeknek a felvételekre nincsenek metaadataik."
 
+#, fuzzy
+msgid "Shuffle"
+msgstr "összekever"
+
 msgid "Shuffle playlist"
 msgstr "Lejátszási lista megkeverése"
 
@@ -14527,6 +14591,9 @@ msgstr "T2MI RAW mód"
 msgid "TEXT"
 msgstr "SZÖVEG"
 
+msgid "TEXT button"
+msgstr ""
+
 msgid "TMBD Details"
 msgstr ""
 
@@ -14558,6 +14625,10 @@ msgstr "HANGOLÁS"
 
 msgid "TV"
 msgstr ""
+
+#, fuzzy
+msgid "TV button"
+msgstr "Piros gomb..."
 
 msgid "TV physical address report"
 msgstr "TV fizikai port-cím"
@@ -14705,9 +14776,6 @@ msgstr "Fényerő"
 
 msgid "Testscreens that are helpfull to fine-tune your display"
 msgstr "A tesztképernyők segítenek a kijelző finomhangolását elvégezni."
-
-msgid "Text"
-msgstr ""
 
 msgid "Text View On"
 msgstr "Text View On"
@@ -16846,7 +16914,7 @@ msgstr ""
 msgid "When set, each directory will show the previous state used. When off, the default values will be shown."
 msgstr ""
 
-msgid "When set, sort changes via the sort key will be permanent."
+msgid "When set, sort changes via the sort key will be permanent.  When unset, sort changes will be temporary, just for this view of a directory."
 msgstr ""
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
@@ -16860,9 +16928,6 @@ msgstr ""
 
 msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
 msgstr "Amikor a beltéri egység felébred készenlétből vagy mély-készenlétből, parancsot küld a TV-készüléknek, hogy szintén ébredjen fel a készenlétből."
-
-msgid "When unset, sort changes will be temporary - just for this view of a directory."
-msgstr ""
 
 msgid "Where to save temporary timeshift recordings?"
 msgstr "Hová kerüljenek az átmeneti időcsúsztatás felvételek?"
@@ -16944,6 +17009,9 @@ msgstr ""
 msgid "YCbCr444"
 msgstr ""
 
+msgid "YELLOW button"
+msgstr ""
+
 msgid "YES"
 msgstr "IGEN"
 
@@ -16961,10 +17029,6 @@ msgstr "Sárga"
 
 msgid "Yellow DVB subtitles"
 msgstr "DVB feliratok színe: sárga"
-
-#, fuzzy
-msgid "Yellow long"
-msgstr "Sárga"
 
 msgid "Yemen"
 msgstr "Jemen"
@@ -17385,18 +17449,6 @@ msgstr "minden"
 msgid "all tuners"
 msgstr "minden tuner"
 
-msgid "alpha then oldest"
-msgstr ""
-
-msgid "alphabetic"
-msgstr "ábécé szerinti rendezés"
-
-msgid "alphabetic reverse"
-msgstr "fordított ABC"
-
-msgid "alpharev then newest"
-msgstr ""
-
 msgid "always"
 msgstr "mindig"
 
@@ -17485,9 +17537,6 @@ msgstr "alsó"
 
 msgid "broadcasting/press"
 msgstr "közvetítés/sajtó"
-
-msgid "by date"
-msgstr "rendezés dátum szerint"
 
 msgid "cable (DVB-C)"
 msgstr ""
@@ -17724,12 +17773,6 @@ msgstr "művészet"
 msgid "fitness & health"
 msgstr "fitnessz / egészség"
 
-msgid "flat alphabetic"
-msgstr "ábécé szerinti rendezés"
-
-msgid "flat alphabetic reverse"
-msgstr "fordított ABC"
-
 msgid "folk/traditional music"
 msgstr "folklór/népzene"
 
@@ -17896,10 +17939,6 @@ msgid "locked"
 msgstr "hangolva"
 
 msgid "long"
-msgstr "hosszú"
-
-#, fuzzy
-msgid "longest"
 msgstr "hosszú"
 
 msgid "magazines/reports/documentary"
@@ -18169,9 +18208,6 @@ msgstr "visszatekerés az előző chapterhez"
 msgid "restore previous cuts & exit"
 msgstr "visszatekerés az előző chapterhez"
 
-msgid "reverse by date"
-msgstr "dátum szerint csökkenő"
-
 msgid "rewind to the previous chapter"
 msgstr "visszatekerés az előző chapterhez"
 
@@ -18230,10 +18266,6 @@ msgstr "komolyzene/klasszikus/vallási/történelmi/dráma"
 msgid "set default"
 msgstr "Alapértelmezett"
 
-#, fuzzy
-msgid "shortest"
-msgstr "Hálózat ellenőrzése"
-
 msgid "show DVD main menu"
 msgstr "DVD főmenü megjelenítése"
 
@@ -18251,9 +18283,6 @@ msgstr "Szoftverkezelő megjelenítése a kék-gombos menüben"
 
 msgid "show/game show (general)"
 msgstr "show/háték (általános)"
-
-msgid "shuffle"
-msgstr "összekever"
 
 msgid "shut down"
 msgstr "kikapcsolás"

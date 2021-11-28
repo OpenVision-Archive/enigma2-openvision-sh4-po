@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OPENPLi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 06:23+0000\n"
+"POT-Creation-Date: 2021-11-28 01:50+0000\n"
 "PO-Revision-Date: 2015-12-18 21:05+0200\n"
 "Last-Translator: Yetkin AYDIN <yetkina@gmail.com>\n"
 "Language-Team: http://www.hurforum.com <yetkina@gmail.com>\n"
@@ -65,9 +65,6 @@ msgid ""
 msgstr ""
 "\n"
 "'%s' Zamanlayıcı devre dışı!"
-
-msgid " "
-msgstr ""
 
 #, fuzzy
 msgid "    Encryption key:"
@@ -1869,7 +1866,7 @@ msgstr ""
 msgid "Adapter settings"
 msgstr "Ağ donanım ayarları"
 
-msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.\t It hides the day of the week for recordings made in previous years."
+msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.  It hides the day of the week for recordings made in previous years."
 msgstr ""
 
 msgid "Add"
@@ -2136,6 +2133,9 @@ msgstr "Desteklenmiyor"
 msgid "Allows the TV remote to be used to control the receiver."
 msgstr "TV uzaktan kumandasını kullan"
 
+msgid "Allows you to assign the selected function to the this button."
+msgstr ""
+
 msgid "Allows you to enable/disable displaying icons on the frontpanel."
 msgstr ""
 
@@ -2143,9 +2143,6 @@ msgid "Allows you to hide the extensions of known file types."
 msgstr ""
 
 msgid "Allows you to set a schedule to import the EPG and channels list. The EPG and channels list will always be imported on reboot or GUI restart."
-msgstr ""
-
-msgid "Allows you to setup the button to do what you choose."
 msgstr ""
 
 #, fuzzy
@@ -2669,6 +2666,9 @@ msgstr "BER"
 msgid "BER:"
 msgstr "BER:"
 
+msgid "BLUE button"
+msgstr ""
+
 msgid "BT 2020 CL"
 msgstr ""
 
@@ -2861,10 +2861,6 @@ msgstr "Blok gürültü azaltma"
 msgid "Blue"
 msgstr "Mavi"
 
-#, fuzzy
-msgid "Blue long"
-msgstr "Mavi"
-
 msgid "Bolivia"
 msgstr ""
 
@@ -3014,11 +3010,42 @@ msgstr ""
 msgid "Bus: "
 msgstr "Yol: "
 
-msgid "Button"
+msgid "By date, then by name"
 msgstr ""
 
 msgid "By default, SNR will be shown in dB (when supported by the tuner). This setting forces SNR to be shown as a percentage instead."
 msgstr "Varsayılan olarak; SNR, dB olarak (Tuner tarafından destekleniyorsa) gösterilecektir. Bu ayar SNR yerine yüzde işareti gösterir."
+
+msgid "By description, then by name"
+msgstr ""
+
+msgid "By duration, then by name"
+msgstr ""
+
+msgid "By file size, then by name"
+msgstr ""
+
+msgid "By name, then by date"
+msgstr ""
+
+msgid "By name, then by reverse date"
+msgstr ""
+
+msgid "By reverse date, then by reverse name"
+msgstr ""
+
+msgid "By reverse duration, then by name"
+msgstr ""
+
+msgid "By reverse file size, then by name"
+msgstr ""
+
+#, fuzzy
+msgid "By reverse name, then by date"
+msgstr "Tarihe Göre, Tersine"
+
+msgid "By reverse name, then by reverse date"
+msgstr ""
 
 msgid "Bypass HDMI EDID checking"
 msgstr ""
@@ -6369,16 +6396,16 @@ msgid "Extra start time to ignore inactivity sleeptimer"
 msgstr "İlave başlatma saati için uyku zamanlayıcıyı görmezden gel"
 
 #, fuzzy
-msgid "F1"
-msgstr "1"
+msgid "F1 button"
+msgstr "Kırmızı tuş..."
 
 #, fuzzy
-msgid "F2"
-msgstr "2"
+msgid "F2 button"
+msgstr "Kırmızı tuş..."
 
 #, fuzzy
-msgid "F3"
-msgstr "3"
+msgid "F3 button"
+msgstr "Kırmızı tuş..."
 
 msgid "FAILED"
 msgstr ""
@@ -6695,9 +6722,15 @@ msgstr "A-Z"
 msgid "Flat by key group on remote"
 msgstr ""
 
+msgid "Flat by name, then by date"
+msgstr ""
+
 #, fuzzy
 msgid "Flat by position on remote"
 msgstr "Son pozisyonunda"
+
+msgid "Flat by reverse name, then by reverse date"
+msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "Belirtilen görevler OK'a basmanızın ardından işleme alınacak!"
@@ -6833,6 +6866,10 @@ msgstr ""
 #, fuzzy
 msgid "GCC version"
 msgstr "Tersine çevir"
+
+#, fuzzy
+msgid "GREEN button"
+msgstr "Kırmızı tuş..."
 
 #, fuzzy
 msgid "GStreamer version"
@@ -7043,10 +7080,6 @@ msgid "Greek"
 msgstr "Yunanca"
 
 msgid "Green"
-msgstr "Yeşil"
-
-#, fuzzy
-msgid "Green long"
 msgstr "Yeşil"
 
 #, fuzzy
@@ -8538,6 +8571,18 @@ msgstr "Kullanım Ayarları"
 msgid "Logs folder location *"
 msgstr "<Son zamanlayıcı konumu>"
 
+msgid "Long BLUE button"
+msgstr ""
+
+msgid "Long GREEN button"
+msgstr ""
+
+msgid "Long RED button"
+msgstr ""
+
+msgid "Long YELLOW button"
+msgstr ""
+
 msgid "Long filenames"
 msgstr "Uzun dosya adı"
 
@@ -9169,12 +9214,16 @@ msgid "Movie List Actions"
 msgstr "Film Seçimi"
 
 #, fuzzy
-msgid "Movie List Setup"
+msgid "Movie List Context Menu"
 msgstr "Film Listesi"
 
 #, fuzzy
 msgid "Movie Player Actions"
 msgstr "Film Seçimi"
+
+#, fuzzy
+msgid "Movie Selection Setup"
+msgstr "Dil seçimi"
 
 msgid "Movie selection"
 msgstr "Film Seçimi"
@@ -9920,6 +9969,10 @@ msgstr "Açık"
 
 msgid "On end of movie"
 msgstr "Filmin sonu"
+
+#, fuzzy
+msgid "On end of movie (As menu)"
+msgstr "Filmi bitir (menüdeki gibi)"
 
 msgid "On end of movie (as menu)"
 msgstr "Filmi bitir (menüdeki gibi)"
@@ -11181,6 +11234,10 @@ msgstr ""
 msgid "Quick zap"
 msgstr "Hızlı kanal değiştirme"
 
+#, fuzzy
+msgid "RADIO button"
+msgstr "Kırmızı tuş..."
+
 msgid "RAM (Details)"
 msgstr ""
 
@@ -11226,6 +11283,10 @@ msgstr "Bekleme Modunda"
 
 msgid "REC symbol in use"
 msgstr ""
+
+#, fuzzy
+msgid "RED button"
+msgstr "Kırmızı tuş..."
 
 msgid "RF Modulator Output Setup"
 msgstr ""
@@ -11379,6 +11440,9 @@ msgstr "Kayıt"
 msgid "Recordings always have priority"
 msgstr "Kayıt işlemine öncelik ver"
 
+msgid "Recordings by date, other media by name"
+msgstr ""
+
 #, fuzzy
 msgid "Recover"
 msgstr "Kayıt"
@@ -11395,10 +11459,6 @@ msgstr "Kırmızı tuş..."
 
 msgid "Red colored"
 msgstr "Kırmızı renk"
-
-#, fuzzy
-msgid "Red long"
-msgstr "Uzun"
 
 msgid "Red/HbbTV Button Actions"
 msgstr ""
@@ -13610,6 +13670,10 @@ msgstr "Kablosuz ağ bağlantısı durumunu gösterir.\n"
 msgid "Shows the watched status of the movie."
 msgstr "Bu filmler için etiket tanımlanmamış"
 
+#, fuzzy
+msgid "Shuffle"
+msgstr "Karışık"
+
 msgid "Shuffle playlist"
 msgstr "Karışık çalma listesi"
 
@@ -14620,6 +14684,9 @@ msgstr ""
 msgid "TEXT"
 msgstr ""
 
+msgid "TEXT button"
+msgstr ""
+
 msgid "TMBD Details"
 msgstr ""
 
@@ -14652,6 +14719,10 @@ msgstr ""
 
 msgid "TV"
 msgstr ""
+
+#, fuzzy
+msgid "TV button"
+msgstr "Kırmızı tuş..."
 
 msgid "TV physical address report"
 msgstr "TV fiziksel adres raporu"
@@ -14798,9 +14869,6 @@ msgstr "Test Ekranı"
 
 msgid "Testscreens that are helpfull to fine-tune your display"
 msgstr "İnce ayar için test ekranı"
-
-msgid "Text"
-msgstr ""
 
 msgid "Text View On"
 msgstr ""
@@ -16958,7 +17026,7 @@ msgstr ""
 msgid "When set, each directory will show the previous state used. When off, the default values will be shown."
 msgstr ""
 
-msgid "When set, sort changes via the sort key will be permanent."
+msgid "When set, sort changes via the sort key will be permanent.  When unset, sort changes will be temporary, just for this view of a directory."
 msgstr ""
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
@@ -16971,9 +17039,6 @@ msgid "When the input cursor reaches this point (percentage of the width, from e
 msgstr ""
 
 msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
-msgstr ""
-
-msgid "When unset, sort changes will be temporary - just for this view of a directory."
 msgstr ""
 
 msgid "Where to save temporary timeshift recordings?"
@@ -17056,6 +17121,9 @@ msgstr ""
 msgid "YCbCr444"
 msgstr ""
 
+msgid "YELLOW button"
+msgstr ""
+
 msgid "YES"
 msgstr ""
 
@@ -17073,10 +17141,6 @@ msgstr "Sarı"
 
 msgid "Yellow DVB subtitles"
 msgstr "Sarı DVB altyazı"
-
-#, fuzzy
-msgid "Yellow long"
-msgstr "Sarı"
 
 #, fuzzy
 msgid "Yemen"
@@ -17488,18 +17552,6 @@ msgstr "Hepsi"
 msgid "all tuners"
 msgstr "Yedek cihaz URL"
 
-msgid "alpha then oldest"
-msgstr ""
-
-msgid "alphabetic"
-msgstr "A-Z"
-
-msgid "alphabetic reverse"
-msgstr "Z-A"
-
-msgid "alpharev then newest"
-msgstr ""
-
 msgid "always"
 msgstr "Her Zaman"
 
@@ -17589,9 +17641,6 @@ msgstr ""
 
 msgid "broadcasting/press"
 msgstr "Basın/Yayın"
-
-msgid "by date"
-msgstr "Tarih sıralı"
 
 msgid "cable (DVB-C)"
 msgstr ""
@@ -17827,12 +17876,6 @@ msgstr "Güzel Sanatlar"
 msgid "fitness & health"
 msgstr "Spor&Sağlık"
 
-msgid "flat alphabetic"
-msgstr "A-Z"
-
-msgid "flat alphabetic reverse"
-msgstr "A-Z->Z-A"
-
 msgid "folk/traditional music"
 msgstr "Halk Müziği/Geleneksel Müzik"
 
@@ -18001,10 +18044,6 @@ msgid "locked"
 msgstr "Kilitli"
 
 msgid "long"
-msgstr "Uzun"
-
-#, fuzzy
-msgid "longest"
 msgstr "Uzun"
 
 msgid "magazines/reports/documentary"
@@ -18277,9 +18316,6 @@ msgstr "Önceki bölüme geri git"
 msgid "restore previous cuts & exit"
 msgstr "Önceki bölüme geri git"
 
-msgid "reverse by date"
-msgstr "Tarihe Göre, Tersine"
-
 msgid "rewind to the previous chapter"
 msgstr "Önceki bölüme geri git"
 
@@ -18340,10 +18376,6 @@ msgstr "Seri/Klasik/Dini/Tarihi/Dram"
 msgid "set default"
 msgstr "Varsayılan olarak ayarla"
 
-#, fuzzy
-msgid "shortest"
-msgstr "Ağ yapılandırmasını test et"
-
 msgid "show DVD main menu"
 msgstr "DVD ana menüsünü göster"
 
@@ -18361,9 +18393,6 @@ msgstr "Mavi Düğme, yazılım yöneticisini gösterir."
 
 msgid "show/game show (general)"
 msgstr "Gösteri/Oyun(Genel)"
-
-msgid "shuffle"
-msgstr "Karışık"
 
 msgid "shut down"
 msgstr "Kapat"

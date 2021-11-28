@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 06:23+0000\n"
+"POT-Creation-Date: 2021-11-28 01:50+0000\n"
 "PO-Revision-Date: 2021-02-19 14:49+0100\n"
 "Last-Translator: \n"
 "Language-Team: Muzoss-VELEBRDO\n"
@@ -60,9 +60,6 @@ msgid ""
 msgstr ""
 "\n"
 "Тајмерот „%s“ е деактивиран!"
-
-msgid " "
-msgstr ""
 
 #, fuzzy
 msgid "    Encryption key:"
@@ -1757,7 +1754,7 @@ msgstr ""
 msgid "Adapter settings"
 msgstr "Поставки за адаптер"
 
-msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.\t It hides the day of the week for recordings made in previous years."
+msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.  It hides the day of the week for recordings made in previous years."
 msgstr ""
 
 msgid "Add"
@@ -2018,6 +2015,9 @@ msgstr "Дозволи режими без поддршка"
 msgid "Allows the TV remote to be used to control the receiver."
 msgstr "Дозволува далечинскиот управувач на ТВ да се користи за контрола на ресиверот."
 
+msgid "Allows you to assign the selected function to the this button."
+msgstr ""
+
 msgid "Allows you to enable/disable displaying icons on the frontpanel."
 msgstr ""
 
@@ -2025,9 +2025,6 @@ msgid "Allows you to hide the extensions of known file types."
 msgstr ""
 
 msgid "Allows you to set a schedule to import the EPG and channels list. The EPG and channels list will always be imported on reboot or GUI restart."
-msgstr ""
-
-msgid "Allows you to setup the button to do what you choose."
 msgstr ""
 
 #, fuzzy
@@ -2546,6 +2543,9 @@ msgstr "BER"
 msgid "BER:"
 msgstr "BER:"
 
+msgid "BLUE button"
+msgstr ""
+
 msgid "BT 2020 CL"
 msgstr ""
 
@@ -2738,10 +2738,6 @@ msgstr "Блокирање и намалување на бучавата"
 msgid "Blue"
 msgstr "Сино"
 
-#, fuzzy
-msgid "Blue long"
-msgstr "Сино"
-
 msgid "Bolivia"
 msgstr ""
 
@@ -2889,11 +2885,42 @@ msgstr "Бурунди"
 msgid "Bus: "
 msgstr "Бус: "
 
-msgid "Button"
+msgid "By date, then by name"
 msgstr ""
 
 msgid "By default, SNR will be shown in dB (when supported by the tuner). This setting forces SNR to be shown as a percentage instead."
 msgstr "Стандардно, SNR се прикажува во децибели (ако е поддржано од тјунерот). Оваа опција го принудува SNR да биде прикажан како процент."
+
+msgid "By description, then by name"
+msgstr ""
+
+msgid "By duration, then by name"
+msgstr ""
+
+msgid "By file size, then by name"
+msgstr ""
+
+msgid "By name, then by date"
+msgstr ""
+
+msgid "By name, then by reverse date"
+msgstr ""
+
+msgid "By reverse date, then by reverse name"
+msgstr ""
+
+msgid "By reverse duration, then by name"
+msgstr ""
+
+msgid "By reverse file size, then by name"
+msgstr ""
+
+#, fuzzy
+msgid "By reverse name, then by date"
+msgstr "обратен по датум"
+
+msgid "By reverse name, then by reverse date"
+msgstr ""
 
 msgid "Bypass HDMI EDID checking"
 msgstr "Прескокнете ја проверката на HDMI-EDID"
@@ -6231,16 +6258,16 @@ msgid "Extra start time to ignore inactivity sleeptimer"
 msgstr "Дополнително почетно време за игнорирање на тајмерот за спиење"
 
 #, fuzzy
-msgid "F1"
-msgstr "1"
+msgid "F1 button"
+msgstr "Црвено копче ..."
 
 #, fuzzy
-msgid "F2"
-msgstr "2"
+msgid "F2 button"
+msgstr "Црвено копче ..."
 
 #, fuzzy
-msgid "F3"
-msgstr "3"
+msgid "F3 button"
+msgstr "Црвено копче ..."
 
 msgid "FAILED"
 msgstr "НЕ УСПЕА"
@@ -6555,9 +6582,15 @@ msgstr "рамна азбука"
 msgid "Flat by key group on remote"
 msgstr ""
 
+msgid "Flat by name, then by date"
+msgstr ""
+
 #, fuzzy
 msgid "Flat by position on remote"
 msgstr "Крајна позиција на"
+
+msgid "Flat by reverse name, then by reverse date"
+msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "Следниве задачи ќе бидат направени откако ќе притиснете ОК!"
@@ -6691,6 +6724,10 @@ msgstr "Понатамошни опции"
 #, fuzzy
 msgid "GCC version"
 msgstr "Инверзија"
+
+#, fuzzy
+msgid "GREEN button"
+msgstr "Црвено копче ..."
 
 #, fuzzy
 msgid "GStreamer version"
@@ -6902,10 +6939,6 @@ msgstr "Грчки"
 
 msgid "Green"
 msgstr "Зелено"
-
-#, fuzzy
-msgid "Green long"
-msgstr "Гренланд"
 
 msgid "Greenland"
 msgstr "Гренланд"
@@ -8393,6 +8426,18 @@ msgstr "Инвидуални поставки"
 msgid "Logs folder location *"
 msgstr "Локација на филмот"
 
+msgid "Long BLUE button"
+msgstr ""
+
+msgid "Long GREEN button"
+msgstr ""
+
+msgid "Long RED button"
+msgstr ""
+
+msgid "Long YELLOW button"
+msgstr ""
+
 msgid "Long filenames"
 msgstr "Долги имиња на датотеки"
 
@@ -9018,12 +9063,16 @@ msgid "Movie List Actions"
 msgstr "Избор на филм"
 
 #, fuzzy
-msgid "Movie List Setup"
+msgid "Movie List Context Menu"
 msgstr "Мени за листа на филмови"
 
 #, fuzzy
 msgid "Movie Player Actions"
 msgstr "Избор на филм"
+
+#, fuzzy
+msgid "Movie Selection Setup"
+msgstr "Избор на јазик"
 
 msgid "Movie selection"
 msgstr "Избор на филм"
@@ -9761,6 +9810,10 @@ msgstr "Вклучено"
 
 msgid "On end of movie"
 msgstr "На крајот на филмот"
+
+#, fuzzy
+msgid "On end of movie (As menu)"
+msgstr "На крајот на филмот (како мени)"
 
 msgid "On end of movie (as menu)"
 msgstr "На крајот на филмот (како мени)"
@@ -11012,6 +11065,10 @@ msgstr ""
 msgid "Quick zap"
 msgstr "Брз зап"
 
+#, fuzzy
+msgid "RADIO button"
+msgstr "Црвено копче ..."
+
 msgid "RAM (Details)"
 msgstr ""
 
@@ -11058,6 +11115,10 @@ msgstr "Исто така, стендбај"
 
 msgid "REC symbol in use"
 msgstr ""
+
+#, fuzzy
+msgid "RED button"
+msgstr "Црвено копче ..."
 
 msgid "RF Modulator Output Setup"
 msgstr ""
@@ -11210,6 +11271,9 @@ msgstr "Снимки"
 msgid "Recordings always have priority"
 msgstr "Снимките секогаш имаат приоритет"
 
+msgid "Recordings by date, other media by name"
+msgstr ""
+
 #, fuzzy
 msgid "Recover"
 msgstr "Снимај"
@@ -11226,10 +11290,6 @@ msgstr "Црвено копче ..."
 
 msgid "Red colored"
 msgstr "Црвена боја"
-
-#, fuzzy
-msgid "Red long"
-msgstr "долго"
 
 msgid "Red/HbbTV Button Actions"
 msgstr ""
@@ -13420,6 +13480,10 @@ msgstr "Покажи го статусот на WLAN конекцијата.\n"
 msgid "Shows the watched status of the movie."
 msgstr "Нема поставено ознаки за овие филмови."
 
+#, fuzzy
+msgid "Shuffle"
+msgstr "мешање"
+
 msgid "Shuffle playlist"
 msgstr "Измешајте ја плејлистата"
 
@@ -14415,6 +14479,9 @@ msgstr "T2MI RAW Mode"
 msgid "TEXT"
 msgstr "TEXT"
 
+msgid "TEXT button"
+msgstr ""
+
 msgid "TMBD Details"
 msgstr ""
 
@@ -14440,6 +14507,10 @@ msgstr "TUNING"
 
 msgid "TV"
 msgstr ""
+
+#, fuzzy
+msgid "TV button"
+msgstr "Црвено копче ..."
 
 msgid "TV physical address report"
 msgstr "Извештај за физичката адреса на ТВ"
@@ -14587,9 +14658,6 @@ msgstr "Тест на сликата"
 
 msgid "Testscreens that are helpfull to fine-tune your display"
 msgstr "Тест-екрани кои се корисни за фино подесување на вашиот дисплеј"
-
-msgid "Text"
-msgstr ""
 
 msgid "Text View On"
 msgstr "Преглед на текст"
@@ -16730,7 +16798,7 @@ msgstr ""
 msgid "When set, each directory will show the previous state used. When off, the default values will be shown."
 msgstr ""
 
-msgid "When set, sort changes via the sort key will be permanent."
+msgid "When set, sort changes via the sort key will be permanent.  When unset, sort changes will be temporary, just for this view of a directory."
 msgstr ""
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
@@ -16744,9 +16812,6 @@ msgstr ""
 
 msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
 msgstr "Кога ресиверот ќе се вклучи од стендбај или дееп стендбај, тој ќе испрати команда до ТВ да го изнесе и тој стендбај."
-
-msgid "When unset, sort changes will be temporary - just for this view of a directory."
-msgstr ""
 
 msgid "Where to save temporary timeshift recordings?"
 msgstr "Каде да задржите привремено снимање на timeshift?"
@@ -16828,6 +16893,9 @@ msgstr ""
 msgid "YCbCr444"
 msgstr ""
 
+msgid "YELLOW button"
+msgstr ""
+
 msgid "YES"
 msgstr "ДА"
 
@@ -16845,10 +16913,6 @@ msgstr "Жолта"
 
 msgid "Yellow DVB subtitles"
 msgstr "Жолти DVB преводи"
-
-#, fuzzy
-msgid "Yellow long"
-msgstr "Жолта"
 
 msgid "Yemen"
 msgstr "Јемен"
@@ -17262,18 +17326,6 @@ msgstr "се"
 msgid "all tuners"
 msgstr "Поставки на резервниот тјунер"
 
-msgid "alpha then oldest"
-msgstr ""
-
-msgid "alphabetic"
-msgstr "азбучен"
-
-msgid "alphabetic reverse"
-msgstr "азбучен обратен"
-
-msgid "alpharev then newest"
-msgstr ""
-
 msgid "always"
 msgstr "секогаш"
 
@@ -17362,9 +17414,6 @@ msgstr "копче"
 
 msgid "broadcasting/press"
 msgstr "радиодифузија / печат"
-
-msgid "by date"
-msgstr "по датум"
 
 msgid "cable (DVB-C)"
 msgstr ""
@@ -17601,12 +17650,6 @@ msgstr "ликовна уметност"
 msgid "fitness & health"
 msgstr "фитнес и здравје"
 
-msgid "flat alphabetic"
-msgstr "рамна азбука"
-
-msgid "flat alphabetic reverse"
-msgstr "рамен азбучен ред обратно"
-
 msgid "folk/traditional music"
 msgstr "народна / традиционална музика"
 
@@ -17774,10 +17817,6 @@ msgid "locked"
 msgstr "заклучен"
 
 msgid "long"
-msgstr "долго"
-
-#, fuzzy
-msgid "longest"
 msgstr "долго"
 
 msgid "magazines/reports/documentary"
@@ -18050,9 +18089,6 @@ msgstr "вратете се на претходното поглавје"
 msgid "restore previous cuts & exit"
 msgstr "вратете се на претходното поглавје"
 
-msgid "reverse by date"
-msgstr "обратен по датум"
-
 msgid "rewind to the previous chapter"
 msgstr "вратете се на претходното поглавје"
 
@@ -18112,10 +18148,6 @@ msgstr "сериозен / класичен / религиозен / истор�
 msgid "set default"
 msgstr "Поставете стандардно"
 
-#, fuzzy
-msgid "shortest"
-msgstr "Тест за мрежа"
-
 msgid "show DVD main menu"
 msgstr "прикажи главно мени на ДВД"
 
@@ -18133,9 +18165,6 @@ msgstr "покажете софтвер менаџер на сино копче"
 
 msgid "show/game show (general)"
 msgstr "шоу / шоу игра (општо)"
-
-msgid "shuffle"
-msgstr "мешање"
 
 msgid "shut down"
 msgstr "исклучи"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 06:23+0000\n"
+"POT-Creation-Date: 2021-11-28 01:50+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: PLi <ims@openpli.org>\n"
@@ -66,9 +66,6 @@ msgid ""
 msgstr ""
 "\n"
 "Časovač '%s' zakázán!"
-
-msgid " "
-msgstr ""
 
 #
 #, fuzzy
@@ -2006,7 +2003,7 @@ msgstr ""
 msgid "Adapter settings"
 msgstr "Nastavení adaptéru"
 
-msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.\t It hides the day of the week for recordings made in previous years."
+msgid "Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.  It hides the day of the week for recordings made in previous years."
 msgstr ""
 
 #
@@ -2317,6 +2314,9 @@ msgstr "Povolit nepodporované režimy"
 msgid "Allows the TV remote to be used to control the receiver."
 msgstr "Umožní používat dálkové ovládání televize k ovládání přijímače."
 
+msgid "Allows you to assign the selected function to the this button."
+msgstr ""
+
 msgid "Allows you to enable/disable displaying icons on the frontpanel."
 msgstr ""
 
@@ -2324,9 +2324,6 @@ msgid "Allows you to hide the extensions of known file types."
 msgstr ""
 
 msgid "Allows you to set a schedule to import the EPG and channels list. The EPG and channels list will always be imported on reboot or GUI restart."
-msgstr ""
-
-msgid "Allows you to setup the button to do what you choose."
 msgstr ""
 
 #, fuzzy
@@ -2915,6 +2912,9 @@ msgstr "BER"
 msgid "BER:"
 msgstr "BER:"
 
+msgid "BLUE button"
+msgstr ""
+
 msgid "BT 2020 CL"
 msgstr ""
 
@@ -3127,10 +3127,6 @@ msgstr "Bloková redukce šumu (BNR)"
 msgid "Blue"
 msgstr "Modré"
 
-#, fuzzy
-msgid "Blue long"
-msgstr "Modré"
-
 msgid "Bolivia"
 msgstr ""
 
@@ -3293,11 +3289,43 @@ msgstr "Burundi"
 msgid "Bus: "
 msgstr "Sběrnice: "
 
-msgid "Button"
+msgid "By date, then by name"
 msgstr ""
 
 msgid "By default, SNR will be shown in dB (when supported by the tuner). This setting forces SNR to be shown as a percentage instead."
 msgstr "Standardně ( jestliže to podporuje tuner) je SNR zobrazován v dB. Toto nastavení umožní zobrazování v procentech."
+
+msgid "By description, then by name"
+msgstr ""
+
+msgid "By duration, then by name"
+msgstr ""
+
+msgid "By file size, then by name"
+msgstr ""
+
+msgid "By name, then by date"
+msgstr ""
+
+msgid "By name, then by reverse date"
+msgstr ""
+
+msgid "By reverse date, then by reverse name"
+msgstr ""
+
+msgid "By reverse duration, then by name"
+msgstr ""
+
+msgid "By reverse file size, then by name"
+msgstr ""
+
+#
+#, fuzzy
+msgid "By reverse name, then by date"
+msgstr "Podle data v opačném pořadí"
+
+msgid "By reverse name, then by reverse date"
+msgstr ""
 
 msgid "Bypass HDMI EDID checking"
 msgstr "Vynechat kontrolu HDMI EDID"
@@ -7052,20 +7080,17 @@ msgstr "Další nastavení motoru"
 msgid "Extra start time to ignore inactivity sleeptimer"
 msgstr "Začátek dalšího úseku ignorování časovače neaktivity"
 
-#
 #, fuzzy
-msgid "F1"
-msgstr "1"
+msgid "F1 button"
+msgstr "Červené tlačítko"
 
-#
 #, fuzzy
-msgid "F2"
-msgstr "2"
+msgid "F2 button"
+msgstr "Červené tlačítko"
 
-#
 #, fuzzy
-msgid "F3"
-msgstr "3"
+msgid "F3 button"
+msgstr "Červené tlačítko"
 
 msgid "FAILED"
 msgstr ""
@@ -7412,9 +7437,15 @@ msgstr "Abecedně (včetně složek)"
 msgid "Flat by key group on remote"
 msgstr ""
 
+msgid "Flat by name, then by date"
+msgstr ""
+
 #, fuzzy
 msgid "Flat by position on remote"
 msgstr "Konečná pozice na"
+
+msgid "Flat by reverse name, then by reverse date"
+msgstr ""
 
 #
 msgid "Following tasks will be done after you press OK!"
@@ -7567,6 +7598,10 @@ msgstr "Další možnosti"
 #, fuzzy
 msgid "GCC version"
 msgstr "Inverze"
+
+#, fuzzy
+msgid "GREEN button"
+msgstr "Červené tlačítko"
 
 #, fuzzy
 msgid "GStreamer version"
@@ -7801,10 +7836,6 @@ msgstr "Řecky"
 
 msgid "Green"
 msgstr "Zelené"
-
-#, fuzzy
-msgid "Green long"
-msgstr "Grónsko"
 
 msgid "Greenland"
 msgstr "Grónsko"
@@ -9453,6 +9484,18 @@ msgstr "Přizpůsobení"
 msgid "Logs folder location *"
 msgstr "<poslední umístění časovače>"
 
+msgid "Long BLUE button"
+msgstr ""
+
+msgid "Long GREEN button"
+msgstr ""
+
+msgid "Long RED button"
+msgstr ""
+
+msgid "Long YELLOW button"
+msgstr ""
+
 msgid "Long filenames"
 msgstr "Dlouhé názvy souborů"
 
@@ -10165,12 +10208,17 @@ msgstr "Výběr filmů"
 
 #
 #, fuzzy
-msgid "Movie List Setup"
+msgid "Movie List Context Menu"
 msgstr "Nabídka seznamu filmů"
 
 #, fuzzy
 msgid "Movie Player Actions"
 msgstr "Výběr filmů"
+
+#
+#, fuzzy
+msgid "Movie Selection Setup"
+msgstr "Výběr jazyka"
 
 msgid "Movie selection"
 msgstr "Výběr filmů"
@@ -11013,6 +11061,11 @@ msgstr "Zapnuto"
 
 msgid "On end of movie"
 msgstr "Po skončení filmu"
+
+#
+#, fuzzy
+msgid "On end of movie (As menu)"
+msgstr "Po skončení filmu (jako menu)"
 
 #
 msgid "On end of movie (as menu)"
@@ -12443,6 +12496,10 @@ msgstr ""
 msgid "Quick zap"
 msgstr "Rychlé přepínání"
 
+#, fuzzy
+msgid "RADIO button"
+msgstr "Červené tlačítko"
+
 msgid "RAM (Details)"
 msgstr ""
 
@@ -12496,6 +12553,10 @@ msgstr "Také při standby"
 
 msgid "REC symbol in use"
 msgstr ""
+
+#, fuzzy
+msgid "RED button"
+msgstr "Červené tlačítko"
 
 msgid "RF Modulator Output Setup"
 msgstr ""
@@ -12674,6 +12735,9 @@ msgstr "Nahrávání"
 msgid "Recordings always have priority"
 msgstr "Nahrávání má vždy prioritu"
 
+msgid "Recordings by date, other media by name"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Recover"
@@ -12691,10 +12755,6 @@ msgstr "Červené tlačítko"
 
 msgid "Red colored"
 msgstr "Červeně zbarvený"
-
-#, fuzzy
-msgid "Red long"
-msgstr "- dlouhé"
 
 msgid "Red/HbbTV Button Actions"
 msgstr ""
@@ -15161,6 +15221,11 @@ msgid "Shows the watched status of the movie."
 msgstr "Tyto soubory nemají nastavené žádné tagy."
 
 #
+#, fuzzy
+msgid "Shuffle"
+msgstr "Náhodné uspořádání"
+
+#
 msgid "Shuffle playlist"
 msgstr "Promíchat playlist"
 
@@ -16303,6 +16368,9 @@ msgstr "T2MI RAW mód"
 msgid "TEXT"
 msgstr "TEXT"
 
+msgid "TEXT button"
+msgstr ""
+
 msgid "TMBD Details"
 msgstr ""
 
@@ -16335,6 +16403,10 @@ msgstr ""
 
 msgid "TV"
 msgstr ""
+
+#, fuzzy
+msgid "TV button"
+msgstr "Červené tlačítko"
 
 msgid "TV physical address report"
 msgstr "Ohlášení fyzické adresy TV"
@@ -16495,9 +16567,6 @@ msgstr "Testovací obrazce"
 
 msgid "Testscreens that are helpfull to fine-tune your display"
 msgstr "Testovací obrazce pomáhají doladit obrazovku"
-
-msgid "Text"
-msgstr ""
 
 msgid "Text View On"
 msgstr ""
@@ -18851,7 +18920,7 @@ msgstr ""
 msgid "When set, each directory will show the previous state used. When off, the default values will be shown."
 msgstr ""
 
-msgid "When set, sort changes via the sort key will be permanent."
+msgid "When set, sort changes via the sort key will be permanent.  When unset, sort changes will be temporary, just for this view of a directory."
 msgstr ""
 
 msgid "When the content has an aspect ratio of 16:9, choose whether to scale/stretch the picture."
@@ -18865,9 +18934,6 @@ msgstr ""
 
 msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
 msgstr "Při probuzení nebo přechodu z hlubokého spánku bude přijímač posílat odpovídající příkaz pro probuzení TV."
-
-msgid "When unset, sort changes will be temporary - just for this view of a directory."
-msgstr ""
 
 #
 msgid "Where to save temporary timeshift recordings?"
@@ -18956,6 +19022,9 @@ msgstr ""
 msgid "YCbCr444"
 msgstr ""
 
+msgid "YELLOW button"
+msgstr ""
+
 msgid "YES"
 msgstr "ANO"
 
@@ -18975,10 +19044,6 @@ msgstr "Žluté"
 #
 msgid "Yellow DVB subtitles"
 msgstr "Žluté DVB titulky"
-
-#, fuzzy
-msgid "Yellow long"
-msgstr "Žluté"
 
 msgid "Yemen"
 msgstr "Jemen"
@@ -19436,20 +19501,6 @@ msgstr "Všechny"
 msgid "all tuners"
 msgstr "všechny tunery"
 
-msgid "alpha then oldest"
-msgstr ""
-
-#
-msgid "alphabetic"
-msgstr "Podle abecedy"
-
-#
-msgid "alphabetic reverse"
-msgstr "Podle abecedy v opačném pořadí"
-
-msgid "alpharev then newest"
-msgstr ""
-
 #
 msgid "always"
 msgstr "Vždy"
@@ -19549,10 +19600,6 @@ msgstr "Dole"
 
 msgid "broadcasting/press"
 msgstr "vysílání/tisk"
-
-#
-msgid "by date"
-msgstr "Podle data"
 
 msgid "cable (DVB-C)"
 msgstr ""
@@ -19814,14 +19861,6 @@ msgstr "výtvarné umění"
 msgid "fitness & health"
 msgstr "fitness & zdraví"
 
-#
-msgid "flat alphabetic"
-msgstr "Abecedně (včetně složek)"
-
-#
-msgid "flat alphabetic reverse"
-msgstr "Abecedně v opačném pořadí (včetně složek)"
-
 msgid "folk/traditional music"
 msgstr "folk/tradiční hudba"
 
@@ -20006,10 +20045,6 @@ msgid "locked"
 msgstr "zamknuto"
 
 msgid "long"
-msgstr "- dlouhé"
-
-#, fuzzy
-msgid "longest"
 msgstr "- dlouhé"
 
 msgid "magazines/reports/documentary"
@@ -20328,10 +20363,6 @@ msgid "restore previous cuts & exit"
 msgstr "zpět na předchozí kapitolu"
 
 #
-msgid "reverse by date"
-msgstr "Podle data v opačném pořadí"
-
-#
 msgid "rewind to the previous chapter"
 msgstr "zpět na předchozí kapitolu"
 
@@ -20397,11 +20428,6 @@ msgid "set default"
 msgstr "Výchozí"
 
 #
-#, fuzzy
-msgid "shortest"
-msgstr "Test sítě"
-
-#
 msgid "show DVD main menu"
 msgstr "zobrazit DVD hlavní menu"
 
@@ -20421,10 +20447,6 @@ msgstr "Správa software v Extended menu"
 
 msgid "show/game show (general)"
 msgstr "show/game show (obecně)"
-
-#
-msgid "shuffle"
-msgstr "Náhodné uspořádání"
 
 #
 msgid "shut down"

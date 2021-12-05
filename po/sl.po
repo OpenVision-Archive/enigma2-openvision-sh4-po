@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Project Slovenia\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2020-05-16 18:48+0200\n"
 "Last-Translator: Taykun345 <support@satnigmo.com>\n"
 "Language-Team: Satnigmo <support@satnigmo.com>\n"
@@ -2034,6 +2034,11 @@ msgid "Add a nameserver entry"
 msgstr "Nov imenski strežnik"
 
 #
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Nov naslov"
+
+#
 msgid "Add a new title"
 msgstr "Nov naslov"
 
@@ -2067,6 +2072,11 @@ msgstr "Dodajanje datoteke v seznam za predvajanje"
 #
 msgid "Add marker"
 msgstr "Dodajanje oznak (tags)"
+
+#
+#, fuzzy
+msgid "Add new tag"
+msgstr "Nov naslov"
 
 #
 msgid "Add provider"
@@ -3165,11 +3175,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Boot information"
-msgstr "Informacije"
-
-#
-#, fuzzy
 msgid "Boot time"
 msgstr "Čas urejanja"
 
@@ -3252,11 +3257,6 @@ msgstr "Informacije"
 #, fuzzy
 msgid "Build Model"
 msgstr "Bitrate:"
-
-#
-#, fuzzy
-msgid "Build information"
-msgstr "Informacije"
 
 #
 #, fuzzy
@@ -3494,6 +3494,10 @@ msgstr ""
 
 msgid "Cancel any changed settings and exit all menus"
 msgstr ""
+
+#, fuzzy
+msgid "Cancel any changed tags and exit"
+msgstr "Shrani in zapusti"
 
 msgid "Cancel any changes the active locale/language and exit all menus"
 msgstr ""
@@ -4069,11 +4073,6 @@ msgstr "Compact Flash"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#
-#, fuzzy
-msgid "Compiled by"
-msgstr "Končano"
 
 #
 msgid "Complete"
@@ -5352,6 +5351,11 @@ msgstr "Izbris datoteke"
 
 #
 #, fuzzy
+msgid "Delete all tags"
+msgstr "Izbris datoteke"
+
+#
+#, fuzzy
 msgid "Delete all the text"
 msgstr "Izbris vnosov v seznamu predvajanja"
 
@@ -5423,8 +5427,18 @@ msgid "Delete the currently displayed log file"
 msgstr "Odstranitev trenutno izbranega naslova"
 
 #
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Izbris časovnika"
+
+#
 msgid "Delete timer"
 msgstr "Izbris časovnika"
+
+#
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Izbris shranjenega seznama predvajanja"
 
 msgid "Deleted"
 msgstr "Izbrisano"
@@ -5750,6 +5764,11 @@ msgstr "Prikaz trenutnega/naslednjega dogodka (EIT) v info. vrstici"
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "Prikaz 4:3 razmerja slike"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5825,6 +5844,18 @@ msgstr "Res želite odstraniti: %s?"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Res želite odstraniti: %s?"
+
+#
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Res želite odstraniti: %s?"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #
 #, fuzzy, python-format
@@ -6220,6 +6251,11 @@ msgstr "Spremeni"
 #
 msgid "Edit DNS"
 msgstr "Urejanje DNS"
+
+#
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Spreminjanje nastavitev"
 
 #
 msgid "Edit alternatives"
@@ -7334,9 +7370,6 @@ msgstr "Priljubljene"
 msgid "Favourites"
 msgstr "Priljubljene"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr ""
 
@@ -8364,31 +8397,7 @@ msgid "Ignore conflict"
 msgstr ""
 
 #, fuzzy
-msgid "Image"
-msgstr "Verzija slike: "
-
-#, fuzzy
 msgid "Image View On"
-msgstr "Verzija slike: "
-
-msgid "Image architecture"
-msgstr ""
-
-#, fuzzy
-msgid "Image build"
-msgstr "Verzija slike: "
-
-#
-#, fuzzy
-msgid "Image build date"
-msgstr "Bitrate:"
-
-#, fuzzy
-msgid "Image file system"
-msgstr "Izdelava datotečnega sistema..."
-
-#, fuzzy
-msgid "Image folder"
 msgstr "Verzija slike: "
 
 #, python-format
@@ -8947,11 +8956,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Kernel file"
-msgstr "Izbris datoteke"
-
-#
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "ni modula "
 
@@ -9355,6 +9359,10 @@ msgid "Load playlist"
 msgstr "Naloži seznam za predvajanje"
 
 #, fuzzy
+msgid "Load tags from the timer and recordings"
+msgstr "Ustavitev snemanja"
+
+#, fuzzy
 msgid "Load unlinked user bouquets"
 msgstr "Obnova že izbrisanih seznamov kanalov"
 
@@ -9572,9 +9580,6 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 #
 msgid "MMC card"
 msgstr "MMC kartica"
@@ -9582,15 +9587,6 @@ msgstr "MMC kartica"
 #
 msgid "MORE"
 msgstr "VEČ"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -11604,11 +11600,9 @@ msgstr "Predvajanje glasbe"
 msgid "Play next"
 msgstr "Predvajaj naslednje"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Predvajaj naslednje (vrni se na seznam datotek)"
-
-msgid "Play next (return to previous service)"
-msgstr "Predvajaj naslednje (vrni se na prejšnji kanal)"
 
 msgid "Play previous"
 msgstr "Predvajaj prejšnje"
@@ -11726,6 +11720,11 @@ msgstr "Vnesite ime nove mape:"
 
 msgid "Please enter the new PIN code"
 msgstr "Prosim vnesi novo PIN kodo"
+
+#
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Vnesite novo ime datoteke:"
 
 msgid "Please enter the old PIN code"
 msgstr "Vnesite prejšnjo PIN kodo"
@@ -13035,6 +13034,11 @@ msgid "Rename name and description for new events"
 msgstr "Preimenuj ime in opis za nove dogodke"
 
 #
+#, fuzzy
+msgid "Rename this tag"
+msgstr "izbris oznake"
+
+#
 msgid "Repeat"
 msgstr "Ponovitev"
 
@@ -13065,6 +13069,12 @@ msgstr "Ponovitve"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
 msgstr "Zamenjava `- ` v dialogih z obarvanim besedilom glede na govornika (kot teletekst podnapisi za gluhe in naglušne)"
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr ""
 
 msgid "Replace newlines in EPG"
 msgstr ""
@@ -13339,10 +13349,6 @@ msgstr ""
 msgid "Root directory"
 msgstr "Izvorna mapa"
 
-#, fuzzy
-msgid "Root file"
-msgstr "%d datoteka"
-
 msgid "Rose"
 msgstr ""
 
@@ -13606,6 +13612,10 @@ msgstr ""
 
 #, fuzzy
 msgid "Save all changed settings and exit"
+msgstr "Shrani in zapusti"
+
+#, fuzzy
+msgid "Save all changed tags and exit"
 msgstr "Shrani in zapusti"
 
 #
@@ -16505,6 +16515,14 @@ msgstr "Nastavitve podnapisov"
 msgid "Table of contents for collection"
 msgstr "Kazalo vsebine zbirke"
 
+msgid "Tag Editor"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Izbira časovnika"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -17443,6 +17461,11 @@ msgstr ""
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Aktiviranje rezanja na trenutno označenem položaju"
+
 msgid "Toggle show/hide"
 msgstr ""
 
@@ -17738,9 +17761,6 @@ msgstr "Vrsta iskanja"
 #
 msgid "Type of scan"
 msgstr "Vrsta iskanja"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr ""

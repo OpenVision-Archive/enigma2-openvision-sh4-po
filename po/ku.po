@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 Kurdish translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2013-04-22 04:29+0330\n"
 "Last-Translator: dimili21\n"
 "Language-Team: \n"
@@ -1893,6 +1893,10 @@ msgstr "İşareté léki"
 msgid "Add a nameserver entry"
 msgstr "Yek Navé nu léke"
 
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Navé Seroki"
+
 msgid "Add a new title"
 msgstr "Navé Seroki"
 
@@ -1919,6 +1923,10 @@ msgstr "Listeya Xebatéra dosya léke"
 
 msgid "Add marker"
 msgstr "Add marker"
+
+#, fuzzy
+msgid "Add new tag"
+msgstr "Navé Seroki"
 
 msgid "Add provider"
 msgstr "Add provider"
@@ -2888,10 +2896,6 @@ msgid "Boot ID"
 msgstr ""
 
 #, fuzzy
-msgid "Boot information"
-msgstr "Hakké İmagéda"
-
-#, fuzzy
 msgid "Boot time"
 msgstr "Sort time"
 
@@ -2968,10 +2972,6 @@ msgstr "Hakké İmagéda"
 #, fuzzy
 msgid "Build Model"
 msgstr "Zu leziya Bit:"
-
-#, fuzzy
-msgid "Build information"
-msgstr "Hakké İmagéda"
 
 #, fuzzy
 msgid "Build information for"
@@ -3192,6 +3192,9 @@ msgid "Cancel any changed settings and exit"
 msgstr ""
 
 msgid "Cancel any changed settings and exit all menus"
+msgstr ""
+
+msgid "Cancel any changed tags and exit"
 msgstr ""
 
 msgid "Cancel any changes the active locale/language and exit all menus"
@@ -3709,10 +3712,6 @@ msgstr "Compact flash"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#, fuzzy
-msgid "Compiled by"
-msgstr "Temami"
 
 msgid "Complete"
 msgstr "Temami"
@@ -4881,6 +4880,10 @@ msgid "Delete all logfiles"
 msgstr "Delete file"
 
 #, fuzzy
+msgid "Delete all tags"
+msgstr "Delete file"
+
+#, fuzzy
 msgid "Delete all the text"
 msgstr "Delete playlist entry"
 
@@ -4939,8 +4942,16 @@ msgstr ""
 msgid "Delete the currently displayed log file"
 msgstr "Remove currently selected title"
 
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Delete file"
+
 msgid "Delete timer"
 msgstr ""
+
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Delete saved playlist"
 
 msgid "Deleted"
 msgstr "Paqişi"
@@ -5219,6 +5230,10 @@ msgstr "Show EIT now/next in infobar"
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "Display 4:3 content as"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5282,6 +5297,17 @@ msgstr "Do you really want to delete %s?"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Do you really want to delete %s?"
+
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Do you really want to delete %s?"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #, fuzzy, python-format
 msgid "Do you really want to delete the '%s' bookmark?"
@@ -5618,6 +5644,10 @@ msgstr "Edit"
 
 msgid "Edit DNS"
 msgstr "Edit DNS"
+
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Edit settings"
 
 msgid "Edit alternatives"
 msgstr "Edit alternatives"
@@ -6595,9 +6625,6 @@ msgstr "Favourites"
 msgid "Favourites"
 msgstr "Favourites"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr ""
 
@@ -7533,30 +7560,7 @@ msgid "Ignore conflict"
 msgstr ""
 
 #, fuzzy
-msgid "Image"
-msgstr "Image: "
-
-#, fuzzy
 msgid "Image View On"
-msgstr "Image: "
-
-msgid "Image architecture"
-msgstr ""
-
-#, fuzzy
-msgid "Image build"
-msgstr "Image: "
-
-#, fuzzy
-msgid "Image build date"
-msgstr "Zu leziya Bit:"
-
-#, fuzzy
-msgid "Image file system"
-msgstr "Creating filesystem"
-
-#, fuzzy
-msgid "Image folder"
 msgstr "Image: "
 
 #, python-format
@@ -8049,10 +8053,6 @@ msgid "Kenya"
 msgstr ""
 
 #, fuzzy
-msgid "Kernel file"
-msgstr "Delete file"
-
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "no module found"
 
@@ -8405,6 +8405,9 @@ msgstr ""
 msgid "Load playlist"
 msgstr "Load playlist"
 
+msgid "Load tags from the timer and recordings"
+msgstr ""
+
 #, fuzzy
 msgid "Load unlinked user bouquets"
 msgstr "User bouquets"
@@ -8599,23 +8602,11 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 msgid "MMC card"
 msgstr "MMC card"
 
 msgid "MORE"
 msgstr "MORE"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -10399,11 +10390,9 @@ msgstr "Play music..."
 msgid "Play next"
 msgstr "Play next"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Play next (return to movie list)"
-
-msgid "Play next (return to previous service)"
-msgstr "Play next (return to previous service)"
 
 msgid "Play previous"
 msgstr "Play previous"
@@ -10504,6 +10493,10 @@ msgstr "Please enter name of the new directory"
 
 msgid "Please enter the new PIN code"
 msgstr ""
+
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Please enter a new filename"
 
 msgid "Please enter the old PIN code"
 msgstr "Please enter the old PIN code"
@@ -11626,6 +11619,10 @@ msgstr ""
 msgid "Rename name and description for new events"
 msgstr ""
 
+#, fuzzy
+msgid "Rename this tag"
+msgstr "remove this mark"
+
 msgid "Repeat"
 msgstr ""
 
@@ -11650,6 +11647,12 @@ msgid "Repeats"
 msgstr "Repeats"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
+msgstr ""
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
 msgstr ""
 
 msgid "Replace newlines in EPG"
@@ -11888,10 +11891,6 @@ msgstr ""
 msgid "Root directory"
 msgstr "Root directory"
 
-#, fuzzy
-msgid "Root file"
-msgstr "Root directory"
-
 msgid "Rose"
 msgstr ""
 
@@ -12122,6 +12121,9 @@ msgid "Save EPG data"
 msgstr ""
 
 msgid "Save all changed settings and exit"
+msgstr ""
+
+msgid "Save all changed tags and exit"
 msgstr ""
 
 #, fuzzy
@@ -14650,6 +14652,13 @@ msgstr "Subtitle alignment"
 msgid "Table of contents for collection"
 msgstr "Table of contents for collection"
 
+msgid "Tag Editor"
+msgstr ""
+
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Timer selection"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -15502,6 +15511,10 @@ msgstr ""
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr ""
 
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Toggle a cut mark at the current position"
+
 msgid "Toggle show/hide"
 msgstr ""
 
@@ -15754,9 +15767,6 @@ msgstr "Type of scan"
 
 msgid "Type of scan"
 msgstr "Type of scan"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr ""

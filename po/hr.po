@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2021-08-26 20:26+0200\n"
 "Last-Translator: Željko <zeljko2@hi.ht.hr>\n"
 "Language-Team: Željko\n"
@@ -1912,6 +1912,10 @@ msgstr "Dodajte oznaku"
 msgid "Add a nameserver entry"
 msgstr "Dodaj unos naziva servera"
 
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Dodaj novi titl"
+
 msgid "Add a new title"
 msgstr "Dodaj novi titl"
 
@@ -1938,6 +1942,10 @@ msgstr "Dodaj datoteke u play listu"
 
 msgid "Add marker"
 msgstr "Dodaj marker"
+
+#, fuzzy
+msgid "Add new tag"
+msgstr "Dodaj novi titl"
 
 msgid "Add provider"
 msgstr "Dodaj provajdera"
@@ -2901,10 +2909,6 @@ msgid "Boot ID"
 msgstr ""
 
 #, fuzzy
-msgid "Boot information"
-msgstr "Informacije"
-
-#, fuzzy
 msgid "Boot time"
 msgstr "Vrijeme pokretanja"
 
@@ -2981,10 +2985,6 @@ msgstr "Informacije"
 #, fuzzy
 msgid "Build Model"
 msgstr "Datum izrade: "
-
-#, fuzzy
-msgid "Build information"
-msgstr "Informacije"
 
 #, fuzzy
 msgid "Build information for"
@@ -3224,6 +3224,10 @@ msgstr "Poništite sve izmjene teksta i izađite"
 #, fuzzy
 msgid "Cancel any changed settings and exit all menus"
 msgstr "Poništite sve promjene u trenutno aktivnom skinu i izađite iz svih izbornika"
+
+#, fuzzy
+msgid "Cancel any changed tags and exit"
+msgstr "Poništite sve izmjene teksta i izađite"
 
 #, fuzzy
 msgid "Cancel any changes the active locale/language and exit all menus"
@@ -3738,10 +3742,6 @@ msgstr "Kompakt fleš"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#, fuzzy
-msgid "Compiled by"
-msgstr "Kompletno"
 
 msgid "Complete"
 msgstr "Kompletno"
@@ -4899,6 +4899,10 @@ msgstr "Uklonite sve datoteke dnevnika"
 msgid "Delete all logfiles"
 msgstr "Uklonite sve datoteke dnevnika"
 
+#, fuzzy
+msgid "Delete all tags"
+msgstr "Uklonite sve datoteke dnevnika"
+
 msgid "Delete all the text"
 msgstr "Izbrišite sav tekst"
 
@@ -4958,8 +4962,16 @@ msgstr "Izbrišite znak ispod tekstualnog pokazivača"
 msgid "Delete the currently displayed log file"
 msgstr "Uklonite trenutno odabrani naslov"
 
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Brisanje imagea"
+
 msgid "Delete timer"
 msgstr "Brisanje tajmera"
+
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Izbrišite spremljeni popis pjesama"
 
 msgid "Deleted"
 msgstr "Izbrisano"
@@ -5237,6 +5249,10 @@ msgstr "Prikažite EIT sada/sljedeće u info traci"
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "Zaslon 4: 3 kao"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5295,6 +5311,17 @@ msgstr "Doista želite izbrisati %s?"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Doista želite izbrisati %s?"
+
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Doista želite izbrisati %s?"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #, fuzzy, python-format
 msgid "Do you really want to delete the '%s' bookmark?"
@@ -5635,6 +5662,10 @@ msgstr "Uredite"
 
 msgid "Edit DNS"
 msgstr "Uredite DNS"
+
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Uredite postavke"
 
 msgid "Edit alternatives"
 msgstr "Uredi alternative"
@@ -6622,9 +6653,6 @@ msgstr "Favoriti"
 msgid "Favourites"
 msgstr "Favoriti"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr "Fidži"
 
@@ -7560,31 +7588,8 @@ msgstr "Zanemarite prostor za imena DVB-T podmreže"
 msgid "Ignore conflict"
 msgstr "Zanemari sukob"
 
-#, fuzzy
-msgid "Image"
-msgstr "Image: "
-
 msgid "Image View On"
 msgstr "Uključen pregled slike"
-
-msgid "Image architecture"
-msgstr ""
-
-#, fuzzy
-msgid "Image build"
-msgstr "Image: "
-
-#, fuzzy
-msgid "Image build date"
-msgstr "Datum izrade: "
-
-#, fuzzy
-msgid "Image file system"
-msgstr "Kreiranje datotečnog sustava"
-
-#, fuzzy
-msgid "Image folder"
-msgstr "Image: "
 
 #, python-format
 msgid ""
@@ -8086,10 +8091,6 @@ msgid "Kenya"
 msgstr "Kenija"
 
 #, fuzzy
-msgid "Kernel file"
-msgstr "Brisanje fajla"
-
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "nema pronađenih modula"
 
@@ -8446,6 +8447,10 @@ msgid "Load playlist"
 msgstr "Učitajte plejlistu"
 
 #, fuzzy
+msgid "Load tags from the timer and recordings"
+msgstr "Zaustavljanje snimanja pomoću tajmera"
+
+#, fuzzy
 msgid "Load unlinked user bouquets"
 msgstr "Učitajte nepovezane korisničke pakete"
 
@@ -8639,23 +8644,11 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 msgid "MMC card"
 msgstr "MMC kartica"
 
 msgid "MORE"
 msgstr "VIŠE"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -10430,11 +10423,9 @@ msgstr "Reproducirajte glazbu..."
 msgid "Play next"
 msgstr "Reproducirajte sljedeće"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Reproducirajte sljedeće (natrag na popis videozapisa)"
-
-msgid "Play next (return to previous service)"
-msgstr "Reproducirajte sljedeće (natrag na raniji zapis)"
 
 msgid "Play previous"
 msgstr "Reproducirajte prethodnu"
@@ -10535,6 +10526,10 @@ msgstr "Unesite naziv novog direktorija"
 
 msgid "Please enter the new PIN code"
 msgstr "Unesite novi PIN kod"
+
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Unesite novi naziv:"
 
 msgid "Please enter the old PIN code"
 msgstr "Unesite stari PIN kod"
@@ -11656,6 +11651,10 @@ msgstr "Preimenuj unos"
 msgid "Rename name and description for new events"
 msgstr "Preimenujte ime i opis novih događaja"
 
+#, fuzzy
+msgid "Rename this tag"
+msgstr "uklonite ovu oznaku"
+
 msgid "Repeat"
 msgstr "Ponoviti"
 
@@ -11681,6 +11680,12 @@ msgstr "Ponavljanja"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
 msgstr "Zamijenite `-` u dijalozima s tekstom u boji po zvučniku (kao što su titlovi teleteksta za osobe oštećenog sluha)."
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr ""
 
 msgid "Replace newlines in EPG"
 msgstr ""
@@ -11910,10 +11915,6 @@ msgstr "Korijen"
 
 msgid "Root directory"
 msgstr "Korijenski direktorij"
-
-#, fuzzy
-msgid "Root file"
-msgstr "SRT datoteka"
 
 msgid "Rose"
 msgstr ""
@@ -12151,6 +12152,10 @@ msgstr "Spremite postavke i EPG podatke"
 
 #, fuzzy
 msgid "Save all changed settings and exit"
+msgstr "Spremite / unesite tekst i izađite"
+
+#, fuzzy
+msgid "Save all changed tags and exit"
 msgstr "Spremite / unesite tekst i izađite"
 
 msgid "Save and activate the currently selected skin"
@@ -14672,6 +14677,13 @@ msgstr "TXT stranica titla & jezik"
 msgid "Table of contents for collection"
 msgstr "Sadržaj zbirke"
 
+msgid "Tag Editor"
+msgstr ""
+
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Odabir tajmera"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -15552,6 +15564,10 @@ msgstr "Prebacite info traku"
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr "Prebacite nove tekstualne unose prije ili preko postojećeg teksta"
 
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Prebacite oznaku izrezivanja na trenutnu poziciju"
+
 msgid "Toggle show/hide"
 msgstr "Prebacite na Prikaži/sakrij"
 
@@ -15800,9 +15816,6 @@ msgstr "Tip LNB/uređaj"
 
 msgid "Type of scan"
 msgstr "Vrsta skeniranja"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr "NEPOZNATO"

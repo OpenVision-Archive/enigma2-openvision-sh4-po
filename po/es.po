@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2021-11-11 19:09+0100\n"
 "Last-Translator: Kuatto\n"
 "Language-Team: Álvaro <mi casa>\n"
@@ -1913,6 +1913,10 @@ msgstr "Añadir una marca"
 msgid "Add a nameserver entry"
 msgstr "Agregar una entrada de servidor de nombres"
 
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Añadir un nuevo título"
+
 msgid "Add a new title"
 msgstr "Añadir un nuevo título"
 
@@ -1939,6 +1943,10 @@ msgstr "Agregar ficheros a la lista de reproducción"
 
 msgid "Add marker"
 msgstr "Añadir marcador"
+
+#, fuzzy
+msgid "Add new tag"
+msgstr "Añadir un nuevo título"
 
 msgid "Add provider"
 msgstr "Añadir proveedor"
@@ -2886,10 +2894,6 @@ msgstr "Mando a Distancia"
 msgid "Boot ID"
 msgstr "En tiempo de arranque"
 
-#, fuzzy
-msgid "Boot information"
-msgstr "Información de Montajes"
-
 msgid "Boot time"
 msgstr "En tiempo de arranque"
 
@@ -2964,10 +2968,6 @@ msgstr "Información"
 #, fuzzy
 msgid "Build Model"
 msgstr "Fecha de compilación: "
-
-#, fuzzy
-msgid "Build information"
-msgstr "Información de Montajes"
 
 #, fuzzy
 msgid "Build information for"
@@ -3208,6 +3208,10 @@ msgstr "Cancelar cualquier configuración modificada y salir"
 
 msgid "Cancel any changed settings and exit all menus"
 msgstr "Cancelar cualquier configuración modificada y salir de todos los menús"
+
+#, fuzzy
+msgid "Cancel any changed tags and exit"
+msgstr "Cancelar cualquier configuración modificada y salir"
 
 msgid "Cancel any changes the active locale/language and exit all menus"
 msgstr "Cancelar cualquier cambio regional/idioma activo y salir de todos los menús"
@@ -3714,10 +3718,6 @@ msgstr "Compact flash"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#, fuzzy
-msgid "Compiled by"
-msgstr "Completo"
 
 msgid "Complete"
 msgstr "Completo"
@@ -4856,6 +4856,10 @@ msgstr "Eliminar todos los registros"
 msgid "Delete all logfiles"
 msgstr "Eliminar todos los registros"
 
+#, fuzzy
+msgid "Delete all tags"
+msgstr "Eliminar todos los registros"
+
 msgid "Delete all the text"
 msgstr "Eliminar completo el texto"
 
@@ -4911,8 +4915,16 @@ msgstr "Eliminar el carácter debajo del cursor del búfer de texto"
 msgid "Delete the currently displayed log file"
 msgstr "Agregar/eliminar la configuración regional/idioma resaltados actualmente"
 
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Borrar imagen"
+
 msgid "Delete timer"
 msgstr "Borrar temporizador"
+
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Borrar lista de reproducción guardada"
 
 msgid "Deleted"
 msgstr "Borrado"
@@ -5185,6 +5197,10 @@ msgid "Display the base locales or all locales for a language."
 msgstr "Muestra las configuraciones regionales base o todas las regiones de un idioma."
 
 #, fuzzy
+msgid "Display the tags context menu"
+msgstr "Mostrar menú contextual"
+
+#, fuzzy
 msgid "Display the virtual keyboard for data entry"
 msgstr "Mover el cursor del teclado virtual hacia abajo"
 
@@ -5242,6 +5258,17 @@ msgstr "¿Realmente quiere borrar %s?"
 
 msgid "Do you really want to delete ?"
 msgstr "Realmente quieres eliminar ?"
+
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Desea eliminar el '%s' directorio?"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #, python-format
 msgid "Do you really want to delete the '%s' bookmark?"
@@ -5565,6 +5592,10 @@ msgstr "Editar"
 
 msgid "Edit DNS"
 msgstr "Editar DNS"
+
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Editar ajustes"
 
 msgid "Edit alternatives"
 msgstr "Editar alternativos"
@@ -6530,9 +6561,6 @@ msgstr "Favoritos"
 msgid "Favourites"
 msgstr "Favoritos"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr "Fiji"
 
@@ -7456,32 +7484,8 @@ msgstr "Ignorar DVB-T espacio de nombres subred"
 msgid "Ignore conflict"
 msgstr "Ignorar conflicto"
 
-#, fuzzy
-msgid "Image"
-msgstr "Imágenes"
-
 msgid "Image View On"
 msgstr "Vista de imagen activada"
-
-#, fuzzy
-msgid "Image architecture"
-msgstr "Arquitectura CPU: "
-
-#, fuzzy
-msgid "Image build"
-msgstr "Imagen: "
-
-#, fuzzy
-msgid "Image build date"
-msgstr "Fecha de compilación: "
-
-#, fuzzy
-msgid "Image file system"
-msgstr "Creando sistema de ficheros"
-
-#, fuzzy
-msgid "Image folder"
-msgstr "Compartir carpeta"
 
 #, python-format
 msgid ""
@@ -7967,10 +7971,6 @@ msgid "Kenya"
 msgstr "Kenia"
 
 #, fuzzy
-msgid "Kernel file"
-msgstr "Borrar fichero"
-
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "módulo no encontrado"
 
@@ -8320,6 +8320,10 @@ msgstr "Cargar solo días específicos en EPG"
 msgid "Load playlist"
 msgstr "Cargar lista de reproducción"
 
+#, fuzzy
+msgid "Load tags from the timer and recordings"
+msgstr "Detener la grabación con temporizador"
+
 msgid "Load unlinked user bouquets"
 msgstr "Cargar bouquets de usuarios no vinculados"
 
@@ -8504,23 +8508,11 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 msgid "MMC card"
 msgstr "MMC card"
 
 msgid "MORE"
 msgstr "Más"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -10267,11 +10259,9 @@ msgstr "Reproducir música…"
 msgid "Play next"
 msgstr "Reproducir siguiente"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Reproducir siguiente (volver a lista de películas)"
-
-msgid "Play next (return to previous service)"
-msgstr "Reproducir siguiente (volver a canal previo)"
 
 msgid "Play previous"
 msgstr "Reproduce anterior"
@@ -10368,6 +10358,10 @@ msgstr "Por favor ingrese el nombre del nuevo directorio"
 
 msgid "Please enter the new PIN code"
 msgstr "Introducir el nuevo código PIN"
+
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Introducir nuevo nombre:"
 
 msgid "Please enter the old PIN code"
 msgstr "Introducir el antiguo PIN"
@@ -11461,6 +11455,10 @@ msgstr "Renombrar entrada"
 msgid "Rename name and description for new events"
 msgstr "Renombrar nombre y descripción para nuevos eventos"
 
+#, fuzzy
+msgid "Rename this tag"
+msgstr "Quitar esta marca"
+
 msgid "Repeat"
 msgstr "Repetir"
 
@@ -11485,6 +11483,12 @@ msgstr "Repetición"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
 msgstr "Reemplazar `-` en cuadros de diálogo con texto en color por altavoz (como subtítulos de teletexto para sordos)"
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr ""
 
 msgid "Replace newlines in EPG"
 msgstr "Reemplazar nuevas líneas en EPG"
@@ -11715,10 +11719,6 @@ msgstr "Root"
 msgid "Root directory"
 msgstr "Directorio raíz"
 
-#, fuzzy
-msgid "Root file"
-msgstr "Fichero STR"
-
 msgid "Rose"
 msgstr ""
 
@@ -11947,6 +11947,10 @@ msgid "Save EPG data"
 msgstr "Guardar datos EPG"
 
 msgid "Save all changed settings and exit"
+msgstr "Guarde todas las configuraciones cambiadas y salga"
+
+#, fuzzy
+msgid "Save all changed tags and exit"
 msgstr "Guarde todas las configuraciones cambiadas y salga"
 
 msgid "Save and activate the currently selected skin"
@@ -14389,6 +14393,13 @@ msgstr "Subtítulos TXT lenguaje"
 msgid "Table of contents for collection"
 msgstr "Tabla de contenido para colección"
 
+msgid "Tag Editor"
+msgstr ""
+
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Acciones Temporizadores"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -15245,6 +15256,10 @@ msgstr "Alternar infoBar"
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr "Alternar nuevas inserciones de texto antes o sobrescribir el texto existente"
 
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Alternar una marca de corte en la posición actual"
+
 msgid "Toggle show/hide"
 msgstr "Mostrar/ocultar"
 
@@ -15499,9 +15514,6 @@ msgstr "Tipo de dispositivo LNB"
 
 msgid "Type of scan"
 msgstr "Tipo de búsqueda"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr "DESCONOCIDO"

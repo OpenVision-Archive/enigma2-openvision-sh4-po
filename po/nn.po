@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2013-10-23 19:15+0100\n"
 "Last-Translator: andy1 <dmmm8000pvr@gmail.com>\n"
 "Language-Team: none\n"
@@ -1818,6 +1818,11 @@ msgid "Add a nameserver entry"
 msgstr "Legge til navneserver inngang"
 
 #
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Legge til nytt navn"
+
+#
 msgid "Add a new title"
 msgstr "Legge til nytt navn"
 
@@ -1849,6 +1854,11 @@ msgstr "Legge til filer i spilliste"
 
 msgid "Add marker"
 msgstr "Legge til markør"
+
+#
+#, fuzzy
+msgid "Add new tag"
+msgstr "Legge til nytt navn"
 
 #
 msgid "Add provider"
@@ -2900,11 +2910,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Boot information"
-msgstr "Informasjon"
-
-#
-#, fuzzy
 msgid "Boot time"
 msgstr "Sortere tid"
 
@@ -2988,11 +2993,6 @@ msgstr "Informasjon"
 #, fuzzy
 msgid "Build Model"
 msgstr "Bithastighet:"
-
-#
-#, fuzzy
-msgid "Build information"
-msgstr "Informasjon"
 
 #
 #, fuzzy
@@ -3226,6 +3226,9 @@ msgid "Cancel any changed settings and exit"
 msgstr ""
 
 msgid "Cancel any changed settings and exit all menus"
+msgstr ""
+
+msgid "Cancel any changed tags and exit"
 msgstr ""
 
 msgid "Cancel any changes the active locale/language and exit all menus"
@@ -3794,11 +3797,6 @@ msgstr "Kompakt flash minne"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#
-#, fuzzy
-msgid "Compiled by"
-msgstr "Komplett"
 
 #
 msgid "Complete"
@@ -5042,6 +5040,11 @@ msgstr "Slette fil"
 
 #
 #, fuzzy
+msgid "Delete all tags"
+msgstr "Slette fil"
+
+#
+#, fuzzy
 msgid "Delete all the text"
 msgstr "Slette oppføring i spilliste"
 
@@ -5111,8 +5114,18 @@ msgstr ""
 msgid "Delete the currently displayed log file"
 msgstr "Slette den valgte tittelen"
 
+#
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Slette fil"
+
 msgid "Delete timer"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Slette lagret spilliste"
 
 msgid "Deleted"
 msgstr "Slettet"
@@ -5411,6 +5424,11 @@ msgstr "Vis EIT nå/neste på informasjonslinjen"
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "Vis 4:3 innhold som"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5482,6 +5500,18 @@ msgstr "Er du sikker på at du vil slette %s"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Er du sikker på at du vil slette %s"
+
+#
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Er du sikker på at du vil slette %s"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #
 #, fuzzy, python-format
@@ -5867,6 +5897,10 @@ msgstr "Endre"
 #
 msgid "Edit DNS"
 msgstr "Endre DNS"
+
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Redigere innstillinger"
 
 msgid "Edit alternatives"
 msgstr "Alternativer"
@@ -6933,9 +6967,6 @@ msgstr "Favorittliste"
 msgid "Favourites"
 msgstr "Favorittliste"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr ""
 
@@ -7930,32 +7961,7 @@ msgid "Ignore conflict"
 msgstr ""
 
 #, fuzzy
-msgid "Image"
-msgstr "Image:"
-
-#, fuzzy
 msgid "Image View On"
-msgstr "Image:"
-
-msgid "Image architecture"
-msgstr ""
-
-#, fuzzy
-msgid "Image build"
-msgstr "Image:"
-
-#
-#, fuzzy
-msgid "Image build date"
-msgstr "Bithastighet:"
-
-#
-#, fuzzy
-msgid "Image file system"
-msgstr "Oppretter filsystem"
-
-#, fuzzy
-msgid "Image folder"
 msgstr "Image:"
 
 #, python-format
@@ -8502,11 +8508,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Kernel file"
-msgstr "Slette fil"
-
-#
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "Ingen modul er funnet"
 
@@ -8899,6 +8900,10 @@ msgid "Load playlist"
 msgstr "Last inn spilliste"
 
 #, fuzzy
+msgid "Load tags from the timer and recordings"
+msgstr "Stoppe tidtaker opptak"
+
+#, fuzzy
 msgid "Load unlinked user bouquets"
 msgstr "Kanallister"
 
@@ -9112,24 +9117,12 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 #
 msgid "MMC card"
 msgstr "MMC kort"
 
 #
 msgid "MORE"
-msgstr ""
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
 msgstr ""
 
 msgid "MTU"
@@ -11091,11 +11084,9 @@ msgstr "Spille musikk..."
 msgid "Play next"
 msgstr "Spille neste"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Spille neste (gå tilbake til spilliste)"
-
-msgid "Play next (return to previous service)"
-msgstr "Spille neste (gå tilbake til siste kanal)"
 
 msgid "Play previous"
 msgstr "Spille siste"
@@ -11208,6 +11199,11 @@ msgstr "Vennligst skriv navnet på den nye katalogen"
 
 msgid "Please enter the new PIN code"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Vennligst skriv et nytt navn"
 
 msgid "Please enter the old PIN code"
 msgstr "Vennligst tast inn den gamle PIN koden"
@@ -12423,6 +12419,10 @@ msgstr "Endre navn i oppføringen"
 msgid "Rename name and description for new events"
 msgstr ""
 
+#, fuzzy
+msgid "Rename this tag"
+msgstr "slett markøren"
+
 #
 msgid "Repeat"
 msgstr "Gjenta"
@@ -12453,6 +12453,12 @@ msgid "Repeats"
 msgstr "Gjentakelser"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
+msgstr ""
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
 msgstr ""
 
 msgid "Replace newlines in EPG"
@@ -12718,10 +12724,6 @@ msgstr ""
 msgid "Root directory"
 msgstr "Rotkatalog"
 
-#, fuzzy
-msgid "Root file"
-msgstr "%d mappe"
-
 msgid "Rose"
 msgstr ""
 
@@ -12968,6 +12970,9 @@ msgid "Save EPG data"
 msgstr ""
 
 msgid "Save all changed settings and exit"
+msgstr ""
+
+msgid "Save all changed tags and exit"
 msgstr ""
 
 #, fuzzy
@@ -15699,6 +15704,14 @@ msgstr "Undertekst justering"
 msgid "Table of contents for collection"
 msgstr "Innholdsfortegnelse"
 
+msgid "Tag Editor"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Tidtaker valg"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -16625,6 +16638,11 @@ msgstr ""
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Bytte mellom klipp på den aktuelle posisjonen"
+
 msgid "Toggle show/hide"
 msgstr ""
 
@@ -16910,9 +16928,6 @@ msgstr "Søketype"
 
 msgid "Type of scan"
 msgstr "Søketype"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr ""

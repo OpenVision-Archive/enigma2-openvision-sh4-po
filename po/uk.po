@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2021-03-11 01:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: kvinto\n"
@@ -1912,6 +1912,10 @@ msgstr "Додати маркер"
 msgid "Add a nameserver entry"
 msgstr "Додати назву DNS сервера"
 
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Додати нову назву"
+
 msgid "Add a new title"
 msgstr "Додати нову назву"
 
@@ -1938,6 +1942,10 @@ msgstr "Додати файли в плейлист"
 
 msgid "Add marker"
 msgstr "Додати маркер"
+
+#, fuzzy
+msgid "Add new tag"
+msgstr "Додати нову назву"
 
 msgid "Add provider"
 msgstr "Додати провайдер"
@@ -2898,10 +2906,6 @@ msgid "Boot ID"
 msgstr ""
 
 #, fuzzy
-msgid "Boot information"
-msgstr "Інформація"
-
-#, fuzzy
 msgid "Boot time"
 msgstr "Час завантаження"
 
@@ -2978,10 +2982,6 @@ msgstr "Інформація"
 #, fuzzy
 msgid "Build Model"
 msgstr "Дата збірки: "
-
-#, fuzzy
-msgid "Build information"
-msgstr "Інформація"
 
 #, fuzzy
 msgid "Build information for"
@@ -3221,6 +3221,10 @@ msgstr "Скасувати будь-які зміни тексту та вийт
 #, fuzzy
 msgid "Cancel any changed settings and exit all menus"
 msgstr "Скасувати будь-які зміни на поточно активному скіні та вийти з усіх меню"
+
+#, fuzzy
+msgid "Cancel any changed tags and exit"
+msgstr "Скасувати будь-які зміни тексту та вийти"
 
 #, fuzzy
 msgid "Cancel any changes the active locale/language and exit all menus"
@@ -3735,10 +3739,6 @@ msgstr "Компакт флеш"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#, fuzzy
-msgid "Compiled by"
-msgstr "Виконано"
 
 msgid "Complete"
 msgstr "Виконано"
@@ -4896,6 +4896,10 @@ msgstr "Видалити всі логи"
 msgid "Delete all logfiles"
 msgstr "Видалити всі логи"
 
+#, fuzzy
+msgid "Delete all tags"
+msgstr "Видалити всі логи"
+
 msgid "Delete all the text"
 msgstr "Видалити весь текст"
 
@@ -4955,8 +4959,16 @@ msgstr "Видалити символ під текстовим курсором
 msgid "Delete the currently displayed log file"
 msgstr "Видалити вибрану назву"
 
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Видалення іміджу"
+
 msgid "Delete timer"
 msgstr "Видалити таймер"
+
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Видалити збережений список відтворення"
 
 msgid "Deleted"
 msgstr "Видалено"
@@ -5234,6 +5246,10 @@ msgstr "Показати EIT зараз/наст. в Інфобарі"
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "Показувати 4:3 як"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5292,6 +5308,17 @@ msgstr "Ви дійсно хочете видалити %s?"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Ви дійсно хочете видалити %s?"
+
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Ви дійсно хочете видалити %s?"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #, fuzzy, python-format
 msgid "Do you really want to delete the '%s' bookmark?"
@@ -5628,6 +5655,10 @@ msgstr "Редагувати"
 
 msgid "Edit DNS"
 msgstr "Редагувати DNS"
+
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Редагування налаштувань"
 
 msgid "Edit alternatives"
 msgstr "Змінити альтернативу"
@@ -6615,9 +6646,6 @@ msgstr "Фаворити"
 msgid "Favourites"
 msgstr "Фаворити"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr "Фіджі"
 
@@ -7553,31 +7581,8 @@ msgstr "Ігнорувати імена підмережі DVB-T"
 msgid "Ignore conflict"
 msgstr "Ігнорувати конфлікт"
 
-#, fuzzy
-msgid "Image"
-msgstr "Імідж: "
-
 msgid "Image View On"
 msgstr "Перегляд іміджу увімкнено"
-
-msgid "Image architecture"
-msgstr ""
-
-#, fuzzy
-msgid "Image build"
-msgstr "Імідж: "
-
-#, fuzzy
-msgid "Image build date"
-msgstr "Дата збірки: "
-
-#, fuzzy
-msgid "Image file system"
-msgstr "Створення файлової системи"
-
-#, fuzzy
-msgid "Image folder"
-msgstr "Імідж: "
 
 #, python-format
 msgid ""
@@ -8078,10 +8083,6 @@ msgid "Kenya"
 msgstr "Кенія"
 
 #, fuzzy
-msgid "Kernel file"
-msgstr "Видалити файл"
-
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "модуль не знайдено"
 
@@ -8438,6 +8439,10 @@ msgid "Load playlist"
 msgstr "Завантаження списку відтворення"
 
 #, fuzzy
+msgid "Load tags from the timer and recordings"
+msgstr "Зупинити таймер запису"
+
+#, fuzzy
 msgid "Load unlinked user bouquets"
 msgstr "Завантаження невибраних фаворитів користувача"
 
@@ -8631,23 +8636,11 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 msgid "MMC card"
 msgstr "MMC карта"
 
 msgid "MORE"
 msgstr "БІЛЬШЕ"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -10421,11 +10414,9 @@ msgstr "Відтворити музику..."
 msgid "Play next"
 msgstr "Відтворити наступний"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Відтворити наступний (повернутися до списку записів)"
-
-msgid "Play next (return to previous service)"
-msgstr "Відтворити наступний (повернення до попереднього каналу)"
 
 msgid "Play previous"
 msgstr "Відтворити попередній"
@@ -10526,6 +10517,10 @@ msgstr "Будь ласка, введіть назву нового катало
 
 msgid "Please enter the new PIN code"
 msgstr "Будь ласка, введіть новий PIN-код"
+
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Будь ласка, введіть нове ім'я:"
 
 msgid "Please enter the old PIN code"
 msgstr "Будь ласка, введіть старий PIN-код"
@@ -11645,6 +11640,10 @@ msgstr "Перейменувати обране"
 msgid "Rename name and description for new events"
 msgstr "Перейменувати ім'я та опис для нових передач"
 
+#, fuzzy
+msgid "Rename this tag"
+msgstr "видалити цю закладку"
+
 msgid "Repeat"
 msgstr "Повторити"
 
@@ -11670,6 +11669,12 @@ msgstr "Повторення"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
 msgstr "Замінити `- ` в діалогових вікнах з кольоровим текстом на лектора (як субтитри телетексту для людей з вадами слуху)"
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr ""
 
 msgid "Replace newlines in EPG"
 msgstr "Замінити нові рядки в EPG"
@@ -11899,10 +11904,6 @@ msgstr ""
 
 msgid "Root directory"
 msgstr "Кореневий каталог"
-
-#, fuzzy
-msgid "Root file"
-msgstr "SRT файл"
 
 msgid "Rose"
 msgstr ""
@@ -12139,6 +12140,10 @@ msgstr "Зберегти налаштування і дані ЕПГ"
 
 #, fuzzy
 msgid "Save all changed settings and exit"
+msgstr "Зберегти/Ввести текст і вийти"
+
+#, fuzzy
+msgid "Save all changed tags and exit"
 msgstr "Зберегти/Ввести текст і вийти"
 
 msgid "Save and activate the currently selected skin"
@@ -14661,6 +14666,13 @@ msgstr "TXT субтитри & мова"
 msgid "Table of contents for collection"
 msgstr "Зміст для колекції"
 
+msgid "Tag Editor"
+msgstr ""
+
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Вибір таймера"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -15541,6 +15553,10 @@ msgstr "Переключити інфоБар"
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr "Переключити до нових текстових вставок, або перезаписати існуючий текст"
 
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Переключити мітку вирізання в цю позицію"
+
 msgid "Toggle show/hide"
 msgstr "Переключення показати/приховати"
 
@@ -15789,9 +15805,6 @@ msgstr "Тип LNB/пристрою"
 
 msgid "Type of scan"
 msgstr "Тип сканування"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr "НЕВІДОМИЙ"

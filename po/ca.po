@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2021-09-22 23:58+0200\n"
 "Last-Translator: Oriol Pellicer <oriol@elsud.org>\n"
 "Language-Team: angelodos angelo2807@hotmail.com\n"
@@ -2048,6 +2048,11 @@ msgid "Add a nameserver entry"
 msgstr "Afegiu una entrada del servidor"
 
 #
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Afegir un nou títol"
+
+#
 msgid "Add a new title"
 msgstr "Afegir un nou títol"
 
@@ -2081,6 +2086,11 @@ msgstr "Afegir fitxers a la llista"
 #
 msgid "Add marker"
 msgstr "Afegir marcador"
+
+#
+#, fuzzy
+msgid "Add new tag"
+msgstr "Afegir un nou títol"
 
 #
 msgid "Add provider"
@@ -3133,11 +3143,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Boot information"
-msgstr "Informació"
-
-#
-#, fuzzy
 msgid "Boot time"
 msgstr "Sense timeout"
 
@@ -3219,11 +3224,6 @@ msgstr "Informació"
 #, fuzzy
 msgid "Build Model"
 msgstr "Build date: "
-
-#
-#, fuzzy
-msgid "Build information"
-msgstr "Informació"
 
 #
 #, fuzzy
@@ -3478,6 +3478,10 @@ msgstr "Cancel·la els canvis de text i surt"
 #, fuzzy
 msgid "Cancel any changed settings and exit all menus"
 msgstr "Cancel·la qualsevol canvi a la pell actualment activa i abandona tots els menús"
+
+#, fuzzy
+msgid "Cancel any changed tags and exit"
+msgstr "Cancel·la els canvis de text i surt"
 
 #, fuzzy
 msgid "Cancel any changes the active locale/language and exit all menus"
@@ -4046,11 +4050,6 @@ msgstr "Flaix compacte"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#
-#, fuzzy
-msgid "Compiled by"
-msgstr "Complet"
 
 #
 msgid "Complete"
@@ -5286,6 +5285,10 @@ msgstr "Esborrar tots els logs"
 msgid "Delete all logfiles"
 msgstr "Esborrar tots els logs"
 
+#, fuzzy
+msgid "Delete all tags"
+msgstr "Esborrar tots els logs"
+
 #
 msgid "Delete all the text"
 msgstr "Suprimeix tot el text"
@@ -5357,8 +5360,18 @@ msgstr "Suprimeix el personatge sota el cursor de text"
 msgid "Delete the currently displayed log file"
 msgstr "Esborra el títol seleccionat"
 
+#
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Ha fallat l'eliminació"
+
 msgid "Delete timer"
 msgstr "Suprimeix el temporitzador"
+
+#
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Esborrar llista gravada"
 
 msgid "Deleted"
 msgstr "Eliminat"
@@ -5664,6 +5677,11 @@ msgstr "Mostra EIT ara / següent a infobar"
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "Mostra el contingut de 4:3 com a"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5735,6 +5753,18 @@ msgstr "Segur que vols esborrar %s?"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Segur que vols esborrar %s?"
+
+#
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Segur que vols esborrar %s?"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #
 #, fuzzy, python-format
@@ -6120,6 +6150,11 @@ msgstr "Edita"
 #
 msgid "Edit DNS"
 msgstr "Edita DNS"
+
+#
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Edita la configuració"
 
 #
 msgid "Edit alternatives"
@@ -7205,9 +7240,6 @@ msgstr "Preferits"
 msgid "Favourites"
 msgstr "Preferits"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr "Fiji"
 
@@ -8218,31 +8250,8 @@ msgstr "Ignora la subxarxa de l’espai de noms DVB-T"
 msgid "Ignore conflict"
 msgstr "Ignora el conflicte"
 
-#, fuzzy
-msgid "Image"
-msgstr "Imatge:"
-
 msgid "Image View On"
 msgstr "Imatge"
-
-msgid "Image architecture"
-msgstr ""
-
-#, fuzzy
-msgid "Image build"
-msgstr "Imatge:"
-
-#, fuzzy
-msgid "Image build date"
-msgstr "Build date: "
-
-#, fuzzy
-msgid "Image file system"
-msgstr "Creació del sistema de fitxers"
-
-#, fuzzy
-msgid "Image folder"
-msgstr "Imatge:"
 
 #, python-format
 msgid ""
@@ -8793,11 +8802,6 @@ msgstr "Kenya"
 
 #
 #, fuzzy
-msgid "Kernel file"
-msgstr "Ha fallat l'eliminació"
-
-#
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "no hi ha el mòdul"
 
@@ -9195,6 +9199,10 @@ msgid "Load playlist"
 msgstr "Carregar llista"
 
 #, fuzzy
+msgid "Load tags from the timer and recordings"
+msgstr "Atureu la gravació del temporitzador"
+
+#, fuzzy
 msgid "Load unlinked user bouquets"
 msgstr "Carregueu blocs d’usuari sense connexió"
 
@@ -9406,9 +9414,6 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 #
 msgid "MMC card"
 msgstr "Targeta MMC"
@@ -9416,15 +9421,6 @@ msgstr "Targeta MMC"
 #
 msgid "MORE"
 msgstr "MÉS"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -11391,11 +11387,9 @@ msgstr "Reprodueix música…"
 msgid "Play next"
 msgstr "Reprodueix al següent"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Reprodueix al següent (torna a la llista de pel·lícules)"
-
-msgid "Play next (return to previous service)"
-msgstr "Reprodueix al següent (torna al servei anterior)"
 
 msgid "Play previous"
 msgstr "Reprodueix al següent (torna al servei anterior)"
@@ -11514,6 +11508,10 @@ msgstr "Introduïu el nom del directori nou"
 
 msgid "Please enter the new PIN code"
 msgstr "Introduïu el nou codi PIN"
+
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Introduïu el nou nom:"
 
 msgid "Please enter the old PIN code"
 msgstr "Introduïu l’antic codi PIN"
@@ -12791,6 +12789,11 @@ msgstr "Canviar el nom a l’entrada"
 msgid "Rename name and description for new events"
 msgstr "Canvia el nom del nom i la descripció dels nous esdeveniments"
 
+#
+#, fuzzy
+msgid "Rename this tag"
+msgstr "esborrar aquesta marca"
+
 msgid "Repeat"
 msgstr "Repetir"
 
@@ -12820,6 +12823,12 @@ msgstr "Repeteix"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
 msgstr "Substitueix els diàlegs `-` en text de colors per altaveu (com els subtítols de teletext per a deficiències auditives)"
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr ""
 
 msgid "Replace newlines in EPG"
 msgstr "Substitueix les línies noves a EPG"
@@ -13088,10 +13097,6 @@ msgstr "Root"
 msgid "Root directory"
 msgstr "Root directory"
 
-#, fuzzy
-msgid "Root file"
-msgstr "SRT fila"
-
 msgid "Rose"
 msgstr ""
 
@@ -13350,6 +13355,10 @@ msgstr "Guardar la configuració i les dades d’EPG"
 
 #, fuzzy
 msgid "Save all changed settings and exit"
+msgstr "Guardar / Introduir text i sortir"
+
+#, fuzzy
+msgid "Save all changed tags and exit"
 msgstr "Guardar / Introduir text i sortir"
 
 #
@@ -16118,6 +16127,14 @@ msgstr "Llengua i subtítols de TXT"
 msgid "Table of contents for collection"
 msgstr "Taula de contingut de la col·lecció"
 
+msgid "Tag Editor"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Selecció de gravació"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -17070,6 +17087,11 @@ msgstr "Alternar informacióBar"
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr "Commuta o inserta el text nou abans o sobreescriu el text existent"
 
+#
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Posar una marca de tall en l'actual posició"
+
 msgid "Toggle show/hide"
 msgstr "Commuta / amaga"
 
@@ -17355,9 +17377,6 @@ msgstr "Tipus de LNB / dispositiu"
 #
 msgid "Type of scan"
 msgstr "Tipus de recerca"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr "DESCONEGUT"

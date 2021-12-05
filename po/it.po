@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2020-05-16 18:46+0200\n"
 "Last-Translator: Gringo <openpli@tiscali.it>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
@@ -1911,6 +1911,10 @@ msgstr "Aggiungere un marcatore"
 msgid "Add a nameserver entry"
 msgstr "Aggiungere un server dei nomi (DNS)"
 
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Aggiungere un nuovo titolo"
+
 msgid "Add a new title"
 msgstr "Aggiungere un nuovo titolo"
 
@@ -1937,6 +1941,10 @@ msgstr "Aggiungere file alla playlist"
 
 msgid "Add marker"
 msgstr "Aggiungere un marcatore"
+
+#, fuzzy
+msgid "Add new tag"
+msgstr "Aggiungere un nuovo titolo"
 
 msgid "Add provider"
 msgstr "Aggiungere un provider"
@@ -2902,10 +2910,6 @@ msgid "Boot ID"
 msgstr ""
 
 #, fuzzy
-msgid "Boot information"
-msgstr "Informazioni"
-
-#, fuzzy
 msgid "Boot time"
 msgstr "Ordine per orario"
 
@@ -2983,10 +2987,6 @@ msgstr "Informazioni"
 #, fuzzy
 msgid "Build Model"
 msgstr "Data di compilazione: "
-
-#, fuzzy
-msgid "Build information"
-msgstr "Informazioni"
 
 #, fuzzy
 msgid "Build information for"
@@ -3209,6 +3209,10 @@ msgstr ""
 
 msgid "Cancel any changed settings and exit all menus"
 msgstr ""
+
+#, fuzzy
+msgid "Cancel any changed tags and exit"
+msgstr "Inserire / Salvare e uscire"
 
 msgid "Cancel any changes the active locale/language and exit all menus"
 msgstr ""
@@ -3722,10 +3726,6 @@ msgstr "Compact Flash"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#, fuzzy
-msgid "Compiled by"
-msgstr "Completo"
 
 msgid "Complete"
 msgstr "Completo"
@@ -4888,6 +4888,10 @@ msgid "Delete all logfiles"
 msgstr "Eliminare tutti i file di registro"
 
 #, fuzzy
+msgid "Delete all tags"
+msgstr "Eliminare tutti i file di registro"
+
+#, fuzzy
 msgid "Delete all the text"
 msgstr "Eliminare la voce della playlist"
 
@@ -4945,8 +4949,16 @@ msgstr ""
 msgid "Delete the currently displayed log file"
 msgstr "Eliminare il titolo attualmente selezionato"
 
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Eliminare l'immagine"
+
 msgid "Delete timer"
 msgstr "Eliminare il timer"
+
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Eliminare la playlist salvata"
 
 msgid "Deleted"
 msgstr "Eliminato"
@@ -5226,6 +5238,10 @@ msgstr "Mostrare le informazioni EIT per l'evento in corso/successivo nell'infob
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "Visualizzare i contenuti in 4:3 come"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5284,6 +5300,17 @@ msgstr "Si desidera davvero eliminare %s?"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Si desidera davvero eliminare %s?"
+
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Si desidera davvero eliminare %s?"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #, fuzzy, python-format
 msgid "Do you really want to delete the '%s' bookmark?"
@@ -5619,6 +5646,10 @@ msgstr "Modificare"
 
 msgid "Edit DNS"
 msgstr "Modificare DNS"
+
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Modificare configurazioni"
 
 msgid "Edit alternatives"
 msgstr "Modificare alternative"
@@ -6617,9 +6648,6 @@ msgstr "Preferiti"
 msgid "Favourites"
 msgstr "Preferiti"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr "Fiji"
 
@@ -7559,30 +7587,7 @@ msgid "Ignore conflict"
 msgstr "Ignorare il conflitto"
 
 #, fuzzy
-msgid "Image"
-msgstr "Immagine: "
-
-#, fuzzy
 msgid "Image View On"
-msgstr "Immagine: "
-
-msgid "Image architecture"
-msgstr ""
-
-#, fuzzy
-msgid "Image build"
-msgstr "Immagine: "
-
-#, fuzzy
-msgid "Image build date"
-msgstr "Data di compilazione: "
-
-#, fuzzy
-msgid "Image file system"
-msgstr "Creazione del filesystem in corso..."
-
-#, fuzzy
-msgid "Image folder"
 msgstr "Immagine: "
 
 #, python-format
@@ -8084,10 +8089,6 @@ msgid "Kenya"
 msgstr "Kenia"
 
 #, fuzzy
-msgid "Kernel file"
-msgstr "Eliminare il file"
-
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "Nessun modulo trovato!"
 
@@ -8442,6 +8443,10 @@ msgid "Load playlist"
 msgstr "Caricare la playlist"
 
 #, fuzzy
+msgid "Load tags from the timer and recordings"
+msgstr "Interrompere la registrazione programmata"
+
+#, fuzzy
 msgid "Load unlinked user bouquets"
 msgstr "Caricare anche i bouquet non inclusi negli elenchi bouquet.tv o bouquet.radio"
 
@@ -8635,23 +8640,11 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 msgid "MMC card"
 msgstr "Scheda MMC"
 
 msgid "MORE"
 msgstr "SUCCESSIVI"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -10435,11 +10428,9 @@ msgstr "Riprodurre musica..."
 msgid "Play next"
 msgstr "Riprodurre il successivo"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Riprodurre il successivo (tornare all'elenco dei video)"
-
-msgid "Play next (return to previous service)"
-msgstr "Riprodurre il successivo (tornare al canale precedente)"
 
 msgid "Play previous"
 msgstr "Riprodurre il precedente"
@@ -10540,6 +10531,10 @@ msgstr "Inserire un nome per la nuova cartella"
 
 msgid "Please enter the new PIN code"
 msgstr "Inserire il nuovo codice PIN"
+
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Inserire il nuovo nome:"
 
 msgid "Please enter the old PIN code"
 msgstr "Inserire il vecchio codice PIN"
@@ -11662,6 +11657,10 @@ msgstr "Rinominare la voce selezionata"
 msgid "Rename name and description for new events"
 msgstr "Modificare il nome e la descrizione per i nuovi eventi"
 
+#, fuzzy
+msgid "Rename this tag"
+msgstr "Eliminare questo marcatore"
+
 msgid "Repeat"
 msgstr "Ripetere"
 
@@ -11687,6 +11686,12 @@ msgstr "Repliche"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
 msgstr "Sostituire nei dialoghi l'indicatore '-' con un testo colorato in modo differente per ogni voce parlante (simile ai sottotitoli televideo per non udenti)."
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr ""
 
 msgid "Replace newlines in EPG"
 msgstr ""
@@ -11918,10 +11923,6 @@ msgstr "Principale"
 
 msgid "Root directory"
 msgstr "Cartella principale"
-
-#, fuzzy
-msgid "Root file"
-msgstr "File SRT"
 
 msgid "Rose"
 msgstr ""
@@ -12159,6 +12160,10 @@ msgstr "Salvare le impostazioni e i dati EPG"
 
 #, fuzzy
 msgid "Save all changed settings and exit"
+msgstr "Inserire / Salvare e uscire"
+
+#, fuzzy
+msgid "Save all changed tags and exit"
 msgstr "Inserire / Salvare e uscire"
 
 #, fuzzy
@@ -14692,6 +14697,13 @@ msgstr "Pagina sottotitoli e lingua"
 msgid "Table of contents for collection"
 msgstr "Elenco dei contenuti della raccolta"
 
+msgid "Tag Editor"
+msgstr ""
+
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Selezione dei timer"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -15576,6 +15588,10 @@ msgstr "Attivare/disattivare l'infobar"
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr ""
 
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Aggiungere/eliminare un marcatore di taglio nella posizione attuale"
+
 msgid "Toggle show/hide"
 msgstr "Attivare/disattivare mostrare/nascondere"
 
@@ -15832,9 +15848,6 @@ msgstr "Tipo di LNB/dispositivo"
 
 msgid "Type of scan"
 msgstr "Tipo di ricerca"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr "SCONOSCIUTO"

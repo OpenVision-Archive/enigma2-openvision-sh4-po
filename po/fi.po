@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2020-05-16 18:41+0200\n"
 "Last-Translator: jamu\n"
 "Language-Team: BoxFreak/jamu\n"
@@ -1982,6 +1982,11 @@ msgid "Add a nameserver entry"
 msgstr "lisää nimipalvelin"
 
 #
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Lisää uusi tallenne"
+
+#
 msgid "Add a new title"
 msgstr "Lisää uusi tallenne"
 
@@ -2015,6 +2020,11 @@ msgstr "Lisää tiedostot soittolistalle"
 #
 msgid "Add marker"
 msgstr "Lisää väliotsikko"
+
+#
+#, fuzzy
+msgid "Add new tag"
+msgstr "Lisää uusi tallenne"
 
 #
 msgid "Add provider"
@@ -3069,11 +3079,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Boot information"
-msgstr "Tietoja"
-
-#
-#, fuzzy
 msgid "Boot time"
 msgstr "Aikajärj."
 
@@ -3157,11 +3162,6 @@ msgstr "Tietoja"
 #, fuzzy
 msgid "Build Model"
 msgstr "Käännöspäivä: "
-
-#
-#, fuzzy
-msgid "Build information"
-msgstr "Tietoja"
 
 #
 #, fuzzy
@@ -3394,6 +3394,10 @@ msgstr ""
 
 msgid "Cancel any changed settings and exit all menus"
 msgstr ""
+
+#, fuzzy
+msgid "Cancel any changed tags and exit"
+msgstr "Tallenna teksti ja poistu"
 
 msgid "Cancel any changes the active locale/language and exit all menus"
 msgstr ""
@@ -3968,11 +3972,6 @@ msgstr "CompactFlash"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#
-#, fuzzy
-msgid "Compiled by"
-msgstr "Täysi"
 
 #
 msgid "Complete"
@@ -5209,6 +5208,11 @@ msgstr "Poista tiedosto"
 
 #
 #, fuzzy
+msgid "Delete all tags"
+msgstr "Poista tiedosto"
+
+#
+#, fuzzy
 msgid "Delete all the text"
 msgstr "Poista soittolistan valittu kohde"
 
@@ -5279,8 +5283,18 @@ msgid "Delete the currently displayed log file"
 msgstr "Poista valittu otsikko"
 
 #
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Poista ohjelmistokuva"
+
+#
 msgid "Delete timer"
 msgstr "Poista ajastus"
+
+#
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Poista tallennettu soittolista"
 
 msgid "Deleted"
 msgstr "Poistettu"
@@ -5600,6 +5614,11 @@ msgstr "Näytä EIT nyt/seuraava tietopalkissa"
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "Näytä 4:3 sisältö näin:"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5670,6 +5689,18 @@ msgstr "Haluatko poistaa %s?"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Haluatko poistaa %s?"
+
+#
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Haluatko poistaa %s?"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #
 #, fuzzy, python-format
@@ -6054,6 +6085,11 @@ msgstr "Muokkaa"
 #
 msgid "Edit DNS"
 msgstr "Muuta DNS"
+
+#
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Muokkaa asetuksia"
 
 #
 msgid "Edit alternatives"
@@ -7133,9 +7169,6 @@ msgstr "Suosikit"
 msgid "Favourites"
 msgstr "Suosikit"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr "Fiji"
 
@@ -8147,32 +8180,7 @@ msgid "Ignore conflict"
 msgstr ""
 
 #, fuzzy
-msgid "Image"
-msgstr "Ohjelmisto: "
-
-#, fuzzy
 msgid "Image View On"
-msgstr "Ohjelmisto: "
-
-msgid "Image architecture"
-msgstr ""
-
-#, fuzzy
-msgid "Image build"
-msgstr "Ohjelmisto: "
-
-#
-#, fuzzy
-msgid "Image build date"
-msgstr "Käännöspäivä: "
-
-#
-#, fuzzy
-msgid "Image file system"
-msgstr "Luodaan tiedostojärjestelmää"
-
-#, fuzzy
-msgid "Image folder"
 msgstr "Ohjelmisto: "
 
 #, python-format
@@ -8727,11 +8735,6 @@ msgstr "Kenia"
 
 #
 #, fuzzy
-msgid "Kernel file"
-msgstr "Poista tiedosto"
-
-#
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "(ei CA-moduulia)"
 
@@ -9130,6 +9133,11 @@ msgstr "Lataa soittolista"
 
 #
 #, fuzzy
+msgid "Load tags from the timer and recordings"
+msgstr "Pysäytä ajastettu tallennus"
+
+#
+#, fuzzy
 msgid "Load unlinked user bouquets"
 msgstr "Näytä piilotetut suosikkilistat"
 
@@ -9346,9 +9354,6 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 #
 msgid "MMC card"
 msgstr "MMC-kortti"
@@ -9356,15 +9361,6 @@ msgstr "MMC-kortti"
 #
 msgid "MORE"
 msgstr "LISÄÄ"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -11363,11 +11359,9 @@ msgstr "Soita musiikkia..."
 msgid "Play next"
 msgstr "Toista seuraava"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Toista seuraava (palaa tallenneluetteloon)"
-
-msgid "Play next (return to previous service)"
-msgstr "Toista seuraava (palaa aiemmalle kanavalle)"
 
 msgid "Play previous"
 msgstr "Toista edellinen"
@@ -11484,6 +11478,11 @@ msgstr "Syötä uuden hakemiston nimi"
 
 msgid "Please enter the new PIN code"
 msgstr "Syötä uusi PIN-koodi"
+
+#
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Syötä uusi nimi:"
 
 msgid "Please enter the old PIN code"
 msgstr "Syötä vanha PIN-koodi"
@@ -12784,6 +12783,11 @@ msgid "Rename name and description for new events"
 msgstr "Muokkaa nimi ja kuvaus uusille tapahtumille"
 
 #
+#, fuzzy
+msgid "Rename this tag"
+msgstr "Poista tämä merkki"
+
+#
 msgid "Repeat"
 msgstr "Toistokerrat"
 
@@ -12814,6 +12818,12 @@ msgstr "Toistokerrat"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
 msgstr "Korvaa `- ` tekstityksissä väreillä samaan tapaan kuin kuulovammaisten tekstityksissä."
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr ""
 
 msgid "Replace newlines in EPG"
 msgstr ""
@@ -13078,10 +13088,6 @@ msgstr "Root"
 msgid "Root directory"
 msgstr "Päähakemisto"
 
-#, fuzzy
-msgid "Root file"
-msgstr "SRT-tiedosto"
-
 msgid "Rose"
 msgstr ""
 
@@ -13340,6 +13346,10 @@ msgstr "Tallenna asetukset ja ohjelmaoppaan tiedot"
 
 #, fuzzy
 msgid "Save all changed settings and exit"
+msgstr "Tallenna teksti ja poistu"
+
+#, fuzzy
+msgid "Save all changed tags and exit"
 msgstr "Tallenna teksti ja poistu"
 
 #
@@ -16163,6 +16173,14 @@ msgstr ""
 msgid "Table of contents for collection"
 msgstr "Kokoelman sisällysluettelo"
 
+msgid "Tag Editor"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Ajastinvalinta"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -17116,6 +17134,10 @@ msgstr "Tietopalkki päälle/pois"
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr ""
 
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Vaihda leikkausmerkki nykyiseen kohtaan"
+
 msgid "Toggle show/hide"
 msgstr ""
 
@@ -17402,9 +17424,6 @@ msgstr "LNB/laitteen tyyppi"
 #
 msgid "Type of scan"
 msgstr "Hakutapa"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr ""

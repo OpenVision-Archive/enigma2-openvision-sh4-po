@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLI Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: MCelliotG <mcelliotg@gmail.com>\n"
@@ -1874,6 +1874,10 @@ msgstr "Προσθήκη σημαδιού"
 msgid "Add a nameserver entry"
 msgstr "Προσθήκη διακομιστή ονομάτων"
 
+#, fuzzy
+msgid "Add a new tag"
+msgstr "Προσθήκη νέου τίτλου"
+
 msgid "Add a new title"
 msgstr "Προσθήκη νέου τίτλου"
 
@@ -1900,6 +1904,10 @@ msgstr "Προσθήκη αρχείων στη λίστα αναπαραγωγή
 
 msgid "Add marker"
 msgstr "Προσθήκη σημειωτή"
+
+#, fuzzy
+msgid "Add new tag"
+msgstr "Προσθήκη νέου τίτλου"
 
 msgid "Add provider"
 msgstr "Προσθήκη παρόχου"
@@ -2846,10 +2854,6 @@ msgid "Boot ID"
 msgstr ""
 
 #, fuzzy
-msgid "Boot information"
-msgstr "Πληροφορίες εκκίνησης"
-
-#, fuzzy
 msgid "Boot time"
 msgstr "Ώρα κατά την εκκίνηση"
 
@@ -2926,10 +2930,6 @@ msgstr "Πληροφορίες"
 #, fuzzy
 msgid "Build Model"
 msgstr "Ημερομηνία δημιουργίας: "
-
-#, fuzzy
-msgid "Build information"
-msgstr "Πληροφορίες"
 
 #, fuzzy
 msgid "Build information for"
@@ -3168,6 +3168,10 @@ msgstr "Ακύρωση όλων των αλλαγών κειμένου και έ
 #, fuzzy
 msgid "Cancel any changed settings and exit all menus"
 msgstr "Ακύρωση αλλαγών στο τρέχον θέμα και έξοδος όλων των μενού"
+
+#, fuzzy
+msgid "Cancel any changed tags and exit"
+msgstr "Ακύρωση όλων των αλλαγών κειμένου και έξοδος"
 
 #, fuzzy
 msgid "Cancel any changes the active locale/language and exit all menus"
@@ -3682,10 +3686,6 @@ msgstr "Compact Flash"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#, fuzzy
-msgid "Compiled by"
-msgstr "Πλήρης"
 
 msgid "Complete"
 msgstr "Πλήρης"
@@ -4842,6 +4842,10 @@ msgstr "Διαγραφή όλων των αρχείων καταγραφής"
 msgid "Delete all logfiles"
 msgstr "Διαγραφή όλων των αρχείων καταγραφής"
 
+#, fuzzy
+msgid "Delete all tags"
+msgstr "Διαγραφή όλων των αρχείων καταγραφής"
+
 msgid "Delete all the text"
 msgstr "Διαγραφή όλου του κειμένου"
 
@@ -4901,8 +4905,16 @@ msgstr "Διαγραφή του χαρακτήρα κάτω από τον κέρ
 msgid "Delete the currently displayed log file"
 msgstr "Διαγραφή επιλεγμένου τίτλου"
 
+#, fuzzy
+msgid "Delete this tag"
+msgstr "Διαγραφή image"
+
 msgid "Delete timer"
 msgstr "Διαγραφή χρονοδιακόπτη"
+
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "Διαγραφή αποθηκευμένης λίστας αναπαραγωγής"
 
 msgid "Deleted"
 msgstr "Διαγραμμένα"
@@ -5177,6 +5189,10 @@ msgstr "Εμφάνιση ΕΙΤ τρέχον/επόμενο στη μπάρα π
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "Εμφάνιση περιεχομένου 4:3 ως"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5235,6 +5251,17 @@ msgstr "Θέλετε σίγουρα να γίνει διαγραφή του %s;"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Θέλετε σίγουρα να γίνει διαγραφή του %s;"
+
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Θέλετε σίγουρα να γίνει διαγραφή του %s;"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #, fuzzy, python-format
 msgid "Do you really want to delete the '%s' bookmark?"
@@ -5561,6 +5588,10 @@ msgstr "Επεξεργασία"
 
 msgid "Edit DNS"
 msgstr "Επεξεργασία DNS"
+
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Επεξεργασία ρυθμίσεων"
 
 msgid "Edit alternatives"
 msgstr "Επεξεργασία εναλλακτικών"
@@ -6548,9 +6579,6 @@ msgstr "Αγαπημένα"
 msgid "Favourites"
 msgstr "Αγαπημένα"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr "Φίτζι"
 
@@ -7487,31 +7515,8 @@ msgstr "Αγνόηση του υπο-δικτύου στον χώρο ονόμα
 msgid "Ignore conflict"
 msgstr "Αγνόηση διένεξης"
 
-#, fuzzy
-msgid "Image"
-msgstr "Λογισμικό δέκτη: "
-
 msgid "Image View On"
 msgstr "Επισκόπηση εικόνας ενεργή"
-
-msgid "Image architecture"
-msgstr ""
-
-#, fuzzy
-msgid "Image build"
-msgstr "Λογισμικό δέκτη: "
-
-#, fuzzy
-msgid "Image build date"
-msgstr "Ημερομηνία δημιουργίας: "
-
-#, fuzzy
-msgid "Image file system"
-msgstr "Δημιουργίας συστήματος αρχείων"
-
-#, fuzzy
-msgid "Image folder"
-msgstr "Λογισμικό δέκτη: "
 
 #, python-format
 msgid ""
@@ -8012,10 +8017,6 @@ msgid "Kenya"
 msgstr "Κένυα"
 
 #, fuzzy
-msgid "Kernel file"
-msgstr "Διαγραφή αρχείου"
-
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "δεν βρέθηκε άρθρωμα"
 
@@ -8371,6 +8372,10 @@ msgid "Load playlist"
 msgstr "Φόρτωση λίστας αναπαραγωγής"
 
 #, fuzzy
+msgid "Load tags from the timer and recordings"
+msgstr "Διακοπή εγγραφής χρονοδιακόπτη"
+
+#, fuzzy
 msgid "Load unlinked user bouquets"
 msgstr "Φόρτωση ασύνδετων μπουκέτων χρήστη"
 
@@ -8564,23 +8569,11 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 msgid "MMC card"
 msgstr "Κάρτα MMC"
 
 msgid "MORE"
 msgstr "ΠΕΡΙΣΣΟΤΕΡΑ"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -10351,11 +10344,9 @@ msgstr "Αναπαραγωγή μουσικής..."
 msgid "Play next"
 msgstr "Αναπαραγωγή επόμενου"
 
-msgid "Play next (return to movie list)"
+#, fuzzy
+msgid "Play next in movie list"
 msgstr "Αναπαραγωγή επόμενου (επιστροφή στη λίστα)"
-
-msgid "Play next (return to previous service)"
-msgstr "Αναπαραγωγή επόμενου (επιστροφή στην προηγούμενη υπηρεσία)"
 
 msgid "Play previous"
 msgstr "Απαναραγωγή προγηγούμενου"
@@ -10454,6 +10445,10 @@ msgstr "Εισάγετε όνομα νέου φάκελου"
 
 msgid "Please enter the new PIN code"
 msgstr "Εισαγωγή νέου κωδικού PIN"
+
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Εισάγετε νέο όνομα:"
 
 msgid "Please enter the old PIN code"
 msgstr "Εισάγετε τον παλιό κωδικό PIN"
@@ -11575,6 +11570,10 @@ msgstr "Μετονομασία στοιχείου"
 msgid "Rename name and description for new events"
 msgstr "Αλλαγή ονόματος και περιγραφής για νέα προγράμματα"
 
+#, fuzzy
+msgid "Rename this tag"
+msgstr "διαγραφή αυτού του σημειωτή"
+
 msgid "Repeat"
 msgstr "Επανάληψη"
 
@@ -11600,6 +11599,12 @@ msgstr "Επαναλήψεις"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
 msgstr "Αντικατάσταση του `- ` στους διαλόγους με χρωματιστό κείμενο ανά ομιλούντα (όπως στους υπότιτλους τηλεκειμένου για άτομα με προβλήματα ακοής)"
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr ""
 
 msgid "Replace newlines in EPG"
 msgstr "Αντικατάσταση νέων γραμμών στο EPG"
@@ -11828,10 +11833,6 @@ msgstr "Root"
 
 msgid "Root directory"
 msgstr "Αρχικός φάκελος"
-
-#, fuzzy
-msgid "Root file"
-msgstr "αρχείο SRT"
 
 msgid "Rose"
 msgstr ""
@@ -12069,6 +12070,10 @@ msgstr "Αποθήκευση ρυθμίσεων και δεδομένων EPG"
 
 #, fuzzy
 msgid "Save all changed settings and exit"
+msgstr "Αποθήκευση / Εισαγωγή κειμένου και έξοδος"
+
+#, fuzzy
+msgid "Save all changed tags and exit"
 msgstr "Αποθήκευση / Εισαγωγή κειμένου και έξοδος"
 
 msgid "Save and activate the currently selected skin"
@@ -14587,6 +14592,13 @@ msgstr "Σελίδα υποτίτλων TXT & γλώσσα"
 msgid "Table of contents for collection"
 msgstr "Πίνακας περιεχομένων για συλλογή"
 
+msgid "Tag Editor"
+msgstr ""
+
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Επιλογή χρονοδιακόπτη"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -15466,6 +15478,10 @@ msgstr "Ενεργοποίηση μπάρας πληροφοριών"
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr "Εναλλαγή νέων εισαγωγών κειμένου πριν ή αντικατάσταση υπάρχοντος κειμένου"
 
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "Δημιουργία σημειωτή αποκοπής στην τρέχουσα θέση"
+
 msgid "Toggle show/hide"
 msgstr "Εναλλαγή εμφάνισης/απόκρυψης"
 
@@ -15712,9 +15728,6 @@ msgstr "Τύπος LNB/συσκευής"
 
 msgid "Type of scan"
 msgstr "Τύπος ανίχνευσης"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr "ΑΓΝΩΣΤΟ"

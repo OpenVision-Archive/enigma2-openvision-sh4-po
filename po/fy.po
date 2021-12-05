@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-28 01:50+0000\n"
+"POT-Creation-Date: 2021-12-05 02:01+0000\n"
 "PO-Revision-Date: 2008-12-29 16:22+0100\n"
 "Last-Translator: gerrit <gerrit@nedlinux.nl>\n"
 "Language-Team: gerrit <fy@li.org>\n"
@@ -1995,6 +1995,11 @@ msgid "Add a nameserver entry"
 msgstr "In nammeserver tafoegje"
 
 #
+#, fuzzy
+msgid "Add a new tag"
+msgstr "In nije titel tafoegje"
+
+#
 msgid "Add a new title"
 msgstr "In nije titel tafoegje"
 
@@ -2032,6 +2037,11 @@ msgstr "triemen tafoegje an ôfspiellyst"
 #
 msgid "Add marker"
 msgstr "Marker tafoegje"
+
+#
+#, fuzzy
+msgid "Add new tag"
+msgstr "In nije titel tafoegje"
 
 #
 #, fuzzy
@@ -3113,11 +3123,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Boot information"
-msgstr "Ynformaasje"
-
-#
-#, fuzzy
 msgid "Boot time"
 msgstr "Sorteer op Tiid"
 
@@ -3196,11 +3201,6 @@ msgstr "Ynformaasje"
 #, fuzzy
 msgid "Build Model"
 msgstr "Moadus"
-
-#
-#, fuzzy
-msgid "Build information"
-msgstr "Ynformaasje"
 
 #
 #, fuzzy
@@ -3437,6 +3437,9 @@ msgid "Cancel any changed settings and exit"
 msgstr ""
 
 msgid "Cancel any changed settings and exit all menus"
+msgstr ""
+
+msgid "Cancel any changed tags and exit"
 msgstr ""
 
 msgid "Cancel any changes the active locale/language and exit all menus"
@@ -4011,11 +4014,6 @@ msgstr "Compact flash"
 
 msgid "Compatible to use on"
 msgstr ""
-
-#
-#, fuzzy
-msgid "Compiled by"
-msgstr "Kompleet"
 
 #
 msgid "Complete"
@@ -5285,6 +5283,11 @@ msgstr "triem ferwiderje"
 
 #
 #, fuzzy
+msgid "Delete all tags"
+msgstr "triem ferwiderje"
+
+#
+#, fuzzy
 msgid "Delete all the text"
 msgstr "ofspiellyst rigele ferwiderje"
 
@@ -5358,8 +5361,18 @@ msgstr ""
 msgid "Delete the currently displayed log file"
 msgstr "Ferwiderje it selektearre bestan"
 
+#
+#, fuzzy
+msgid "Delete this tag"
+msgstr "triem ferwiderje"
+
 msgid "Delete timer"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Delete unused tags"
+msgstr "ferwiderje opsleine ofspiellyst"
 
 msgid "Deleted"
 msgstr ""
@@ -5670,6 +5683,11 @@ msgstr ""
 msgid "Display the base locales or all locales for a language."
 msgstr ""
 
+#
+#, fuzzy
+msgid "Display the tags context menu"
+msgstr "4:3 ynhâld sjen litte as"
+
 msgid "Display the virtual keyboard for data entry"
 msgstr ""
 
@@ -5747,6 +5765,18 @@ msgstr "Wolle jo wier %s ferwiderje?"
 #, fuzzy
 msgid "Do you really want to delete ?"
 msgstr "Wolle jo wier %s ferwiderje?"
+
+#
+#, fuzzy, python-format
+msgid ""
+"Do you really want to delete all '%s' tags?\n"
+"(NOTE: 'Cancel' cannot undo this!)"
+msgstr "Wolle jo wier %s ferwiderje?"
+
+msgid ""
+"Do you really want to delete all tags?\n"
+"(Note that 'Cancel' will not undo this!)"
+msgstr ""
 
 #
 #, fuzzy, python-format
@@ -6129,6 +6159,11 @@ msgstr "Bewurkje"
 #
 msgid "Edit DNS"
 msgstr "Wyzigje de DNS"
+
+#
+#, fuzzy
+msgid "Edit Tags"
+msgstr "Wyzigje ynstellingen"
 
 #
 msgid "Edit alternatives"
@@ -7209,9 +7244,6 @@ msgstr "Favoryten"
 msgid "Favourites"
 msgstr "Favoryten"
 
-msgid "Feed URL"
-msgstr ""
-
 msgid "Fiji"
 msgstr ""
 
@@ -8226,32 +8258,8 @@ msgstr ""
 msgid "Ignore conflict"
 msgstr ""
 
-#
-#, fuzzy
-msgid "Image"
-msgstr "Flash"
-
 msgid "Image View On"
 msgstr ""
-
-msgid "Image architecture"
-msgstr ""
-
-msgid "Image build"
-msgstr ""
-
-msgid "Image build date"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Image file system"
-msgstr "Bestânsysteem neisjen"
-
-#
-#, fuzzy
-msgid "Image folder"
-msgstr "Kies doel map"
 
 #, python-format
 msgid ""
@@ -8805,11 +8813,6 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "Kernel file"
-msgstr "triem ferwiderje"
-
-#
-#, fuzzy
 msgid "Kernel module layout"
 msgstr "gjin CI-Module fûn"
 
@@ -9207,6 +9210,9 @@ msgstr ""
 msgid "Load playlist"
 msgstr "ofspiellyst lade"
 
+msgid "Load tags from the timer and recordings"
+msgstr ""
+
 msgid "Load unlinked user bouquets"
 msgstr ""
 
@@ -9416,9 +9422,6 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
-msgid "MKUBIFS"
-msgstr ""
-
 #
 #, fuzzy
 msgid "MMC card"
@@ -9427,15 +9430,6 @@ msgstr "MMC kaart"
 #
 msgid "MORE"
 msgstr "MEER"
-
-msgid "MTD boot"
-msgstr ""
-
-msgid "MTD kernel"
-msgstr ""
-
-msgid "MTD root"
-msgstr ""
 
 msgid "MTU"
 msgstr ""
@@ -11450,11 +11444,10 @@ msgstr "Ofspylje fan Audio-CD..."
 msgid "Play next"
 msgstr ""
 
-msgid "Play next (return to movie list)"
-msgstr ""
-
-msgid "Play next (return to previous service)"
-msgstr ""
+#
+#, fuzzy
+msgid "Play next in movie list"
+msgstr "filmlyst ferlitte"
 
 msgid "Play previous"
 msgstr ""
@@ -11564,6 +11557,11 @@ msgstr "Jou in namme yn foar de nije map"
 
 msgid "Please enter the new PIN code"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Please enter the new tag:"
+msgstr "Jou in nije bestânnamme yn"
 
 msgid "Please enter the old PIN code"
 msgstr ""
@@ -12854,6 +12852,11 @@ msgstr ""
 msgid "Rename name and description for new events"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Rename this tag"
+msgstr "ferwiderje punt"
+
 msgid "Repeat"
 msgstr ""
 
@@ -12884,6 +12887,12 @@ msgid "Repeats"
 msgstr "Herhellingen"
 
 msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
+msgstr ""
+
+#, python-format
+msgid ""
+"Replace all '%s' tags with:\n"
+"(NOTE: 'Cancel' cannot undo this!)"
 msgstr ""
 
 msgid "Replace newlines in EPG"
@@ -13159,11 +13168,6 @@ msgstr ""
 msgid "Root directory"
 msgstr ""
 
-#
-#, fuzzy
-msgid "Root file"
-msgstr "triem ferwiderje"
-
 msgid "Rose"
 msgstr ""
 
@@ -13419,6 +13423,9 @@ msgid "Save EPG data"
 msgstr ""
 
 msgid "Save all changed settings and exit"
+msgstr ""
+
+msgid "Save all changed tags and exit"
 msgstr ""
 
 #
@@ -16289,6 +16296,14 @@ msgstr "Undertitel seleksje"
 msgid "Table of contents for collection"
 msgstr "Ynhalds tabel foar kolleksje"
 
+msgid "Tag Editor"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Tag Editor Actions"
+msgstr "Tiidsbarren seleksje"
+
 msgid "Tagalog"
 msgstr ""
 
@@ -17223,6 +17238,11 @@ msgstr ""
 msgid "Toggle new text inserts before or overwrites existing text"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Toggle selection of the current tag"
+msgstr "merker oan/út op dizze posysje"
+
 msgid "Toggle show/hide"
 msgstr ""
 
@@ -17518,9 +17538,6 @@ msgstr "Type fan sykjen"
 #
 msgid "Type of scan"
 msgstr "Type fan sykjen"
-
-msgid "UBINIZE"
-msgstr ""
 
 msgid "UNKNOWN"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 08:09+0000\n"
+"POT-Creation-Date: 2021-12-12 01:58+0000\n"
 "PO-Revision-Date: 2010-03-09 21:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: HDTV ROMANIA(superonic,costel_mbc,neutrin,otheitis,cipy_1982,neutrin,runcanion)\n"
@@ -2057,6 +2057,9 @@ msgstr "Modul radio alternativ"
 msgid "Alternative services tuner priority"
 msgstr "Prioritate tuner servicii alternative"
 
+msgid "Always"
+msgstr ""
+
 msgid "Always ask"
 msgstr ""
 
@@ -3054,6 +3057,9 @@ msgstr ""
 msgid "Cancel any changed tags and exit"
 msgstr ""
 
+msgid "Cancel any changes and close the log and the screen"
+msgstr ""
+
 msgid "Cancel any changes the active locale/language and exit all menus"
 msgstr ""
 
@@ -3422,6 +3428,9 @@ msgstr "Sterge logul"
 #, fuzzy
 msgid "Clear playlist"
 msgstr "sterge playlist"
+
+msgid "Clear the contents of the log"
+msgstr ""
 
 msgid "Clear the virtual memory caches"
 msgstr ""
@@ -4802,6 +4811,10 @@ msgid "Delete the character under the text cursor"
 msgstr ""
 
 #, fuzzy
+msgid "Delete the current entry from the log"
+msgstr "Eliminare titlu curent selectat"
+
+#, fuzzy
 msgid "Delete the currently displayed log file"
 msgstr "Eliminare titlu curent selectat"
 
@@ -4841,6 +4854,9 @@ msgid "Denmark"
 msgstr ""
 
 msgid "Depth"
+msgstr ""
+
+msgid "Descramble and record ecm"
 msgstr ""
 
 msgid "Descramble receiving http streams"
@@ -5319,6 +5335,9 @@ msgid "Dominica"
 msgstr ""
 
 msgid "Dominican Republic"
+msgstr ""
+
+msgid "Don't descramble, record ecm"
 msgstr ""
 
 #, fuzzy
@@ -6828,6 +6847,10 @@ msgstr "Inversare"
 msgid "Go down the list"
 msgstr ""
 
+#, fuzzy
+msgid "Go to deep standby"
+msgstr "treci la deep standby"
+
 msgid "Go to first movie or last item"
 msgstr ""
 
@@ -6857,6 +6880,10 @@ msgstr "muta sus la anterioara intrare"
 #, fuzzy
 msgid "Go to previous page of service"
 msgstr "Revenire la serviciul anterior"
+
+#, fuzzy
+msgid "Go to standby"
+msgstr "intra in standby"
 
 msgid "Go up the list"
 msgstr ""
@@ -8364,6 +8391,10 @@ msgstr "Blocat"
 msgid "Log"
 msgstr ""
 
+#, fuzzy
+msgid "Log Actions"
+msgstr "Locatie"
+
 #, python-format
 msgid "Log file '%s' deleted."
 msgstr ""
@@ -9286,6 +9317,10 @@ msgstr "Wizard de retea"
 msgid "Network:"
 msgstr "Retea"
 
+#, fuzzy
+msgid "Never"
+msgstr "niciodata"
+
 msgid "Never decrypt the content while recording. This overrides the individual timer settings globally. If enabled, recordings are stored in crypted presentation and must be decrypted afterwards (sometimes called offline decoding). Default: off."
 msgstr ""
 
@@ -9774,6 +9809,9 @@ msgstr ""
 msgid "On valid ONIDs, ignore frequency sub network part"
 msgstr ""
 
+msgid "Once"
+msgstr ""
+
 msgid "One"
 msgstr "Unu"
 
@@ -9791,6 +9829,14 @@ msgstr ""
 
 #, fuzzy
 msgid "Only free scan"
+msgstr "Numai scanare la programele libere"
+
+#, fuzzy
+msgid "Only from deep standby"
+msgstr "treci la deep standby"
+
+#, fuzzy
+msgid "Only from standby"
 msgstr "Numai scanare la programele libere"
 
 msgid "Only move the dish quickly after this hour."
@@ -10285,6 +10331,14 @@ msgstr ""
 
 msgid "Please change recording endtime"
 msgstr "Va rugam schimbati timpul final pentru inregistrare"
+
+#, fuzzy
+msgid "Please check all timers!"
+msgstr "Va rugam alegeti o extensie..."
+
+#, fuzzy
+msgid "Please check all timers."
+msgstr "Va rugam alegeti o extensie..."
 
 #, fuzzy
 msgid "Please choose CCcam-Reader"
@@ -11492,6 +11546,10 @@ msgid "Repeat type"
 msgstr "Tip repetare"
 
 #, fuzzy
+msgid "Repeated"
+msgstr "repetat"
+
+#, fuzzy
 msgid "Repeating the event currently recording... What do you want to do?"
 msgstr "Repetare eveniment care se inregistreaza. Ce doriti a faceti?"
 
@@ -12000,6 +12058,9 @@ msgid "Save playlist on exit"
 msgstr "Salveaza playlist la iesire"
 
 msgid "Save settings and EPG data"
+msgstr ""
+
+msgid "Save the current contents of the log and close the screen"
 msgstr ""
 
 msgid "Save timeshift and zap"
@@ -13483,6 +13544,9 @@ msgstr "amesteca plylist"
 msgid "Shuffle playlist"
 msgstr "amesteca plylist"
 
+msgid "Shut down"
+msgstr ""
+
 msgid "Shutdown"
 msgstr ""
 
@@ -14847,10 +14911,11 @@ msgid "The team relies on donations to fund OpenVision development."
 msgstr ""
 
 #, fuzzy
-msgid "The timer file (pm_timers.xml) is corrupt and could not be loaded."
+msgid "The timer file 'pm_timers.xml' is corrupt and could not be loaded."
 msgstr "Fisierul timer (timer.xml) este corupt si nu a putut fi incarcat."
 
-msgid "The timer file (timers.xml) is corrupt and could not be loaded."
+#, fuzzy
+msgid "The timer file 'timers.xml' is corrupt and could not be loaded."
 msgstr "Fisierul timer (timer.xml) este corupt si nu a putut fi incarcat."
 
 msgid "The user interface of the receiver will now restart to select the selected skin"
@@ -15263,9 +15328,21 @@ msgstr ""
 msgid "Timer"
 msgstr "Timer"
 
+#, fuzzy, python-format
+msgid "Timer '%s' disabled!"
+msgstr "Subtitrari"
+
 #, fuzzy
 msgid "Timer Actions"
 msgstr "Selectare timer"
+
+#, fuzzy
+msgid "Timer Entry"
+msgstr "Intrare timer"
+
+#, fuzzy
+msgid "Timer Log"
+msgstr "Inregistrare timer"
 
 msgid "Timer Overview"
 msgstr ""
@@ -15281,19 +15358,13 @@ msgid "Timer log"
 msgstr "Inregistrare timer"
 
 #, fuzzy
-msgid ""
-"Timer overlap in pm_timers.xml detected!\n"
-"Please recheck it!"
+msgid "Timer overlaps detected in pm_timers.xml!"
 msgstr ""
 "Suprapunere timer detectata in timers.xml!\n"
 "Te rog verifica din nou!"
 
-msgid ""
-"Timer overlap in timers.xml detected!\n"
-"Please recheck it!"
+msgid "Timer overlaps detected in timers.xml!"
 msgstr ""
-"Suprapunere timer detectata in timers.xml!\n"
-"Te rog verifica din nou!"
 
 #, fuzzy
 msgid "Timer overview"
@@ -17155,6 +17226,10 @@ msgstr ""
 msgid "Zap Up/Down"
 msgstr ""
 
+#, fuzzy
+msgid "Zap and record"
+msgstr "nu inregistra"
+
 msgid "Zap back to previously tuned service?"
 msgstr ""
 
@@ -17285,9 +17360,6 @@ msgid "all"
 msgstr ""
 
 msgid "all tuners"
-msgstr ""
-
-msgid "always"
 msgstr ""
 
 #, fuzzy
@@ -17468,9 +17540,6 @@ msgstr ""
 msgid "deleted"
 msgstr "Sterge"
 
-msgid "descramble and record ecm"
-msgstr ""
-
 msgid "detective/thriller"
 msgstr ""
 
@@ -17490,9 +17559,6 @@ msgid "documentary"
 msgstr ""
 
 msgid "documentary (general)"
-msgstr ""
-
-msgid "don't descramble, record ecm"
 msgstr ""
 
 msgid "done!"
@@ -17889,9 +17955,6 @@ msgstr ""
 msgid "none"
 msgstr "nimic"
 
-msgid "normal"
-msgstr ""
-
 msgid "not configured"
 msgstr ""
 
@@ -17943,12 +18006,6 @@ msgstr "la READ ONLY mediu"
 
 msgid "once"
 msgstr "odata"
-
-msgid "only from deep standby"
-msgstr ""
-
-msgid "only from standby"
-msgstr ""
 
 msgid "open nameserver configuration"
 msgstr "deschide configurarea nameserverului"

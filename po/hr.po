@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 08:09+0000\n"
+"POT-Creation-Date: 2021-12-12 01:58+0000\n"
 "PO-Revision-Date: 2021-08-26 20:26+0200\n"
 "Last-Translator: Željko <zeljko2@hi.ht.hr>\n"
 "Language-Team: Željko\n"
@@ -2220,6 +2220,10 @@ msgstr "Alternativni način numeriranja"
 msgid "Alternative services tuner priority"
 msgstr "Prioritet tunera za alternativne usluge"
 
+#, fuzzy
+msgid "Always"
+msgstr "uvijek"
+
 msgid "Always ask"
 msgstr "Uvijek pitaj"
 
@@ -3229,6 +3233,10 @@ msgid "Cancel any changed tags and exit"
 msgstr "Poništite sve izmjene teksta i izađite"
 
 #, fuzzy
+msgid "Cancel any changes and close the log and the screen"
+msgstr "Poništite sve promjene u trenutno aktivnom skinu"
+
+#, fuzzy
 msgid "Cancel any changes the active locale/language and exit all menus"
 msgstr "Poništite sve promjene u trenutno aktivnom skinu i izađite iz svih izbornika"
 
@@ -3602,6 +3610,9 @@ msgstr "Očisti log"
 
 msgid "Clear playlist"
 msgstr "Očistite popis pjesama"
+
+msgid "Clear the contents of the log"
+msgstr ""
 
 msgid "Clear the virtual memory caches"
 msgstr ""
@@ -4964,6 +4975,10 @@ msgid "Delete the character under the text cursor"
 msgstr "Izbrišite znak ispod tekstualnog pokazivača"
 
 #, fuzzy
+msgid "Delete the current entry from the log"
+msgstr "Uklonite trenutno odabrani naslov"
+
+#, fuzzy
 msgid "Delete the currently displayed log file"
 msgstr "Uklonite trenutno odabrani naslov"
 
@@ -5004,6 +5019,10 @@ msgstr "Danska"
 
 msgid "Depth"
 msgstr "Dubina"
+
+#, fuzzy
+msgid "Descramble and record ecm"
+msgstr "dekodirati i snimiti ecm"
 
 msgid "Descramble receiving http streams"
 msgstr "Dekodiranje primljenih web prijenosa"
@@ -5481,6 +5500,10 @@ msgstr "Dominica"
 
 msgid "Dominican Republic"
 msgstr "Dominikanska Republika"
+
+#, fuzzy
+msgid "Don't descramble, record ecm"
+msgstr "nemojte dekodirati, snimite ecm"
 
 #, fuzzy
 msgid "Don't restart"
@@ -7017,6 +7040,10 @@ msgstr "Inverzija"
 msgid "Go down the list"
 msgstr "Idite niz popis"
 
+#, fuzzy
+msgid "Go to deep standby"
+msgstr "idite u duboko stanje čekanja"
+
 msgid "Go to first movie or last item"
 msgstr "Idite na prvi video zapis ili posljednju stavku"
 
@@ -7040,6 +7067,10 @@ msgstr "Idite na prethodni događaj"
 
 msgid "Go to previous page of service"
 msgstr "Idite na prethodnu stranicu usluge"
+
+#, fuzzy
+msgid "Go to standby"
+msgstr "idite u stanje čekanja"
 
 msgid "Go up the list"
 msgstr "Idite na vrh liste"
@@ -8558,6 +8589,10 @@ msgstr "Zaklj:"
 msgid "Log"
 msgstr ""
 
+#, fuzzy
+msgid "Log Actions"
+msgstr "Lokacija"
+
 #, python-format
 msgid "Log file '%s' deleted."
 msgstr ""
@@ -9481,6 +9516,10 @@ msgstr "Vodič za postavljanje mreže"
 msgid "Network:"
 msgstr "Mreža:"
 
+#, fuzzy
+msgid "Never"
+msgstr "nikada"
+
 msgid "Never decrypt the content while recording. This overrides the individual timer settings globally. If enabled, recordings are stored in crypted presentation and must be decrypted afterwards (sometimes called offline decoding). Default: off."
 msgstr "Nikada ne dešifrirajte sadržaj tijekom snimanja. To globalno nadjačava pojedinačne postavke tajmera. Ako je omogućeno, snimke se pohranjuju u kriptiranoj prezentaciji i nakon toga se moraju dešifrirati (ponekad se naziva i dekodiranje izvanmrežno). Zadano: isključeno."
 
@@ -9962,6 +10001,9 @@ msgstr "Na kraju filma (kao izbornik)"
 msgid "On valid ONIDs, ignore frequency sub network part"
 msgstr "Na važećim ONID-ovima, zanemarite dio mrežne frekvencije."
 
+msgid "Once"
+msgstr ""
+
 msgid "One"
 msgstr "Jedan"
 
@@ -9980,6 +10022,14 @@ msgstr "Samo proširenja."
 
 msgid "Only free scan"
 msgstr "Pretraživanje samo besplatnih kanala"
+
+#, fuzzy
+msgid "Only from deep standby"
+msgstr "samo iz dubokog stanja čekanja"
+
+#, fuzzy
+msgid "Only from standby"
+msgstr "samo iz stanja čekanja"
 
 msgid "Only move the dish quickly after this hour."
 msgstr "Pokrenuti tanjur brzo nakon tog vremena."
@@ -10468,6 +10518,14 @@ msgstr "Dodajte naslove kompilaciji."
 
 msgid "Please change recording endtime"
 msgstr "Promijenite vrijeme završetka snimanja"
+
+#, fuzzy
+msgid "Please check all timers!"
+msgstr "Odaberite proširenje..."
+
+#, fuzzy
+msgid "Please check all timers."
+msgstr "Odaberite proširenje..."
 
 #, fuzzy
 msgid "Please choose CCcam-Reader"
@@ -11681,6 +11739,10 @@ msgid "Repeat type"
 msgstr "Vrsta ponavljanja"
 
 #, fuzzy
+msgid "Repeated"
+msgstr "ponavljati"
+
+#, fuzzy
 msgid "Repeating the event currently recording... What do you want to do?"
 msgstr "Ponavljajući događaj trenutno se snima. Što želite učiniti?"
 
@@ -12192,6 +12254,9 @@ msgstr "Spremite popis za reprodukciju na izlazu"
 
 msgid "Save settings and EPG data"
 msgstr "Spremite postavke i EPG podatke"
+
+msgid "Save the current contents of the log and close the screen"
+msgstr ""
 
 msgid "Save timeshift and zap"
 msgstr "Spremite vremenski pomak i prebacite"
@@ -13659,6 +13724,10 @@ msgstr "slučajni poredak"
 msgid "Shuffle playlist"
 msgstr "Nasumični popis pjesama"
 
+#, fuzzy
+msgid "Shut down"
+msgstr "Isključivanje"
+
 msgid "Shutdown"
 msgstr "Isključivanje"
 
@@ -15022,10 +15091,11 @@ msgid "The team relies on donations to fund OpenVision development."
 msgstr ""
 
 #, fuzzy
-msgid "The timer file (pm_timers.xml) is corrupt and could not be loaded."
+msgid "The timer file 'pm_timers.xml' is corrupt and could not be loaded."
 msgstr "Datoteka tajmera (timers.xml) je oštećena i nije se mogla učitati."
 
-msgid "The timer file (timers.xml) is corrupt and could not be loaded."
+#, fuzzy
+msgid "The timer file 'timers.xml' is corrupt and could not be loaded."
 msgstr "Datoteka tajmera (timers.xml) je oštećena i nije se mogla učitati."
 
 msgid "The user interface of the receiver will now restart to select the selected skin"
@@ -15451,9 +15521,23 @@ msgstr ""
 msgid "Timer"
 msgstr "Tajmer"
 
+#, fuzzy, python-format
+msgid "Timer '%s' disabled!"
+msgstr ""
+"\n"
+"Таjmer '%s' onemogućen!"
+
 #, fuzzy
 msgid "Timer Actions"
 msgstr "Odabir tajmera"
+
+#, fuzzy
+msgid "Timer Entry"
+msgstr "Unesite tajmer"
+
+#, fuzzy
+msgid "Timer Log"
+msgstr "Log tajmera"
 
 msgid "Timer Overview"
 msgstr "Pregled tajmera"
@@ -15468,19 +15552,13 @@ msgid "Timer log"
 msgstr "Log tajmera"
 
 #, fuzzy
-msgid ""
-"Timer overlap in pm_timers.xml detected!\n"
-"Please recheck it!"
+msgid "Timer overlaps detected in pm_timers.xml!"
 msgstr ""
 "Otkriveno je preklapanje tajmera u timers.xml!\n"
 "Molimo ponovno provjerite!"
 
-msgid ""
-"Timer overlap in timers.xml detected!\n"
-"Please recheck it!"
+msgid "Timer overlaps detected in timers.xml!"
 msgstr ""
-"Otkriveno je preklapanje tajmera u timers.xml!\n"
-"Molimo ponovno provjerite!"
 
 msgid "Timer overview"
 msgstr "Pregled tajmera"
@@ -17385,6 +17463,10 @@ msgstr "Prebacivanje"
 msgid "Zap Up/Down"
 msgstr "Prebacivanje kanala prema dolje"
 
+#, fuzzy
+msgid "Zap and record"
+msgstr "prebaciti i snimiti"
+
 msgid "Zap back to previously tuned service?"
 msgstr "Prebacivanje vratiti na prethodno podešenu uslugu?"
 
@@ -17516,9 +17598,6 @@ msgstr "sve"
 
 msgid "all tuners"
 msgstr "svi tjuneri"
-
-msgid "always"
-msgstr "uvijek"
 
 #, fuzzy
 msgid "and"
@@ -17705,9 +17784,6 @@ msgstr ""
 msgid "deleted"
 msgstr "Izbrisano"
 
-msgid "descramble and record ecm"
-msgstr "dekodirati i snimiti ecm"
-
 msgid "detective/thriller"
 msgstr "detektiv/triler"
 
@@ -17729,9 +17805,6 @@ msgstr "dokumentarni"
 #, fuzzy
 msgid "documentary (general)"
 msgstr "dokumentarni"
-
-msgid "don't descramble, record ecm"
-msgstr "nemojte dekodirati, snimite ecm"
 
 msgid "done!"
 msgstr "dovršeno!"
@@ -18138,9 +18211,6 @@ msgstr "nema pronađenih uređaja za pohranu"
 msgid "none"
 msgstr "nijedan"
 
-msgid "normal"
-msgstr "normalan"
-
 msgid "not configured"
 msgstr "nije konfiguriran"
 
@@ -18192,12 +18262,6 @@ msgstr "na mediju SAMO ZA ČITANJE."
 
 msgid "once"
 msgstr "jednom"
-
-msgid "only from deep standby"
-msgstr "samo iz dubokog stanja čekanja"
-
-msgid "only from standby"
-msgstr "samo iz stanja čekanja"
 
 msgid "open nameserver configuration"
 msgstr "otvorite konfiguraciju imena poslužitelja (DNS)"

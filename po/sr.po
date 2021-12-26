@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-19 02:03+0000\n"
+"POT-Creation-Date: 2021-12-26 02:03+0000\n"
 "PO-Revision-Date: 2011-04-14 00:02+0200\n"
 "Last-Translator: majevica <jovanovic@gmx.ch>\n"
 "Language-Team: veselin & majevica CRNABERZA <jovanovic@gmx.ch>\n"
@@ -3953,6 +3953,11 @@ msgid "Close the screen and exit all menus"
 msgstr ""
 
 #
+#, fuzzy
+msgid "Close the window"
+msgstr "Zatvori zbor naslova"
+
+#
 msgid "Close title selection"
 msgstr "Zatvori zbor naslova"
 
@@ -7150,13 +7155,6 @@ msgid ""
 "inactive"
 msgstr ""
 
-#, python-format
-msgid "FBC socket %s"
-msgstr ""
-
-msgid "FBC virtual"
-msgstr ""
-
 #
 #, fuzzy
 msgid "FCC enabled"
@@ -9863,6 +9861,11 @@ msgid "Message"
 msgstr "Poruka"
 
 #
+#, fuzzy
+msgid "Message Box Actions"
+msgstr "EPG selektor "
+
+#
 msgid "Message..."
 msgstr "Poruka..."
 
@@ -10053,6 +10056,11 @@ msgstr "Pomeri dole na poslednji unos"
 
 #
 #, fuzzy
+msgid "Move down a page"
+msgstr "Pomeri dole na poslednji unos"
+
+#
+#, fuzzy
 msgid "Move down a screen"
 msgstr "Pomeri dole na poslednji unos"
 
@@ -10131,8 +10139,18 @@ msgstr ""
 
 #
 #, fuzzy
+msgid "Move to first line"
+msgstr "Pomeri gore na prvi unos"
+
+#
+#, fuzzy
 msgid "Move to first line / screen"
 msgstr "Pomeri dole na naredni unos"
+
+#
+#, fuzzy
+msgid "Move to last line"
+msgstr "Pomeri dole na poslednji unos"
 
 #
 #, fuzzy
@@ -10164,6 +10182,11 @@ msgstr "Pomeri gore na prethodni unos"
 
 msgid "Move up a line"
 msgstr ""
+
+#
+#, fuzzy
+msgid "Move up a page"
+msgstr "Prebaci na sledeći ugao"
 
 msgid "Move up a screen"
 msgstr ""
@@ -13355,6 +13378,9 @@ msgstr "Skidanje informacije o dodatku. Molim pričekajte..."
 msgid "Retrieving system information, please wait..."
 msgstr "Skidanje informacije o dodatku. Molim pričekajte..."
 
+msgid "Return the current selection response"
+msgstr ""
+
 #
 msgid "Return to movie list"
 msgstr "Vratite se na listu filmova"
@@ -14258,6 +14284,11 @@ msgstr ""
 msgid "Select target folder"
 msgstr "Izaberite ciljnu fasciklu"
 
+#
+#, fuzzy
+msgid "Select the No / False response"
+msgstr "Izaberite putanju filma"
+
 msgid "Select the User Band channel to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
 msgstr ""
 
@@ -14265,6 +14296,9 @@ msgid "Select the User Band frequency to be assigned to this tuner. This is the 
 msgstr ""
 
 msgid "Select the User Band to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
+msgstr ""
+
+msgid "Select the Yes / True response"
 msgstr ""
 
 msgid "Select the character or action under the keyboard cursor"
@@ -15546,6 +15580,14 @@ msgstr "Interval pokaz.prezentacije(sek.)"
 msgid "Slot %d"
 msgstr "Otvor %d"
 
+#, python-format
+msgid "Slot %s / FBC in %s"
+msgstr ""
+
+#, python-format
+msgid "Slot %s / FBC virtual %s"
+msgstr ""
+
 msgid "Slovak"
 msgstr ""
 
@@ -15868,11 +15910,13 @@ msgstr "standardno"
 
 #
 #, fuzzy
-msgid "Standard menu"
+msgid "Standard list"
 msgstr "standardno"
 
-msgid "Standart list"
-msgstr ""
+#
+#, fuzzy
+msgid "Standard menu"
+msgstr "standardno"
 
 #
 msgid "Standby"

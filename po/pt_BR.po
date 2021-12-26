@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-19 02:03+0000\n"
+"POT-Creation-Date: 2021-12-26 02:03+0000\n"
 "PO-Revision-Date: 2013-10-20 19:13-0300\n"
 "Last-Translator: Diogo <pingflood@gmail.com>\n"
 "Language-Team: Traduzido por Frank Viana <franksrviana@gmail.com>\n"
@@ -3559,6 +3559,10 @@ msgstr "Fechar a seleção de título"
 msgid "Close the screen and exit all menus"
 msgstr ""
 
+#, fuzzy
+msgid "Close the window"
+msgstr "Fechar a seleção de título"
+
 msgid "Close title selection"
 msgstr "Fechar a seleção de título"
 
@@ -6404,13 +6408,6 @@ msgid ""
 "inactive"
 msgstr ""
 
-#, python-format
-msgid "FBC socket %s"
-msgstr ""
-
-msgid "FBC virtual"
-msgstr ""
-
 #, fuzzy
 msgid "FCC enabled"
 msgstr "Ativo"
@@ -8813,6 +8810,10 @@ msgstr ""
 msgid "Message"
 msgstr "Mensagem"
 
+#, fuzzy
+msgid "Message Box Actions"
+msgstr "Selecionar EPG"
+
 msgid "Message..."
 msgstr "Mensagem"
 
@@ -8980,6 +8981,10 @@ msgid "Move down a line"
 msgstr "Ir para baixo na lista"
 
 #, fuzzy
+msgid "Move down a page"
+msgstr "Ir para baixo na lista"
+
+#, fuzzy
 msgid "Move down a screen"
 msgstr "Ir para a última entrada"
 
@@ -9047,8 +9052,16 @@ msgid "Move the text cursor to the last character"
 msgstr ""
 
 #, fuzzy
+msgid "Move to first line"
+msgstr "Ir para a primeira entrada"
+
+#, fuzzy
 msgid "Move to first line / screen"
 msgstr "Ir para a entrada seguinte"
+
+#, fuzzy
+msgid "Move to last line"
+msgstr "Ir para a última entrada"
 
 #, fuzzy
 msgid "Move to last line / screen"
@@ -9075,6 +9088,10 @@ msgstr "Ir para a entrada anterior"
 
 #, fuzzy
 msgid "Move up a line"
+msgstr "Movido para a posição de índice"
+
+#, fuzzy
+msgid "Move up a page"
 msgstr "Movido para a posição de índice"
 
 msgid "Move up a screen"
@@ -11846,6 +11863,9 @@ msgstr "Obtendo informações. Aguarde..."
 msgid "Retrieving system information, please wait..."
 msgstr "Obtendo informações. Aguarde..."
 
+msgid "Return the current selection response"
+msgstr ""
+
 msgid "Return to movie list"
 msgstr "Voltar à lista de vídeos"
 
@@ -12635,6 +12655,10 @@ msgstr ""
 msgid "Select target folder"
 msgstr "Selecione o diretório de destino"
 
+#, fuzzy
+msgid "Select the No / False response"
+msgstr "Selecione o diretório de gravações"
+
 msgid "Select the User Band channel to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
 msgstr ""
 
@@ -12642,6 +12666,9 @@ msgid "Select the User Band frequency to be assigned to this tuner. This is the 
 msgstr ""
 
 msgid "Select the User Band to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
+msgstr ""
+
+msgid "Select the Yes / True response"
 msgstr ""
 
 msgid "Select the character or action under the keyboard cursor"
@@ -13772,6 +13799,14 @@ msgstr "Intervalo na troca de imagens (seg)"
 msgid "Slot %d"
 msgstr ""
 
+#, python-format
+msgid "Slot %s / FBC in %s"
+msgstr ""
+
+#, python-format
+msgid "Slot %s / FBC virtual %s"
+msgstr ""
+
 msgid "Slovak"
 msgstr "Eslovaco"
 
@@ -14058,11 +14093,12 @@ msgid "Standard"
 msgstr "Padrão"
 
 #, fuzzy
-msgid "Standard menu"
+msgid "Standard list"
 msgstr "Padrão"
 
-msgid "Standart list"
-msgstr ""
+#, fuzzy
+msgid "Standard menu"
+msgstr "Padrão"
 
 msgid "Standby"
 msgstr "Espera/StandBy"

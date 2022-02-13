@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-26 02:03+0000\n"
+"POT-Creation-Date: 2022-02-13 15:09+0000\n"
 "PO-Revision-Date: 2014-11-12 00:49+0200\n"
 "Last-Translator: Taapat <taapat@gmail.com>\n"
 "Language-Team: Taapat <taapat@gmail.com>\n"
@@ -987,6 +987,13 @@ msgstr[1] ""
 msgstr[2] ""
 
 #, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, python-format
 msgid "%d fps"
 msgstr "%d fps"
 
@@ -1042,6 +1049,62 @@ msgstr "%A %d %B"
 #, python-format
 msgid "%d package selected."
 msgid_plural "%d packages selected."
+msgstr[0] " pakotne izvēlēta."
+msgstr[1] " pakotnes izvēlētas."
+msgstr[2] " pakotnes izvēlētas."
+
+#, fuzzy, python-format
+msgid "%d package upgraded."
+msgid_plural "%d packages upgraded."
+msgstr[0] " pakotne izvēlēta."
+msgstr[1] " pakotnes izvēlētas."
+msgstr[2] " pakotnes izvēlētas."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] " pakotne izvēlēta."
+msgstr[1] " pakotnes izvēlētas."
+msgstr[2] " pakotnes izvēlētas."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] " pakotne izvēlēta."
+msgstr[1] " pakotnes izvēlētas."
+msgstr[2] " pakotnes izvēlētas."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] " pakotne izvēlēta."
+msgstr[1] " pakotnes izvēlētas."
+msgstr[2] " pakotnes izvēlētas."
+
+#, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "Atjaunināšana pabeigta, %d pakotne instalēta."
+msgstr[1] "Atjaunināšana pabeigta, %d pakotnes instalētas."
+msgstr[2] "Atjaunināšana pabeigta, %d pakotnes instalētas."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] " pakotne izvēlēta."
+msgstr[1] " pakotnes izvēlētas."
+msgstr[2] " pakotnes izvēlētas."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] " pakotne izvēlēta."
 msgstr[1] " pakotnes izvēlētas."
 msgstr[2] " pakotnes izvēlētas."
@@ -1214,13 +1277,6 @@ msgstr ""
 #, python-format
 msgid "%s of %s MB"
 msgstr ""
-
-#, python-format
-msgid "%s updated package available"
-msgid_plural "%s updated packages available"
-msgstr[0] "%s pakotnes atjauninājums pieejams"
-msgstr[1] "%s pakotņu atjauninājumi pieejami"
-msgstr[2] "%s pakotņu atjauninājumi pieejami"
 
 #, fuzzy, python-format
 msgid "%s%d min"
@@ -1908,6 +1964,10 @@ msgstr "Pievienot kanālu"
 msgid "Add Bookmark"
 msgstr "Grāmatzīme"
 
+#, fuzzy
+msgid "Add Timer"
+msgstr "Pievienot taimeri"
+
 msgid "Add a mark"
 msgstr "Pievienot iezīmi"
 
@@ -1920,6 +1980,10 @@ msgstr "Pievienot jaunu nosaukumu"
 
 msgid "Add a new title"
 msgstr "Pievienot jaunu nosaukumu"
+
+#, fuzzy
+msgid "Add a timer for the current event"
+msgstr "Pievienot/noņemt mainīt taimeri tekošajai pārraidei"
 
 msgid "Add alternatives"
 msgstr "Pievienot alternatīvas"
@@ -2450,6 +2514,10 @@ msgstr "Sākt no sākuma"
 msgid "At end"
 msgstr "Uz beigām"
 
+#, fuzzy
+msgid "Attention, this is a repeated timer!"
+msgstr "Uzmanību, šis taimeris atkārtojas!\n"
+
 msgid "Attention, this is repeated timer!\n"
 msgstr "Uzmanību, šis taimeris atkārtojas!\n"
 
@@ -2836,6 +2904,9 @@ msgstr "Benina"
 msgid "Bermuda"
 msgstr "Bermudu salas"
 
+msgid "Bestfit"
+msgstr ""
+
 msgid "Bhutan"
 msgstr "Butāna"
 
@@ -3145,6 +3216,10 @@ msgstr "Kabeļu"
 msgid "Cable Scan"
 msgstr "Kabeļu meklēšana"
 
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
+
 msgid "Cache thumbnails"
 msgstr "Kešot sīkattēlus"
 
@@ -3221,6 +3296,10 @@ msgid "Cancel"
 msgstr "Atcelt"
 
 #, fuzzy
+msgid "Cancel / Close the software update screen"
+msgstr "Aizsargāt programmatūras atjaunināšanu"
+
+#, fuzzy
 msgid "Cancel any changed settings and exit"
 msgstr "Atcelt teksta izmaiņas un iziet"
 
@@ -3257,8 +3336,16 @@ msgid "Cancel execution?"
 msgstr "Atcelt izpildi?"
 
 #, fuzzy
+msgid "Cancel the action selection and exit"
+msgstr "Kanālu izvēle"
+
+#, fuzzy
 msgid "Cancel the location selection"
 msgstr "Kanālu izvēle"
+
+#, fuzzy
+msgid "Cancel the update"
+msgstr "atjaunināmās paketes"
 
 msgid "Cancelled upon user request"
 msgstr "Atcelts pēc lietotāja pieprasījuma"
@@ -3350,6 +3437,10 @@ msgstr "Nomainīt valodu"
 
 msgid "Change PIN Pressing [OK]"
 msgstr ""
+
+#, fuzzy
+msgid "Change Timer"
+msgstr "Izmainīt taimeri"
 
 msgid "Change bouquets in quickzap"
 msgstr "Mainīt buķetes ātrās slēgšanas režīmā"
@@ -3495,6 +3586,14 @@ msgstr "Ķīniešu - vienkāršotā"
 
 msgid "Chinese - Traditional"
 msgstr "Ķīniešu - tradicionālā"
+
+#, fuzzy
+msgid "Choice Box Actions"
+msgstr "Papildus iestatījumi"
+
+#, fuzzy
+msgid "Choice Box Order Actions"
+msgstr "Mediju faili"
 
 msgid "Choose Tuner"
 msgstr "Izvēlieties uztvērēju"
@@ -3649,6 +3748,10 @@ msgstr ""
 msgid "Close"
 msgstr "Aizvērt"
 
+#, fuzzy
+msgid "Close Event View screen"
+msgstr "Aizvērt virsrakstu atlasi"
+
 msgid "Close PiP with 'exit' button"
 msgstr "Izejot aizvērt PiP"
 
@@ -3792,6 +3895,10 @@ msgstr "Konfigurācija"
 
 msgid "Configuration"
 msgstr "Konfigurācija"
+
+#, fuzzy, python-format
+msgid "Configuration file '%s' has been modified since it was installed, would you like to keep the modified version?"
+msgstr "Konfigurācijas fails (%s) kopš uzstādīšanas ir izmainīts. Vai vēlaties paturēt izmainīto versiju?"
 
 msgid "Configuration mode"
 msgstr "Konfigurēt"
@@ -4261,6 +4368,9 @@ msgstr "Turpināt atskaņošanu"
 msgid "Continue playing"
 msgstr "Turpināt atskaņošanu"
 
+msgid "Continue with the on-line update"
+msgstr ""
+
 msgid "Continues play (loop)"
 msgstr "Nepārtraukta atskaņošana (loop)"
 
@@ -4311,9 +4421,6 @@ msgstr "Kostarika"
 #, fuzzy
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr "Kotdivuāra"
-
-msgid "Could not find installed channel list."
-msgstr "Nevar atrast instalēto kanālu sarakstu."
 
 msgid "Could not find suitable media - Please remove some downloaded images or insert a media (e.g. USB stick) with sufficiant free space and try again!"
 msgstr "Nav pieejams piemērots datu nesējs - lūdzu izdzēsiet kādu imidžu vai pieslēdziet datu nesēju ar pietiekamu daudzumu brīvas vietas un mēģiniet vēlreiz!"
@@ -4407,10 +4514,6 @@ msgid "Current CEC address"
 msgstr "Pašreizējā CEC adrese"
 
 #, fuzzy
-msgid "Current MAC address"
-msgstr "Pašreizējā CEC adrese"
-
-#, fuzzy
 msgid "Current crash log"
 msgstr "Pašreizējais transponderis"
 
@@ -4443,6 +4546,10 @@ msgstr "Pašreizējais transponderis"
 
 msgid "Current value: "
 msgstr "Pašreizējā vērtība: "
+
+#, fuzzy
+msgid "Current version unknown"
+msgstr "Pašreizējais transponderis"
 
 #, fuzzy
 msgid "Custom"
@@ -4912,6 +5019,10 @@ msgid "Delete Loc"
 msgstr "Dzēst"
 
 #, fuzzy
+msgid "Delete Timer"
+msgstr "Dzēst taimeri"
+
+#, fuzzy
 msgid "Delete all log files"
 msgstr "Dzēst visus žurnāla failus"
 
@@ -5039,6 +5150,10 @@ msgstr "Apraksts"
 
 msgid "Deselect"
 msgstr "Atcelt izvēli"
+
+#, python-format
+msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
+msgstr ""
 
 msgid "Destination of fallback remote receiver"
 msgstr "Attālinātā rezerves uztvērēja adrese"
@@ -5215,6 +5330,10 @@ msgstr ""
 
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "Rezerve ierakstiem diskā (GB)"
+
+#, fuzzy
+msgid "Disk state: "
+msgstr "meklēšanas statuss"
 
 msgid "Display 16:9 content as"
 msgstr "Attēlot 16:9 saturu"
@@ -5481,14 +5600,6 @@ msgstr "Vai vēlaties izvēlēties citu noformējumu?"
 msgid "Do you want to update the package:\n"
 msgstr "Vai vēlaties atjaunināt pakotni:\n"
 
-#, fuzzy, python-format
-msgid "Do you want to update to %s"
-msgstr "Vai vēlaties atjaunot uztvērēju uz %s?"
-
-#, fuzzy, python-format
-msgid "Do you want to update your %s %s?"
-msgstr "Vai vēlaties atjaunot uztvērēju uz %s?"
-
 #, fuzzy
 msgid "Documentary"
 msgstr "dokumentālais"
@@ -5553,6 +5664,10 @@ msgstr[2] "Pabeigts - instalētas, atjauninātas vai dzēstas %d pakotnes (%s)"
 msgid "Down"
 msgstr ""
 
+#, fuzzy
+msgid "Download error"
+msgstr "nezināma kļūda"
+
 msgid "Download plugins"
 msgstr "Lejuplādēt spraudņus"
 
@@ -5573,6 +5688,10 @@ msgid "Downloading Image"
 msgstr "Lejuplādē imidžu"
 
 msgid "Downloading a new packet list. Please wait..."
+msgstr "Mēģina lejuplādēt jaunu pakotņu sarakstu. Lūdzu gaidiet..."
+
+#, fuzzy
+msgid "Downloading latest update list.  Please wait..."
 msgstr "Mēģina lejuplādēt jaunu pakotņu sarakstu. Lūdzu gaidiet..."
 
 msgid "Downloading plugin information. Please wait..."
@@ -5694,6 +5813,10 @@ msgstr "Rediģēt DNS"
 #, fuzzy
 msgid "Edit Tags"
 msgstr "Iestatījumi"
+
+#, fuzzy
+msgid "Edit Timer"
+msgstr "Rediģēt taimeri"
 
 msgid "Edit alternatives"
 msgstr "Rediģēt alternatīvas"
@@ -5903,6 +6026,9 @@ msgid "Enable this option to add action map / remote control mapping data to the
 msgstr ""
 
 msgid "Enable this option to add keyboard keymap data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add opkg output data to the debug log file."
 msgstr ""
 
 msgid "Enable this option to add remote control data to the debug log file."
@@ -6261,6 +6387,14 @@ msgstr "Ethernet tīkla interfeiss"
 msgid "Ethiopia"
 msgstr "Etiopija"
 
+#, fuzzy
+msgid "Event View Actions"
+msgstr "Paplašinājumi"
+
+#, fuzzy
+msgid "Event View Context Menu"
+msgstr "Notikuma apskata izvēlne"
+
 msgid "Event font size (relative to skin size)"
 msgstr "Notikuma fontu izmērs (salīdzinājumā ar noformējuma izmēru)"
 
@@ -6270,13 +6404,11 @@ msgstr "Nosaukums vispirms"
 msgid "Event view"
 msgstr "Notikuma apskats"
 
-msgid "Event view context menu"
-msgstr "Notikuma apskata izvēlne"
-
 msgid "Event view menu"
 msgstr "Notikuma apskata izvēlne"
 
-msgid "Events info menu"
+#, fuzzy
+msgid "Events Info Menu"
 msgstr "Notikumu info izvēlne"
 
 msgid "Every 12 hours"
@@ -6420,11 +6552,12 @@ msgstr "Paplašinājumi"
 msgid "Extensions"
 msgstr "Paplašinājumi"
 
+#, fuzzy
+msgid "Extensions Menu"
+msgstr "Paplašinājumu izvēlne"
+
 msgid "Extensions management"
 msgstr "Paplašinājumu pārvaldīšana"
-
-msgid "Extensions menu"
-msgstr "Paplašinājumu izvēlne"
 
 msgid "External"
 msgstr "Ārējais"
@@ -6674,6 +6807,18 @@ msgstr "Favorīti"
 msgid "Favourites"
 msgstr "Favorīti"
 
+#, fuzzy
+msgid "Feed disabled!"
+msgstr "piespiedu izslēgts"
+
+#, fuzzy
+msgid "Feed stable."
+msgstr "netestēts"
+
+#, fuzzy
+msgid "Feed unstable!"
+msgstr "netestēts"
+
 msgid "Fiji"
 msgstr "Fidži"
 
@@ -6708,6 +6853,9 @@ msgstr "Pēdējās ritināšanas aizture"
 #, fuzzy
 msgid "Find currently played service"
 msgstr "Atrast servisu kuru pašreiz skatieties"
+
+msgid "Find similar events in the EPG"
+msgstr ""
 
 msgid "Fine movement"
 msgstr "Precīzā pārvietošana"
@@ -6901,6 +7049,10 @@ msgstr "Pilnīgi caurspīdīgs"
 
 msgid "Full view resolution"
 msgstr "Pilnekrāna izšķirtspēja"
+
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "Attālinātais taimeris"
 
 msgid "Function of OK button"
 msgstr "Taustiņa Labi funkcija"
@@ -7715,6 +7867,10 @@ msgid "Include keyboard data"
 msgstr "Tastatūras dati"
 
 #, fuzzy
+msgid "Include opkg output data"
+msgstr "Ietvert AIT http plūsmās"
+
+#, fuzzy
 msgid "Include remote control data"
 msgstr "Konfigurēt vadības pults tipu"
 
@@ -8252,8 +8408,12 @@ msgstr "LNB"
 msgid "Label"
 msgstr ""
 
+#, fuzzy
 msgid "Language"
-msgstr "Valoda"
+msgid_plural "Languages"
+msgstr[0] "Valoda"
+msgstr[1] "Valoda"
+msgstr[2] "Valoda"
 
 #, python-format
 msgid "Language %s (%s) installed and selected."
@@ -8269,10 +8429,6 @@ msgstr "Valodas izvēle"
 
 msgid "Language selection"
 msgstr "Valodas izvēle"
-
-#, fuzzy
-msgid "Languages"
-msgstr "Valoda"
 
 #, fuzzy
 msgid "Lao"
@@ -8307,9 +8463,6 @@ msgstr "Izmaiņas"
 
 msgid "Latest revision on github"
 msgstr ""
-
-msgid "Latest update log"
-msgstr "Pēdējās atjaunošanas žurnāls"
 
 #, fuzzy
 msgid "Latin"
@@ -8503,8 +8656,12 @@ msgstr "Lokālais tīkls"
 msgid "Local time"
 msgstr "Valoda"
 
+#, fuzzy
 msgid "Locale"
-msgstr "Valoda"
+msgid_plural "Locales"
+msgstr[0] "Valoda"
+msgstr[1] "Valoda"
+msgstr[2] "Valoda"
 
 #, python-format
 msgid "Locale %s (%s) installed and selected."
@@ -8546,10 +8703,6 @@ msgstr "Noformējuma izvēlnes darbības"
 #, fuzzy
 msgid "Locale/Language Setup"
 msgstr "Programmatūras pārvaldīšanas iestatījumi"
-
-#, fuzzy
-msgid "Locales"
-msgstr "Valoda"
 
 #, fuzzy
 msgid "Locales to be displayed"
@@ -8674,6 +8827,10 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
+#, fuzzy
+msgid "MHz"
+msgstr "%s MHz"
+
 msgid "MMC card"
 msgstr "MMC karte"
 
@@ -8763,6 +8920,10 @@ msgstr "Pārvaldīt paplašinājumus"
 
 msgid "Manage extensions or plugins for your receiver."
 msgstr "Pārvaldīt uztvērēja paplašinājumus vai spraudņus."
+
+#, fuzzy
+msgid "Manage sleep timer"
+msgstr "Izmainīt taimeri"
 
 msgid "Manage your receiver's software"
 msgstr "Pārvaldīt uztvērēja programmatūru"
@@ -9093,6 +9254,10 @@ msgid "Move down a page"
 msgstr "Iet uz saraksta leju"
 
 #, fuzzy
+msgid "Move down a page / screen"
+msgstr "pārvietot lejup uz pēdējo ierakstu"
+
+#, fuzzy
 msgid "Move down a screen"
 msgstr "pārvietot lejup uz pēdējo ierakstu"
 
@@ -9132,6 +9297,14 @@ msgstr "Griezt uz austrumiem"
 #, fuzzy
 msgid "Move main picture to PiP"
 msgstr "Pārvietot PiP uz galveno attēlu"
+
+#, fuzzy
+msgid "Move the current item down one line"
+msgstr "pārvietot lejup uz nākamo ierakstu"
+
+#, fuzzy
+msgid "Move the current item up one line"
+msgstr "Iet uz saraksta augšu"
 
 msgid "Move the keyboard cursor down"
 msgstr "Pārvietot kursoru uz leju"
@@ -9195,6 +9368,14 @@ msgstr "Griezt uz pozīciju indeksā"
 #, fuzzy
 msgid "Move up a page"
 msgstr "Griezt uz pozīciju indeksā"
+
+#, fuzzy
+msgid "Move up a page / screen"
+msgstr "pārvietot augšup uz iepriekšējo ierakstu"
+
+#, fuzzy
+msgid "Move up a page /screen"
+msgstr "pārvietot augšup uz iepriekšējo ierakstu"
 
 msgid "Move up a screen"
 msgstr ""
@@ -9491,6 +9672,10 @@ msgstr "Tīkla konfigurācija..."
 msgid "Network information"
 msgstr "Tīkla konfigurācija"
 
+#, fuzzy
+msgid "Network interface for MAC address."
+msgstr "Pašreizējā CEC adrese"
+
 msgid "Network mount"
 msgstr "Tīkla montējumi"
 
@@ -9703,10 +9888,12 @@ msgstr ""
 "Nav aktīva uztvērēja!\n"
 "Lūdzu iestatiet uztvērēju pirms sākat meklēt kanālus."
 
-msgid "No updates available"
+#, fuzzy
+msgid "No updates available."
 msgstr "atjauninājumi nav pieejami"
 
-msgid "No updates available. Please try again later."
+#, fuzzy
+msgid "No updates were available.  Please try again later."
 msgstr "atjauninājumi nav pieejami. Lūdzu mēģiniet vēlāk."
 
 msgid "No wireless networks found! Searching..."
@@ -9747,6 +9934,10 @@ msgstr "Lietojot pamodināšanas taimeri"
 
 msgid "No, never"
 msgstr "Nē, nekad"
+
+#, fuzzy
+msgid "Non Linear"
+msgstr "Nelineāri mērogot"
 
 msgid "None"
 msgstr "Nav"
@@ -9865,6 +10056,9 @@ msgstr ""
 
 msgid "Nothing to scan! Setup your tuner and try again."
 msgstr "Nav ko meklēt! Iestatiet uztvērēju un mēģiniet vēlreiz."
+
+msgid "Nothing to upgrade"
+msgstr ""
 
 msgid "Now"
 msgstr "Pašreiz"
@@ -10069,6 +10263,10 @@ msgid "Open channel list"
 msgstr "nav kanālu saraksta"
 
 #, fuzzy
+msgid "Open context menu"
+msgstr "Kanāla papildus izvēlne"
+
+#, fuzzy
 msgid "Open current transponder"
 msgstr "Pašreizējais transponderis"
 
@@ -10094,6 +10292,14 @@ msgstr "Atvērt uztvērēja iestatījumus "
 
 msgid "Open the movie list"
 msgstr "Atvērt mediju sarakstu"
+
+#, fuzzy
+msgid "Open the multi service EPG view"
+msgstr "Atvērt mediju sarakstu"
+
+#, fuzzy
+msgid "Open the single service EPG view"
+msgstr "Rādīt atsevišķa kanāla EPG"
 
 msgid "OpenDNS FamilyShield"
 msgstr ""
@@ -10266,9 +10472,6 @@ msgstr ""
 msgid "Packages and associated locales"
 msgstr ""
 
-msgid "Packages to update"
-msgstr "atjaunināmās paketes"
-
 msgid "Packet management"
 msgstr "Pakotņu pārvaldība"
 
@@ -10380,6 +10583,9 @@ msgstr "Procenti kreisā pusē"
 
 msgid "Percentage right"
 msgstr "Procenti labā pusē"
+
+msgid "Perform an on-line flash instead"
+msgstr ""
 
 msgid "Permanent sort key changes"
 msgstr ""
@@ -10544,6 +10750,10 @@ msgid "Please choose an extension..."
 msgstr "Lūdzu izvēlieties paplašinājumu..."
 
 #, fuzzy
+msgid "Please choose an extension:"
+msgstr "Lūdzu izvēlieties paplašinājumu..."
+
+#, fuzzy
 msgid "Please choose reader"
 msgstr "Lūdzu izvēlieties paplašinājumu..."
 
@@ -10631,7 +10841,8 @@ msgstr "Lūdzu izvēlieties repertuāru..."
 msgid "Please select a resolution..."
 msgstr "Lūdzu izvēlieties papildkanālu..."
 
-msgid "Please select a sub service..."
+#, fuzzy
+msgid "Please select a sub service:"
 msgstr "Lūdzu izvēlieties papildkanālu..."
 
 msgid "Please select a subservice to record..."
@@ -10649,7 +10860,7 @@ msgid "Please select an acceptable directory."
 msgstr "Lūdzu izvēlieties repertuāru..."
 
 #, fuzzy
-msgid "Please select an aspect ratio..."
+msgid "Please select an aspect ratio:"
 msgstr "Lūdzu izvēlieties papildkanālu..."
 
 msgid "Please select medium to be scanned"
@@ -11001,7 +11212,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "Spiediet OK uz tālvadības pults, lai turpinātu."
 
 #, fuzzy
-msgid "Press OK to activate the MAC address."
+msgid "Press OK to activate current MAC address."
 msgstr "Spiediet OK, lai aktivizētu iestatījumus."
 
 #, python-format
@@ -11010,6 +11221,10 @@ msgstr "Spiediet OK lai aktivizētu izvēlēto %s noformējumu."
 
 msgid "Press OK to activate the settings."
 msgstr "Spiediet OK, lai aktivizētu iestatījumus."
+
+#, fuzzy
+msgid "Press OK to continue."
+msgstr "Lūdzu spiediet OK, lai turpinātu."
 
 #, fuzzy
 msgid "Press OK to edit the settings of the selected device."
@@ -11122,6 +11337,10 @@ msgstr "Prioritāte"
 #, fuzzy
 msgid "Proc model"
 msgstr "Toņa režīms"
+
+#, fuzzy
+msgid "Proceed with the update"
+msgstr "Pakotņu saraksta atjaunināšana"
 
 msgid "Process"
 msgstr "Norise"
@@ -11509,9 +11728,6 @@ msgstr ""
 msgid "Reenter PIN"
 msgstr "Atkārtojiet PIN"
 
-msgid "Reflash recommended!"
-msgstr "Ieteicams pāršūt programmatūru!"
-
 msgid "Refresh"
 msgstr "Atjaunināt"
 
@@ -11527,6 +11743,9 @@ msgstr "Atjaunināšanas ātruma izvēle."
 #, fuzzy
 msgid "Refresh the screen"
 msgstr "Atjaunināšanas ātruma izvēle."
+
+msgid "Refresh the update-able package list"
+msgstr ""
 
 msgid "Refusing to move to the same directory"
 msgstr "Nevar pārvietot tajā pašā mapē!"
@@ -11820,6 +12039,14 @@ msgstr "Atstatīt"
 msgid "Reset and renumerate title names"
 msgstr "Atstatīt un pārnumurēt virsrakstu nosaukumus"
 
+#, fuzzy
+msgid "Reset list order to default"
+msgstr "Atiestatīt"
+
+#, fuzzy
+msgid "Reset list order to default?"
+msgstr "Iestatīt visu taustiņu noklusētās vērtības?"
+
 msgid "Reset order (All)"
 msgstr "Atiestatīt"
 
@@ -12016,6 +12243,25 @@ msgstr "Raunda sākuma laiks"
 
 msgid "Run how often ?"
 msgstr ""
+
+msgid "Run the BLUE action"
+msgstr ""
+
+msgid "Run the GREEN action"
+msgstr ""
+
+msgid "Run the RED action"
+msgstr ""
+
+msgid "Run the YELLOW action"
+msgstr ""
+
+msgid "Run the currently highlighted action"
+msgstr ""
+
+#, fuzzy
+msgid "Run the numbered action"
+msgstr "tālākizglītība"
 
 #, fuzzy
 msgid "Rundi"
@@ -13079,10 +13325,6 @@ msgstr "Iestatīt CI piešķiršanu pieejamo kanālu noteikšanai."
 msgid "Set PIN Pressing [OK]"
 msgstr ""
 
-#, fuzzy
-msgid "Set a new MAC address"
-msgstr "Pašreizējā CEC adrese"
-
 msgid "Set a temporary sort method for this directory"
 msgstr ""
 
@@ -13115,6 +13357,10 @@ msgstr "Iestatīt interfeisu kā noklusēto"
 
 msgid "Set limits"
 msgstr "Iestatīt limitus"
+
+#, fuzzy
+msgid "Set new MAC address"
+msgstr "Pašreizējā CEC adrese"
 
 msgid "Set persistent PIN code"
 msgstr "Iestatīt patstāvīgo PIN kodu"
@@ -13497,12 +13743,6 @@ msgstr "Rādīt numurus iestatījumiem vai spraudņiem"
 msgid "Show latest commit log information"
 msgstr "Parādīt jaunākās izmaiņas"
 
-msgid "Show latest commits"
-msgstr "Parādīt jaunākās izmaiņas"
-
-msgid "Show latest update log"
-msgstr "Rādīt pēdējās atjaunošanas žurnālu"
-
 #, fuzzy
 msgid "Show live tv when movie stopped"
 msgstr "Kad filma ir apturēta"
@@ -13538,8 +13778,16 @@ msgid "Show multi channel EPG"
 msgstr "Rādīt daudzkanālu EPG"
 
 #, fuzzy
+msgid "Show next event"
+msgstr "Iet uz nākamo notikumu"
+
+#, fuzzy
 msgid "Show next image"
 msgstr "Izvēlieties imidžu"
+
+#, fuzzy
+msgid "Show next page of description"
+msgstr "Rādīt paplašināto aprakstu"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
 msgstr "Parādīt brīdinājumu kad kanālu un/vai EPG imports no attālinātā uztvērēja nav izdevies"
@@ -13559,9 +13807,6 @@ msgstr "Rādīt paplašināto aprakstu"
 
 msgid "Show packagegroup-base in plugin browser"
 msgstr ""
-
-msgid "Show packages to be updated"
-msgstr "Parādīt paketes kuras tiks atjaunotas"
 
 #, fuzzy
 msgid "Show pam-plugin in plugin browser"
@@ -13589,8 +13834,16 @@ msgid "Show positioner position"
 msgstr "Rādīt pozicioniera pozīciju"
 
 #, fuzzy
+msgid "Show previous event"
+msgstr "Iet uz iepriekšējo notikumu"
+
+#, fuzzy
 msgid "Show previous image"
 msgstr "Pārslēgt iepriekšējo kanālu"
+
+#, fuzzy
+msgid "Show previous page of description"
+msgstr "Iet uz iepriekšējo kanālu lapu"
 
 #, fuzzy
 msgid "Show python in plugin browser"
@@ -13970,6 +14223,10 @@ msgid "Software Update"
 msgstr "Programmatūras atjaunināšana"
 
 #, fuzzy
+msgid "Software Update Actions"
+msgstr "Programmatūras atjaunināšana"
+
+#, fuzzy
 msgid "Software information"
 msgstr "Programmatūras pārvaldnieka informācija"
 
@@ -13981,6 +14238,14 @@ msgstr "Programmatūras pārvaldīšanas iestatījumi"
 
 msgid "Software update"
 msgstr "Programmatūras atjaunināšana"
+
+#, fuzzy
+msgid ""
+"Software update starting, please wait.\n"
+"\n"
+msgstr ""
+"\n"
+"Pēc OK nospiešanas uzgaidiet!"
 
 msgid "Softwaremanager information"
 msgstr "Programmatūras pārvaldnieka informācija"
@@ -14046,9 +14311,6 @@ msgstr "Kārtot pēc"
 #, fuzzy
 msgid "Sort by default"
 msgstr "Pēc noklusējuma"
-
-msgid "Sort list to default and exit?"
-msgstr "Sakārtot sarakstu noklusētā kārtībā un aizvērt?"
 
 msgid "Sort list:"
 msgstr "Kārt. saraksts:"
@@ -14309,6 +14571,10 @@ msgid "Status"
 msgstr ""
 
 #, fuzzy
+msgid "Status unavailable!"
+msgstr "nepieejams"
+
+#, fuzzy
 msgid "Step back"
 msgstr "Soli uz austrumiem"
 
@@ -14411,6 +14677,9 @@ msgstr "Apturēt testēšanu pēc # neatrastiem transponderiem"
 
 msgid "Stop testing plane after # successful transponders"
 msgstr "Apturēt testēšanu pēc # atrastiem transponderiem"
+
+msgid "Stop the update, if running, then exit"
+msgstr ""
 
 msgid "Stop timer recording"
 msgstr "Apturēt taimera ierakstu"
@@ -15015,14 +15284,6 @@ msgstr ""
 msgid "The command to wake from standby will be sent multiple times."
 msgstr "Komanda lai pamodinātu no gaidstāves tiks sūtīta vairākas reizes."
 
-#, python-format
-msgid ""
-"The current image might not be stable.\n"
-"For more information see %s."
-msgstr ""
-"Šis imidžs var nebūt stabils.\n"
-"Vairāk informācijas skatīt %s."
-
 msgid "The detailed information is intended for developers only."
 msgstr ""
 
@@ -15166,6 +15427,10 @@ msgstr "Nav saglabātu repertuāru kurus ielādēt!"
 msgid "There are no updates available."
 msgstr "Pašlaik atjauninājumi nav pieejami."
 
+#, python-format
+msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
+msgstr ""
+
 msgid "There is no signal to lock on !"
 msgstr "Pašlaik nav signāla uz ko noenkuroties!"
 
@@ -15177,6 +15442,10 @@ msgid ""
 msgstr ""
 "Izvēlētajā sadaļā var nebūt pietiekami daudz vietas.\n"
 "Vai tiešām vēlaties turpināt?"
+
+#, fuzzy
+msgid "There was an error downloading the update list.  Please try again."
+msgstr "Kļūda lejupielādējot pakotņu sarakstu. Lūdzu mēģiniet vēlreiz."
 
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
 msgstr "Šis DVD RW disks jau ir formatēts - atkārtota formatēšana dzēsīs visu diska saturu."
@@ -16055,6 +16324,10 @@ msgstr "Universālā LNB"
 msgid "Unknown"
 msgstr "Nezināms"
 
+#, fuzzy
+msgid "Unknown Service"
+msgstr "nezināms kanāls"
+
 msgid "Unmark service as dedicated 3D service"
 msgstr "neatzīmēt kā 3D kanālu"
 
@@ -16073,29 +16346,13 @@ msgstr ""
 msgid "Update"
 msgstr "Atjaunināt"
 
-msgid "Update and ask to reboot"
-msgstr "Atjaunināt un jautāt vai pārstartēt"
-
 #, fuzzy
-msgid "Update and ask to reboot (recommended)"
-msgstr "Atjaunināt un pārstartēt (ieteicams)"
-
-msgid "Update channel list only"
-msgstr "Atjaunināt tikai kanālu sarakstu"
-
-#, python-format
-msgid "Update completed, %d package was installed."
-msgid_plural "Update completed, %d packages were installed."
-msgstr[0] "Atjaunināšana pabeigta, %d pakotne instalēta."
-msgstr[1] "Atjaunināšana pabeigta, %d pakotnes instalētas."
-msgstr[2] "Atjaunināšana pabeigta, %d pakotnes instalētas."
+msgid "Update completed."
+msgstr "Atjaunināšana pabeigta."
 
 #, fuzzy, python-format
-msgid "Update completed. Do you want to reboot your %s %s?"
+msgid "Update completed. A reboot is strongly recommended.  Do you want to reboot your %s %s now?"
 msgstr "Atjaunināšana pabeigta. Vai vēlaties pārstartēt uztvērēju?"
-
-msgid "Update failed. Your receiver does not have a working internet connection."
-msgstr "Atjaunināšana pārtraukta. Uztvērējam nestrādā interneta savienojums."
 
 msgid "Update feed not available."
 msgstr "Barotnes nav pieejamas."
@@ -16106,6 +16363,17 @@ msgstr "Atjaunināšana pabeigta."
 #, fuzzy
 msgid "Update interval (in seconds)"
 msgstr "Slīdrādes intervāls (sek.)"
+
+#, fuzzy
+msgid "Updated"
+msgstr "Atjaunināt"
+
+msgid "Updated version unknown"
+msgstr ""
+
+#, fuzzy
+msgid "Updates available:"
+msgstr "atjauninājumi nav pieejami"
 
 msgid "Updating"
 msgstr "Atjauno"
@@ -16680,6 +16948,10 @@ msgstr "Brīdinājums! FBC-C V1 uztvērējam jābūt savienotam ar pirmo slotu, 
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+#, fuzzy, python-format
+msgid "Warning: There are %d update packages!"
+msgstr "Pašlaik atjauninājumi nav pieejami."
+
 msgid "Warning: no LNB; using factory defaults."
 msgstr "Uzmanību: nav LNB; lieto noklusētos iestatījumus"
 
@@ -16782,6 +17054,9 @@ msgstr ""
 
 msgid "What type of service scan do you want?"
 msgstr "Kāda veida kanālu meklēšanu vēlaties veikt?"
+
+msgid "What would you like to do?"
+msgstr ""
 
 #, fuzzy
 msgid "When PiPzap enabled zap channel down"
@@ -17347,6 +17622,9 @@ msgstr "Pārslēgsies uz kanālu %s (%s - '%s')!\n"
 msgid "You seem to be in timeshift!"
 msgstr "Jūs izmantojat laika aizturi!"
 
+msgid "You should flash a new image!"
+msgstr ""
+
 #, fuzzy
 msgid "Your %s %s (kernel %s) does not have an internet connection"
 msgstr "Jūsu uztvērējam nav interneta savienojuma"
@@ -17363,10 +17641,6 @@ msgid "Your %s %s reads the stored EPG data every (hours)."
 msgstr ""
 
 msgid "Your %s %s stores the EPG data every (hours)."
-msgstr ""
-
-#, python-format
-msgid "Your %s %s?"
 msgstr ""
 
 msgid "Your PIN code is 0000. This is the default PIN code and it disables parental control!\n"
@@ -17442,7 +17716,7 @@ msgstr ""
 "Lūdzu nospiediet OK lai turpinātu."
 
 #, fuzzy, python-format
-msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
 msgstr "Jūsu uztvērējs nav lietojams. Pirms uztvērēja pārstartēšanas, lai saņemtu palīdzību, lūdzu izlasiet rokasgrāmatu."
 
 #, fuzzy, python-format
@@ -17594,6 +17868,10 @@ msgid "activate network adapter configuration"
 msgstr "aktivizēt tīkla adaptera konfigurāciju"
 
 msgid "active"
+msgstr "aktīvs"
+
+#, fuzzy
+msgid "active "
 msgstr "aktīvs"
 
 msgid "actual time only"
@@ -17762,9 +18040,6 @@ msgstr "komēdija"
 #, fuzzy
 msgid "comedy (general)"
 msgstr "filmas/drāma (vispārīgi)"
-
-msgid "config menu"
-msgstr "konfigurācijas izvēlne"
 
 msgid "confirmed"
 msgstr "apstiprināts"
@@ -18532,6 +18807,10 @@ msgstr "sporta žurnāls"
 msgid "standard"
 msgstr "standarta"
 
+#, fuzzy
+msgid "standby "
+msgstr "Gaidstāve"
+
 msgid "stepsize"
 msgstr "soļa lielums"
 
@@ -18624,9 +18903,6 @@ msgstr "nezināms"
 
 msgid "unknown error"
 msgstr "nezināma kļūda"
-
-msgid "unknown service"
-msgstr "nezināms kanāls"
 
 msgid "unpublished"
 msgstr "nepublicēts"

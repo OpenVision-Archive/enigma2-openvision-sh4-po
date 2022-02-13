@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OBH enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-26 02:03+0000\n"
+"POT-Creation-Date: 2022-02-13 15:09+0000\n"
 "PO-Revision-Date: 2019-04-12 12:36+0300\n"
 "Last-Translator: mosad - مساعد الجعيد <abo-mishal@hotmail.com>\n"
 "Language-Team: mosad - مساعد الجعيد\n"
@@ -998,6 +998,16 @@ msgstr[4] ""
 msgstr[5] ""
 
 #, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#, python-format
 msgid "%d fps"
 msgstr ""
 
@@ -1062,6 +1072,86 @@ msgstr "%A %d %B"
 #, fuzzy, python-format
 msgid "%d package selected."
 msgid_plural "%d packages selected."
+msgstr[0] "الحزم المختارة."
+msgstr[1] "الحزم المختارة."
+msgstr[2] "الحزم المختارة."
+msgstr[3] "الحزم المختارة."
+msgstr[4] "الحزم المختارة."
+msgstr[5] "الحزم المختارة."
+
+#, fuzzy, python-format
+msgid "%d package upgraded."
+msgid_plural "%d packages upgraded."
+msgstr[0] "الحزم المختارة."
+msgstr[1] "الحزم المختارة."
+msgstr[2] "الحزم المختارة."
+msgstr[3] "الحزم المختارة."
+msgstr[4] "الحزم المختارة."
+msgstr[5] "الحزم المختارة."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] "الحزم المختارة."
+msgstr[1] "الحزم المختارة."
+msgstr[2] "الحزم المختارة."
+msgstr[3] "الحزم المختارة."
+msgstr[4] "الحزم المختارة."
+msgstr[5] "الحزم المختارة."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] "الحزم المختارة."
+msgstr[1] "الحزم المختارة."
+msgstr[2] "الحزم المختارة."
+msgstr[3] "الحزم المختارة."
+msgstr[4] "الحزم المختارة."
+msgstr[5] "الحزم المختارة."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] "الحزم المختارة."
+msgstr[1] "الحزم المختارة."
+msgstr[2] "الحزم المختارة."
+msgstr[3] "الحزم المختارة."
+msgstr[4] "الحزم المختارة."
+msgstr[5] "الحزم المختارة."
+
+#, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "الحزم المختارة."
+msgstr[1] "الحزم المختارة."
+msgstr[2] "الحزم المختارة."
+msgstr[3] "الحزم المختارة."
+msgstr[4] "الحزم المختارة."
+msgstr[5] "الحزم المختارة."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] "الحزم المختارة."
+msgstr[1] "الحزم المختارة."
+msgstr[2] "الحزم المختارة."
+msgstr[3] "الحزم المختارة."
+msgstr[4] "الحزم المختارة."
+msgstr[5] "الحزم المختارة."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] "الحزم المختارة."
 msgstr[1] "الحزم المختارة."
 msgstr[2] "الحزم المختارة."
@@ -1241,16 +1331,6 @@ msgstr ""
 #, python-format
 msgid "%s of %s MB"
 msgstr ""
-
-#, fuzzy, python-format
-msgid "%s updated package available"
-msgid_plural "%s updated packages available"
-msgstr[0] "التحديثات المتوفرة."
-msgstr[1] "التحديثات المتوفرة."
-msgstr[2] "التحديثات المتوفرة."
-msgstr[3] "التحديثات المتوفرة."
-msgstr[4] "التحديثات المتوفرة."
-msgstr[5] "التحديثات المتوفرة."
 
 #, fuzzy, python-format
 msgid "%s%d min"
@@ -1949,6 +2029,10 @@ msgstr "إضافة خدمة"
 msgid "Add Bookmark"
 msgstr "إضافة علامة مرجعية"
 
+#, fuzzy
+msgid "Add Timer"
+msgstr "أضف مؤقت"
+
 msgid "Add a mark"
 msgstr "أضف علامه"
 
@@ -1961,6 +2045,10 @@ msgstr "إضافة عنوان جديد"
 
 msgid "Add a new title"
 msgstr "إضافة عنوان جديد"
+
+#, fuzzy
+msgid "Add a timer for the current event"
+msgstr "إضافة/حذف المؤقت للحدث الحالي"
 
 msgid "Add alternatives"
 msgstr "إضافة البديل"
@@ -2513,6 +2601,10 @@ msgstr "في البداية"
 msgid "At end"
 msgstr "في النهاية"
 
+#, fuzzy
+msgid "Attention, this is a repeated timer!"
+msgstr "انتباه ، هذا مؤقت متكرر!\n"
+
 msgid "Attention, this is repeated timer!\n"
 msgstr "انتباه ، هذا مؤقت متكرر!\n"
 
@@ -2913,6 +3005,9 @@ msgstr "بنين"
 msgid "Bermuda"
 msgstr "برمودا"
 
+msgid "Bestfit"
+msgstr ""
+
 msgid "Bhutan"
 msgstr "بوتان"
 
@@ -3224,6 +3319,10 @@ msgstr "كيبل"
 msgid "Cable Scan"
 msgstr "بحث عن قنوات الكيبل"
 
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
+
 msgid "Cache thumbnails"
 msgstr "ذاكرة التخزين المؤقتة"
 
@@ -3284,6 +3383,10 @@ msgstr "كندا"
 msgid "Cancel"
 msgstr "إلغاء"
 
+#, fuzzy
+msgid "Cancel / Close the software update screen"
+msgstr "حماية شاشة تحديث البرامج"
+
 msgid "Cancel any changed settings and exit"
 msgstr ""
 
@@ -3316,8 +3419,16 @@ msgid "Cancel execution?"
 msgstr "إختيار القناة"
 
 #, fuzzy
+msgid "Cancel the action selection and exit"
+msgstr "إختيار القناة"
+
+#, fuzzy
 msgid "Cancel the location selection"
 msgstr "إختيار القناة"
+
+#, fuzzy
+msgid "Cancel the update"
+msgstr "تحديث قائمة الباقات"
 
 msgid "Cancelled upon user request"
 msgstr "إلغاء بناء علي طلب المستخدم"
@@ -3414,6 +3525,10 @@ msgstr "اللغـة"
 
 msgid "Change PIN Pressing [OK]"
 msgstr ""
+
+#, fuzzy
+msgid "Change Timer"
+msgstr "تغيير المؤقت"
 
 msgid "Change bouquets in quickzap"
 msgstr "التنقل بين الباقات بشكل أسرع"
@@ -3567,6 +3682,14 @@ msgstr ""
 
 msgid "Chinese - Traditional"
 msgstr ""
+
+#, fuzzy
+msgid "Choice Box Actions"
+msgstr "مزيد من التعليم"
+
+#, fuzzy
+msgid "Choice Box Order Actions"
+msgstr "أختيار الأفلام"
 
 #, fuzzy
 msgid "Choose Tuner"
@@ -3724,6 +3847,10 @@ msgid "Close"
 msgstr "إغلاق"
 
 #, fuzzy
+msgid "Close Event View screen"
+msgstr "إغلاق إختيار العنوان"
+
+#, fuzzy
 msgid "Close PiP with 'exit' button"
 msgstr "مع زر الخروج"
 
@@ -3873,6 +4000,10 @@ msgstr "الاعدادات..."
 #, fuzzy
 msgid "Configuration"
 msgstr "الاعدادات..."
+
+#, fuzzy, python-format
+msgid "Configuration file '%s' has been modified since it was installed, would you like to keep the modified version?"
+msgstr "تم تعديل ملف التكوين ( %s) منذ تثبيته. هل تريد الاحتفاظ بتعديلاتك ؟"
 
 msgid "Configuration mode"
 msgstr "وضع التكوين"
@@ -4389,6 +4520,9 @@ msgstr "إستمرار التشغيل"
 msgid "Continue playing"
 msgstr "استمرار العرض"
 
+msgid "Continue with the on-line update"
+msgstr ""
+
 msgid "Continues play (loop)"
 msgstr "مواصلة التشغيل (حلقة)"
 
@@ -4438,9 +4572,6 @@ msgstr "كوستا ريكا"
 #, fuzzy
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr "كوت ديفوار"
-
-msgid "Could not find installed channel list."
-msgstr "لا يمكن أن تجد قائمة القنوات المثبتة."
 
 msgid "Could not find suitable media - Please remove some downloaded images or insert a media (e.g. USB stick) with sufficiant free space and try again!"
 msgstr ""
@@ -4537,10 +4668,6 @@ msgid "Current CEC address"
 msgstr "التحكم في عناوين الإلكترونيات الاستهلاكية الحالية"
 
 #, fuzzy
-msgid "Current MAC address"
-msgstr "التحكم في عناوين الإلكترونيات الاستهلاكية الحالية"
-
-#, fuzzy
 msgid "Current crash log"
 msgstr "قنوات التردد الحالي"
 
@@ -4572,6 +4699,10 @@ msgstr "قنوات التردد الحالي"
 
 msgid "Current value: "
 msgstr "القيمه الحاليه: "
+
+#, fuzzy
+msgid "Current version unknown"
+msgstr "قنوات التردد الحالي"
 
 #, fuzzy
 msgid "Custom"
@@ -5054,6 +5185,10 @@ msgid "Delete Loc"
 msgstr "حذف"
 
 #, fuzzy
+msgid "Delete Timer"
+msgstr "حذف المؤقت"
+
+#, fuzzy
 msgid "Delete all log files"
 msgstr "حذف كل البدائل"
 
@@ -5182,6 +5317,10 @@ msgstr "الوصـف"
 
 msgid "Deselect"
 msgstr "إلغاء الاختيار"
+
+#, python-format
+msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
+msgstr ""
 
 #, fuzzy
 msgid "Destination of fallback remote receiver"
@@ -5364,6 +5503,10 @@ msgstr ""
 
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "مساحة القرص الصلب للتسجيلات (في الجيجابايت)"
+
+#, fuzzy
+msgid "Disk state: "
+msgstr "حاله البحث"
 
 msgid "Display 16:9 content as"
 msgstr "محتوى أبعاد شاشة العرض 16:9"
@@ -5642,14 +5785,6 @@ msgstr "هل تريد عمل بحث؟"
 msgid "Do you want to update the package:\n"
 msgstr "هل تريد ترقية الحزمة:\n"
 
-#, fuzzy, python-format
-msgid "Do you want to update to %s"
-msgstr "هل تريد التحديث %s %s ?"
-
-#, fuzzy, python-format
-msgid "Do you want to update your %s %s?"
-msgstr "هل تريد التحديث %s %s ?"
-
 #, fuzzy
 msgid "Documentary"
 msgstr "وثائقي"
@@ -5719,6 +5854,10 @@ msgstr[5] ""
 msgid "Down"
 msgstr ""
 
+#, fuzzy
+msgid "Download error"
+msgstr "قناة مجهولة"
+
 msgid "Download plugins"
 msgstr "تحميل البلج إنز"
 
@@ -5742,6 +5881,10 @@ msgid "Downloading Image"
 msgstr "جاري التحميل"
 
 msgid "Downloading a new packet list. Please wait..."
+msgstr "إعادة محاولة تحميل قائمة حزم جديدة. الرجاء الانتظار..."
+
+#, fuzzy
+msgid "Downloading latest update list.  Please wait..."
 msgstr "إعادة محاولة تحميل قائمة حزم جديدة. الرجاء الانتظار..."
 
 msgid "Downloading plugin information. Please wait..."
@@ -5866,6 +6009,10 @@ msgstr "تعديل أسم النطاق"
 #, fuzzy
 msgid "Edit Tags"
 msgstr "تحرير الاعدادات"
+
+#, fuzzy
+msgid "Edit Timer"
+msgstr "تعديل المؤقت"
 
 msgid "Edit alternatives"
 msgstr "تعديل البديل"
@@ -6092,6 +6239,9 @@ msgid "Enable this option to add action map / remote control mapping data to the
 msgstr ""
 
 msgid "Enable this option to add keyboard keymap data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add opkg output data to the debug log file."
 msgstr ""
 
 msgid "Enable this option to add remote control data to the debug log file."
@@ -6446,6 +6596,14 @@ msgstr "واجهة شبكة الانترنت"
 msgid "Ethiopia"
 msgstr "أثيوبيا"
 
+#, fuzzy
+msgid "Event View Actions"
+msgstr "الملحقات."
+
+#, fuzzy
+msgid "Event View Context Menu"
+msgstr "قائمه عرض الحدث"
+
 msgid "Event font size (relative to skin size)"
 msgstr ""
 
@@ -6455,15 +6613,11 @@ msgstr "أسم الحدث الأول"
 msgid "Event view"
 msgstr "مشاهدة الحدث"
 
-#, fuzzy
-msgid "Event view context menu"
-msgstr "قائمه عرض الحدث"
-
 msgid "Event view menu"
 msgstr "قائمه عرض الحدث"
 
 #, fuzzy
-msgid "Events info menu"
+msgid "Events Info Menu"
 msgstr "قائمه عرض الحدث"
 
 msgid "Every 12 hours"
@@ -6610,11 +6764,11 @@ msgstr "الملحقات."
 msgid "Extensions"
 msgstr "الملحقات."
 
-msgid "Extensions management"
+#, fuzzy
+msgid "Extensions Menu"
 msgstr "التحكم في الإضافات"
 
-#, fuzzy
-msgid "Extensions menu"
+msgid "Extensions management"
 msgstr "التحكم في الإضافات"
 
 msgid "External"
@@ -6880,6 +7034,18 @@ msgstr "المفضلات"
 msgid "Favourites"
 msgstr "المفضلات"
 
+#, fuzzy
+msgid "Feed disabled!"
+msgstr "تم التعطيل"
+
+#, fuzzy
+msgid "Feed stable."
+msgstr "تفعيل"
+
+#, fuzzy
+msgid "Feed unstable!"
+msgstr "تفعيل"
+
 msgid "Fiji"
 msgstr "فيجي"
 
@@ -6914,6 +7080,9 @@ msgstr "تأخير الدوران النهائي"
 #, fuzzy
 msgid "Find currently played service"
 msgstr "تثبيت القنوات"
+
+msgid "Find similar events in the EPG"
+msgstr ""
 
 msgid "Fine movement"
 msgstr "حركه جيده"
@@ -7110,6 +7279,10 @@ msgstr "شفافية كاملة"
 #, fuzzy
 msgid "Full view resolution"
 msgstr "جميع أنواع الدقة"
+
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "ضبط مؤالف التراجع"
 
 msgid "Function of OK button"
 msgstr ""
@@ -7964,6 +8137,10 @@ msgid "Include keyboard data"
 msgstr "خريطة لوحة المفاتيح"
 
 #, fuzzy
+msgid "Include opkg output data"
+msgstr "يشمل الاحداث المباشرة في روابط البث"
+
+#, fuzzy
 msgid "Include remote control data"
 msgstr "إعدادات نوع جهاز التحكم عن بعد"
 
@@ -8511,8 +8688,15 @@ msgstr "اللاقط"
 msgid "Label"
 msgstr ""
 
+#, fuzzy
 msgid "Language"
-msgstr "اللغـة"
+msgid_plural "Languages"
+msgstr[0] "اللغـة"
+msgstr[1] "اللغـة"
+msgstr[2] "اللغـة"
+msgstr[3] "اللغـة"
+msgstr[4] "اللغـة"
+msgstr[5] "اللغـة"
 
 #, python-format
 msgid "Language %s (%s) installed and selected."
@@ -8528,10 +8712,6 @@ msgstr "إختيار اللغـة"
 
 msgid "Language selection"
 msgstr "إختيار اللغـة"
-
-#, fuzzy
-msgid "Languages"
-msgstr "اللغـة"
 
 #, fuzzy
 msgid "Lao"
@@ -8566,10 +8746,6 @@ msgstr ""
 
 msgid "Latest revision on github"
 msgstr ""
-
-#, fuzzy
-msgid "Latest update log"
-msgstr "آخر تحديث: %s"
 
 #, fuzzy
 msgid "Latin"
@@ -8770,7 +8946,13 @@ msgstr "صندوق محلي"
 
 #, fuzzy
 msgid "Locale"
-msgstr "صندوق محلي"
+msgid_plural "Locales"
+msgstr[0] "صندوق محلي"
+msgstr[1] "صندوق محلي"
+msgstr[2] "صندوق محلي"
+msgstr[3] "صندوق محلي"
+msgstr[4] "صندوق محلي"
+msgstr[5] "صندوق محلي"
 
 #, python-format
 msgid "Locale %s (%s) installed and selected."
@@ -8812,10 +8994,6 @@ msgstr "حدد الاجراء"
 #, fuzzy
 msgid "Locale/Language Setup"
 msgstr "إعداد مدير البرنامج التشغيلي"
-
-#, fuzzy
-msgid "Locales"
-msgstr "صندوق محلي"
 
 #, fuzzy
 msgid "Locales to be displayed"
@@ -8941,6 +9119,9 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
+msgid "MHz"
+msgstr ""
+
 #, fuzzy
 msgid "MMC card"
 msgstr "بطاقة"
@@ -9034,6 +9215,10 @@ msgid "Manage extensions or plugins for your receiver."
 msgstr ""
 "\n"
 "إدارة الملحقات والإضافات الخاصة بجهازك %s %s"
+
+#, fuzzy
+msgid "Manage sleep timer"
+msgstr "تغيير المؤقت"
 
 #, fuzzy
 msgid "Manage your receiver's software"
@@ -9371,6 +9556,10 @@ msgid "Move down a page"
 msgstr "الانتقال إلى أخر القائمة"
 
 #, fuzzy
+msgid "Move down a page / screen"
+msgstr "أنتقل للأسفل إلى الإدخال السابق"
+
+#, fuzzy
 msgid "Move down a screen"
 msgstr "أنتقل للأسفل إلى الإدخال السابق"
 
@@ -9410,6 +9599,14 @@ msgstr "تحرك شرقا"
 #, fuzzy
 msgid "Move main picture to PiP"
 msgstr "تحريك قناة داخل قناة من القناة الرئيسية"
+
+#, fuzzy
+msgid "Move the current item down one line"
+msgstr "أنتقل للأسفل إلى الإدخال التالي"
+
+#, fuzzy
+msgid "Move the current item up one line"
+msgstr "الانتقال إلى اعلي القائمة"
 
 msgid "Move the keyboard cursor down"
 msgstr ""
@@ -9477,6 +9674,14 @@ msgstr "انتقل إلى المكان في الفهرس"
 #, fuzzy
 msgid "Move up a page"
 msgstr "انتقل إلى المكان في الفهرس"
+
+#, fuzzy
+msgid "Move up a page / screen"
+msgstr "تحرك للأعلى المدخل السابق"
+
+#, fuzzy
+msgid "Move up a page /screen"
+msgstr "تحرك للأعلى المدخل السابق"
 
 msgid "Move up a screen"
 msgstr ""
@@ -9781,6 +9986,10 @@ msgid "Network information"
 msgstr "حماية التكوين"
 
 #, fuzzy
+msgid "Network interface for MAC address."
+msgstr "التحكم في عناوين الإلكترونيات الاستهلاكية الحالية"
+
+#, fuzzy
 msgid "Network mount"
 msgstr "مشاركة الشبكة"
 
@@ -10003,11 +10212,12 @@ msgstr ""
 "من فضلك أضبط إعدادات المؤالف قبل البحث عن القنوات ."
 
 #, fuzzy
-msgid "No updates available"
+msgid "No updates available."
 msgstr "التحديثات المتوفرة."
 
-msgid "No updates available. Please try again later."
-msgstr ""
+#, fuzzy
+msgid "No updates were available.  Please try again later."
+msgstr "حدث خطأ أثناء تنزيل قائمة الحزم. حاول مرة اخرى."
 
 msgid "No wireless networks found! Searching..."
 msgstr "لا يوجد شبكات للاسلكية ! جار البحث..."
@@ -10051,6 +10261,9 @@ msgstr ""
 
 msgid "No, never"
 msgstr "لا,مطلقا"
+
+msgid "Non Linear"
+msgstr ""
 
 msgid "None"
 msgstr "لاشيئ"
@@ -10174,6 +10387,9 @@ msgstr ""
 
 msgid "Nothing to scan! Setup your tuner and try again."
 msgstr "لا شيء في البحث! قم بإعداد مؤالفك وحاول مرة أخرى."
+
+msgid "Nothing to upgrade"
+msgstr ""
 
 #, fuzzy
 msgid "Now"
@@ -10388,6 +10604,10 @@ msgid "Open channel list"
 msgstr "لا توجد قائمة قنوات"
 
 #, fuzzy
+msgid "Open context menu"
+msgstr "سياق صفحة قائمة القنوات"
+
+#, fuzzy
 msgid "Open current transponder"
 msgstr "قنوات التردد الحالي"
 
@@ -10415,6 +10635,14 @@ msgstr "فتح ضبط المؤالف "
 
 msgid "Open the movie list"
 msgstr "فتح قائمة الأفلام"
+
+#, fuzzy
+msgid "Open the multi service EPG view"
+msgstr "فتح قائمة الأفلام"
+
+#, fuzzy
+msgid "Open the single service EPG view"
+msgstr "عرض الإيقونات في قائمة القنوات"
 
 msgid "OpenDNS FamilyShield"
 msgstr ""
@@ -10595,10 +10823,6 @@ msgstr ""
 msgid "Packages and associated locales"
 msgstr ""
 
-#, fuzzy
-msgid "Packages to update"
-msgstr "تحديث قائمة الباقات"
-
 msgid "Packet management"
 msgstr "التحكم فى الحزم"
 
@@ -10712,6 +10936,9 @@ msgstr "النسبة المئوية في اليسار"
 
 msgid "Percentage right"
 msgstr "النسبة المئوية في اليمين"
+
+msgid "Perform an on-line flash instead"
+msgstr ""
 
 msgid "Permanent sort key changes"
 msgstr ""
@@ -10880,6 +11107,10 @@ msgid "Please choose an extension..."
 msgstr "من فضلك أختار من الملحقات..."
 
 #, fuzzy
+msgid "Please choose an extension:"
+msgstr "من فضلك أختار من الملحقات..."
+
+#, fuzzy
 msgid "Please choose reader"
 msgstr "من فضلك أختار من الملحقات..."
 
@@ -10968,7 +11199,8 @@ msgstr "من فضلك أختار قائمة التشغيل..."
 msgid "Please select a resolution..."
 msgstr "من فضلك أختار الخدمه الفرعيه..."
 
-msgid "Please select a sub service..."
+#, fuzzy
+msgid "Please select a sub service:"
 msgstr "من فضلك أختار خدمة الترجمة..."
 
 msgid "Please select a subservice to record..."
@@ -10986,7 +11218,7 @@ msgid "Please select an acceptable directory."
 msgstr "من فضلك أختار قائمة التشغيل..."
 
 #, fuzzy
-msgid "Please select an aspect ratio..."
+msgid "Please select an aspect ratio:"
 msgstr "من فضلك أختار الخدمه الفرعيه..."
 
 msgid "Please select medium to be scanned"
@@ -11343,7 +11575,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "أضغط موافق من ريموت التحكم عن بعد للإستمرار."
 
 #, fuzzy
-msgid "Press OK to activate the MAC address."
+msgid "Press OK to activate current MAC address."
 msgstr "اضغط موافق لتفعيل الاعدادات."
 
 #, fuzzy, python-format
@@ -11352,6 +11584,10 @@ msgstr "أضغط موافق لتفعيل السكن المختار."
 
 msgid "Press OK to activate the settings."
 msgstr "اضغط موافق لتفعيل الاعدادات."
+
+#, fuzzy
+msgid "Press OK to continue."
+msgstr "من فضلك أضغط موافق للاستمرار."
 
 #, fuzzy
 msgid "Press OK to edit the settings of the selected device."
@@ -11470,6 +11706,10 @@ msgstr "الأولوية"
 #, fuzzy
 msgid "Proc model"
 msgstr "وضع التنقل"
+
+#, fuzzy
+msgid "Proceed with the update"
+msgstr "تحديث قائمة الباقات"
 
 msgid "Process"
 msgstr "عملية"
@@ -11871,9 +12111,6 @@ msgstr ""
 msgid "Reenter PIN"
 msgstr "أعاده إدخال الرقم السري"
 
-msgid "Reflash recommended!"
-msgstr "إعادة تحميل الملفات الموصى بها!"
-
 #, fuzzy
 msgid "Refresh"
 msgstr "معدل التحديث"
@@ -11890,6 +12127,9 @@ msgstr "إختيار معدل التحديث."
 #, fuzzy
 msgid "Refresh the screen"
 msgstr "إختيار معدل التحديث."
+
+msgid "Refresh the update-able package list"
+msgstr ""
 
 #, fuzzy
 msgid "Refusing to move to the same directory"
@@ -12188,6 +12428,14 @@ msgstr "إعاده الضبط"
 msgid "Reset and renumerate title names"
 msgstr "إعادة تعيين و إعادة تقييم عناوين الاسماء"
 
+#, fuzzy
+msgid "Reset list order to default"
+msgstr "تعيين افتراضي"
+
+#, fuzzy
+msgid "Reset list order to default?"
+msgstr "فرز قائمه الإضافات إلى الافتراضي؟"
+
 msgid "Reset order (All)"
 msgstr ""
 
@@ -12398,6 +12646,25 @@ msgstr "وقت البدء"
 
 msgid "Run how often ?"
 msgstr ""
+
+msgid "Run the BLUE action"
+msgstr ""
+
+msgid "Run the GREEN action"
+msgstr ""
+
+msgid "Run the RED action"
+msgstr ""
+
+msgid "Run the YELLOW action"
+msgstr ""
+
+msgid "Run the currently highlighted action"
+msgstr ""
+
+#, fuzzy
+msgid "Run the numbered action"
+msgstr "مزيد من التعليم"
 
 #, fuzzy
 msgid "Rundi"
@@ -13531,10 +13798,6 @@ msgstr ""
 msgid "Set PIN Pressing [OK]"
 msgstr ""
 
-#, fuzzy
-msgid "Set a new MAC address"
-msgstr "التحكم في عناوين الإلكترونيات الاستهلاكية الحالية"
-
 msgid "Set a temporary sort method for this directory"
 msgstr ""
 
@@ -13569,6 +13832,10 @@ msgstr "أضبط الواجهة لتشكيل الواجهة الإفتراضية
 
 msgid "Set limits"
 msgstr "ضبط الحدود"
+
+#, fuzzy
+msgid "Set new MAC address"
+msgstr "التحكم في عناوين الإلكترونيات الاستهلاكية الحالية"
 
 msgid "Set persistent PIN code"
 msgstr "إعداد تعيين الرمز السري"
@@ -13967,14 +14234,6 @@ msgid "Show latest commit log information"
 msgstr "عرض أسطر التدفق"
 
 #, fuzzy
-msgid "Show latest commits"
-msgstr "عرض أسطر التدفق"
-
-#, fuzzy
-msgid "Show latest update log"
-msgstr "تحديث البرنامج التشغيلي"
-
-#, fuzzy
 msgid "Show live tv when movie stopped"
 msgstr "التصرف عند إيقاف الفيلم"
 
@@ -14012,8 +14271,16 @@ msgid "Show multi channel EPG"
 msgstr "عرض دليل البرامج الإلكترونية المتعدد"
 
 #, fuzzy
+msgid "Show next event"
+msgstr "الانتقال إلى الحدث التالي"
+
+#, fuzzy
 msgid "Show next image"
 msgstr "حذف المؤقت"
+
+#, fuzzy
+msgid "Show next page of description"
+msgstr "عرض الوصف المتقدم"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
 msgstr ""
@@ -14033,10 +14300,6 @@ msgstr "عرض الوصف المتقدم"
 
 msgid "Show packagegroup-base in plugin browser"
 msgstr ""
-
-#, fuzzy
-msgid "Show packages to be updated"
-msgstr "تحديث قائمة الباقات"
 
 #, fuzzy
 msgid "Show pam-plugin in plugin browser"
@@ -14065,8 +14328,16 @@ msgid "Show positioner position"
 msgstr "عرض وضع الموتور المتحرك"
 
 #, fuzzy
+msgid "Show previous event"
+msgstr "الانتقال إلى الحدث السابق"
+
+#, fuzzy
 msgid "Show previous image"
 msgstr "التحكم في القناة السابقة"
+
+#, fuzzy
+msgid "Show previous page of description"
+msgstr "الانتقال إلى الحدث السابق"
 
 #, fuzzy
 msgid "Show python in plugin browser"
@@ -14468,6 +14739,10 @@ msgid "Software Update"
 msgstr "تحديث البرنامج التشغيلي"
 
 #, fuzzy
+msgid "Software Update Actions"
+msgstr "تحديث البرنامج التشغيلي"
+
+#, fuzzy
 msgid "Software information"
 msgstr "معلومات إدارة البرنامج التشغيلي"
 
@@ -14479,6 +14754,14 @@ msgstr "إعداد مدير البرنامج التشغيلي"
 
 msgid "Software update"
 msgstr "تحديث البرنامج التشغيلي"
+
+#, fuzzy
+msgid ""
+"Software update starting, please wait.\n"
+"\n"
+msgstr ""
+"\n"
+"بعد الضغط على موافق ، الرجاء الانتظار!"
 
 msgid "Softwaremanager information"
 msgstr "معلومات إدارة البرنامج التشغيلي"
@@ -14545,9 +14828,6 @@ msgstr "التصنيف بواسطة"
 #, fuzzy
 msgid "Sort by default"
 msgstr "تعيين افتراضي"
-
-msgid "Sort list to default and exit?"
-msgstr "قائمه الفرز إلى الافتراضي والخروج؟"
 
 msgid "Sort list:"
 msgstr "قائمه الفرز:"
@@ -14817,6 +15097,10 @@ msgid "Status"
 msgstr ""
 
 #, fuzzy
+msgid "Status unavailable!"
+msgstr "غير متوفر"
+
+#, fuzzy
 msgid "Step back"
 msgstr "خطوه ناحية الشرق"
 
@@ -14925,6 +15209,9 @@ msgstr "إيقاف مستوى الاختبار بعد # فشل التردد"
 
 msgid "Stop testing plane after # successful transponders"
 msgstr "إيقاف مستوى الاختبار بعد # نجاح التردد"
+
+msgid "Stop the update, if running, then exit"
+msgstr ""
 
 msgid "Stop timer recording"
 msgstr "أيقاف تسجيل المؤقت"
@@ -15552,12 +15839,6 @@ msgstr ""
 msgid "The command to wake from standby will be sent multiple times."
 msgstr ""
 
-#, python-format
-msgid ""
-"The current image might not be stable.\n"
-"For more information see %s."
-msgstr ""
-
 msgid "The detailed information is intended for developers only."
 msgstr ""
 
@@ -15689,6 +15970,10 @@ msgstr "حذف قائمة التشغيل المحفوظة"
 msgid "There are no updates available."
 msgstr "لا توجد تحديثات متوفرة."
 
+#, python-format
+msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
+msgstr ""
+
 msgid "There is no signal to lock on !"
 msgstr "لا توجد اشاره للقفل !"
 
@@ -15700,6 +15985,10 @@ msgid ""
 msgstr ""
 "قد لا يكون هناك مساحه كافيه على القسم المختار..\n"
 "هل تريد فعلا الاستمرار؟"
+
+#, fuzzy
+msgid "There was an error downloading the update list.  Please try again."
+msgstr "حدث خطأ أثناء تنزيل قائمة الحزم. حاول مرة اخرى."
 
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
 msgstr "تنسيق مشغل سواقة الديفيدي جاهزة للإستخدام- سوف يعمل تهئية لكل محتوى القرص."
@@ -16628,6 +16917,10 @@ msgid "Unknown"
 msgstr "غير معروف"
 
 #, fuzzy
+msgid "Unknown Service"
+msgstr "قناة مجهولة"
+
+#, fuzzy
 msgid "Unmark service as dedicated 3D service"
 msgstr "إلغاء تحديد خدمة قنوات ثلاثية الأبعاد المخصصة"
 
@@ -16647,33 +16940,12 @@ msgid "Update"
 msgstr "التحديث"
 
 #, fuzzy
-msgid "Update and ask to reboot"
-msgstr "ترقية وإعادة تشغيل النظام"
-
-#, fuzzy
-msgid "Update and ask to reboot (recommended)"
-msgstr "ترقية وإعادة تشغيل النظام"
-
-msgid "Update channel list only"
-msgstr "تحديث قائمة القنوات فقط"
-
-#, python-format
-msgid "Update completed, %d package was installed."
-msgid_plural "Update completed, %d packages were installed."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgid "Update completed."
+msgstr "اكتمل النسخ الاحتياطي."
 
 #, fuzzy, python-format
-msgid "Update completed. Do you want to reboot your %s %s?"
+msgid "Update completed. A reboot is strongly recommended.  Do you want to reboot your %s %s now?"
 msgstr "هل تريد أعاده تشغيل جهاز الاستقبال الخاص بك ؟"
-
-#, fuzzy
-msgid "Update failed. Your receiver does not have a working internet connection."
-msgstr "فشل التحديث. الخاص بك %s %s لم يكون لها اتصال بالإنترنت لكي تعمل."
 
 msgid "Update feed not available."
 msgstr "تغذية التحديث غير متوفرة."
@@ -16685,6 +16957,17 @@ msgstr "اكتمل النسخ الاحتياطي."
 #, fuzzy
 msgid "Update interval (in seconds)"
 msgstr "الفاصل الزمني لعرض الشرائح (ثانيه)"
+
+#, fuzzy
+msgid "Updated"
+msgstr "التحديث"
+
+msgid "Updated version unknown"
+msgstr ""
+
+#, fuzzy
+msgid "Updates available:"
+msgstr "التحديثات المتوفرة."
 
 #, fuzzy
 msgid "Updating"
@@ -17273,6 +17556,10 @@ msgstr ""
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+#, fuzzy, python-format
+msgid "Warning: There are %d update packages!"
+msgstr "لا توجد تحديثات متوفرة."
+
 msgid "Warning: no LNB; using factory defaults."
 msgstr "تحذير: لايوجد لاقط; قم باستخدام إعدادات ضبط المصنع الافتراضية."
 
@@ -17375,6 +17662,9 @@ msgid "What day of week ?"
 msgstr ""
 
 msgid "What type of service scan do you want?"
+msgstr ""
+
+msgid "What would you like to do?"
 msgstr ""
 
 #, fuzzy
@@ -17958,6 +18248,9 @@ msgstr "يجب التبديل إلى القناة %s (%s - '%s')!\n"
 msgid "You seem to be in timeshift!"
 msgstr "يبدو أنك في التحكم الزمني في البث المباشر!"
 
+msgid "You should flash a new image!"
+msgstr ""
+
 #, fuzzy
 msgid "Your %s %s (kernel %s) does not have an internet connection"
 msgstr "جهاز الاستقبال الخاص بك غير متصل بالانترنت"
@@ -17974,10 +18267,6 @@ msgid "Your %s %s reads the stored EPG data every (hours)."
 msgstr ""
 
 msgid "Your %s %s stores the EPG data every (hours)."
-msgstr ""
-
-#, python-format
-msgid "Your %s %s?"
 msgstr ""
 
 msgid "Your PIN code is 0000. This is the default PIN code and it disables parental control!\n"
@@ -18053,7 +18342,7 @@ msgstr ""
 "الرجاء الضغط علي \"موافق\" للمتابعة."
 
 #, fuzzy, python-format
-msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
 msgstr "قد تكون %s %s غير صالحة للاستخدام الآن. يرجى الرجوع إلى الدليل لمزيد من المساعدة قبل إعادة تشغيل %s %s."
 
 #, fuzzy, python-format
@@ -18211,6 +18500,10 @@ msgstr "تنشيط تشكيل محول الشبكة"
 
 #, fuzzy
 msgid "active"
+msgstr "غير فعال"
+
+#, fuzzy
+msgid "active "
 msgstr "غير فعال"
 
 msgid "actual time only"
@@ -18386,10 +18679,6 @@ msgstr "كوميدي"
 #, fuzzy
 msgid "comedy (general)"
 msgstr "فيلم/دراما (عام)"
-
-#, fuzzy
-msgid "config menu"
-msgstr "تم التأكيد"
 
 msgid "confirmed"
 msgstr "تم التأكيد"
@@ -19181,6 +19470,10 @@ msgstr "المجلة الرياضية"
 msgid "standard"
 msgstr "قياسي"
 
+#, fuzzy
+msgid "standby "
+msgstr "وضع الإستعداد"
+
 msgid "stepsize"
 msgstr "حجم الخطوة"
 
@@ -19275,9 +19568,6 @@ msgstr "غير معروف"
 
 #, fuzzy
 msgid "unknown error"
-msgstr "قناة مجهولة"
-
-msgid "unknown service"
 msgstr "قناة مجهولة"
 
 msgid "unpublished"

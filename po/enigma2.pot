@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-02 02:03+0000\n"
+"POT-Creation-Date: 2022-02-13 15:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -842,6 +842,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d fps"
 msgstr ""
 
@@ -894,6 +900,54 @@ msgstr ""
 #, python-format
 msgid "%d package selected."
 msgid_plural "%d packages selected."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package upgraded."
+msgid_plural "%d packages upgraded."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1048,12 +1102,6 @@ msgstr ""
 #, python-format
 msgid "%s of %s MB"
 msgstr ""
-
-#, python-format
-msgid "%s updated package available"
-msgid_plural "%s updated packages available"
-msgstr[0] ""
-msgstr[1] ""
 
 #, python-format
 msgid "%s%d min"
@@ -1673,6 +1721,9 @@ msgstr ""
 msgid "Add Bookmark"
 msgstr ""
 
+msgid "Add Timer"
+msgstr ""
+
 msgid "Add a mark"
 msgstr ""
 
@@ -1683,6 +1734,9 @@ msgid "Add a new tag"
 msgstr ""
 
 msgid "Add a new title"
+msgstr ""
+
+msgid "Add a timer for the current event"
 msgstr ""
 
 msgid "Add alternatives"
@@ -2126,6 +2180,9 @@ msgstr ""
 msgid "At end"
 msgstr ""
 
+msgid "Attention, this is a repeated timer!"
+msgstr ""
+
 msgid "Attention, this is repeated timer!\n"
 msgstr ""
 
@@ -2414,6 +2471,9 @@ msgstr ""
 msgid "Bermuda"
 msgstr ""
 
+msgid "Bestfit"
+msgstr ""
+
 msgid "Bhutan"
 msgstr ""
 
@@ -2691,6 +2751,10 @@ msgstr ""
 msgid "Cable Scan"
 msgstr ""
 
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
+
 msgid "Cache thumbnails"
 msgstr ""
 
@@ -2748,6 +2812,9 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
+msgid "Cancel / Close the software update screen"
+msgstr ""
+
 msgid "Cancel any changed settings and exit"
 msgstr ""
 
@@ -2778,7 +2845,13 @@ msgstr ""
 msgid "Cancel execution?"
 msgstr ""
 
+msgid "Cancel the action selection and exit"
+msgstr ""
+
 msgid "Cancel the location selection"
+msgstr ""
+
+msgid "Cancel the update"
 msgstr ""
 
 msgid "Cancelled upon user request"
@@ -2863,6 +2936,9 @@ msgid "Change Language"
 msgstr ""
 
 msgid "Change PIN Pressing [OK]"
+msgstr ""
+
+msgid "Change Timer"
 msgstr ""
 
 msgid "Change device settings"
@@ -2982,6 +3058,12 @@ msgstr ""
 msgid "Chinese - Traditional"
 msgstr ""
 
+msgid "Choice Box Actions"
+msgstr ""
+
+msgid "Choice Box Order Actions"
+msgstr ""
+
 msgid "Choose Tuner"
 msgstr ""
 
@@ -3081,6 +3163,9 @@ msgid "Clients"
 msgstr ""
 
 msgid "Close"
+msgstr ""
+
+msgid "Close Event View screen"
 msgstr ""
 
 msgid "Close the screen"
@@ -3199,6 +3284,10 @@ msgid "Configurable"
 msgstr ""
 
 msgid "Configuration"
+msgstr ""
+
+#, python-format
+msgid "Configuration file '%s' has been modified since it was installed, would you like to keep the modified version?"
 msgstr ""
 
 msgid "Configuration mode"
@@ -3352,6 +3441,9 @@ msgstr ""
 msgid "Continue playing"
 msgstr ""
 
+msgid "Continue with the on-line update"
+msgstr ""
+
 msgid "Continues play (loop)"
 msgstr ""
 
@@ -3390,9 +3482,6 @@ msgid "Costa Rica"
 msgstr ""
 
 msgid "Cote d'Ivoire / Ivory Coast"
-msgstr ""
-
-msgid "Could not find installed channel list."
 msgstr ""
 
 msgid "Could not find suitable media - Please remove some downloaded images or insert a media (e.g. USB stick) with sufficiant free space and try again!"
@@ -3470,9 +3559,6 @@ msgstr ""
 msgid "Current CEC address"
 msgstr ""
 
-msgid "Current MAC address"
-msgstr ""
-
 msgid "Current crash log"
 msgstr ""
 
@@ -3501,6 +3587,9 @@ msgid "Current transponder"
 msgstr ""
 
 msgid "Current value: "
+msgstr ""
+
+msgid "Current version unknown"
 msgstr ""
 
 msgid "Custom"
@@ -3886,6 +3975,9 @@ msgstr ""
 msgid "Delete Loc"
 msgstr ""
 
+msgid "Delete Timer"
+msgstr ""
+
 msgid "Delete all log files"
 msgstr ""
 
@@ -3990,6 +4082,10 @@ msgid "Description"
 msgstr ""
 
 msgid "Deselect"
+msgstr ""
+
+#, python-format
+msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
 msgstr ""
 
 msgid "Destination of fallback remote receiver"
@@ -4131,6 +4227,9 @@ msgid "Disabled in configuration"
 msgstr ""
 
 msgid "Disabled or WPA/WPA2"
+msgstr ""
+
+msgid "Disk state: "
 msgstr ""
 
 msgid "Display 16:9 content as"
@@ -4357,14 +4456,6 @@ msgstr ""
 msgid "Do you want to update the package:\n"
 msgstr ""
 
-#, python-format
-msgid "Do you want to update to %s"
-msgstr ""
-
-#, python-format
-msgid "Do you want to update your %s %s?"
-msgstr ""
-
 msgid "Documentary"
 msgstr ""
 
@@ -4423,6 +4514,9 @@ msgstr[1] ""
 msgid "Down"
 msgstr ""
 
+msgid "Download error"
+msgstr ""
+
 msgid "Download plugins"
 msgstr ""
 
@@ -4439,6 +4533,9 @@ msgid "Downloading Image"
 msgstr ""
 
 msgid "Downloading a new packet list. Please wait..."
+msgstr ""
+
+msgid "Downloading latest update list.  Please wait..."
 msgstr ""
 
 msgid "Downloading plugin information. Please wait..."
@@ -4531,6 +4628,9 @@ msgid "Edit DNS"
 msgstr ""
 
 msgid "Edit Tags"
+msgstr ""
+
+msgid "Edit Timer"
 msgstr ""
 
 msgid "Edit alternatives"
@@ -4972,16 +5072,19 @@ msgstr ""
 msgid "Ethiopia"
 msgstr ""
 
+msgid "Event View Actions"
+msgstr ""
+
+msgid "Event View Context Menu"
+msgstr ""
+
 msgid "Event font size (relative to skin size)"
 msgstr ""
 
 msgid "Event name first"
 msgstr ""
 
-msgid "Event view context menu"
-msgstr ""
-
-msgid "Events info menu"
+msgid "Events Info Menu"
 msgstr ""
 
 msgid "Every 12 hours"
@@ -5107,10 +5210,10 @@ msgstr ""
 msgid "Extension Actions"
 msgstr ""
 
-msgid "Extensions management"
+msgid "Extensions Menu"
 msgstr ""
 
-msgid "Extensions menu"
+msgid "Extensions management"
 msgstr ""
 
 msgid "External"
@@ -5292,6 +5395,15 @@ msgstr ""
 msgid "Favourites"
 msgstr ""
 
+msgid "Feed disabled!"
+msgstr ""
+
+msgid "Feed stable."
+msgstr ""
+
+msgid "Feed unstable!"
+msgstr ""
+
 msgid "Fiji"
 msgstr ""
 
@@ -5316,6 +5428,9 @@ msgid "Final position at index"
 msgstr ""
 
 msgid "Find currently played service"
+msgstr ""
+
+msgid "Find similar events in the EPG"
 msgstr ""
 
 msgid "Fine movement"
@@ -5483,6 +5598,9 @@ msgid "Full transparency"
 msgstr ""
 
 msgid "Full view resolution"
+msgstr ""
+
+msgid "Fullbackup Images"
 msgstr ""
 
 msgid "Function of OK button"
@@ -6554,7 +6672,9 @@ msgid "Label"
 msgstr ""
 
 msgid "Language"
-msgstr ""
+msgid_plural "Languages"
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "Language %s (%s) installed and selected."
@@ -6568,9 +6688,6 @@ msgid "Language already selected."
 msgstr ""
 
 msgid "Language selection"
-msgstr ""
-
-msgid "Languages"
 msgstr ""
 
 msgid "Lao"
@@ -6602,9 +6719,6 @@ msgid "Latest Commits"
 msgstr ""
 
 msgid "Latest revision on github"
-msgstr ""
-
-msgid "Latest update log"
 msgstr ""
 
 msgid "Latin"
@@ -6767,8 +6881,13 @@ msgstr ""
 msgid "Local time"
 msgstr ""
 
+#, fuzzy
 msgid "Locale"
-msgstr ""
+msgid_plural "Locales"
+msgstr[0] ""
+"#-#-#-#-#  - (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  - (PACKAGE VERSION)  #-#-#-#-#\n"
+msgstr[1] "#-#-#-#-#  - (PACKAGE VERSION)  #-#-#-#-#\n"
 
 #, python-format
 msgid "Locale %s (%s) installed and selected."
@@ -6794,9 +6913,6 @@ msgid "Locale/Language Selection"
 msgstr ""
 
 msgid "Locale/Language Selection Actions"
-msgstr ""
-
-msgid "Locales"
 msgstr ""
 
 msgid "Location"
@@ -6882,6 +6998,9 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
+msgid "MHz"
+msgstr ""
+
 msgid "MMC card"
 msgstr ""
 
@@ -6952,6 +7071,9 @@ msgid "Manage extensions"
 msgstr ""
 
 msgid "Manage extensions or plugins for your receiver."
+msgstr ""
+
+msgid "Manage sleep timer"
 msgstr ""
 
 msgid "Manage your receiver's software"
@@ -7226,6 +7348,9 @@ msgstr ""
 msgid "Move down a page"
 msgstr ""
 
+msgid "Move down a page / screen"
+msgstr ""
+
 msgid "Move down a screen"
 msgstr ""
 
@@ -7257,6 +7382,12 @@ msgid "Move east"
 msgstr ""
 
 msgid "Move main picture to PiP"
+msgstr ""
+
+msgid "Move the current item down one line"
+msgstr ""
+
+msgid "Move the current item up one line"
 msgstr ""
 
 msgid "Move the keyboard cursor down"
@@ -7314,6 +7445,12 @@ msgid "Move up a line"
 msgstr ""
 
 msgid "Move up a page"
+msgstr ""
+
+msgid "Move up a page / screen"
+msgstr ""
+
+msgid "Move up a page /screen"
 msgstr ""
 
 msgid "Move up a screen"
@@ -7745,10 +7882,10 @@ msgid ""
 "Please setup your tuner settings before you start a service scan."
 msgstr ""
 
-msgid "No updates available"
+msgid "No updates available."
 msgstr ""
 
-msgid "No updates available. Please try again later."
+msgid "No updates were available.  Please try again later."
 msgstr ""
 
 msgid "No wireless networks found! Searching..."
@@ -7782,6 +7919,9 @@ msgid "No, except Wakeup timer"
 msgstr ""
 
 msgid "No, never"
+msgstr ""
+
+msgid "Non Linear"
 msgstr ""
 
 msgid "None"
@@ -7882,6 +8022,9 @@ msgid ""
 msgstr ""
 
 msgid "Nothing to scan! Setup your tuner and try again."
+msgstr ""
+
+msgid "Nothing to upgrade"
 msgstr ""
 
 msgid "Now"
@@ -8027,6 +8170,9 @@ msgstr ""
 msgid "Open channel list"
 msgstr ""
 
+msgid "Open context menu"
+msgstr ""
+
 msgid "Open current transponder"
 msgstr ""
 
@@ -8049,6 +8195,12 @@ msgid "Open setup tuner "
 msgstr ""
 
 msgid "Open the movie list"
+msgstr ""
+
+msgid "Open the multi service EPG view"
+msgstr ""
+
+msgid "Open the single service EPG view"
 msgstr ""
 
 msgid "OpenDNS FamilyShield"
@@ -8192,9 +8344,6 @@ msgstr ""
 msgid "Packages and associated locales"
 msgstr ""
 
-msgid "Packages to update"
-msgstr ""
-
 msgid "Packet management"
 msgstr ""
 
@@ -8290,6 +8439,9 @@ msgid "Percentage left"
 msgstr ""
 
 msgid "Percentage right"
+msgstr ""
+
+msgid "Perform an on-line flash instead"
 msgstr ""
 
 msgid "Permanently delete all recordings in the trash can?"
@@ -8419,6 +8571,9 @@ msgstr ""
 msgid "Please choose an extension..."
 msgstr ""
 
+msgid "Please choose an extension:"
+msgstr ""
+
 msgid "Please choose reader"
 msgstr ""
 
@@ -8479,7 +8634,7 @@ msgstr ""
 msgid "Please select a resolution..."
 msgstr ""
 
-msgid "Please select a sub service..."
+msgid "Please select a sub service:"
 msgstr ""
 
 msgid "Please select a subservice to record..."
@@ -8494,7 +8649,7 @@ msgstr ""
 msgid "Please select an acceptable directory."
 msgstr ""
 
-msgid "Please select an aspect ratio..."
+msgid "Please select an aspect ratio:"
 msgstr ""
 
 msgid "Please select medium to be scanned"
@@ -8684,14 +8839,14 @@ msgstr ""
 msgid "Press OK on your remote control to continue."
 msgstr ""
 
-msgid "Press OK to activate the MAC address."
-msgstr ""
-
 #, python-format
 msgid "Press OK to activate the selected %s skin."
 msgstr ""
 
 msgid "Press OK to activate the settings."
+msgstr ""
+
+msgid "Press OK to continue."
 msgstr ""
 
 msgid "Press OK to edit the settings of the selected device."
@@ -8798,6 +8953,9 @@ msgid "Priority"
 msgstr ""
 
 msgid "Proc model"
+msgstr ""
+
+msgid "Proceed with the update"
 msgstr ""
 
 msgid "Process"
@@ -9135,9 +9293,6 @@ msgstr ""
 msgid "Reenter PIN"
 msgstr ""
 
-msgid "Reflash recommended!"
-msgstr ""
-
 msgid "Refresh"
 msgstr ""
 
@@ -9145,6 +9300,9 @@ msgid "Refresh rate"
 msgstr ""
 
 msgid "Refresh the screen"
+msgstr ""
+
+msgid "Refresh the update-able package list"
 msgstr ""
 
 msgid "Refusing to move to the same directory"
@@ -9387,6 +9545,12 @@ msgstr ""
 msgid "Reset and renumerate title names"
 msgstr ""
 
+msgid "Reset list order to default"
+msgstr ""
+
+msgid "Reset list order to default?"
+msgstr ""
+
 msgid "Reset order (All)"
 msgstr ""
 
@@ -9562,6 +9726,24 @@ msgid "Round start time on"
 msgstr ""
 
 msgid "Run how often ?"
+msgstr ""
+
+msgid "Run the BLUE action"
+msgstr ""
+
+msgid "Run the GREEN action"
+msgstr ""
+
+msgid "Run the RED action"
+msgstr ""
+
+msgid "Run the YELLOW action"
+msgstr ""
+
+msgid "Run the currently highlighted action"
+msgstr ""
+
+msgid "Run the numbered action"
 msgstr ""
 
 msgid "Rundi"
@@ -10445,9 +10627,6 @@ msgstr ""
 msgid "Set PIN Pressing [OK]"
 msgstr ""
 
-msgid "Set a new MAC address"
-msgstr ""
-
 msgid "Set a temporary sort method for this directory"
 msgstr ""
 
@@ -10662,12 +10841,6 @@ msgstr ""
 msgid "Show latest commit log information"
 msgstr ""
 
-msgid "Show latest commits"
-msgstr ""
-
-msgid "Show latest update log"
-msgstr ""
-
 msgid "Show log"
 msgstr ""
 
@@ -10680,7 +10853,13 @@ msgstr ""
 msgid "Show multi channel EPG"
 msgstr ""
 
+msgid "Show next event"
+msgstr ""
+
 msgid "Show next image"
+msgstr ""
+
+msgid "Show next page of description"
 msgstr ""
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
@@ -10695,10 +10874,13 @@ msgstr ""
 msgid "Show notification when import channels was successful"
 msgstr ""
 
-msgid "Show packages to be updated"
+msgid "Show previous event"
 msgstr ""
 
 msgid "Show previous image"
+msgstr ""
+
+msgid "Show previous page of description"
 msgstr ""
 
 msgid "Show receiver image(s)"
@@ -10968,6 +11150,9 @@ msgstr ""
 msgid "Software Update"
 msgstr ""
 
+msgid "Software Update Actions"
+msgstr ""
+
 msgid "Software information"
 msgstr ""
 
@@ -10978,6 +11163,11 @@ msgid "Software manager setup"
 msgstr ""
 
 msgid "Software update"
+msgstr ""
+
+msgid ""
+"Software update starting, please wait.\n"
+"\n"
 msgstr ""
 
 msgid "Softwaremanager information"
@@ -11035,9 +11225,6 @@ msgid "Sort by"
 msgstr ""
 
 msgid "Sort by default"
-msgstr ""
-
-msgid "Sort list to default and exit?"
 msgstr ""
 
 msgid "Sort list:"
@@ -11245,6 +11432,9 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
+msgid "Status unavailable!"
+msgstr ""
+
 msgid "Step back"
 msgstr ""
 
@@ -11336,6 +11526,9 @@ msgid "Stop testing plane after # failed transponders"
 msgstr ""
 
 msgid "Stop testing plane after # successful transponders"
+msgstr ""
+
+msgid "Stop the update, if running, then exit"
 msgstr ""
 
 msgid "Stop timer recording"
@@ -11783,12 +11976,6 @@ msgstr ""
 msgid "The command to wake from standby will be sent multiple times."
 msgstr ""
 
-#, python-format
-msgid ""
-"The current image might not be stable.\n"
-"For more information see %s."
-msgstr ""
-
 msgid "The detailed information is intended for developers only."
 msgstr ""
 
@@ -11892,6 +12079,10 @@ msgstr ""
 msgid "There are no updates available."
 msgstr ""
 
+#, python-format
+msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
+msgstr ""
+
 msgid "There is no signal to lock on !"
 msgstr ""
 
@@ -11899,6 +12090,9 @@ msgid ""
 "There may not be enough space on the selected location.\n"
 "\n"
 "Do you really want to continue?"
+msgstr ""
+
+msgid "There was an error downloading the update list.  Please try again."
 msgstr ""
 
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
@@ -12574,6 +12768,9 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
+msgid "Unknown Service"
+msgstr ""
+
 msgid "Unmark service as dedicated 3D service"
 msgstr ""
 
@@ -12592,26 +12789,11 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-msgid "Update and ask to reboot"
-msgstr ""
-
-msgid "Update and ask to reboot (recommended)"
-msgstr ""
-
-msgid "Update channel list only"
+msgid "Update completed."
 msgstr ""
 
 #, python-format
-msgid "Update completed, %d package was installed."
-msgid_plural "Update completed, %d packages were installed."
-msgstr[0] ""
-msgstr[1] ""
-
-#, python-format
-msgid "Update completed. Do you want to reboot your %s %s?"
-msgstr ""
-
-msgid "Update failed. Your receiver does not have a working internet connection."
+msgid "Update completed. A reboot is strongly recommended.  Do you want to reboot your %s %s now?"
 msgstr ""
 
 msgid "Update feed not available."
@@ -12621,6 +12803,15 @@ msgid "Update has completed."
 msgstr ""
 
 msgid "Update interval (in seconds)"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Updated version unknown"
+msgstr ""
+
+msgid "Updates available:"
 msgstr ""
 
 msgid "Updating"
@@ -13054,6 +13245,10 @@ msgstr ""
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+#, python-format
+msgid "Warning: There are %d update packages!"
+msgstr ""
+
 msgid "Warning: no LNB; using factory defaults."
 msgstr ""
 
@@ -13114,6 +13309,9 @@ msgid "What date of month ?"
 msgstr ""
 
 msgid "What day of week ?"
+msgstr ""
+
+msgid "What would you like to do?"
 msgstr ""
 
 msgid "When PiPzap enabled zap channel down"
@@ -13369,16 +13567,15 @@ msgstr ""
 msgid "You seem to be in timeshift!"
 msgstr ""
 
+msgid "You should flash a new image!"
+msgstr ""
+
 #, python-format
 msgid "Your %s %s is rebooting"
 msgstr ""
 
 #, python-format
 msgid "Your %s %s is shutting down"
-msgstr ""
-
-#, python-format
-msgid "Your %s %s?"
 msgstr ""
 
 msgid "Your PIN code is 0000. This is the default PIN code and it disables parental control!\n"
@@ -13427,7 +13624,7 @@ msgid ""
 msgstr ""
 
 #, python-format
-msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
 msgstr ""
 
 #, python-format
@@ -13552,6 +13749,9 @@ msgid "activate network adapter configuration"
 msgstr ""
 
 msgid "active"
+msgstr ""
+
+msgid "active "
 msgstr ""
 
 msgid "actual time only"
@@ -14435,6 +14635,9 @@ msgstr ""
 msgid "standard"
 msgstr ""
 
+msgid "standby "
+msgstr ""
+
 msgid "stepsize"
 msgstr ""
 
@@ -14514,9 +14717,6 @@ msgid "unknown"
 msgstr ""
 
 msgid "unknown error"
-msgstr ""
-
-msgid "unknown service"
 msgstr ""
 
 msgid "unpublished"
@@ -14621,187 +14821,19 @@ msgstr ""
 msgid "zapped"
 msgstr ""
 
-msgid "About"
+msgid "false"
 msgstr ""
 
-msgid "Automatic scan"
+msgid "2678400000"
 msgstr ""
 
-msgid "BER"
+msgid "Default task"
 msgstr ""
 
-msgid "Benchmark information"
+msgid "IGNORE"
 msgstr ""
 
-msgid "C"
-msgstr ""
-
-msgid "Channellist menu"
-msgstr ""
-
-msgid "Command execution..."
-msgstr ""
-
-msgid "Commit info"
-msgstr ""
-
-msgid "D"
-msgstr ""
-
-msgid "DVB information"
-msgstr ""
-
-msgid "Downloadable plugins"
-msgstr ""
-
-msgid "EPG selection"
-msgstr ""
-
-msgid "Event view"
-msgstr ""
-
-msgid "Event view menu"
-msgstr ""
-
-msgid "Extensions"
-msgstr ""
-
-msgid "Fastscan"
-msgstr ""
-
-msgid "Geolocation"
-msgstr ""
-
-msgid "Harddisk"
-msgstr ""
-
-msgid "IPv6 setup"
-msgstr ""
-
-msgid "Index"
-msgstr ""
-
-msgid "Info bar"
-msgstr ""
-
-msgid "Installing software..."
-msgstr ""
-
-msgid "MAC address setup"
-msgstr ""
-
-msgid "MORE"
-msgstr ""
-
-msgid "Manual scan"
-msgstr ""
-
-msgid "Message..."
-msgstr ""
-
-msgid "Movielist menu"
-msgstr ""
-
-msgid "Mute"
-msgstr ""
-
-msgid "NOW"
-msgstr ""
-
-msgid "Nameserver setup"
-msgstr ""
-
-msgid "Network configuration..."
-msgstr ""
-
-msgid "Network setup"
-msgstr ""
-
-msgid "Network test..."
-msgstr ""
-
-msgid "Now playing"
-msgstr ""
-
-msgid "NumberZapPicon"
-msgstr ""
-
-msgid "OSD settings"
-msgstr ""
-
-msgid "Open Vision information"
-msgstr ""
-
-msgid "PIN code needed"
-msgstr ""
-
-msgid "Parental control services editor"
-msgstr ""
-
-msgid "PiP setup"
-msgstr ""
-
-msgid "Reception settings"
-msgstr ""
-
-msgid "SNR"
-msgstr ""
-
-msgid "Seek"
-msgstr ""
-
-msgid "Select HDD"
-msgstr ""
-
-msgid "Select a bouquet"
-msgstr ""
-
-msgid "Select a movie"
-msgstr ""
-
-msgid "Select a tuner"
-msgstr ""
-
-msgid "Timer edit"
-msgstr ""
-
-msgid "Timer entry"
-msgstr ""
-
-msgid "Timer log"
-msgstr ""
-
-msgid "Timeshift"
-msgstr ""
-
-msgid "Timeshift Live"
-msgstr ""
-
-msgid "Translation:"
-msgstr ""
-
-msgid "Troubleshoot"
-msgstr ""
-
-msgid "UnhandledKey"
-msgstr ""
-
-msgid "VideoMode"
-msgstr ""
-
-msgid "Virtual keyboard"
-msgstr ""
-
-msgid "Volume"
-msgstr ""
-
-msgid "Welcome..."
-msgstr ""
-
-msgid "config menu"
-msgstr ""
-
-msgid "help..."
+msgid "true"
 msgstr ""
 
 msgid "AFP"
@@ -14856,6 +14888,9 @@ msgid "Filesystem Check"
 msgstr ""
 
 msgid "Front Panel Display"
+msgstr ""
+
+msgid "Geolocation"
 msgstr ""
 
 msgid "Images"
@@ -15649,6 +15684,9 @@ msgstr ""
 msgid "Enable this option to add keyboard keymap data to the debug log file."
 msgstr ""
 
+msgid "Enable this option to add opkg output data to the debug log file."
+msgstr ""
+
 msgid "Enable this option to add remote control data to the debug log file."
 msgstr ""
 
@@ -15779,6 +15817,9 @@ msgid "Include action map data"
 msgstr ""
 
 msgid "Include keyboard data"
+msgstr ""
+
+msgid "Include opkg output data"
 msgstr ""
 
 msgid "Include remote control data"
@@ -15914,6 +15955,9 @@ msgid "Multi-EPG bouquet selection"
 msgstr ""
 
 msgid "NTP Hostname"
+msgstr ""
+
+msgid "Network interface for MAC address."
 msgstr ""
 
 msgid "Never decrypt the content while recording. This overrides the individual timer settings globally. If enabled, recordings are stored in crypted presentation and must be decrypted afterwards (sometimes called offline decoding). Default: off."
@@ -16054,6 +16098,9 @@ msgstr ""
 msgid "Preferred tuner for recordings"
 msgstr ""
 
+msgid "Press OK to activate current MAC address."
+msgstr ""
+
 msgid "Press this button to emulate a long press on a button pressed afterwards (this also overrides any other actions assigned to emulation button)."
 msgstr ""
 
@@ -16172,6 +16219,9 @@ msgid "Set CI assignment for detection of available services."
 msgstr ""
 
 msgid "Set fps for external subtitles"
+msgstr ""
+
+msgid "Set new MAC address"
 msgstr ""
 
 msgid "Set the default location for your instant recordings. Press OK to add new locations, LEFT/RIGHT to select from any existing locations."
@@ -17125,19 +17175,181 @@ msgstr ""
 msgid "Your %s %s (kernel %s) does not have an internet connection"
 msgstr ""
 
-msgid "2678400000"
+msgid "About"
 msgstr ""
 
-msgid "Default task"
+msgid "Automatic scan"
 msgstr ""
 
-msgid "IGNORE"
+msgid "BER"
 msgstr ""
 
-msgid "false"
+msgid "Benchmark information"
 msgstr ""
 
-msgid "true"
+msgid "C"
+msgstr ""
+
+msgid "Channellist menu"
+msgstr ""
+
+msgid "Command execution..."
+msgstr ""
+
+msgid "Commit info"
+msgstr ""
+
+msgid "D"
+msgstr ""
+
+msgid "DVB information"
+msgstr ""
+
+msgid "Downloadable plugins"
+msgstr ""
+
+msgid "EPG selection"
+msgstr ""
+
+msgid "Event view"
+msgstr ""
+
+msgid "Event view menu"
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "Fastscan"
+msgstr ""
+
+msgid "Harddisk"
+msgstr ""
+
+msgid "IPv6 setup"
+msgstr ""
+
+msgid "Index"
+msgstr ""
+
+msgid "Info bar"
+msgstr ""
+
+msgid "Installing software..."
+msgstr ""
+
+msgid "MAC address setup"
+msgstr ""
+
+msgid "MORE"
+msgstr ""
+
+msgid "Manual scan"
+msgstr ""
+
+msgid "Message..."
+msgstr ""
+
+msgid "Movielist menu"
+msgstr ""
+
+msgid "Mute"
+msgstr ""
+
+msgid "NOW"
+msgstr ""
+
+msgid "Nameserver setup"
+msgstr ""
+
+msgid "Network configuration..."
+msgstr ""
+
+msgid "Network setup"
+msgstr ""
+
+msgid "Network test..."
+msgstr ""
+
+msgid "Now playing"
+msgstr ""
+
+msgid "NumberZapPicon"
+msgstr ""
+
+msgid "OSD settings"
+msgstr ""
+
+msgid "Open Vision information"
+msgstr ""
+
+msgid "PIN code needed"
+msgstr ""
+
+msgid "Parental control services editor"
+msgstr ""
+
+msgid "PiP setup"
+msgstr ""
+
+msgid "Reception settings"
+msgstr ""
+
+msgid "SNR"
+msgstr ""
+
+msgid "Seek"
+msgstr ""
+
+msgid "Select HDD"
+msgstr ""
+
+msgid "Select a bouquet"
+msgstr ""
+
+msgid "Select a movie"
+msgstr ""
+
+msgid "Select a tuner"
+msgstr ""
+
+msgid "Timer edit"
+msgstr ""
+
+msgid "Timer entry"
+msgstr ""
+
+msgid "Timer log"
+msgstr ""
+
+msgid "Timeshift"
+msgstr ""
+
+msgid "Timeshift Live"
+msgstr ""
+
+msgid "Translation:"
+msgstr ""
+
+msgid "Troubleshoot"
+msgstr ""
+
+msgid "UnhandledKey"
+msgstr ""
+
+msgid "VideoMode"
+msgstr ""
+
+msgid "Virtual keyboard"
+msgstr ""
+
+msgid "Volume"
+msgstr ""
+
+msgid "Welcome..."
+msgstr ""
+
+msgid "help..."
 msgstr ""
 
 msgid "Refresh rate selection."

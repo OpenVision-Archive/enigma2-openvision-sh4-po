@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1-En-Th\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-26 02:03+0000\n"
+"POT-Creation-Date: 2022-02-13 15:09+0000\n"
 "PO-Revision-Date: 2010-04-08 18:13+0700\n"
 "Last-Translator: Tony - Thaidreambox\n"
 "Language-Team: Tony @ Thai Dreambox <tonyboyth@gmail.com>\n"
@@ -925,6 +925,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d fps"
 msgstr ""
 
@@ -977,6 +983,54 @@ msgstr ""
 #, fuzzy, python-format
 msgid "%d package selected."
 msgid_plural "%d packages selected."
+msgstr[0] " ส่วนประกอบที่เลือกไว้"
+msgstr[1] " ส่วนประกอบที่เลือกไว้"
+
+#, fuzzy, python-format
+msgid "%d package upgraded."
+msgid_plural "%d packages upgraded."
+msgstr[0] " ส่วนประกอบที่เลือกไว้"
+msgstr[1] " ส่วนประกอบที่เลือกไว้"
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] " ส่วนประกอบที่เลือกไว้"
+msgstr[1] " ส่วนประกอบที่เลือกไว้"
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] " ส่วนประกอบที่เลือกไว้"
+msgstr[1] " ส่วนประกอบที่เลือกไว้"
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] " ส่วนประกอบที่เลือกไว้"
+msgstr[1] " ส่วนประกอบที่เลือกไว้"
+
+#, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] ""
+msgstr[1] ""
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] " ส่วนประกอบที่เลือกไว้"
+msgstr[1] " ส่วนประกอบที่เลือกไว้"
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] " ส่วนประกอบที่เลือกไว้"
+msgstr[1] " ส่วนประกอบที่เลือกไว้"
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] " ส่วนประกอบที่เลือกไว้"
 msgstr[1] " ส่วนประกอบที่เลือกไว้"
 
@@ -1136,12 +1190,6 @@ msgstr ""
 #, python-format
 msgid "%s of %s MB"
 msgstr ""
-
-#, fuzzy, python-format
-msgid "%s updated package available"
-msgid_plural "%s updated packages available"
-msgstr[0] " มีรายการปรับปรุง"
-msgstr[1] " มีรายการปรับปรุง"
 
 #, fuzzy, python-format
 msgid "%s%d min"
@@ -1821,6 +1869,10 @@ msgstr "เพิ่มบริการ"
 msgid "Add Bookmark"
 msgstr "เพิ่มบุ๊คมาร์ค"
 
+#, fuzzy
+msgid "Add Timer"
+msgstr "เพิ่มลงตารางเวลา"
+
 msgid "Add a mark"
 msgstr "เพิ่มจุด"
 
@@ -1834,6 +1886,10 @@ msgstr "เพิ่มเรื่องใหม่"
 
 msgid "Add a new title"
 msgstr "เพิ่มเรื่องใหม่"
+
+#, fuzzy
+msgid "Add a timer for the current event"
+msgstr "บันทึกรายการ (หยุดเมื่อจบรายการ)"
 
 msgid "Add alternatives"
 msgstr "เพิ่มทางเลือกอื่น"
@@ -2385,6 +2441,9 @@ msgstr "เริ่มตั้งแต่ต้น"
 msgid "At end"
 msgstr ""
 
+msgid "Attention, this is a repeated timer!"
+msgstr ""
+
 msgid "Attention, this is repeated timer!\n"
 msgstr ""
 
@@ -2771,6 +2830,9 @@ msgstr ""
 msgid "Bermuda"
 msgstr ""
 
+msgid "Bestfit"
+msgstr ""
+
 msgid "Bhutan"
 msgstr ""
 
@@ -3078,6 +3140,10 @@ msgstr "เคเบิ้ล"
 msgid "Cable Scan"
 msgstr ""
 
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
+
 #, fuzzy
 msgid "Cache thumbnails"
 msgstr "เก็บภาพเล็กแคช"
@@ -3139,6 +3205,9 @@ msgstr ""
 msgid "Cancel"
 msgstr "ยกเลิก"
 
+msgid "Cancel / Close the software update screen"
+msgstr ""
+
 msgid "Cancel any changed settings and exit"
 msgstr ""
 
@@ -3171,8 +3240,16 @@ msgid "Cancel execution?"
 msgstr "เลือกช่องรายการ"
 
 #, fuzzy
+msgid "Cancel the action selection and exit"
+msgstr "เลือกช่องรายการ"
+
+#, fuzzy
 msgid "Cancel the location selection"
 msgstr "เลือกช่องรายการ"
+
+#, fuzzy
+msgid "Cancel the update"
+msgstr "ปรับปรุงรายการของส่วนประกอบ"
 
 msgid "Cancelled upon user request"
 msgstr ""
@@ -3263,6 +3340,10 @@ msgstr "ภาษา"
 
 msgid "Change PIN Pressing [OK]"
 msgstr ""
+
+#, fuzzy
+msgid "Change Timer"
+msgstr "ตั้งเวลา"
 
 msgid "Change bouquets in quickzap"
 msgstr "เปลี่ยนกลุ่มรายการเมื่อย้ายช่อง"
@@ -3410,6 +3491,14 @@ msgstr ""
 
 msgid "Chinese - Traditional"
 msgstr ""
+
+#, fuzzy
+msgid "Choice Box Actions"
+msgstr "เลือกผังรายการ"
+
+#, fuzzy
+msgid "Choice Box Order Actions"
+msgstr "เลือกการตั้งเวลา"
 
 msgid "Choose Tuner"
 msgstr ""
@@ -3559,6 +3648,10 @@ msgstr ""
 msgid "Close"
 msgstr "ปิด"
 
+#, fuzzy
+msgid "Close Event View screen"
+msgstr "ปิดหน้าเลือกชื่อเรื่อง"
+
 msgid "Close PiP with 'exit' button"
 msgstr ""
 
@@ -3707,6 +3800,10 @@ msgstr "ตั้งค่าเครือข่าย"
 #, fuzzy
 msgid "Configuration"
 msgstr "ตั้งค่าเครือข่าย"
+
+#, fuzzy, python-format
+msgid "Configuration file '%s' has been modified since it was installed, would you like to keep the modified version?"
+msgstr "ไฟล์เก็บค่า (%s) ถูกแก้ไขช่วงติดตั้ง ต้องการใช้เวอร์ชั่นที่ถูกแก้ไขหรือไม่?"
 
 #, fuzzy
 msgid "Configuration mode"
@@ -4186,6 +4283,9 @@ msgstr "เล่นต่อเนื่อง"
 msgid "Continue playing"
 msgstr "เล่นต่อเนื่อง"
 
+msgid "Continue with the on-line update"
+msgstr ""
+
 msgid "Continues play (loop)"
 msgstr ""
 
@@ -4233,9 +4333,6 @@ msgid "Costa Rica"
 msgstr ""
 
 msgid "Cote d'Ivoire / Ivory Coast"
-msgstr ""
-
-msgid "Could not find installed channel list."
 msgstr ""
 
 msgid "Could not find suitable media - Please remove some downloaded images or insert a media (e.g. USB stick) with sufficiant free space and try again!"
@@ -4332,10 +4429,6 @@ msgid "Current CEC address"
 msgstr ""
 
 #, fuzzy
-msgid "Current MAC address"
-msgstr "ตั้งค่าอินเตอร์เฟซ"
-
-#, fuzzy
 msgid "Current crash log"
 msgstr "ทรานสปอนเดอร์ปัจจุบัน"
 
@@ -4367,6 +4460,10 @@ msgstr "ทรานสปอนเดอร์ปัจจุบัน"
 
 msgid "Current value: "
 msgstr "ค่าปัจจุบัน:"
+
+#, fuzzy
+msgid "Current version unknown"
+msgstr "ทรานสปอนเดอร์ปัจจุบัน"
 
 #, fuzzy
 msgid "Custom"
@@ -4847,6 +4944,10 @@ msgid "Delete Loc"
 msgstr "ลบ"
 
 #, fuzzy
+msgid "Delete Timer"
+msgstr "ลบไฟล์"
+
+#, fuzzy
 msgid "Delete all log files"
 msgstr "ลบไฟล์"
 
@@ -4976,6 +5077,10 @@ msgstr "รายละเอียด"
 
 msgid "Deselect"
 msgstr "ไม่เลือก"
+
+#, python-format
+msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
+msgstr ""
 
 msgid "Destination of fallback remote receiver"
 msgstr ""
@@ -5149,6 +5254,10 @@ msgstr ""
 
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr ""
+
+#, fuzzy
+msgid "Disk state: "
+msgstr "สถานะการค้นหา"
 
 msgid "Display 16:9 content as"
 msgstr "แสดงรายการ 16:9 แบบ"
@@ -5421,14 +5530,6 @@ msgstr ""
 msgid "Do you want to update the package:\n"
 msgstr "ยืนยันจะปรับปรุงส่วนประกอบนี้:\n"
 
-#, fuzzy, python-format
-msgid "Do you want to update to %s"
-msgstr "ท่านต้องการที่จะนำการตั้งค่าต่างๆ กลับมาใช้หรือไม่?"
-
-#, fuzzy, python-format
-msgid "Do you want to update your %s %s?"
-msgstr "ท่านต้องการที่จะนำการตั้งค่าต่างๆ กลับมาใช้หรือไม่?"
-
 msgid "Documentary"
 msgstr ""
 
@@ -5491,6 +5592,10 @@ msgid "Down"
 msgstr ""
 
 #, fuzzy
+msgid "Download error"
+msgstr "กำลังดาวน์โหลด"
+
+#, fuzzy
 msgid "Download plugins"
 msgstr "ดาวน์โหลด Plugins"
 
@@ -5512,6 +5617,10 @@ msgid "Downloading Image"
 msgstr "กำลังดาวน์โหลด"
 
 msgid "Downloading a new packet list. Please wait..."
+msgstr "กำลังดาวน์โหลดข้อมูลติดตั้งใหม่ กรุณารอสักครู่..."
+
+#, fuzzy
+msgid "Downloading latest update list.  Please wait..."
 msgstr "กำลังดาวน์โหลดข้อมูลติดตั้งใหม่ กรุณารอสักครู่..."
 
 msgid "Downloading plugin information. Please wait..."
@@ -5633,6 +5742,10 @@ msgstr "แก้ไข DNS"
 #, fuzzy
 msgid "Edit Tags"
 msgstr "แก้ไขการตั้งค่า"
+
+#, fuzzy
+msgid "Edit Timer"
+msgstr "เมนูหลัก"
 
 msgid "Edit alternatives"
 msgstr "แก้ไขแบบอื่น"
@@ -5841,6 +5954,9 @@ msgid "Enable this option to add action map / remote control mapping data to the
 msgstr ""
 
 msgid "Enable this option to add keyboard keymap data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add opkg output data to the debug log file."
 msgstr ""
 
 msgid "Enable this option to add remote control data to the debug log file."
@@ -6190,6 +6306,14 @@ msgstr ""
 msgid "Ethiopia"
 msgstr ""
 
+#, fuzzy
+msgid "Event View Actions"
+msgstr "ส่วนเพิ่มเติม"
+
+#, fuzzy
+msgid "Event View Context Menu"
+msgstr "เมนูรายการภาพยนต์"
+
 msgid "Event font size (relative to skin size)"
 msgstr ""
 
@@ -6200,15 +6324,13 @@ msgstr ""
 msgid "Event view"
 msgstr "แสดงรายการ"
 
-msgid "Event view context menu"
-msgstr ""
-
 #, fuzzy
 msgid "Event view menu"
 msgstr "แสดงรายการ"
 
-msgid "Events info menu"
-msgstr ""
+#, fuzzy
+msgid "Events Info Menu"
+msgstr "แสดงรายการ"
 
 msgid "Every 12 hours"
 msgstr ""
@@ -6354,10 +6476,11 @@ msgstr "ส่วนเพิ่มเติม"
 msgid "Extensions"
 msgstr "ส่วนเพิ่มเติม"
 
-msgid "Extensions management"
-msgstr ""
+#, fuzzy
+msgid "Extensions Menu"
+msgstr "ส่วนเพิ่มเติม"
 
-msgid "Extensions menu"
+msgid "Extensions management"
 msgstr ""
 
 msgid "External"
@@ -6596,6 +6719,17 @@ msgstr "รายการโปรด"
 msgid "Favourites"
 msgstr "รายการโปรด"
 
+#, fuzzy
+msgid "Feed disabled!"
+msgstr "ไม่ใช้แล้ว"
+
+#, fuzzy
+msgid "Feed stable."
+msgstr "ไม่ใช้แล้ว"
+
+msgid "Feed unstable!"
+msgstr ""
+
 msgid "Fiji"
 msgstr ""
 
@@ -6626,6 +6760,9 @@ msgid "Final scroll delay"
 msgstr ""
 
 msgid "Find currently played service"
+msgstr ""
+
+msgid "Find similar events in the EPG"
 msgstr ""
 
 msgid "Fine movement"
@@ -6820,6 +6957,10 @@ msgstr ""
 
 msgid "Full view resolution"
 msgstr ""
+
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "แฟรช"
 
 msgid "Function of OK button"
 msgstr ""
@@ -7636,6 +7777,10 @@ msgid "Include keyboard data"
 msgstr "ตั้งค่าแป้นพิมพ์"
 
 #, fuzzy
+msgid "Include opkg output data"
+msgstr "ตั้งค่าแป้นพิมพ์"
+
+#, fuzzy
 msgid "Include remote control data"
 msgstr "ชนิดการควบคุมอายุ"
 
@@ -8174,8 +8319,11 @@ msgstr "LNB"
 msgid "Label"
 msgstr ""
 
+#, fuzzy
 msgid "Language"
-msgstr "ภาษา"
+msgid_plural "Languages"
+msgstr[0] "ภาษา"
+msgstr[1] "ภาษา"
 
 #, python-format
 msgid "Language %s (%s) installed and selected."
@@ -8191,10 +8339,6 @@ msgstr "เลือกภาษา"
 
 msgid "Language selection"
 msgstr "เลือกภาษา"
-
-#, fuzzy
-msgid "Languages"
-msgstr "ภาษา"
 
 msgid "Lao"
 msgstr ""
@@ -8228,10 +8372,6 @@ msgstr ""
 
 msgid "Latest revision on github"
 msgstr ""
-
-#, fuzzy
-msgid "Latest update log"
-msgstr "เลือกที่มาเพื่อปรับปรุง"
 
 #, fuzzy
 msgid "Latin"
@@ -8430,7 +8570,9 @@ msgstr "Local Network"
 
 #, fuzzy
 msgid "Locale"
-msgstr "Local Network"
+msgid_plural "Locales"
+msgstr[0] "Local Network"
+msgstr[1] "Local Network"
 
 #, python-format
 msgid "Locale %s (%s) installed and selected."
@@ -8471,10 +8613,6 @@ msgstr "เลือกที่ที่จะสำรอง"
 
 msgid "Locale/Language Setup"
 msgstr ""
-
-#, fuzzy
-msgid "Locales"
-msgstr "Local Network"
 
 msgid "Locales to be displayed"
 msgstr ""
@@ -8595,6 +8733,9 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
+msgid "MHz"
+msgstr ""
+
 #, fuzzy
 msgid "MMC card"
 msgstr "MMC Card"
@@ -8680,6 +8821,10 @@ msgstr ""
 
 msgid "Manage extensions or plugins for your receiver."
 msgstr ""
+
+#, fuzzy
+msgid "Manage sleep timer"
+msgstr "เปลี่ยน Step"
 
 msgid "Manage your receiver's software"
 msgstr "จัดการซอพท์แวร์เครื่องรับของท่าน"
@@ -9011,6 +9156,10 @@ msgid "Move down a page"
 msgstr "ย้ายลงไปท้ายสุด"
 
 #, fuzzy
+msgid "Move down a page / screen"
+msgstr "ย้ายลงไปท้ายสุด"
+
+#, fuzzy
 msgid "Move down a screen"
 msgstr "ย้ายลงไปท้ายสุด"
 
@@ -9050,6 +9199,13 @@ msgstr "เคลื่อนไปทางทิศตะวันออก"
 #, fuzzy
 msgid "Move main picture to PiP"
 msgstr "สลับให้ PiP เต็มจอ"
+
+#, fuzzy
+msgid "Move the current item down one line"
+msgstr "ย้ายลงไป"
+
+msgid "Move the current item up one line"
+msgstr ""
 
 msgid "Move the keyboard cursor down"
 msgstr ""
@@ -9118,6 +9274,14 @@ msgstr ""
 #, fuzzy
 msgid "Move up a page"
 msgstr "เลือกมุมมองอันต่อไป"
+
+#, fuzzy
+msgid "Move up a page / screen"
+msgstr "ย้ายไปก่อนหน้านี้"
+
+#, fuzzy
+msgid "Move up a page /screen"
+msgstr "ย้ายไปก่อนหน้านี้"
 
 msgid "Move up a screen"
 msgstr ""
@@ -9414,6 +9578,10 @@ msgid "Network information"
 msgstr "ตั้งค่าเครือข่าย..."
 
 #, fuzzy
+msgid "Network interface for MAC address."
+msgstr "ทดสอบเครือข่าย"
+
+#, fuzzy
 msgid "Network mount"
 msgstr "Network Mount"
 
@@ -9631,11 +9799,12 @@ msgstr ""
 "กรุณาตั้งค่า Tuner แล้วทำการค้นหารายการที่ให้บริการก่อน"
 
 #, fuzzy
-msgid "No updates available"
+msgid "No updates available."
 msgstr " มีรายการปรับปรุง"
 
-msgid "No updates available. Please try again later."
-msgstr ""
+#, fuzzy
+msgid "No updates were available.  Please try again later."
+msgstr "พบข้อผิดพลาด ไม่สามารถดาวน์โหลดรายการของส่วนประกอบได้ กรุณาลองซ้ำอีกครั้ง...."
 
 msgid "No wireless networks found! Searching..."
 msgstr ""
@@ -9677,6 +9846,10 @@ msgstr ""
 
 msgid "No, never"
 msgstr ""
+
+#, fuzzy
+msgid "Non Linear"
+msgstr "ไม่เป็นเส้นตรง"
 
 msgid "None"
 msgstr "ไม่มี"
@@ -9800,6 +9973,9 @@ msgid "Nothing to scan! Setup your tuner and try again."
 msgstr ""
 "ไม่มีรายการให้ค้นหา\n"
 "กรุณาตั้งค่า Tuner ก่อนการค้นหาช่องรายการใหม่"
+
+msgid "Nothing to upgrade"
+msgstr ""
 
 msgid "Now"
 msgstr ""
@@ -10002,6 +10178,10 @@ msgid "Open channel list"
 msgstr "รายการต่อไปในหน่วยความจำ"
 
 #, fuzzy
+msgid "Open context menu"
+msgstr "เมนูช่องรายการ"
+
+#, fuzzy
 msgid "Open current transponder"
 msgstr "ทรานสปอนเดอร์ปัจจุบัน"
 
@@ -10029,6 +10209,13 @@ msgstr ""
 #, fuzzy
 msgid "Open the movie list"
 msgstr "กลับไปยังสารบัญภาพยนต์"
+
+#, fuzzy
+msgid "Open the multi service EPG view"
+msgstr "กลับไปยังสารบัญภาพยนต์"
+
+msgid "Open the single service EPG view"
+msgstr ""
 
 msgid "OpenDNS FamilyShield"
 msgstr ""
@@ -10200,9 +10387,6 @@ msgstr ""
 msgid "Packages and associated locales"
 msgstr ""
 
-msgid "Packages to update"
-msgstr ""
-
 msgid "Packet management"
 msgstr "จัดการส่วนประกอบ"
 
@@ -10319,6 +10503,9 @@ msgstr ""
 #, fuzzy
 msgid "Percentage right"
 msgstr "วนขวา"
+
+msgid "Perform an on-line flash instead"
+msgstr ""
 
 msgid "Permanent sort key changes"
 msgstr ""
@@ -10485,6 +10672,10 @@ msgid "Please choose an extension..."
 msgstr "กรุณาเลือกส่วนเพิ่มเติม..."
 
 #, fuzzy
+msgid "Please choose an extension:"
+msgstr "กรุณาเลือกส่วนเพิ่มเติม..."
+
+#, fuzzy
 msgid "Please choose reader"
 msgstr "กรุณาเลือกส่วนเพิ่มเติม..."
 
@@ -10572,7 +10763,7 @@ msgid "Please select a resolution..."
 msgstr "กรุณาเลือกบริการย่อย..."
 
 #, fuzzy
-msgid "Please select a sub service..."
+msgid "Please select a sub service:"
 msgstr "กรุณาเลือกบริการย่อย..."
 
 msgid "Please select a subservice to record..."
@@ -10590,7 +10781,7 @@ msgid "Please select an acceptable directory."
 msgstr "กรุณาเลือกสารบัญรายการ..."
 
 #, fuzzy
-msgid "Please select an aspect ratio..."
+msgid "Please select an aspect ratio:"
 msgstr "กรุณาเลือกบริการย่อย..."
 
 #, fuzzy
@@ -10945,7 +11136,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "กดปุ่ม OK ที่รีโมทเพื่อทำงานต่อ"
 
 #, fuzzy
-msgid "Press OK to activate the MAC address."
+msgid "Press OK to activate current MAC address."
 msgstr "กดปุ่ม OK เพื่อเริ่มใช้งาน"
 
 #, fuzzy, python-format
@@ -10954,6 +11145,10 @@ msgstr "กดปุ่ม OK เพื่อเริ่มใช้สกิ�
 
 msgid "Press OK to activate the settings."
 msgstr "กดปุ่ม OK เพื่อเริ่มใช้งาน"
+
+#, fuzzy
+msgid "Press OK to continue."
+msgstr "กรุณากดปุ่ม OK เพื่อทำงานต่อ"
 
 #, fuzzy
 msgid "Press OK to edit the settings of the selected device."
@@ -11069,6 +11264,10 @@ msgstr "สำคัญ"
 #, fuzzy
 msgid "Proc model"
 msgstr "Tone mode"
+
+#, fuzzy
+msgid "Proceed with the update"
+msgstr "ปรับปรุงรายการของส่วนประกอบ"
 
 msgid "Process"
 msgstr "โพรเซส"
@@ -11452,9 +11651,6 @@ msgstr ""
 msgid "Reenter PIN"
 msgstr ""
 
-msgid "Reflash recommended!"
-msgstr ""
-
 msgid "Refresh"
 msgstr ""
 
@@ -11471,6 +11667,9 @@ msgstr "เลือกความถี่หน้าจอ"
 #, fuzzy
 msgid "Refresh the screen"
 msgstr "เลือกความถี่หน้าจอ"
+
+msgid "Refresh the update-able package list"
+msgstr ""
 
 #, fuzzy
 msgid "Refusing to move to the same directory"
@@ -11765,6 +11964,14 @@ msgstr "ตั้งค่าใหม่"
 msgid "Reset and renumerate title names"
 msgstr "ยกเลิกและเรียงลำดับชื่อเรื่องใหม่"
 
+#, fuzzy
+msgid "Reset list order to default"
+msgstr "นำสำรองกลับมาใช้"
+
+#, fuzzy
+msgid "Reset list order to default?"
+msgstr "นำสำรองกลับมาใช้"
+
 msgid "Reset order (All)"
 msgstr ""
 
@@ -11966,6 +12173,24 @@ msgid "Round start time on"
 msgstr ""
 
 msgid "Run how often ?"
+msgstr ""
+
+msgid "Run the BLUE action"
+msgstr ""
+
+msgid "Run the GREEN action"
+msgstr ""
+
+msgid "Run the RED action"
+msgstr ""
+
+msgid "Run the YELLOW action"
+msgstr ""
+
+msgid "Run the currently highlighted action"
+msgstr ""
+
+msgid "Run the numbered action"
 msgstr ""
 
 msgid "Rundi"
@@ -13052,9 +13277,6 @@ msgstr ""
 msgid "Set PIN Pressing [OK]"
 msgstr ""
 
-msgid "Set a new MAC address"
-msgstr ""
-
 msgid "Set a temporary sort method for this directory"
 msgstr ""
 
@@ -13088,6 +13310,10 @@ msgstr "ตั้งให้อินเตอร์เฟซนี้เป็
 
 msgid "Set limits"
 msgstr ""
+
+#, fuzzy
+msgid "Set new MAC address"
+msgstr "ตั้งค่าอินเตอร์เฟซ"
 
 msgid "Set persistent PIN code"
 msgstr ""
@@ -13467,12 +13693,6 @@ msgstr "Plugin ใหม่ที่ดาวน์โหลดได้"
 msgid "Show latest commit log information"
 msgstr ""
 
-msgid "Show latest commits"
-msgstr ""
-
-msgid "Show latest update log"
-msgstr ""
-
 #, fuzzy
 msgid "Show live tv when movie stopped"
 msgstr "เมื่อภาพยนต์หยุดเล่นให้"
@@ -13509,8 +13729,16 @@ msgid "Show multi channel EPG"
 msgstr ""
 
 #, fuzzy
+msgid "Show next event"
+msgstr "ย้ายลงไป"
+
+#, fuzzy
 msgid "Show next image"
 msgstr "ลบไฟล์"
+
+#, fuzzy
+msgid "Show next page of description"
+msgstr "แสดงคำอธิบายรายการเพิ่มเติม"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
 msgstr ""
@@ -13529,9 +13757,6 @@ msgid "Show or hide the extended description, (skin dependant)."
 msgstr "แสดงคำอธิบายรายการเพิ่มเติม"
 
 msgid "Show packagegroup-base in plugin browser"
-msgstr ""
-
-msgid "Show packages to be updated"
 msgstr ""
 
 msgid "Show pam-plugin in plugin browser"
@@ -13557,8 +13782,16 @@ msgid "Show positioner position"
 msgstr ""
 
 #, fuzzy
+msgid "Show previous event"
+msgstr "ย้ายไปก่อนหน้านี้"
+
+#, fuzzy
 msgid "Show previous image"
 msgstr "ไปบริการย่อยก่อนหน้า"
+
+#, fuzzy
+msgid "Show previous page of description"
+msgstr "กลับไปยังบริการก่อนหน้า"
 
 #, fuzzy
 msgid "Show python in plugin browser"
@@ -13947,6 +14180,10 @@ msgid "Software Update"
 msgstr "ปรับปรุงซอพท์แวร์"
 
 #, fuzzy
+msgid "Software Update Actions"
+msgstr "ปรับปรุงซอพท์แวร์"
+
+#, fuzzy
 msgid "Software information"
 msgstr "ข้อมูล"
 
@@ -13958,6 +14195,14 @@ msgstr ""
 
 msgid "Software update"
 msgstr "ปรับปรุงซอพท์แวร์"
+
+#, fuzzy
+msgid ""
+"Software update starting, please wait.\n"
+"\n"
+msgstr ""
+"\n"
+"กดปุ่ม OK แล้วรอสักครู่"
 
 msgid "Softwaremanager information"
 msgstr ""
@@ -14025,9 +14270,6 @@ msgstr ""
 #, fuzzy
 msgid "Sort by default"
 msgstr "แสดงรูปแบบเริ่มต้น"
-
-msgid "Sort list to default and exit?"
-msgstr ""
 
 msgid "Sort list:"
 msgstr ""
@@ -14287,6 +14529,10 @@ msgid "Status"
 msgstr ""
 
 #, fuzzy
+msgid "Status unavailable!"
+msgstr "ไม่สามารถใช้ได้"
+
+#, fuzzy
 msgid "Step back"
 msgstr "ไปทางทิศตะวันออก"
 
@@ -14394,6 +14640,9 @@ msgstr "หยุดทดสอบแนวเมื่อมี # ทราน
 
 msgid "Stop testing plane after # successful transponders"
 msgstr "หยุดการตรวจสอบแนวเมื่อพบ # ทรานสปอนเดอร์"
+
+msgid "Stop the update, if running, then exit"
+msgstr ""
 
 msgid "Stop timer recording"
 msgstr ""
@@ -15003,12 +15252,6 @@ msgstr "ยังไม่ได้ติดตั้งปลั๊กอิน
 msgid "The command to wake from standby will be sent multiple times."
 msgstr ""
 
-#, python-format
-msgid ""
-"The current image might not be stable.\n"
-"For more information see %s."
-msgstr ""
-
 msgid "The detailed information is intended for developers only."
 msgstr ""
 
@@ -15134,6 +15377,10 @@ msgstr "ลบรายการสารบัญ"
 msgid "There are no updates available."
 msgstr ""
 
+#, python-format
+msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
+msgstr ""
+
 msgid "There is no signal to lock on !"
 msgstr ""
 
@@ -15145,6 +15392,10 @@ msgid ""
 msgstr ""
 "เนื้อที่บนพาร์ทิชั่นที่เลือกไม่พอ\n"
 "ต้องการทำต่อหรือไม่?"
+
+#, fuzzy
+msgid "There was an error downloading the update list.  Please try again."
+msgstr "พบข้อผิดพลาด ไม่สามารถดาวน์โหลดรายการของส่วนประกอบได้ กรุณาลองซ้ำอีกครั้ง...."
 
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
 msgstr "แผ่น DVD-RW นี้ได้รับการฟอร์แมทมาแล้ว หากทำซ้ำจะเป็นการลบข้อมูลออกทั้งหมด"
@@ -16021,6 +16272,10 @@ msgstr "Universal LNB"
 msgid "Unknown"
 msgstr ""
 
+#, fuzzy
+msgid "Unknown Service"
+msgstr "ไม่ทราบชนิดบริการ"
+
 msgid "Unmark service as dedicated 3D service"
 msgstr ""
 
@@ -16040,28 +16295,13 @@ msgstr ""
 msgid "Update"
 msgstr "ปรุบปรุง"
 
-msgid "Update and ask to reboot"
-msgstr ""
-
-msgid "Update and ask to reboot (recommended)"
-msgstr ""
-
 #, fuzzy
-msgid "Update channel list only"
-msgstr "รายการต่อไปในหน่วยความจำ"
-
-#, python-format
-msgid "Update completed, %d package was installed."
-msgid_plural "Update completed, %d packages were installed."
-msgstr[0] ""
-msgstr[1] ""
+msgid "Update completed."
+msgstr "สำรองข้อมูลล้มเหลว"
 
 #, fuzzy, python-format
-msgid "Update completed. Do you want to reboot your %s %s?"
+msgid "Update completed. A reboot is strongly recommended.  Do you want to reboot your %s %s now?"
 msgstr "ท่านต้องการที่จะนำการตั้งค่าต่างๆ กลับมาใช้หรือไม่?"
-
-msgid "Update failed. Your receiver does not have a working internet connection."
-msgstr ""
 
 msgid "Update feed not available."
 msgstr ""
@@ -16072,6 +16312,17 @@ msgstr ""
 #, fuzzy
 msgid "Update interval (in seconds)"
 msgstr "ความเร็วของสไลด์ (วินาที)"
+
+#, fuzzy
+msgid "Updated"
+msgstr "ปรุบปรุง"
+
+msgid "Updated version unknown"
+msgstr ""
+
+#, fuzzy
+msgid "Updates available:"
+msgstr " มีรายการปรับปรุง"
 
 msgid "Updating"
 msgstr "กำลังอัพเกรด"
@@ -16653,6 +16904,10 @@ msgstr ""
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+#, python-format
+msgid "Warning: There are %d update packages!"
+msgstr ""
+
 msgid "Warning: no LNB; using factory defaults."
 msgstr ""
 
@@ -16744,6 +16999,9 @@ msgid "What day of week ?"
 msgstr ""
 
 msgid "What type of service scan do you want?"
+msgstr ""
+
+msgid "What would you like to do?"
 msgstr ""
 
 msgid "When PiPzap enabled zap channel down"
@@ -17287,6 +17545,9 @@ msgstr ""
 msgid "You seem to be in timeshift!"
 msgstr ""
 
+msgid "You should flash a new image!"
+msgstr ""
+
 msgid "Your %s %s (kernel %s) does not have an internet connection"
 msgstr ""
 
@@ -17302,10 +17563,6 @@ msgid "Your %s %s reads the stored EPG data every (hours)."
 msgstr ""
 
 msgid "Your %s %s stores the EPG data every (hours)."
-msgstr ""
-
-#, python-format
-msgid "Your %s %s?"
 msgstr ""
 
 msgid "Your PIN code is 0000. This is the default PIN code and it disables parental control!\n"
@@ -17369,7 +17626,7 @@ msgid ""
 msgstr ""
 
 #, python-format
-msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
 msgstr ""
 
 #, python-format
@@ -17519,6 +17776,9 @@ msgid "activate network adapter configuration"
 msgstr ""
 
 msgid "active"
+msgstr ""
+
+msgid "active "
 msgstr ""
 
 msgid "actual time only"
@@ -17683,9 +17943,6 @@ msgstr ""
 
 msgid "comedy (general)"
 msgstr ""
-
-msgid "config menu"
-msgstr "เมนูตั้งค่า"
 
 msgid "confirmed"
 msgstr "ยืนยันแล้ว"
@@ -18439,6 +18696,10 @@ msgstr ""
 msgid "standard"
 msgstr "มาตรฐาน"
 
+#, fuzzy
+msgid "standby "
+msgstr "Standby"
+
 msgid "stepsize"
 msgstr ""
 
@@ -18531,9 +18792,6 @@ msgstr "ไม่มีข้อมูล"
 
 msgid "unknown error"
 msgstr ""
-
-msgid "unknown service"
-msgstr "ไม่ทราบชนิดบริการ"
 
 msgid "unpublished"
 msgstr ""

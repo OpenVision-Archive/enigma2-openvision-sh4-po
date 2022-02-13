@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-26 02:03+0000\n"
+"POT-Creation-Date: 2022-02-13 15:09+0000\n"
 "PO-Revision-Date: 2021-07-31 17:00+0800\n"
 "Last-Translator: 孤独之剑 <haotzyy1970@yahoo.com>\n"
 "Language-Team: 孤独之剑 <haotzyy1970@yahoo.com>\n"
@@ -981,6 +981,12 @@ msgstr[0] "%d 天"
 msgstr[1] "%d 天"
 
 #, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d fps"
 msgstr "%d 刷新率"
 
@@ -1033,6 +1039,54 @@ msgstr "%A %d %B"
 #, fuzzy, python-format
 msgid "%d package selected."
 msgid_plural "%d packages selected."
+msgstr[0] " 选定的软件包."
+msgstr[1] " 选定的软件包."
+
+#, fuzzy, python-format
+msgid "%d package upgraded."
+msgid_plural "%d packages upgraded."
+msgstr[0] " 选定的软件包."
+msgstr[1] " 选定的软件包."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] " 选定的软件包."
+msgstr[1] " 选定的软件包."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] " 选定的软件包."
+msgstr[1] " 选定的软件包."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] " 选定的软件包."
+msgstr[1] " 选定的软件包."
+
+#, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] ""
+msgstr[1] ""
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "升级已完成, %d 个安装包已安装."
+msgstr[1] "升级已完成, %d 个安装包已安装."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] " 选定的软件包."
+msgstr[1] " 选定的软件包."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] " 选定的软件包."
 msgstr[1] " 选定的软件包."
 
@@ -1201,12 +1255,6 @@ msgstr ""
 #, python-format
 msgid "%s of %s MB"
 msgstr ""
-
-#, python-format
-msgid "%s updated package available"
-msgid_plural "%s updated packages available"
-msgstr[0] "%s 个更新包可用"
-msgstr[1] "%s 个更新包可用"
 
 #, fuzzy, python-format
 msgid "%s%d min"
@@ -1896,6 +1944,10 @@ msgstr "添加频道"
 msgid "Add Bookmark"
 msgstr "增加书签"
 
+#, fuzzy
+msgid "Add Timer"
+msgstr "添加定时器"
+
 msgid "Add a mark"
 msgstr "增加标记"
 
@@ -1908,6 +1960,10 @@ msgstr "增加一个新标题"
 
 msgid "Add a new title"
 msgstr "增加一个新标题"
+
+#, fuzzy
+msgid "Add a timer for the current event"
+msgstr "为当前事件增加/移除/更改定时器"
 
 msgid "Add alternatives"
 msgstr "增加项目"
@@ -2438,6 +2494,10 @@ msgstr "在开始"
 msgid "At end"
 msgstr "在结束"
 
+#, fuzzy
+msgid "Attention, this is a repeated timer!"
+msgstr "注意,这是重复的定时器！\n"
+
 msgid "Attention, this is repeated timer!\n"
 msgstr "注意,这是重复的定时器！\n"
 
@@ -2824,6 +2884,9 @@ msgstr "贝宁"
 msgid "Bermuda"
 msgstr "百慕大群岛"
 
+msgid "Bestfit"
+msgstr ""
+
 msgid "Bhutan"
 msgstr "不丹"
 
@@ -3133,6 +3196,10 @@ msgstr "有线"
 msgid "Cable Scan"
 msgstr "有线扫描"
 
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
+
 msgid "Cache thumbnails"
 msgstr "缓存缩略图"
 
@@ -3209,6 +3276,10 @@ msgid "Cancel"
 msgstr "取消"
 
 #, fuzzy
+msgid "Cancel / Close the software update screen"
+msgstr "保护软件升级屏幕"
+
+#, fuzzy
 msgid "Cancel any changed settings and exit"
 msgstr "取消任何文本更改并退出"
 
@@ -3245,8 +3316,16 @@ msgid "Cancel execution?"
 msgstr "是否取消执行?"
 
 #, fuzzy
+msgid "Cancel the action selection and exit"
+msgstr "频道选择"
+
+#, fuzzy
 msgid "Cancel the location selection"
 msgstr "频道选择"
+
+#, fuzzy
+msgid "Cancel the update"
+msgstr "要升级的包"
 
 msgid "Cancelled upon user request"
 msgstr "根据用户请求取消"
@@ -3338,6 +3417,10 @@ msgstr "更改语言"
 
 msgid "Change PIN Pressing [OK]"
 msgstr ""
+
+#, fuzzy
+msgid "Change Timer"
+msgstr "更改定时器"
 
 msgid "Change bouquets in quickzap"
 msgstr "快速切换自定义组"
@@ -3483,6 +3566,14 @@ msgstr "中文-简体"
 
 msgid "Chinese - Traditional"
 msgstr "中文-繁体"
+
+#, fuzzy
+msgid "Choice Box Actions"
+msgstr "高级选项"
+
+#, fuzzy
+msgid "Choice Box Order Actions"
+msgstr "电影选项"
 
 msgid "Choose Tuner"
 msgstr "选择调谐器"
@@ -3637,6 +3728,10 @@ msgstr ""
 msgid "Close"
 msgstr "关闭"
 
+#, fuzzy
+msgid "Close Event View screen"
+msgstr "关闭标题选择"
+
 msgid "Close PiP with 'exit' button"
 msgstr "用'exit'键关闭画中画"
 
@@ -3780,6 +3875,10 @@ msgstr "配置"
 
 msgid "Configuration"
 msgstr "配置"
+
+#, fuzzy, python-format
+msgid "Configuration file '%s' has been modified since it was installed, would you like to keep the modified version?"
+msgstr "配置文件(%s)已经变更. 是否要保留所做更改?"
 
 msgid "Configuration mode"
 msgstr "设置模式"
@@ -4249,6 +4348,9 @@ msgstr "继续播放"
 msgid "Continue playing"
 msgstr "继续播放"
 
+msgid "Continue with the on-line update"
+msgstr ""
+
 msgid "Continues play (loop)"
 msgstr "继续播放(重复)"
 
@@ -4299,9 +4401,6 @@ msgstr "哥斯达黎加"
 #, fuzzy
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr "象牙海岸"
-
-msgid "Could not find installed channel list."
-msgstr "没能找到内置频道列表."
 
 msgid "Could not find suitable media - Please remove some downloaded images or insert a media (e.g. USB stick) with sufficiant free space and try again!"
 msgstr "找不到合适的媒体-请删除一些已下载的镜像或插入具有 足够可用空间的媒体(如U盘),然后重试!"
@@ -4395,10 +4494,6 @@ msgid "Current CEC address"
 msgstr "当前CEC地址"
 
 #, fuzzy
-msgid "Current MAC address"
-msgstr "当前CEC地址"
-
-#, fuzzy
 msgid "Current crash log"
 msgstr "当前转发器"
 
@@ -4431,6 +4526,10 @@ msgstr "当前转发器"
 
 msgid "Current value: "
 msgstr "当前值: "
+
+#, fuzzy
+msgid "Current version unknown"
+msgstr "当前转发器"
 
 #, fuzzy
 msgid "Custom"
@@ -4900,6 +4999,10 @@ msgid "Delete Loc"
 msgstr "删除"
 
 #, fuzzy
+msgid "Delete Timer"
+msgstr "删除定时器"
+
+#, fuzzy
 msgid "Delete all log files"
 msgstr "删除所有日志文件"
 
@@ -5027,6 +5130,10 @@ msgstr "描述"
 
 msgid "Deselect"
 msgstr "取消"
+
+#, python-format
+msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
+msgstr ""
 
 msgid "Destination of fallback remote receiver"
 msgstr "备用的遥控接收器目标"
@@ -5203,6 +5310,10 @@ msgstr ""
 
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "为录制保留磁盘空间(GB)"
+
+#, fuzzy
+msgid "Disk state: "
+msgstr "扫描状态"
 
 msgid "Display 16:9 content as"
 msgstr "显示16:9内容"
@@ -5463,14 +5574,6 @@ msgstr "是否选择不同的皮肤?"
 msgid "Do you want to update the package:\n"
 msgstr "是否升级软件包:\n"
 
-#, fuzzy, python-format
-msgid "Do you want to update to %s"
-msgstr "是否想升级机顶盒到 %s?"
-
-#, fuzzy, python-format
-msgid "Do you want to update your %s %s?"
-msgstr "是否想升级机顶盒到 %s?"
-
 #, fuzzy
 msgid "Documentary"
 msgstr "纪录片"
@@ -5534,6 +5637,10 @@ msgstr[1] "完成-已安装,更新或删除 %d 个程序包 (%s)"
 msgid "Down"
 msgstr ""
 
+#, fuzzy
+msgid "Download error"
+msgstr "未知错误"
+
 msgid "Download plugins"
 msgstr "下载插件"
 
@@ -5554,6 +5661,10 @@ msgid "Downloading Image"
 msgstr "正在解压镜像文"
 
 msgid "Downloading a new packet list. Please wait..."
+msgstr "尝试下载新的软件包列表.请稍候..."
+
+#, fuzzy
+msgid "Downloading latest update list.  Please wait..."
 msgstr "尝试下载新的软件包列表.请稍候..."
 
 msgid "Downloading plugin information. Please wait..."
@@ -5675,6 +5786,10 @@ msgstr "编辑DNS"
 #, fuzzy
 msgid "Edit Tags"
 msgstr "编辑设置"
+
+#, fuzzy
+msgid "Edit Timer"
+msgstr "编辑定时器"
 
 msgid "Edit alternatives"
 msgstr "编辑备选方案"
@@ -5884,6 +5999,9 @@ msgid "Enable this option to add action map / remote control mapping data to the
 msgstr ""
 
 msgid "Enable this option to add keyboard keymap data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add opkg output data to the debug log file."
 msgstr ""
 
 msgid "Enable this option to add remote control data to the debug log file."
@@ -6242,6 +6360,14 @@ msgstr "网卡接口"
 msgid "Ethiopia"
 msgstr "埃塞俄比亚"
 
+#, fuzzy
+msgid "Event View Actions"
+msgstr "扩展"
+
+#, fuzzy
+msgid "Event View Context Menu"
+msgstr "事件查看级联菜单"
+
 msgid "Event font size (relative to skin size)"
 msgstr "事件字体大小（相对皮肤尺寸）"
 
@@ -6251,13 +6377,11 @@ msgstr "事件名称优先"
 msgid "Event view"
 msgstr "时间查看"
 
-msgid "Event view context menu"
-msgstr "事件查看级联菜单"
-
 msgid "Event view menu"
 msgstr "时间查看菜单"
 
-msgid "Events info menu"
+#, fuzzy
+msgid "Events Info Menu"
 msgstr "事件信息菜单"
 
 msgid "Every 12 hours"
@@ -6401,11 +6525,12 @@ msgstr "扩展"
 msgid "Extensions"
 msgstr "扩展"
 
+#, fuzzy
+msgid "Extensions Menu"
+msgstr "扩展菜单"
+
 msgid "Extensions management"
 msgstr "扩展管理"
-
-msgid "Extensions menu"
-msgstr "扩展菜单"
 
 msgid "External"
 msgstr "外部"
@@ -6655,6 +6780,18 @@ msgstr "收藏夹"
 msgid "Favourites"
 msgstr "收藏夹"
 
+#, fuzzy
+msgid "Feed disabled!"
+msgstr "强制禁用"
+
+#, fuzzy
+msgid "Feed stable."
+msgstr "不可以测试"
+
+#, fuzzy
+msgid "Feed unstable!"
+msgstr "不可以测试"
+
 msgid "Fiji"
 msgstr "斐济"
 
@@ -6689,6 +6826,9 @@ msgstr "最终滚动延迟"
 #, fuzzy
 msgid "Find currently played service"
 msgstr "查找当前播放的频道"
+
+msgid "Find similar events in the EPG"
+msgstr ""
 
 msgid "Fine movement"
 msgstr "精确运动"
@@ -6882,6 +7022,10 @@ msgstr "全屏显示时的帧大小"
 
 msgid "Full view resolution"
 msgstr "全视图分辨率"
+
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "备用定时器"
 
 msgid "Function of OK button"
 msgstr "OK键功能"
@@ -7693,6 +7837,10 @@ msgid "Include keyboard data"
 msgstr "键盘数据输入"
 
 #, fuzzy
+msgid "Include opkg output data"
+msgstr "媒体流里包含AIT"
+
+#, fuzzy
 msgid "Include remote control data"
 msgstr "配置遥控类型"
 
@@ -8232,8 +8380,11 @@ msgstr "高频头"
 msgid "Label"
 msgstr ""
 
+#, fuzzy
 msgid "Language"
-msgstr "语言设置"
+msgid_plural "Languages"
+msgstr[0] "语言设置"
+msgstr[1] "语言设置"
 
 #, python-format
 msgid "Language %s (%s) installed and selected."
@@ -8249,10 +8400,6 @@ msgstr "语言选择"
 
 msgid "Language selection"
 msgstr "语言选择"
-
-#, fuzzy
-msgid "Languages"
-msgstr "语言设置"
 
 #, fuzzy
 msgid "Lao"
@@ -8287,9 +8434,6 @@ msgstr "最近版本"
 
 msgid "Latest revision on github"
 msgstr ""
-
-msgid "Latest update log"
-msgstr "最新更新日志"
 
 #, fuzzy
 msgid "Latin"
@@ -8482,8 +8626,11 @@ msgstr "本地网络"
 msgid "Local time"
 msgstr "区域"
 
+#, fuzzy
 msgid "Locale"
-msgstr "区域"
+msgid_plural "Locales"
+msgstr[0] "区域"
+msgstr[1] "区域"
 
 #, python-format
 msgid "Locale %s (%s) installed and selected."
@@ -8525,10 +8672,6 @@ msgstr "主题选择操作"
 #, fuzzy
 msgid "Locale/Language Setup"
 msgstr "软件管理设置"
-
-#, fuzzy
-msgid "Locales"
-msgstr "区域"
 
 #, fuzzy
 msgid "Locales to be displayed"
@@ -8653,6 +8796,9 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
+msgid "MHz"
+msgstr ""
+
 msgid "MMC card"
 msgstr "MMC存储卡"
 
@@ -8742,6 +8888,10 @@ msgstr "管理扩展"
 
 msgid "Manage extensions or plugins for your receiver."
 msgstr "管理接收器的扩展或插件."
+
+#, fuzzy
+msgid "Manage sleep timer"
+msgstr "更改定时器"
 
 msgid "Manage your receiver's software"
 msgstr "管理Dreambox软件"
@@ -9072,6 +9222,10 @@ msgid "Move down a page"
 msgstr "转到列表末尾"
 
 #, fuzzy
+msgid "Move down a page / screen"
+msgstr "向下移动到最后项目"
+
+#, fuzzy
 msgid "Move down a screen"
 msgstr "向下移动到最后项目"
 
@@ -9111,6 +9265,14 @@ msgstr "东移"
 #, fuzzy
 msgid "Move main picture to PiP"
 msgstr "切换画中画到主屏幕"
+
+#, fuzzy
+msgid "Move the current item down one line"
+msgstr "向下移动到下一个项目"
+
+#, fuzzy
+msgid "Move the current item up one line"
+msgstr "添加到泪飙上去"
 
 msgid "Move the keyboard cursor down"
 msgstr "向下移动键盘光标"
@@ -9174,6 +9336,14 @@ msgstr "移动到索引位置"
 #, fuzzy
 msgid "Move up a page"
 msgstr "移动到索引位置"
+
+#, fuzzy
+msgid "Move up a page / screen"
+msgstr "向上移动到上一个项目"
+
+#, fuzzy
+msgid "Move up a page /screen"
+msgstr "向上移动到上一个项目"
 
 msgid "Move up a screen"
 msgstr ""
@@ -9470,6 +9640,10 @@ msgstr "网络配置..."
 msgid "Network information"
 msgstr "网络配置"
 
+#, fuzzy
+msgid "Network interface for MAC address."
+msgstr "当前CEC地址"
+
 msgid "Network mount"
 msgstr "网络挂载"
 
@@ -9682,10 +9856,12 @@ msgstr ""
 "未找到可用的调谐器!\n"
 "请设置您的调谐器的设置,然后再启动频道扫描."
 
-msgid "No updates available"
+#, fuzzy
+msgid "No updates available."
 msgstr "没有升级可用"
 
-msgid "No updates available. Please try again later."
+#, fuzzy
+msgid "No updates were available.  Please try again later."
 msgstr "没有更新可用,请稍后重试."
 
 msgid "No wireless networks found! Searching..."
@@ -9726,6 +9902,10 @@ msgstr "否,除了唤醒定时器"
 
 msgid "No, never"
 msgstr "从不"
+
+#, fuzzy
+msgid "Non Linear"
+msgstr "非线性"
 
 msgid "None"
 msgstr "无"
@@ -9844,6 +10024,9 @@ msgstr ""
 
 msgid "Nothing to scan! Setup your tuner and try again."
 msgstr "没有要扫描的内容!请设置调谐器并重试."
+
+msgid "Nothing to upgrade"
+msgstr ""
 
 msgid "Now"
 msgstr "现在"
@@ -10048,6 +10231,10 @@ msgid "Open channel list"
 msgstr "没有频道列表"
 
 #, fuzzy
+msgid "Open context menu"
+msgstr "频道上下文菜单"
+
+#, fuzzy
 msgid "Open current transponder"
 msgstr "当前转发器"
 
@@ -10073,6 +10260,14 @@ msgstr "打开调谐器设置 "
 
 msgid "Open the movie list"
 msgstr "打开电影列表"
+
+#, fuzzy
+msgid "Open the multi service EPG view"
+msgstr "打开电影列表"
+
+#, fuzzy
+msgid "Open the single service EPG view"
+msgstr "单个EPG"
 
 msgid "OpenDNS FamilyShield"
 msgstr ""
@@ -10246,9 +10441,6 @@ msgstr ""
 msgid "Packages and associated locales"
 msgstr ""
 
-msgid "Packages to update"
-msgstr "要升级的包"
-
 msgid "Packet management"
 msgstr "软件包管理"
 
@@ -10360,6 +10552,9 @@ msgstr "百分比显示在左侧"
 
 msgid "Percentage right"
 msgstr "百分比显示在右侧"
+
+msgid "Perform an on-line flash instead"
+msgstr ""
 
 msgid "Permanent sort key changes"
 msgstr ""
@@ -10524,6 +10719,10 @@ msgid "Please choose an extension..."
 msgstr "请选择增加部分..."
 
 #, fuzzy
+msgid "Please choose an extension:"
+msgstr "请选择增加部分..."
+
+#, fuzzy
 msgid "Please choose reader"
 msgstr "请选择增加部分..."
 
@@ -10611,7 +10810,8 @@ msgstr "请选择一个播放列表..."
 msgid "Please select a resolution..."
 msgstr "请选择一个子频道..."
 
-msgid "Please select a sub service..."
+#, fuzzy
+msgid "Please select a sub service:"
 msgstr "选择一个子频道..."
 
 msgid "Please select a subservice to record..."
@@ -10629,7 +10829,7 @@ msgid "Please select an acceptable directory."
 msgstr "请选择一个播放列表..."
 
 #, fuzzy
-msgid "Please select an aspect ratio..."
+msgid "Please select an aspect ratio:"
 msgstr "请选择一个子频道..."
 
 msgid "Please select medium to be scanned"
@@ -10981,7 +11181,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "按OK键确认."
 
 #, fuzzy
-msgid "Press OK to activate the MAC address."
+msgid "Press OK to activate current MAC address."
 msgstr "按OK键激活设置."
 
 #, python-format
@@ -10990,6 +11190,10 @@ msgstr "按OK键激活所选 %s 皮肤."
 
 msgid "Press OK to activate the settings."
 msgstr "按OK键激活设置."
+
+#, fuzzy
+msgid "Press OK to continue."
+msgstr "请按OK键确认."
 
 #, fuzzy
 msgid "Press OK to edit the settings of the selected device."
@@ -11102,6 +11306,10 @@ msgstr "次序"
 #, fuzzy
 msgid "Proc model"
 msgstr "脉冲模式"
+
+#, fuzzy
+msgid "Proceed with the update"
+msgstr "更新软件列表"
 
 msgid "Process"
 msgstr "进程信息"
@@ -11489,9 +11697,6 @@ msgstr ""
 msgid "Reenter PIN"
 msgstr "重新输入PIN码"
 
-msgid "Reflash recommended!"
-msgstr "建议重新刷机!"
-
 msgid "Refresh"
 msgstr "重新刷机"
 
@@ -11507,6 +11712,9 @@ msgstr "选择刷新率."
 #, fuzzy
 msgid "Refresh the screen"
 msgstr "选择刷新率."
+
+msgid "Refresh the update-able package list"
+msgstr ""
 
 msgid "Refusing to move to the same directory"
 msgstr "拒绝移动到相同目录"
@@ -11800,6 +12008,14 @@ msgstr "复位"
 msgid "Reset and renumerate title names"
 msgstr "复位并重设标题名称"
 
+#, fuzzy
+msgid "Reset list order to default"
+msgstr "恢复默认"
+
+#, fuzzy
+msgid "Reset list order to default?"
+msgstr "重置所有热键?"
+
 msgid "Reset order (All)"
 msgstr "重置所有设置"
 
@@ -11996,6 +12212,25 @@ msgstr "环绕开始时间"
 
 msgid "Run how often ?"
 msgstr ""
+
+msgid "Run the BLUE action"
+msgstr ""
+
+msgid "Run the GREEN action"
+msgstr ""
+
+msgid "Run the RED action"
+msgstr ""
+
+msgid "Run the YELLOW action"
+msgstr ""
+
+msgid "Run the currently highlighted action"
+msgstr ""
+
+#, fuzzy
+msgid "Run the numbered action"
+msgstr "进阶指导"
 
 #, fuzzy
 msgid "Rundi"
@@ -13059,10 +13294,6 @@ msgstr "设置用于检测可用服务的CI分配."
 msgid "Set PIN Pressing [OK]"
 msgstr ""
 
-#, fuzzy
-msgid "Set a new MAC address"
-msgstr "当前CEC地址"
-
 msgid "Set a temporary sort method for this directory"
 msgstr ""
 
@@ -13095,6 +13326,10 @@ msgstr "将网卡设为默认"
 
 msgid "Set limits"
 msgstr "设置极限"
+
+#, fuzzy
+msgid "Set new MAC address"
+msgstr "当前CEC地址"
 
 msgid "Set persistent PIN code"
 msgstr "设置PIN码有效期"
@@ -13477,12 +13712,6 @@ msgstr "显示菜单或插件编号"
 msgid "Show latest commit log information"
 msgstr "显示最近版本"
 
-msgid "Show latest commits"
-msgstr "显示最近版本"
-
-msgid "Show latest update log"
-msgstr "显示最新更新日志"
-
 #, fuzzy
 msgid "Show live tv when movie stopped"
 msgstr "当电影结束时"
@@ -13518,8 +13747,16 @@ msgid "Show multi channel EPG"
 msgstr "多个EPG"
 
 #, fuzzy
+msgid "Show next event"
+msgstr "转到下一频道"
+
+#, fuzzy
 msgid "Show next image"
 msgstr "删除镜像"
+
+#, fuzzy
+msgid "Show next page of description"
+msgstr "显示扩展描述"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
 msgstr "从远程接收器URL导入频道和EPG时显示通知未完成"
@@ -13539,9 +13776,6 @@ msgstr "显示扩展描述"
 
 msgid "Show packagegroup-base in plugin browser"
 msgstr ""
-
-msgid "Show packages to be updated"
-msgstr "显示可升级的软件包"
 
 #, fuzzy
 msgid "Show pam-plugin in plugin browser"
@@ -13569,8 +13803,16 @@ msgid "Show positioner position"
 msgstr "显示卫星所处位置"
 
 #, fuzzy
+msgid "Show previous event"
+msgstr "转到上一事件"
+
+#, fuzzy
 msgid "Show previous image"
 msgstr "切换到前一个频道"
+
+#, fuzzy
+msgid "Show previous page of description"
+msgstr "转到上一频道页面"
 
 #, fuzzy
 msgid "Show python in plugin browser"
@@ -13950,6 +14192,10 @@ msgid "Software Update"
 msgstr "软件升级"
 
 #, fuzzy
+msgid "Software Update Actions"
+msgstr "软件升级"
+
+#, fuzzy
 msgid "Software information"
 msgstr "软件管理信息"
 
@@ -13961,6 +14207,14 @@ msgstr "软件管理设置"
 
 msgid "Software update"
 msgstr "软件升级"
+
+#, fuzzy
+msgid ""
+"Software update starting, please wait.\n"
+"\n"
+msgstr ""
+"\n"
+"按OK键确定后,请稍等!"
 
 msgid "Softwaremanager information"
 msgstr "软件管理信息"
@@ -14027,9 +14281,6 @@ msgstr "排序规则"
 #, fuzzy
 msgid "Sort by default"
 msgstr "设为默认"
-
-msgid "Sort list to default and exit?"
-msgstr "是否恢复默认列表排序并退出?"
 
 msgid "Sort list:"
 msgstr "排序列表:"
@@ -14290,6 +14541,10 @@ msgid "Status"
 msgstr ""
 
 #, fuzzy
+msgid "Status unavailable!"
+msgstr "不可用"
+
+#, fuzzy
 msgid "Step back"
 msgstr "向东步进"
 
@@ -14393,6 +14648,9 @@ msgstr "转发器失败后停止测试卫星"
 
 msgid "Stop testing plane after # successful transponders"
 msgstr "转发器成功后停止测试卫星"
+
+msgid "Stop the update, if running, then exit"
+msgstr ""
 
 msgid "Stop timer recording"
 msgstr "停止定时器录制"
@@ -14997,14 +15255,6 @@ msgstr ""
 msgid "The command to wake from standby will be sent multiple times."
 msgstr "将多次发送从待机状态唤醒的命令."
 
-#, python-format
-msgid ""
-"The current image might not be stable.\n"
-"For more information see %s."
-msgstr ""
-"当前镜像可能不稳定.\n"
-"有关详细信息,请参阅 %s."
-
 msgid "The detailed information is intended for developers only."
 msgstr ""
 
@@ -15150,6 +15400,10 @@ msgstr "没有保存的播放列表可供下载!"
 msgid "There are no updates available."
 msgstr "没有可用更新."
 
+#, python-format
+msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
+msgstr ""
+
 msgid "There is no signal to lock on !"
 msgstr "没有可以锁定的信号!"
 
@@ -15161,6 +15415,10 @@ msgid ""
 msgstr ""
 "所选的分区上可能没有足够的空间.\n"
 "是否继续?"
+
+#, fuzzy
+msgid "There was an error downloading the update list.  Please try again."
+msgstr "下载升级包列表发生未知错误,请重试."
 
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
 msgstr "这张DVD RW已经格式化过,再次格式化将删除所有文件."
@@ -16039,6 +16297,10 @@ msgstr "通用高频头"
 msgid "Unknown"
 msgstr "未知"
 
+#, fuzzy
+msgid "Unknown Service"
+msgstr "未知频道"
+
 msgid "Unmark service as dedicated 3D service"
 msgstr "取消作为专用3D频道的频道标识"
 
@@ -16057,28 +16319,13 @@ msgstr ""
 msgid "Update"
 msgstr "更新"
 
-msgid "Update and ask to reboot"
-msgstr "更新并询问重启"
-
 #, fuzzy
-msgid "Update and ask to reboot (recommended)"
-msgstr "更新并重启（建议这样做）"
-
-msgid "Update channel list only"
-msgstr "仅仅升级频道列表"
-
-#, python-format
-msgid "Update completed, %d package was installed."
-msgid_plural "Update completed, %d packages were installed."
-msgstr[0] "升级已完成, %d 个安装包已安装."
-msgstr[1] "升级已完成, %d 个安装包已安装."
+msgid "Update completed."
+msgstr "升级已完成."
 
 #, fuzzy, python-format
-msgid "Update completed. Do you want to reboot your %s %s?"
+msgid "Update completed. A reboot is strongly recommended.  Do you want to reboot your %s %s now?"
 msgstr "更新完成.是否重启接收机？"
-
-msgid "Update failed. Your receiver does not have a working internet connection."
-msgstr "更新失败.接收机没有可用的互联网连接."
 
 msgid "Update feed not available."
 msgstr "更新资源无效."
@@ -16089,6 +16336,17 @@ msgstr "升级已完成."
 #, fuzzy
 msgid "Update interval (in seconds)"
 msgstr "幻灯片放映间隔（秒.）"
+
+#, fuzzy
+msgid "Updated"
+msgstr "更新"
+
+msgid "Updated version unknown"
+msgstr ""
+
+#, fuzzy
+msgid "Updates available:"
+msgstr "没有升级可用"
 
 msgid "Updating"
 msgstr "正在更新"
@@ -16665,6 +16923,10 @@ msgstr ""
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+#, fuzzy, python-format
+msgid "Warning: There are %d update packages!"
+msgstr "没有可用更新."
+
 msgid "Warning: no LNB; using factory defaults."
 msgstr "警告:没有LNB；使用工厂默认."
 
@@ -16767,6 +17029,9 @@ msgstr ""
 
 msgid "What type of service scan do you want?"
 msgstr "您要什么类型的扫描?"
+
+msgid "What would you like to do?"
+msgstr ""
 
 #, fuzzy
 msgid "When PiPzap enabled zap channel down"
@@ -17330,6 +17595,9 @@ msgstr "必须切换频道到 %s（%s - '%s'）!\n"
 msgid "You seem to be in timeshift!"
 msgstr "您似乎在时移中!"
 
+msgid "You should flash a new image!"
+msgstr ""
+
 #, fuzzy
 msgid "Your %s %s (kernel %s) does not have an internet connection"
 msgstr "接收机没有连接到互联网"
@@ -17346,10 +17614,6 @@ msgid "Your %s %s reads the stored EPG data every (hours)."
 msgstr ""
 
 msgid "Your %s %s stores the EPG data every (hours)."
-msgstr ""
-
-#, python-format
-msgid "Your %s %s?"
 msgstr ""
 
 msgid "Your PIN code is 0000. This is the default PIN code and it disables parental control!\n"
@@ -17425,7 +17689,7 @@ msgstr ""
 "按Ok键继续."
 
 #, fuzzy, python-format
-msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
 msgstr "现在你机顶盒可能无法使用.重启机顶盒之前请参阅手册以获得进一步帮助."
 
 #, fuzzy, python-format
@@ -17577,6 +17841,10 @@ msgid "activate network adapter configuration"
 msgstr "激活网卡配置"
 
 msgid "active"
+msgstr "激活"
+
+#, fuzzy
+msgid "active "
 msgstr "激活"
 
 msgid "actual time only"
@@ -17745,9 +18013,6 @@ msgstr "喜剧"
 #, fuzzy
 msgid "comedy (general)"
 msgstr "电影/戏剧"
-
-msgid "config menu"
-msgstr "配置菜单"
 
 msgid "confirmed"
 msgstr "检测通过"
@@ -18518,6 +18783,10 @@ msgstr "体育杂志"
 msgid "standard"
 msgstr "标准"
 
+#, fuzzy
+msgid "standby "
+msgstr "一般待机"
+
 msgid "stepsize"
 msgstr "步长"
 
@@ -18610,9 +18879,6 @@ msgstr "未知"
 
 msgid "unknown error"
 msgstr "未知错误"
-
-msgid "unknown service"
-msgstr "未知频道"
 
 msgid "unpublished"
 msgstr "未发表"

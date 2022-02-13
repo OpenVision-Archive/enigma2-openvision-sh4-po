@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-26 02:03+0000\n"
+"POT-Creation-Date: 2022-02-13 15:09+0000\n"
 "PO-Revision-Date: 2021-03-06\n"
 "Last-Translator: LinuxSTV\n"
 "Language-Team: \n"
@@ -982,6 +982,12 @@ msgid_plural "%d days"
 msgstr[0] "%d hari"
 msgstr[1] "%d hari"
 
+#, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] ""
+msgstr[1] ""
+
 #, fuzzy, python-format
 msgid "%d fps"
 msgstr "%d fpd"
@@ -1035,6 +1041,54 @@ msgstr "%A %d %B"
 #, fuzzy, python-format
 msgid "%d package selected."
 msgid_plural "%d packages selected."
+msgstr[0] " paket yang dipilih."
+msgstr[1] " paket yang dipilih."
+
+#, fuzzy, python-format
+msgid "%d package upgraded."
+msgid_plural "%d packages upgraded."
+msgstr[0] " paket yang dipilih."
+msgstr[1] " paket yang dipilih."
+
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] " paket yang dipilih."
+msgstr[1] " paket yang dipilih."
+
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] " paket yang dipilih."
+msgstr[1] " paket yang dipilih."
+
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] " paket yang dipilih."
+msgstr[1] " paket yang dipilih."
+
+#, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] ""
+msgstr[1] ""
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "Pembaruan selesai, %d paket terpasang."
+msgstr[1] "Pembaruan selesai, %d paket terpasang."
+
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] " paket yang dipilih."
+msgstr[1] " paket yang dipilih."
+
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] " paket yang dipilih."
 msgstr[1] " paket yang dipilih."
 
@@ -1203,12 +1257,6 @@ msgstr ""
 #, python-format
 msgid "%s of %s MB"
 msgstr ""
-
-#, python-format
-msgid "%s updated package available"
-msgid_plural "%s updated packages available"
-msgstr[0] "%s pembaruan paket tersedia"
-msgstr[1] "%s pembaruan paket-paket tersedia"
 
 #, fuzzy, python-format
 msgid "%s%d min"
@@ -1903,6 +1951,10 @@ msgstr "Tambah layanan"
 msgid "Add Bookmark"
 msgstr "Tambah penandabuku"
 
+#, fuzzy
+msgid "Add Timer"
+msgstr "Tambah pewaktu"
+
 msgid "Add a mark"
 msgstr "Tambah penanda"
 
@@ -1915,6 +1967,10 @@ msgstr "Tambah judul baru"
 
 msgid "Add a new title"
 msgstr "Tambah judul baru"
+
+#, fuzzy
+msgid "Add a timer for the current event"
+msgstr "Tambah/hapus pewaktu ganti pada acara saat ini"
 
 msgid "Add alternatives"
 msgstr "Tambahkan alternatif"
@@ -2454,6 +2510,10 @@ msgstr "Di awal"
 msgid "At end"
 msgstr "Di akhir"
 
+#, fuzzy
+msgid "Attention, this is a repeated timer!"
+msgstr "Perhatian, ini pewaktu berulang!\n"
+
 msgid "Attention, this is repeated timer!\n"
 msgstr "Perhatian, ini pewaktu berulang!\n"
 
@@ -2849,6 +2909,9 @@ msgstr "Benin"
 msgid "Bermuda"
 msgstr ""
 
+msgid "Bestfit"
+msgstr ""
+
 msgid "Bhutan"
 msgstr "Bhutan"
 
@@ -3161,6 +3224,10 @@ msgstr "Kabel"
 msgid "Cable Scan"
 msgstr "Pelacakan Kabel"
 
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
+
 msgid "Cache thumbnails"
 msgstr "Cache gambarmini"
 
@@ -3237,6 +3304,10 @@ msgid "Cancel"
 msgstr "Batal"
 
 #, fuzzy
+msgid "Cancel / Close the software update screen"
+msgstr "Lindungi layar pembaruan perangkat lunak"
+
+#, fuzzy
 msgid "Cancel any changed settings and exit"
 msgstr "Batalkan semua perubahan teks lalu keluar"
 
@@ -3274,8 +3345,16 @@ msgid "Cancel execution?"
 msgstr "Pilihan kanal"
 
 #, fuzzy
+msgid "Cancel the action selection and exit"
+msgstr "Pilihan kanal"
+
+#, fuzzy
 msgid "Cancel the location selection"
 msgstr "Pilihan kanal"
+
+#, fuzzy
+msgid "Cancel the update"
+msgstr "Paket untuk pembaruan"
 
 msgid "Cancelled upon user request"
 msgstr "Dibatalkan atas permintaan pengguna"
@@ -3369,6 +3448,10 @@ msgstr "Ganti Bahasa"
 
 msgid "Change PIN Pressing [OK]"
 msgstr ""
+
+#, fuzzy
+msgid "Change Timer"
+msgstr "Ubah pewaktu"
 
 msgid "Change bouquets in quickzap"
 msgstr "Ganti buket saat zap cepat"
@@ -3519,6 +3602,14 @@ msgstr "Cina - Sederhana"
 
 msgid "Chinese - Traditional"
 msgstr "Cina - Tradisional"
+
+#, fuzzy
+msgid "Choice Box Actions"
+msgstr "Pilihan Selanjutnya"
+
+#, fuzzy
+msgid "Choice Box Order Actions"
+msgstr "Pemilihan film"
 
 msgid "Choose Tuner"
 msgstr "Pilih Penala"
@@ -3673,6 +3764,10 @@ msgstr ""
 msgid "Close"
 msgstr "Tutup"
 
+#, fuzzy
+msgid "Close Event View screen"
+msgstr "Tutup pemilihan judul"
+
 msgid "Close PiP with 'exit' button"
 msgstr "Tutup PiP saat keluar"
 
@@ -3819,6 +3914,10 @@ msgstr "Penyetelan"
 
 msgid "Configuration"
 msgstr "Penyetelan"
+
+#, fuzzy, python-format
+msgid "Configuration file '%s' has been modified since it was installed, would you like to keep the modified version?"
+msgstr "Berkas pengaturan (%s) telah diubah sejak ia diinstall. Anda ingin lanjut dgn perubahan anda?"
 
 msgid "Configuration mode"
 msgstr "Mode penyetelan"
@@ -4298,6 +4397,9 @@ msgstr "Lanjut mainkan"
 msgid "Continue playing"
 msgstr "Lanjut mainkan"
 
+msgid "Continue with the on-line update"
+msgstr ""
+
 msgid "Continues play (loop)"
 msgstr "Putar terus (loop)"
 
@@ -4348,9 +4450,6 @@ msgstr "Kosta Rika"
 #, fuzzy
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr "Pantai Gading"
-
-msgid "Could not find installed channel list."
-msgstr "Daftar kanal terpasang tidak ditemukan."
 
 msgid "Could not find suitable media - Please remove some downloaded images or insert a media (e.g. USB stick) with sufficiant free space and try again!"
 msgstr "Tidak bisa menemukan media yg cocok - Mohon hapus beberapa image yg diunduh atau tancapkan media (misalnya USB flashdisk) dengan ruang penyimpanan yg cukup lalu coba lagi!"
@@ -4448,10 +4547,6 @@ msgid "Current CEC address"
 msgstr "Alamat CEC saat ini"
 
 #, fuzzy
-msgid "Current MAC address"
-msgstr "Alamat CEC saat ini"
-
-#, fuzzy
 msgid "Current crash log"
 msgstr "Transponder saat ini"
 
@@ -4484,6 +4579,10 @@ msgstr "Transponder saat ini"
 
 msgid "Current value: "
 msgstr "Nilai saat ini: "
+
+#, fuzzy
+msgid "Current version unknown"
+msgstr "Transponder saat ini"
 
 #, fuzzy
 msgid "Custom"
@@ -4959,6 +5058,10 @@ msgid "Delete Loc"
 msgstr "Hapus"
 
 #, fuzzy
+msgid "Delete Timer"
+msgstr "Hapus pewaktu"
+
+#, fuzzy
 msgid "Delete all log files"
 msgstr "Hapus semua berkaslog"
 
@@ -5091,6 +5194,10 @@ msgstr "Deskripsi"
 
 msgid "Deselect"
 msgstr "Tidak dipilih"
+
+#, python-format
+msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
+msgstr ""
 
 #, fuzzy
 msgid "Destination of fallback remote receiver"
@@ -5271,6 +5378,10 @@ msgstr ""
 
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "Alokasikan space harddisk untuk merekam (dalam GB)"
+
+#, fuzzy
+msgid "Disk state: "
+msgstr "keadaan pemindaian"
 
 msgid "Display 16:9 content as"
 msgstr "Display 16:9 content as"
@@ -5543,14 +5654,6 @@ msgstr "Anda ingin memilih tampilan lain?"
 msgid "Do you want to update the package:\n"
 msgstr "Anda ingin menaiktingkatkan paket:\n"
 
-#, fuzzy, python-format
-msgid "Do you want to update to %s"
-msgstr "Anda ingin memperbarui rx anda ke %s?"
-
-#, fuzzy, python-format
-msgid "Do you want to update your %s %s?"
-msgstr "Anda ingin memperbarui rx anda ke %s?"
-
 #, fuzzy
 msgid "Documentary"
 msgstr "dokumenter"
@@ -5614,6 +5717,10 @@ msgstr[1] "Selesai - Terpasang, dinaiktingkatkan atau dihapus %d paket (%s)"
 msgid "Down"
 msgstr ""
 
+#, fuzzy
+msgid "Download error"
+msgstr "kesalahan takdikenal"
+
 msgid "Download plugins"
 msgstr "Unduh plugin"
 
@@ -5635,6 +5742,10 @@ msgid "Downloading Image"
 msgstr "Mengunduh Image"
 
 msgid "Downloading a new packet list. Please wait..."
+msgstr "Mencoba unduh daftar paket yg baru. Mohon tunggu..."
+
+#, fuzzy
+msgid "Downloading latest update list.  Please wait..."
 msgstr "Mencoba unduh daftar paket yg baru. Mohon tunggu..."
 
 msgid "Downloading plugin information. Please wait..."
@@ -5758,6 +5869,10 @@ msgstr "Ubah DNS"
 #, fuzzy
 msgid "Edit Tags"
 msgstr "Ubah pengaturan"
+
+#, fuzzy
+msgid "Edit Timer"
+msgstr "Ubah pewaktu"
 
 msgid "Edit alternatives"
 msgstr "Ubah alternatif"
@@ -5973,6 +6088,9 @@ msgid "Enable this option to add action map / remote control mapping data to the
 msgstr ""
 
 msgid "Enable this option to add keyboard keymap data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add opkg output data to the debug log file."
 msgstr ""
 
 msgid "Enable this option to add remote control data to the debug log file."
@@ -6340,6 +6458,14 @@ msgstr "Antarmuka jaringan ethernet"
 msgid "Ethiopia"
 msgstr ""
 
+#, fuzzy
+msgid "Event View Actions"
+msgstr "Ekstensi"
+
+#, fuzzy
+msgid "Event View Context Menu"
+msgstr "Menu konteks tinjau acara"
+
 msgid "Event font size (relative to skin size)"
 msgstr "Ukuran huruf acara (tergantung ukurang tampilan)"
 
@@ -6349,13 +6475,11 @@ msgstr "Nama acara lebih dulu"
 msgid "Event view"
 msgstr "Lihat acara"
 
-msgid "Event view context menu"
-msgstr "Menu konteks tinjau acara"
-
 msgid "Event view menu"
 msgstr "Menu lihat acara"
 
-msgid "Events info menu"
+#, fuzzy
+msgid "Events Info Menu"
 msgstr "Menu info acara"
 
 msgid "Every 12 hours"
@@ -6500,11 +6624,12 @@ msgstr "Ekstensi"
 msgid "Extensions"
 msgstr "Ekstensi"
 
+#, fuzzy
+msgid "Extensions Menu"
+msgstr "Menu ekstensi"
+
 msgid "Extensions management"
 msgstr "Pengelolaan ekstensi"
-
-msgid "Extensions menu"
-msgstr "Menu ekstensi"
 
 msgid "External"
 msgstr "Eksternal"
@@ -6765,6 +6890,18 @@ msgstr "Favorit"
 msgid "Favourites"
 msgstr "Favorit"
 
+#, fuzzy
+msgid "Feed disabled!"
+msgstr "dimatikan"
+
+#, fuzzy
+msgid "Feed stable."
+msgstr "takbisa dites"
+
+#, fuzzy
+msgid "Feed unstable!"
+msgstr "takbisa dites"
+
 msgid "Fiji"
 msgstr "Fiji"
 
@@ -6799,6 +6936,9 @@ msgstr "Penundaan gulir terakhir"
 #, fuzzy
 msgid "Find currently played service"
 msgstr "Temukan layanan yg sedang diputar"
+
+msgid "Find similar events in the EPG"
+msgstr ""
 
 msgid "Fine movement"
 msgstr "Pergerakan halus"
@@ -6997,6 +7137,10 @@ msgstr "Transparan sepenuhnya"
 
 msgid "Full view resolution"
 msgstr "Resolusi tinjauan penuh"
+
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "Pewaktu Mundur"
 
 msgid "Function of OK button"
 msgstr "Fungsi tombol OK"
@@ -7830,6 +7974,10 @@ msgid "Include keyboard data"
 msgstr "Entri data papankunci"
 
 #, fuzzy
+msgid "Include opkg output data"
+msgstr "Sertakan AIT pada streaming http"
+
+#, fuzzy
 msgid "Include remote control data"
 msgstr "Atur jenis remote kontrol"
 
@@ -8372,8 +8520,11 @@ msgstr "LNB"
 msgid "Label"
 msgstr ""
 
+#, fuzzy
 msgid "Language"
-msgstr "Bahasa"
+msgid_plural "Languages"
+msgstr[0] "Bahasa"
+msgstr[1] "Bahasa"
 
 #, python-format
 msgid "Language %s (%s) installed and selected."
@@ -8389,10 +8540,6 @@ msgstr "Pilihan bahasa"
 
 msgid "Language selection"
 msgstr "Pilihan bahasa"
-
-#, fuzzy
-msgid "Languages"
-msgstr "Bahasa"
 
 #, fuzzy
 msgid "Lao"
@@ -8427,10 +8574,6 @@ msgstr "Pengerjaan Terbaru"
 
 msgid "Latest revision on github"
 msgstr ""
-
-#, fuzzy
-msgid "Latest update log"
-msgstr "Log peningkatan terbaru: "
 
 #, fuzzy
 msgid "Latin"
@@ -8627,7 +8770,9 @@ msgstr "Lokal"
 
 #, fuzzy
 msgid "Locale"
-msgstr "Lokal"
+msgid_plural "Locales"
+msgstr[0] "Lokal"
+msgstr[1] "Lokal"
 
 #, python-format
 msgid "Locale %s (%s) installed and selected."
@@ -8669,10 +8814,6 @@ msgstr "Pilih tindakan"
 #, fuzzy
 msgid "Locale/Language Setup"
 msgstr "Atur pengelola perangkat lunak"
-
-#, fuzzy
-msgid "Locales"
-msgstr "Lokal"
 
 #, fuzzy
 msgid "Locales to be displayed"
@@ -8798,6 +8939,9 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
+msgid "MHz"
+msgstr ""
+
 msgid "MMC card"
 msgstr "Kartu MMC"
 
@@ -8889,6 +9033,10 @@ msgstr "Kelola ekstensi"
 
 msgid "Manage extensions or plugins for your receiver."
 msgstr "Kelola ekstensi atau plugin pada Rx anda."
+
+#, fuzzy
+msgid "Manage sleep timer"
+msgstr "Ubah pewaktu"
 
 msgid "Manage your receiver's software"
 msgstr "Kelola perangkat lunak rx anda"
@@ -9227,6 +9375,10 @@ msgid "Move down a page"
 msgstr "Menuju bawah daftar"
 
 #, fuzzy
+msgid "Move down a page / screen"
+msgstr "gerak ke bawah menuju entri terakhir"
+
+#, fuzzy
 msgid "Move down a screen"
 msgstr "gerak ke bawah menuju entri terakhir"
 
@@ -9266,6 +9418,14 @@ msgstr "Bergerak ke timur"
 #, fuzzy
 msgid "Move main picture to PiP"
 msgstr "Pindahkan PiP ke gambar utama"
+
+#, fuzzy
+msgid "Move the current item down one line"
+msgstr "gerak ke bawah menuju entri selanjutnya"
+
+#, fuzzy
+msgid "Move the current item up one line"
+msgstr "Menuju ke atas daftar"
 
 #, fuzzy
 msgid "Move the keyboard cursor down"
@@ -9341,6 +9501,14 @@ msgstr "Bergerak ke posisi pada indeks"
 #, fuzzy
 msgid "Move up a page"
 msgstr "Bergerak ke posisi pada indeks"
+
+#, fuzzy
+msgid "Move up a page / screen"
+msgstr "gerak ke atas menuju entri sebelumnya"
+
+#, fuzzy
+msgid "Move up a page /screen"
+msgstr "gerak ke atas menuju entri sebelumnya"
 
 msgid "Move up a screen"
 msgstr ""
@@ -9638,6 +9806,10 @@ msgstr "Pengaturan jaringan..."
 msgid "Network information"
 msgstr "Pengaturan jaringan"
 
+#, fuzzy
+msgid "Network interface for MAC address."
+msgstr "Alamat CEC saat ini"
+
 msgid "Network mount"
 msgstr "Mount jaringan"
 
@@ -9852,10 +10024,12 @@ msgstr ""
 "Tidak ada penala yang diaktifkan!\n"
 "Silakan atur pengaturan penala anda sebelum mulai lacak layanan."
 
-msgid "No updates available"
+#, fuzzy
+msgid "No updates available."
 msgstr "Pembaruan tidak tersedia"
 
-msgid "No updates available. Please try again later."
+#, fuzzy
+msgid "No updates were available.  Please try again later."
 msgstr "Pembaruan tidak tersedia. Silakan coba lain waktu."
 
 msgid "No wireless networks found! Searching..."
@@ -9898,6 +10072,10 @@ msgstr "Tidak, kecuali pewaktu bangun"
 
 msgid "No, never"
 msgstr "Tidak, jangan pernah"
+
+#, fuzzy
+msgid "Non Linear"
+msgstr "Nonlinear"
 
 msgid "None"
 msgstr "Tidak ada"
@@ -10022,6 +10200,9 @@ msgid "Nothing to scan! Setup your tuner and try again."
 msgstr ""
 "Tidak ada yg bisa dilacak!\n"
 "Atur pengaturan penala sebelum memulai lacak layanan."
+
+msgid "Nothing to upgrade"
+msgstr ""
 
 msgid "Now"
 msgstr "Sekarang"
@@ -10226,6 +10407,10 @@ msgid "Open channel list"
 msgstr "tidak ada daftar kanal"
 
 #, fuzzy
+msgid "Open context menu"
+msgstr "Menu keadaan kanal"
+
+#, fuzzy
 msgid "Open current transponder"
 msgstr "Transponder saat ini"
 
@@ -10251,6 +10436,14 @@ msgstr "Buka pengaturan penala"
 
 msgid "Open the movie list"
 msgstr "Buka daftar film"
+
+#, fuzzy
+msgid "Open the multi service EPG view"
+msgstr "Buka daftar film"
+
+#, fuzzy
+msgid "Open the single service EPG view"
+msgstr "Tampilkan EPG layanan tunggal"
 
 msgid "OpenDNS FamilyShield"
 msgstr ""
@@ -10425,9 +10618,6 @@ msgstr ""
 msgid "Packages and associated locales"
 msgstr ""
 
-msgid "Packages to update"
-msgstr "Paket untuk pembaruan"
-
 msgid "Packet management"
 msgstr "Pengelolaan Paket"
 
@@ -10540,6 +10730,9 @@ msgstr "Persentase di kiri"
 
 msgid "Percentage right"
 msgstr "Persentase di kanan"
+
+msgid "Perform an on-line flash instead"
+msgstr ""
 
 msgid "Permanent sort key changes"
 msgstr ""
@@ -10705,6 +10898,10 @@ msgid "Please choose an extension..."
 msgstr "Silakan pilih ekstensi..."
 
 #, fuzzy
+msgid "Please choose an extension:"
+msgstr "Silakan pilih ekstensi..."
+
+#, fuzzy
 msgid "Please choose reader"
 msgstr "Silakan pilih ekstensi..."
 
@@ -10793,7 +10990,8 @@ msgstr "Mohon pilih daftarputar..."
 msgid "Please select a resolution..."
 msgstr "Mohon pilih sub layanan..."
 
-msgid "Please select a sub service..."
+#, fuzzy
+msgid "Please select a sub service:"
 msgstr "Mohon pilih sub layanan..."
 
 msgid "Please select a subservice to record..."
@@ -10811,7 +11009,7 @@ msgid "Please select an acceptable directory."
 msgstr "Mohon pilih daftarputar..."
 
 #, fuzzy
-msgid "Please select an aspect ratio..."
+msgid "Please select an aspect ratio:"
 msgstr "Mohon pilih sub layanan..."
 
 msgid "Please select medium to be scanned"
@@ -11169,7 +11367,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "Tekan OK pada remote kontrol anda untuk melanjutkan."
 
 #, fuzzy
-msgid "Press OK to activate the MAC address."
+msgid "Press OK to activate current MAC address."
 msgstr "Tekan OK untuk mengaktifkan pengaturan."
 
 #, fuzzy, python-format
@@ -11178,6 +11376,10 @@ msgstr "Tekan OK untuk mengaktifkan tampilan."
 
 msgid "Press OK to activate the settings."
 msgstr "Tekan OK untuk mengaktifkan pengaturan."
+
+#, fuzzy
+msgid "Press OK to continue."
+msgstr "Mohon tekan OK untuk lanjut."
 
 #, fuzzy
 msgid "Press OK to edit the settings of the selected device."
@@ -11292,6 +11494,10 @@ msgstr "Prioritas"
 #, fuzzy
 msgid "Proc model"
 msgstr "Mode tone"
+
+#, fuzzy
+msgid "Proceed with the update"
+msgstr "Pembaruan daftar paket"
 
 msgid "Process"
 msgstr "Proses"
@@ -11682,9 +11888,6 @@ msgstr ""
 msgid "Reenter PIN"
 msgstr "Masukkan ulang PIN"
 
-msgid "Reflash recommended!"
-msgstr "Disarankan pasang ulang!"
-
 msgid "Refresh"
 msgstr "Segarkan"
 
@@ -11700,6 +11903,9 @@ msgstr "Pemilihan rerata segaran."
 #, fuzzy
 msgid "Refresh the screen"
 msgstr "Pemilihan rerata segaran."
+
+msgid "Refresh the update-able package list"
+msgstr ""
 
 #, fuzzy
 msgid "Refusing to move to the same directory"
@@ -11995,6 +12201,14 @@ msgstr "Atur ulang"
 msgid "Reset and renumerate title names"
 msgstr "Atur ulang dan pertimbangkan lagi nama judul"
 
+#, fuzzy
+msgid "Reset list order to default"
+msgstr "Atur bawaan"
+
+#, fuzzy
+msgid "Reset list order to default?"
+msgstr "Atur semua tombol pintas ke bawaan?"
+
 msgid "Reset order (All)"
 msgstr "Atur ulang urutan (Semua)"
 
@@ -12198,6 +12412,25 @@ msgstr "Putaran waktu mulai"
 
 msgid "Run how often ?"
 msgstr ""
+
+msgid "Run the BLUE action"
+msgstr ""
+
+msgid "Run the GREEN action"
+msgstr ""
+
+msgid "Run the RED action"
+msgstr ""
+
+msgid "Run the YELLOW action"
+msgstr ""
+
+msgid "Run the currently highlighted action"
+msgstr ""
+
+#, fuzzy
+msgid "Run the numbered action"
+msgstr "edukasi lanjut"
 
 #, fuzzy
 msgid "Rundi"
@@ -13281,10 +13514,6 @@ msgstr "Set penetapan CI untuk deteksi ketersediaan layanan."
 msgid "Set PIN Pressing [OK]"
 msgstr ""
 
-#, fuzzy
-msgid "Set a new MAC address"
-msgstr "Alamat CEC saat ini"
-
 msgid "Set a temporary sort method for this directory"
 msgstr ""
 
@@ -13317,6 +13546,10 @@ msgstr "Atur antarmuka sebagai Antarmuka standar"
 
 msgid "Set limits"
 msgstr "Atur batasan"
+
+#, fuzzy
+msgid "Set new MAC address"
+msgstr "Alamat CEC saat ini"
 
 msgid "Set persistent PIN code"
 msgstr "Atur kode PIN tetap"
@@ -13701,12 +13934,6 @@ msgstr "Tampilkan nomor menu atau plugin"
 msgid "Show latest commit log information"
 msgstr "Tampilkan pengerjaan terbaru"
 
-msgid "Show latest commits"
-msgstr "Tampilkan pengerjaan terbaru"
-
-msgid "Show latest update log"
-msgstr "Tampilkan log peningkatan terbaru"
-
 #, fuzzy
 msgid "Show live tv when movie stopped"
 msgstr "Ketika film berhenti lakukan"
@@ -13742,8 +13969,16 @@ msgid "Show multi channel EPG"
 msgstr "Tampilkan EPG kanal multi"
 
 #, fuzzy
+msgid "Show next event"
+msgstr "Menuju acara berikutnya"
+
+#, fuzzy
 msgid "Show next image"
 msgstr "Hapus pewaktu"
+
+#, fuzzy
+msgid "Show next page of description"
+msgstr "Tampilkan deskripsi lebih luas"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
 msgstr "Tampilkan pemberitahuan saat impor kanal dan/atau EPG dari URL Rx jauh tidak selesai"
@@ -13763,9 +13998,6 @@ msgstr "Tampilkan deskripsi lebih luas"
 
 msgid "Show packagegroup-base in plugin browser"
 msgstr ""
-
-msgid "Show packages to be updated"
-msgstr "Tampilkan paket-paket untuk ditingkatkan"
 
 #, fuzzy
 msgid "Show pam-plugin in plugin browser"
@@ -13793,8 +14025,16 @@ msgid "Show positioner position"
 msgstr "Tampilkan posisi posisioner"
 
 #, fuzzy
+msgid "Show previous event"
+msgstr "Menuju acara sebelumnya"
+
+#, fuzzy
 msgid "Show previous image"
 msgstr "Beralih ke kanal sebelumnya"
+
+#, fuzzy
+msgid "Show previous page of description"
+msgstr "Menuju halaman sebelumnya dari layanan"
 
 #, fuzzy
 msgid "Show python in plugin browser"
@@ -14186,6 +14426,10 @@ msgid "Software Update"
 msgstr "Pembaruan Perangkat Lunak"
 
 #, fuzzy
+msgid "Software Update Actions"
+msgstr "Pembaruan Perangkat Lunak"
+
+#, fuzzy
 msgid "Software information"
 msgstr "Info pengelola perangkat lunak"
 
@@ -14197,6 +14441,14 @@ msgstr "Atur pengelola perangkat lunak"
 
 msgid "Software update"
 msgstr "Pembaruan Perangkat Lunak"
+
+#, fuzzy
+msgid ""
+"Software update starting, please wait.\n"
+"\n"
+msgstr ""
+"\n"
+"Setelah tekan OK, silakan tunggu!"
 
 msgid "Softwaremanager information"
 msgstr "Info pengelola perangkat lunak"
@@ -14262,9 +14514,6 @@ msgstr "Pilah dgn"
 #, fuzzy
 msgid "Sort by default"
 msgstr "Atur bawaan"
-
-msgid "Sort list to default and exit?"
-msgstr "Pilah daftar ke bawaan lalu keluar?"
 
 msgid "Sort list:"
 msgstr "Daftar pilah:"
@@ -14528,6 +14777,10 @@ msgid "Status"
 msgstr ""
 
 #, fuzzy
+msgid "Status unavailable!"
+msgstr "tidak tersedia"
+
+#, fuzzy
 msgid "Step back"
 msgstr "Jangka ke timur"
 
@@ -14634,6 +14887,9 @@ msgstr "Hentikan pengetesan pesawat setelah # transponder gagal"
 
 msgid "Stop testing plane after # successful transponders"
 msgstr "Hentikan pengetesan pesawat setelah # transponder sukses"
+
+msgid "Stop the update, if running, then exit"
+msgstr ""
 
 msgid "Stop timer recording"
 msgstr "Hentikan rekaman pewaktu"
@@ -15248,14 +15504,6 @@ msgstr ""
 msgid "The command to wake from standby will be sent multiple times."
 msgstr ""
 
-#, fuzzy, python-format
-msgid ""
-"The current image might not be stable.\n"
-"For more information see %s."
-msgstr ""
-"Image saat ini mungkin tidak stabil.\n"
-"Untuk info lanjut lihat %s."
-
 msgid "The detailed information is intended for developers only."
 msgstr ""
 
@@ -15403,6 +15651,10 @@ msgstr "Tidak ada daftarputar tersimpan untuk dimuat"
 msgid "There are no updates available."
 msgstr "Tidak ada pembaruan yg tersedia."
 
+#, python-format
+msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
+msgstr ""
+
 msgid "There is no signal to lock on !"
 msgstr "Tidak sinyal untuk dikunci!"
 
@@ -15414,6 +15666,10 @@ msgid ""
 msgstr ""
 "Kemungkinan tidak cukup ruang penyimpanan pada partisi yg dipilih.\n"
 "Anda sungguh ingin melanjutkan?"
+
+#, fuzzy
+msgid "There was an error downloading the update list.  Please try again."
+msgstr "Kesalahan terjadi saat unduh daftar paket. Silakan coba lagi"
 
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
 msgstr "Media DVD RW ini sudah diformat - memformat ulang akan menghapus semua isi disk."
@@ -16312,6 +16568,10 @@ msgstr "LNB Universal"
 msgid "Unknown"
 msgstr "Takdikenal"
 
+#, fuzzy
+msgid "Unknown Service"
+msgstr "layanan tak dikenal"
+
 msgid "Unmark service as dedicated 3D service"
 msgstr "Hapus tanda layanan sebagai layanan 3D khusus"
 
@@ -16331,28 +16591,13 @@ msgstr ""
 msgid "Update"
 msgstr "Perbarui"
 
-msgid "Update and ask to reboot"
-msgstr "Perbarui dan meminta untuk reboot"
-
 #, fuzzy
-msgid "Update and ask to reboot (recommended)"
-msgstr "Perbarui dan reboot (disarankan)"
-
-msgid "Update channel list only"
-msgstr "Perbarui daftar kanal saja"
-
-#, python-format
-msgid "Update completed, %d package was installed."
-msgid_plural "Update completed, %d packages were installed."
-msgstr[0] "Pembaruan selesai, %d paket terpasang."
-msgstr[1] "Pembaruan selesai, %d paket terpasang."
+msgid "Update completed."
+msgstr "Pembaruan telah selesai."
 
 #, fuzzy, python-format
-msgid "Update completed. Do you want to reboot your %s %s?"
+msgid "Update completed. A reboot is strongly recommended.  Do you want to reboot your %s %s now?"
 msgstr "Pembaruan selesai. Apakah anda ingin reboot Rx anda?"
-
-msgid "Update failed. Your receiver does not have a working internet connection."
-msgstr "Pembaruan gagal. Rx anda tanpa koneksi internet."
 
 msgid "Update feed not available."
 msgstr "Umpan pembaruan tidak tersedia."
@@ -16363,6 +16608,17 @@ msgstr "Pembaruan telah selesai."
 #, fuzzy
 msgid "Update interval (in seconds)"
 msgstr "Interval tayangan slide (sec.)"
+
+#, fuzzy
+msgid "Updated"
+msgstr "Perbarui"
+
+msgid "Updated version unknown"
+msgstr ""
+
+#, fuzzy
+msgid "Updates available:"
+msgstr "Pembaruan tidak tersedia"
 
 msgid "Updating"
 msgstr "Meningkatkan"
@@ -16944,6 +17200,10 @@ msgstr ""
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+#, fuzzy, python-format
+msgid "Warning: There are %d update packages!"
+msgstr "Tidak ada pembaruan yg tersedia."
+
 msgid "Warning: no LNB; using factory defaults."
 msgstr "Peringatan: tidak ada LNB; gunakan bawaan pabrik."
 
@@ -17046,6 +17306,9 @@ msgstr ""
 
 msgid "What type of service scan do you want?"
 msgstr "Jenis pelacakan layanan apa yg anda inginkan?"
+
+msgid "What would you like to do?"
+msgstr ""
 
 #, fuzzy
 msgid "When PiPzap enabled zap channel down"
@@ -17621,6 +17884,9 @@ msgstr "Anda harus beralih ke layanan %s (%s - '%s')!\n"
 msgid "You seem to be in timeshift!"
 msgstr ""
 
+msgid "You should flash a new image!"
+msgstr ""
+
 #, fuzzy
 msgid "Your %s %s (kernel %s) does not have an internet connection"
 msgstr "Receiver anda tidak ada koneksi internet"
@@ -17637,10 +17903,6 @@ msgid "Your %s %s reads the stored EPG data every (hours)."
 msgstr ""
 
 msgid "Your %s %s stores the EPG data every (hours)."
-msgstr ""
-
-#, python-format
-msgid "Your %s %s?"
 msgstr ""
 
 #, fuzzy
@@ -17717,7 +17979,7 @@ msgstr ""
 "Mohon tekan OK untuk lanjut."
 
 #, fuzzy, python-format
-msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
 msgstr "Rx anda mungkin tidak bisa digunakan sekarang. Mohon periksa manual untuk pertolongan lanjut sebelum mereboot Rx anda."
 
 #, fuzzy, python-format
@@ -17871,6 +18133,10 @@ msgstr "aktifkan konfigurasi adapter jaringan"
 
 #, fuzzy
 msgid "active"
+msgstr "Relatif"
+
+#, fuzzy
+msgid "active "
 msgstr "Relatif"
 
 msgid "actual time only"
@@ -18041,9 +18307,6 @@ msgstr "lawak"
 #, fuzzy
 msgid "comedy (general)"
 msgstr "film/drama (umum)"
-
-msgid "config menu"
-msgstr "menu setelan"
 
 msgid "confirmed"
 msgstr "dikonfirmasi"
@@ -18818,6 +19081,10 @@ msgstr "majalah olahraga"
 msgid "standard"
 msgstr "standar"
 
+#, fuzzy
+msgid "standby "
+msgstr "Standby"
+
 msgid "stepsize"
 msgstr "ukuranjangka"
 
@@ -18911,9 +19178,6 @@ msgstr "tidak dikenal"
 
 msgid "unknown error"
 msgstr "kesalahan takdikenal"
-
-msgid "unknown service"
-msgstr "layanan tak dikenal"
 
 msgid "unpublished"
 msgstr "takdipulikasikan"

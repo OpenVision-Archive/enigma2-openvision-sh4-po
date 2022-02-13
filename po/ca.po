@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-26 02:03+0000\n"
+"POT-Creation-Date: 2022-02-13 15:09+0000\n"
 "PO-Revision-Date: 2021-09-22 23:58+0200\n"
 "Last-Translator: Oriol Pellicer <oriol@elsud.org>\n"
 "Language-Team: angelodos angelo2807@hotmail.com\n"
@@ -1040,6 +1040,12 @@ msgstr[0] "%d dia"
 msgstr[1] "%d dies"
 
 #, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#, python-format
 msgid "%d fps"
 msgstr "%d fps"
 
@@ -1094,6 +1100,60 @@ msgstr "%A %d %B"
 #, fuzzy, python-format
 msgid "%d package selected."
 msgid_plural "%d packages selected."
+msgstr[0] " paquet seleccionat"
+msgstr[1] " paquet seleccionat"
+
+#
+#, fuzzy, python-format
+msgid "%d package upgraded."
+msgid_plural "%d packages upgraded."
+msgstr[0] " paquet seleccionat"
+msgstr[1] " paquet seleccionat"
+
+#
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] " paquet seleccionat"
+msgstr[1] " paquet seleccionat"
+
+#
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] " paquet seleccionat"
+msgstr[1] " paquet seleccionat"
+
+#
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] " paquet seleccionat"
+msgstr[1] " paquet seleccionat"
+
+#, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] ""
+msgstr[1] ""
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "S’ha instal·lat l’actualització, s’ha instal·lat el paquet %d."
+msgstr[1] "S’ha instal·lat l’actualització, s’han instal·lat %d paquets."
+
+#
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] " paquet seleccionat"
+msgstr[1] " paquet seleccionat"
+
+#
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] " paquet seleccionat"
 msgstr[1] " paquet seleccionat"
 
@@ -1268,12 +1328,6 @@ msgstr ""
 #, python-format
 msgid "%s of %s MB"
 msgstr ""
-
-#, python-format
-msgid "%s updated package available"
-msgid_plural "%s updated packages available"
-msgstr[0] "paquet actualitzat %s disponible"
-msgstr[1] "paquets actualitzats %s disponible"
 
 #
 #, fuzzy, python-format
@@ -2040,6 +2094,11 @@ msgid "Add Bookmark"
 msgstr "Afegir Punt de llibre"
 
 #
+#, fuzzy
+msgid "Add Timer"
+msgstr "Gravar"
+
+#
 msgid "Add a mark"
 msgstr "Afegir una marca"
 
@@ -2055,6 +2114,10 @@ msgstr "Afegir un nou títol"
 #
 msgid "Add a new title"
 msgstr "Afegir un nou títol"
+
+#, fuzzy
+msgid "Add a timer for the current event"
+msgstr "Afegiu / traieu el temporitzador de canvis per a l’esdeveniment actual"
 
 #
 msgid "Add alternatives"
@@ -2636,6 +2699,10 @@ msgstr "Al principi"
 msgid "At end"
 msgstr "Al final"
 
+#, fuzzy
+msgid "Attention, this is a repeated timer!"
+msgstr "Atenció, aquest és temporitzador repetit!\n"
+
 msgid "Attention, this is repeated timer!\n"
 msgstr "Atenció, aquest és temporitzador repetit!\n"
 
@@ -3065,6 +3132,9 @@ msgstr "Benin"
 msgid "Bermuda"
 msgstr "Bermuda"
 
+msgid "Bestfit"
+msgstr ""
+
 msgid "Bhutan"
 msgstr "Bhutan"
 
@@ -3398,6 +3468,10 @@ msgstr "Cable"
 msgid "Cable Scan"
 msgstr "Escaneig de cables"
 
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
+
 #
 msgid "Cache thumbnails"
 msgstr "Cache miniatures"
@@ -3476,6 +3550,10 @@ msgid "Cancel"
 msgstr "Cancel·lar"
 
 #, fuzzy
+msgid "Cancel / Close the software update screen"
+msgstr "Protegiu la pantalla d’actualització de programari"
+
+#, fuzzy
 msgid "Cancel any changed settings and exit"
 msgstr "Cancel·la els canvis de text i surt"
 
@@ -3514,8 +3592,17 @@ msgstr "Selecció de canal ?"
 
 #
 #, fuzzy
+msgid "Cancel the action selection and exit"
+msgstr "Selecció de canals"
+
+#
+#, fuzzy
 msgid "Cancel the location selection"
 msgstr "Selecció de canals"
+
+#, fuzzy
+msgid "Cancel the update"
+msgstr "Paquets per actualitzar"
 
 msgid "Cancelled upon user request"
 msgstr "S’ha cancel·lat per sol·licitud de l’usuari"
@@ -3613,6 +3700,10 @@ msgstr "Canviar d’idioma"
 
 msgid "Change PIN Pressing [OK]"
 msgstr ""
+
+#, fuzzy
+msgid "Change Timer"
+msgstr "Canvia el temporitzador"
 
 #
 msgid "Change bouquets in quickzap"
@@ -3778,6 +3869,15 @@ msgstr "Xinès: simplificat"
 msgid "Chinese - Traditional"
 msgstr "Xinès: tradicional"
 
+#, fuzzy
+msgid "Choice Box Actions"
+msgstr "Altres opcions"
+
+#
+#, fuzzy
+msgid "Choice Box Order Actions"
+msgstr "Selecció de pel·lícules"
+
 msgid "Choose Tuner"
 msgstr "Trieu Sintonitzador"
 
@@ -3939,6 +4039,11 @@ msgstr ""
 #
 msgid "Close"
 msgstr "Tancar"
+
+#
+#, fuzzy
+msgid "Close Event View screen"
+msgstr "Tanca la selecció del títol"
 
 msgid "Close PiP with 'exit' button"
 msgstr "Tanqueu la piP amb el botó “exit”"
@@ -4108,6 +4213,10 @@ msgstr "Configuració"
 #
 msgid "Configuration"
 msgstr "Configuració"
+
+#, fuzzy, python-format
+msgid "Configuration file '%s' has been modified since it was installed, would you like to keep the modified version?"
+msgstr "S’ha modificat un fitxer de configuració (%s) des que es va instal·lar. Voleu mantenir les vostres modificacions?"
 
 #
 msgid "Configuration mode"
@@ -4597,6 +4706,9 @@ msgstr "Continua la reproducció"
 msgid "Continue playing"
 msgstr "Continuar jugant"
 
+msgid "Continue with the on-line update"
+msgstr ""
+
 msgid "Continues play (loop)"
 msgstr "Continua la reproducció (bucle)"
 
@@ -4650,9 +4762,6 @@ msgstr "Costa Rica"
 #, fuzzy
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr "Costa d’Ivori"
-
-msgid "Could not find installed channel list."
-msgstr "No s’ha pogut trobar la llista de canals instal·lats."
 
 msgid "Could not find suitable media - Please remove some downloaded images or insert a media (e.g. USB stick) with sufficiant free space and try again!"
 msgstr "No s’ha trobat un suport adequat. Si us plau, elimineu algunes imatges descarregades o inseriu-ne un suport (per exemple, USB stick) amb espai lliure insuficient i torneu-ho a provar."
@@ -4751,10 +4860,6 @@ msgstr "Notícies Actualitat"
 msgid "Current CEC address"
 msgstr "Adreça actual del CEC"
 
-#, fuzzy
-msgid "Current MAC address"
-msgstr "Adreça actual del CEC"
-
 #
 #, fuzzy
 msgid "Current crash log"
@@ -4793,6 +4898,11 @@ msgstr "Transpondedor actual"
 #
 msgid "Current value: "
 msgstr "Valor actual:"
+
+#
+#, fuzzy
+msgid "Current version unknown"
+msgstr "Transpondedor actual"
 
 #
 #, fuzzy
@@ -5300,6 +5410,10 @@ msgid "Delete Loc"
 msgstr "Esborrar"
 
 #, fuzzy
+msgid "Delete Timer"
+msgstr "Suprimeix el temporitzador"
+
+#, fuzzy
 msgid "Delete all log files"
 msgstr "Esborrar tots els logs"
 
@@ -5447,6 +5561,10 @@ msgstr "Descripció"
 #
 msgid "Deselect"
 msgstr "Deselecciona"
+
+#, python-format
+msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
+msgstr ""
 
 msgid "Destination of fallback remote receiver"
 msgstr "Destí del receptor remot de caiguda"
@@ -5640,6 +5758,11 @@ msgstr ""
 
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "Espai de disc per reservar per a enregistraments (en GB)"
+
+#
+#, fuzzy
+msgid "Disk state: "
+msgstr "estat de la recerca"
 
 #
 msgid "Display 16:9 content as"
@@ -5949,16 +6072,6 @@ msgstr "Voleu seleccionar una pell diferent?"
 msgid "Do you want to update the package:\n"
 msgstr "Voleu actualitzar el paquet:\n"
 
-#
-#, fuzzy, python-format
-msgid "Do you want to update to %s"
-msgstr "Voleu actualitzar el receptor a %s?"
-
-#
-#, fuzzy, python-format
-msgid "Do you want to update your %s %s?"
-msgstr "Voleu actualitzar el receptor a %s?"
-
 #, fuzzy
 msgid "Documentary"
 msgstr "documental"
@@ -6025,6 +6138,10 @@ msgstr[1] "Fet: s’ha instal·lat, actualitzat o eliminat %d paquets (%s)"
 msgid "Down"
 msgstr ""
 
+#, fuzzy
+msgid "Download error"
+msgstr "desconegut error"
+
 #
 msgid "Download plugins"
 msgstr "Descarrega plugins"
@@ -6052,6 +6169,11 @@ msgstr "Descarregant imatge"
 
 #
 msgid "Downloading a new packet list. Please wait..."
+msgstr "Intenteu descarregar una nova llista de paquets. Espereu …"
+
+#
+#, fuzzy
+msgid "Downloading latest update list.  Please wait..."
 msgstr "Intenteu descarregar una nova llista de paquets. Espereu …"
 
 #
@@ -6189,6 +6311,10 @@ msgstr "Edita DNS"
 #, fuzzy
 msgid "Edit Tags"
 msgstr "Edita la configuració"
+
+#, fuzzy
+msgid "Edit Timer"
+msgstr "Edita el temporitzador"
 
 #
 msgid "Edit alternatives"
@@ -6422,6 +6548,9 @@ msgid "Enable this option to add action map / remote control mapping data to the
 msgstr ""
 
 msgid "Enable this option to add keyboard keymap data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add opkg output data to the debug log file."
 msgstr ""
 
 msgid "Enable this option to add remote control data to the debug log file."
@@ -6809,6 +6938,15 @@ msgstr "Interfície de xarxa Ethernet"
 msgid "Ethiopia"
 msgstr "Etiòpia"
 
+#
+#, fuzzy
+msgid "Event View Actions"
+msgstr "Extensions"
+
+#, fuzzy
+msgid "Event View Context Menu"
+msgstr "Menú contextual de visualització d’esdeveniments"
+
 msgid "Event font size (relative to skin size)"
 msgstr "Mida de la lletra d’esdeveniment (en relació amb la mida de la pell)"
 
@@ -6819,14 +6957,12 @@ msgstr "Nom de l’esdeveniment primer"
 msgid "Event view"
 msgstr "Veure programe"
 
-msgid "Event view context menu"
-msgstr "Menú contextual de visualització d’esdeveniments"
-
 #
 msgid "Event view menu"
 msgstr "Menú de visualització d’esdeveniments"
 
-msgid "Events info menu"
+#, fuzzy
+msgid "Events Info Menu"
 msgstr "Menú d’informació d’esdeveniments"
 
 msgid "Every 12 hours"
@@ -6995,12 +7131,13 @@ msgstr "Extensions"
 msgid "Extensions"
 msgstr "Extensions"
 
+#, fuzzy
+msgid "Extensions Menu"
+msgstr "Menú d’extensions"
+
 #
 msgid "Extensions management"
 msgstr "Gestió d’extensions"
-
-msgid "Extensions menu"
-msgstr "Menú d’extensions"
 
 msgid "External"
 msgstr "Extern"
@@ -7268,6 +7405,19 @@ msgstr "Preferits"
 msgid "Favourites"
 msgstr "Preferits"
 
+#
+#, fuzzy
+msgid "Feed disabled!"
+msgstr "força desactivada"
+
+#, fuzzy
+msgid "Feed stable."
+msgstr "indestable"
+
+#, fuzzy
+msgid "Feed unstable!"
+msgstr "indestable"
+
 msgid "Fiji"
 msgstr "Fiji"
 
@@ -7302,6 +7452,9 @@ msgstr "Retard final de desplaçament"
 #, fuzzy
 msgid "Find currently played service"
 msgstr "Busqueu el servei que reprodueix actualment"
+
+msgid "Find similar events in the EPG"
+msgstr ""
 
 msgid "Fine movement"
 msgstr "Bon moviment"
@@ -7518,6 +7671,10 @@ msgstr "Total transparència"
 
 msgid "Full view resolution"
 msgstr "Resolució de vista completa"
+
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "Temporitzador de caiguda"
 
 msgid "Function of OK button"
 msgstr "Funció del botó D’acord"
@@ -8392,6 +8549,10 @@ msgstr "Inclou AIT en els fluxos http"
 msgid "Include keyboard data"
 msgstr "Entrada de dades del teclat"
 
+#, fuzzy
+msgid "Include opkg output data"
+msgstr "Inclou AIT en els fluxos http"
+
 #
 #, fuzzy
 msgid "Include remote control data"
@@ -8988,8 +9149,11 @@ msgid "Label"
 msgstr ""
 
 #
+#, fuzzy
 msgid "Language"
-msgstr "Idioma"
+msgid_plural "Languages"
+msgstr[0] "Idioma"
+msgstr[1] "Idioma"
 
 #, python-format
 msgid "Language %s (%s) installed and selected."
@@ -9008,11 +9172,6 @@ msgstr "Selecció d'idioma"
 #
 msgid "Language selection"
 msgstr "Selecció d'idioma"
-
-#
-#, fuzzy
-msgid "Languages"
-msgstr "Idioma"
 
 #, fuzzy
 msgid "Lao"
@@ -9050,10 +9209,6 @@ msgstr "Últims compromisos"
 
 msgid "Latest revision on github"
 msgstr ""
-
-#
-msgid "Latest update log"
-msgstr "Registre d’actualitzacions més recent"
 
 #
 #, fuzzy
@@ -9271,8 +9426,11 @@ msgstr "Xarxa local"
 msgid "Local time"
 msgstr "Locale"
 
+#, fuzzy
 msgid "Locale"
-msgstr "Locale"
+msgid_plural "Locales"
+msgstr[0] "Locale"
+msgstr[1] "Locale"
 
 #, python-format
 msgid "Locale %s (%s) installed and selected."
@@ -9319,10 +9477,6 @@ msgstr "Accions de selecció de la pell"
 #, fuzzy
 msgid "Locale/Language Setup"
 msgstr "Configuració del gestor de programa"
-
-#, fuzzy
-msgid "Locales"
-msgstr "Locale"
 
 #, fuzzy
 msgid "Locales to be displayed"
@@ -9458,6 +9612,9 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
+msgid "MHz"
+msgstr ""
+
 #
 msgid "MMC card"
 msgstr "Targeta MMC"
@@ -9558,6 +9715,10 @@ msgstr "Gestiona les extensions"
 
 msgid "Manage extensions or plugins for your receiver."
 msgstr "Gestioneu extensions o complements per al vostre receptor."
+
+#, fuzzy
+msgid "Manage sleep timer"
+msgstr "Canvia el temporitzador"
 
 #
 msgid "Manage your receiver's software"
@@ -9929,6 +10090,11 @@ msgstr "Baixeu a la llista"
 
 #
 #, fuzzy
+msgid "Move down a page / screen"
+msgstr "baixa fins a l’última entrada"
+
+#
+#, fuzzy
 msgid "Move down a screen"
 msgstr "baixa fins a l’última entrada"
 
@@ -9976,6 +10142,15 @@ msgstr "Moure a l'est"
 #, fuzzy
 msgid "Move main picture to PiP"
 msgstr "Mouu el PiP a la imatge principal"
+
+#
+#, fuzzy
+msgid "Move the current item down one line"
+msgstr "passeu a l’entrada següent"
+
+#, fuzzy
+msgid "Move the current item up one line"
+msgstr "Vés a la llista"
 
 msgid "Move the keyboard cursor down"
 msgstr "Desplaceu el cursor del teclat cap avall"
@@ -10043,6 +10218,16 @@ msgstr "S’ha desplaçat a la posició a l’índex"
 #, fuzzy
 msgid "Move up a page"
 msgstr "S’ha desplaçat a la posició a l’índex"
+
+#
+#, fuzzy
+msgid "Move up a page / screen"
+msgstr "aneu a l’entrada anterior"
+
+#
+#, fuzzy
+msgid "Move up a page /screen"
+msgstr "aneu a l’entrada anterior"
 
 msgid "Move up a screen"
 msgstr ""
@@ -10378,6 +10563,10 @@ msgstr "Configuració del sintonitzador…"
 msgid "Network information"
 msgstr "Xarxa configuracio"
 
+#, fuzzy
+msgid "Network interface for MAC address."
+msgstr "Adreça actual del CEC"
+
 #
 msgid "Network mount"
 msgstr "Muntatge xarxa"
@@ -10620,10 +10809,12 @@ msgstr ""
 "No hi ha cap sintonitzador habilitat! \n"
 "Sisplau configura algun sintonitzador abans de fer una recerca de canals."
 
-msgid "No updates available"
+#, fuzzy
+msgid "No updates available."
 msgstr "No actualitzacions disponibles."
 
-msgid "No updates available. Please try again later."
+#, fuzzy
+msgid "No updates were available.  Please try again later."
 msgstr "No hi ha actualitzacions disponibles. Siusplau, intenta-ho més tard."
 
 msgid "No wireless networks found! Searching..."
@@ -10670,6 +10861,11 @@ msgstr "No, excepte el temporitzador de despertador"
 
 msgid "No, never"
 msgstr "No, mai"
+
+#
+#, fuzzy
+msgid "Non Linear"
+msgstr "No lineal"
 
 #
 msgid "None"
@@ -10801,6 +10997,9 @@ msgstr ""
 #
 msgid "Nothing to scan! Setup your tuner and try again."
 msgstr "Res d’escanejar! Configura el sintonitzador i torna-ho a provar."
+
+msgid "Nothing to upgrade"
+msgstr ""
 
 msgid "Now"
 msgstr "Ara"
@@ -11018,6 +11217,11 @@ msgstr "no canal a la llista"
 
 #
 #, fuzzy
+msgid "Open context menu"
+msgstr "Menú de llista de canal"
+
+#
+#, fuzzy
 msgid "Open current transponder"
 msgstr "Transpondedor actual"
 
@@ -11045,6 +11249,15 @@ msgstr "Sintonitzador de configuració obert"
 #
 msgid "Open the movie list"
 msgstr "Llista de pel·lícules"
+
+#
+#, fuzzy
+msgid "Open the multi service EPG view"
+msgstr "Llista de pel·lícules"
+
+#, fuzzy
+msgid "Open the single service EPG view"
+msgstr "Mostra el servei únic EPG"
 
 msgid "OpenDNS FamilyShield"
 msgstr ""
@@ -11227,9 +11440,6 @@ msgstr ""
 msgid "Packages and associated locales"
 msgstr ""
 
-msgid "Packages to update"
-msgstr "Paquets per actualitzar"
-
 #
 msgid "Packet management"
 msgstr "Gestió de paquets"
@@ -11352,6 +11562,9 @@ msgstr "Percentatge restant"
 #
 msgid "Percentage right"
 msgstr "Percentatge dret"
+
+msgid "Perform an on-line flash instead"
+msgstr ""
 
 msgid "Permanent sort key changes"
 msgstr ""
@@ -11534,6 +11747,11 @@ msgstr "Sisplau escull una extensió..."
 
 #
 #, fuzzy
+msgid "Please choose an extension:"
+msgstr "Sisplau escull una extensió..."
+
+#
+#, fuzzy
 msgid "Please choose reader"
 msgstr "Sisplau escull una extensió..."
 
@@ -11639,7 +11857,8 @@ msgid "Please select a resolution..."
 msgstr "Sisplau selecciona un subservei..."
 
 #
-msgid "Please select a sub service..."
+#, fuzzy
+msgid "Please select a sub service:"
 msgstr "Seleccioneu un sub-servei …"
 
 #
@@ -11662,7 +11881,7 @@ msgstr "Sisplau selecciona una llista..."
 
 #
 #, fuzzy
-msgid "Please select an aspect ratio..."
+msgid "Please select an aspect ratio:"
 msgstr "Sisplau selecciona un subservei..."
 
 #
@@ -12063,7 +12282,7 @@ msgstr "Per continuar, premeu OK al comandament a distància."
 
 #
 #, fuzzy
-msgid "Press OK to activate the MAC address."
+msgid "Press OK to activate current MAC address."
 msgstr "Prem OK per a activar la configuració."
 
 #
@@ -12074,6 +12293,11 @@ msgstr "Premeu OK per activar el de %s pell seleccionat."
 #
 msgid "Press OK to activate the settings."
 msgstr "Prem OK per a activar la configuració."
+
+#
+#, fuzzy
+msgid "Press OK to continue."
+msgstr "Premeu OK per continuar."
 
 #
 #, fuzzy
@@ -12206,6 +12430,11 @@ msgstr "Prioritat"
 #, fuzzy
 msgid "Proc model"
 msgstr "Mode del to"
+
+#
+#, fuzzy
+msgid "Proceed with the update"
+msgstr "Actualització de la llista de paquets"
 
 #
 msgid "Process"
@@ -12631,9 +12860,6 @@ msgstr ""
 msgid "Reenter PIN"
 msgstr "Torneu a introduir el PIN"
 
-msgid "Reflash recommended!"
-msgstr "Reflash recomanat!"
-
 msgid "Refresh"
 msgstr "Refrescar"
 
@@ -12651,6 +12877,9 @@ msgstr "Refrescar rate seleccio"
 #, fuzzy
 msgid "Refresh the screen"
 msgstr "Refrescar rate seleccio"
+
+msgid "Refresh the update-able package list"
+msgstr ""
 
 msgid "Refusing to move to the same directory"
 msgstr "Negant-se a passar al mateix directori"
@@ -12985,6 +13214,15 @@ msgstr "Resetejar"
 msgid "Reset and renumerate title names"
 msgstr "Restableix i renumera els noms del títol"
 
+#
+#, fuzzy
+msgid "Reset list order to default"
+msgstr "Restaurar els valors predeterminats"
+
+#, fuzzy
+msgid "Reset list order to default?"
+msgstr "Voleu definir tota la tecla de comandes per defecte?"
+
 msgid "Reset order (All)"
 msgstr "Restableix la orde (Tot)"
 
@@ -13215,6 +13453,25 @@ msgstr "L’hora d’inici de ronda"
 
 msgid "Run how often ?"
 msgstr ""
+
+msgid "Run the BLUE action"
+msgstr ""
+
+msgid "Run the GREEN action"
+msgstr ""
+
+msgid "Run the RED action"
+msgstr ""
+
+msgid "Run the YELLOW action"
+msgstr ""
+
+msgid "Run the currently highlighted action"
+msgstr ""
+
+#, fuzzy
+msgid "Run the numbered action"
+msgstr "educació superior"
 
 #, fuzzy
 msgid "Rundi"
@@ -14399,10 +14656,6 @@ msgstr "Estableix l’assignació de CI per a la detecció dels serveis disponib
 msgid "Set PIN Pressing [OK]"
 msgstr ""
 
-#, fuzzy
-msgid "Set a new MAC address"
-msgstr "Adreça actual del CEC"
-
 msgid "Set a temporary sort method for this directory"
 msgstr ""
 
@@ -14437,6 +14690,10 @@ msgstr "Definiu si voleu veure les icones d’estat, les barres de progrés o re
 
 msgid "Set limits"
 msgstr "Estableix límits"
+
+#, fuzzy
+msgid "Set new MAC address"
+msgstr "Adreça actual del CEC"
 
 msgid "Set persistent PIN code"
 msgstr "Estableix el codi de PIN persistent"
@@ -14838,12 +15095,6 @@ msgstr "Mostra els números del menú o del complement"
 msgid "Show latest commit log information"
 msgstr "Mostra els darrers compromisos"
 
-msgid "Show latest commits"
-msgstr "Mostra els darrers compromisos"
-
-msgid "Show latest update log"
-msgstr "Mostra el registre d’actualitzacions més recent"
-
 #
 #, fuzzy
 msgid "Show live tv when movie stopped"
@@ -14879,10 +15130,18 @@ msgstr "Protegiu el navegador de complements"
 msgid "Show multi channel EPG"
 msgstr "Mostra EPG multicanal"
 
+#, fuzzy
+msgid "Show next event"
+msgstr "Vés al proper esdeveniment"
+
 #
 #, fuzzy
 msgid "Show next image"
 msgstr "Selecciona una imatge"
+
+#, fuzzy
+msgid "Show next page of description"
+msgstr "Mostra descripció ampliada"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
 msgstr "Mostra la notificació quan no s’han completat els canals d’importació i / o EPG des de l’URL del receptor remot"
@@ -14902,9 +15161,6 @@ msgstr "Mostra descripció ampliada"
 
 msgid "Show packagegroup-base in plugin browser"
 msgstr ""
-
-msgid "Show packages to be updated"
-msgstr "Mostra els paquets a actualitzar"
 
 #, fuzzy
 msgid "Show pam-plugin in plugin browser"
@@ -14934,8 +15190,18 @@ msgstr "Mostrar la posició del posicionador"
 
 #
 #, fuzzy
+msgid "Show previous event"
+msgstr "Vés a l’esdeveniment anterior"
+
+#
+#, fuzzy
 msgid "Show previous image"
 msgstr "Canvia al canal anterior"
+
+#
+#, fuzzy
+msgid "Show previous page of description"
+msgstr "Vés a la pàgina anterior del servei"
 
 #, fuzzy
 msgid "Show python in plugin browser"
@@ -15350,6 +15616,11 @@ msgstr "Programe"
 msgid "Software Update"
 msgstr "Actualització de software"
 
+#
+#, fuzzy
+msgid "Software Update Actions"
+msgstr "Actualització de software"
+
 #, fuzzy
 msgid "Software information"
 msgstr "Informació del gestor de programari"
@@ -15364,6 +15635,15 @@ msgstr "Configuració del gestor de programa"
 #
 msgid "Software update"
 msgstr "Actualització de software"
+
+#
+#, fuzzy
+msgid ""
+"Software update starting, please wait.\n"
+"\n"
+msgstr ""
+"\n"
+"Després de prémer d'acord, si us plau esperi!"
 
 msgid "Softwaremanager information"
 msgstr "Informació del gestor de programari"
@@ -15433,9 +15713,6 @@ msgstr "Ordenar per"
 #, fuzzy
 msgid "Sort by default"
 msgstr "Instal · lat per defecte"
-
-msgid "Sort list to default and exit?"
-msgstr "Voleu ordenar la llista per defecte i sortir?"
 
 msgid "Sort list:"
 msgstr "Ordena llista"
@@ -15722,6 +15999,10 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
+#, fuzzy
+msgid "Status unavailable!"
+msgstr "no disponible"
+
 #
 #, fuzzy
 msgid "Step back"
@@ -15844,6 +16125,9 @@ msgstr "Deixeu de provar l’avió després de # transponders fallits"
 #
 msgid "Stop testing plane after # successful transponders"
 msgstr "Deixeu de provar l’avió després de # transponders amb èxit"
+
+msgid "Stop the update, if running, then exit"
+msgstr ""
 
 msgid "Stop timer recording"
 msgstr "Atureu la gravació del temporitzador"
@@ -16506,14 +16790,6 @@ msgstr ""
 msgid "The command to wake from standby will be sent multiple times."
 msgstr "L’ordre de despertar des del mode d’espera s’enviarà diverses vegades."
 
-#, python-format
-msgid ""
-"The current image might not be stable.\n"
-"For more information see %s."
-msgstr ""
-"És possible que la imatge actual no sigui estable.\n"
-"Per a més informació, vegeu %s."
-
 msgid "The detailed information is intended for developers only."
 msgstr ""
 
@@ -16672,6 +16948,10 @@ msgstr "esborrar llista gravada!"
 msgid "There are no updates available."
 msgstr "No hi ha actualitzacions disponibles."
 
+#, python-format
+msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
+msgstr ""
+
 msgid "There is no signal to lock on !"
 msgstr "No hi ha cap senyal per bloquejar-lo."
 
@@ -16684,6 +16964,10 @@ msgid ""
 msgstr ""
 "Pot ser que no hi hagi prou espai a la partició seleccionada.\n"
 "Vols realment continuar?"
+
+#, fuzzy
+msgid "There was an error downloading the update list.  Please try again."
+msgstr "S’ha produït un error en descarregar la llista de paquets. Siusplau torna-ho a provar."
 
 #
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
@@ -17650,6 +17934,11 @@ msgstr "LNB universal"
 msgid "Unknown"
 msgstr "Desconegut"
 
+#
+#, fuzzy
+msgid "Unknown Service"
+msgstr "canal desconegut"
+
 msgid "Unmark service as dedicated 3D service"
 msgstr "Desmarqueu el servei com a servei 3D dedicat"
 
@@ -17671,29 +17960,13 @@ msgstr ""
 msgid "Update"
 msgstr "Actualitza"
 
-msgid "Update and ask to reboot"
-msgstr "Actualitzeu i demaneu que reinicieu"
-
 #, fuzzy
-msgid "Update and ask to reboot (recommended)"
-msgstr "Actualitzar i reiniciar (recomanat)"
-
-#
-msgid "Update channel list only"
-msgstr "Canal següent en l'històric"
-
-#, python-format
-msgid "Update completed, %d package was installed."
-msgid_plural "Update completed, %d packages were installed."
-msgstr[0] "S’ha instal·lat l’actualització, s’ha instal·lat el paquet %d."
-msgstr[1] "S’ha instal·lat l’actualització, s’han instal·lat %d paquets."
+msgid "Update completed."
+msgstr "S’ha finalitzat l’actualització."
 
 #, fuzzy, python-format
-msgid "Update completed. Do you want to reboot your %s %s?"
+msgid "Update completed. A reboot is strongly recommended.  Do you want to reboot your %s %s now?"
 msgstr "S’ha completat l’actualització. Voleu reiniciar el receptor?"
-
-msgid "Update failed. Your receiver does not have a working internet connection."
-msgstr "No s’ha pogut actualitzar. El receptor no té connexió a Internet que funciona."
 
 #
 msgid "Update feed not available."
@@ -17706,6 +17979,18 @@ msgstr "S’ha finalitzat l’actualització."
 #, fuzzy
 msgid "Update interval (in seconds)"
 msgstr "Interval de presentació de diapositives (seg.)"
+
+#
+#, fuzzy
+msgid "Updated"
+msgstr "Actualitza"
+
+msgid "Updated version unknown"
+msgstr ""
+
+#, fuzzy
+msgid "Updates available:"
+msgstr "No actualitzacions disponibles."
 
 #
 msgid "Updating"
@@ -18340,6 +18625,11 @@ msgstr "Advertència: el sintonitzador FBC-C V1 s’hauria de connectar a la pri
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+#
+#, fuzzy, python-format
+msgid "Warning: There are %d update packages!"
+msgstr "No hi ha actualitzacions disponibles."
+
 msgid "Warning: no LNB; using factory defaults."
 msgstr ""
 "Avís!\n"
@@ -18455,6 +18745,9 @@ msgstr ""
 
 msgid "What type of service scan do you want?"
 msgstr "Quin tipus d’exploració de servei voleu?"
+
+msgid "What would you like to do?"
+msgstr ""
 
 #, fuzzy
 msgid "When PiPzap enabled zap channel down"
@@ -19036,6 +19329,9 @@ msgstr "Heu de canviar al servei %s (%s - ‘%s’).\n"
 msgid "You seem to be in timeshift!"
 msgstr "Amb aquesta opció, podeu canviar el color del LED o desactivar el LED."
 
+msgid "You should flash a new image!"
+msgstr ""
+
 #, fuzzy
 msgid "Your %s %s (kernel %s) does not have an internet connection"
 msgstr "El receptor no té connexió a Internet"
@@ -19052,10 +19348,6 @@ msgid "Your %s %s reads the stored EPG data every (hours)."
 msgstr ""
 
 msgid "Your %s %s stores the EPG data every (hours)."
-msgstr ""
-
-#, python-format
-msgid "Your %s %s?"
 msgstr ""
 
 msgid "Your PIN code is 0000. This is the default PIN code and it disables parental control!\n"
@@ -19134,7 +19426,7 @@ msgstr ""
 "Premeu OK per continuar."
 
 #, fuzzy, python-format
-msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
 msgstr "Ara és possible que el vostre receptor no es pugui utilitzar. Consulteu el manual per obtenir més ajuda abans de reiniciar el receptor."
 
 #, fuzzy, python-format
@@ -19301,6 +19593,10 @@ msgid "activate network adapter configuration"
 msgstr "activa la configuració de l’adaptador de xarxa"
 
 msgid "active"
+msgstr "actiu"
+
+#, fuzzy
+msgid "active "
 msgstr "actiu"
 
 msgid "actual time only"
@@ -19486,10 +19782,6 @@ msgstr "comèdia"
 #, fuzzy
 msgid "comedy (general)"
 msgstr "pel·lícula / drama (general)"
-
-#
-msgid "config menu"
-msgstr "menú configuració"
 
 #
 msgid "confirmed"
@@ -20342,6 +20634,11 @@ msgstr "revista esportiva"
 msgid "standard"
 msgstr "estàndard"
 
+#
+#, fuzzy
+msgid "standby "
+msgstr "Repòs"
+
 msgid "stepsize"
 msgstr "mida reduïda"
 
@@ -20450,10 +20747,6 @@ msgstr "desconegut"
 
 msgid "unknown error"
 msgstr "desconegut error"
-
-#
-msgid "unknown service"
-msgstr "canal desconegut"
 
 msgid "unpublished"
 msgstr "inèdit"

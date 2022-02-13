@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-26 02:03+0000\n"
+"POT-Creation-Date: 2022-02-13 15:09+0000\n"
 "PO-Revision-Date: 2014-12-15 19:38-0000\n"
 "Last-Translator: Phenom <phenomxy@gmail.com>\n"
 "Language-Team: Muaitai <muaitai@gmail.com>\n"
@@ -997,6 +997,12 @@ msgid_plural "%d days"
 msgstr[0] ""
 msgstr[1] ""
 
+#, python-format
+msgid "%d feed catalog package was updated."
+msgid_plural "%d feed catalog packages were updated."
+msgstr[0] ""
+msgstr[1] ""
+
 #, fuzzy, python-format
 msgid "%d fps"
 msgstr "%d ficheiro"
@@ -1053,6 +1059,60 @@ msgstr "%A %d %B"
 #, fuzzy, python-format
 msgid "%d package selected."
 msgid_plural "%d packages selected."
+msgstr[0] " pacotes seccionados."
+msgstr[1] " pacotes seccionados."
+
+#
+#, fuzzy, python-format
+msgid "%d package upgraded."
+msgid_plural "%d packages upgraded."
+msgstr[0] " pacotes seccionados."
+msgstr[1] " pacotes seccionados."
+
+#
+#, fuzzy, python-format
+msgid "%d package was configured."
+msgid_plural "%d packages were configured."
+msgstr[0] " pacotes seccionados."
+msgstr[1] " pacotes seccionados."
+
+#
+#, fuzzy, python-format
+msgid "%d package was deselected."
+msgid_plural "%d packages were deselected."
+msgstr[0] " pacotes seccionados."
+msgstr[1] " pacotes seccionados."
+
+#
+#, fuzzy, python-format
+msgid "%d package was downloaded."
+msgid_plural "%d packages were downloaded."
+msgstr[0] " pacotes seccionados."
+msgstr[1] " pacotes seccionados."
+
+#, python-format
+msgid "%d package was identified for upgrade."
+msgid_plural "%d packages were identified for upgrade."
+msgstr[0] ""
+msgstr[1] ""
+
+#, fuzzy, python-format
+msgid "%d package was installed."
+msgid_plural "%d packages were installed."
+msgstr[0] "Actualização completa, %d pacote foi instalado."
+msgstr[1] "Actualização completa, %d pacotes foram instalados."
+
+#
+#, fuzzy, python-format
+msgid "%d package was removed."
+msgid_plural "%d packages were removed."
+msgstr[0] " pacotes seccionados."
+msgstr[1] " pacotes seccionados."
+
+#
+#, fuzzy, python-format
+msgid "%d package was upgraded."
+msgid_plural "%d packages were upgraded."
 msgstr[0] " pacotes seccionados."
 msgstr[1] " pacotes seccionados."
 
@@ -1221,13 +1281,6 @@ msgstr ""
 #, python-format
 msgid "%s of %s MB"
 msgstr ""
-
-#
-#, fuzzy, python-format
-msgid "%s updated package available"
-msgid_plural "%s updated packages available"
-msgstr[0] "%s actualização disponível."
-msgstr[1] "%s actualizações disponíveis."
 
 #
 #, fuzzy, python-format
@@ -1974,6 +2027,11 @@ msgid "Add Bookmark"
 msgstr "Adicionar marcador"
 
 #
+#, fuzzy
+msgid "Add Timer"
+msgstr "Adicionar agendamento"
+
+#
 msgid "Add a mark"
 msgstr "Adicionar marcador"
 
@@ -1990,6 +2048,10 @@ msgstr "Adicionar novo título"
 #
 msgid "Add a new title"
 msgstr "Adicionar novo título"
+
+#, fuzzy
+msgid "Add a timer for the current event"
+msgstr "Adicionar/Remover/Alterar agendamento para o programa actual"
 
 #
 msgid "Add alternatives"
@@ -2615,6 +2677,9 @@ msgstr "No início"
 msgid "At end"
 msgstr "No fim"
 
+msgid "Attention, this is a repeated timer!"
+msgstr ""
+
 msgid "Attention, this is repeated timer!\n"
 msgstr ""
 
@@ -3053,6 +3118,9 @@ msgstr ""
 msgid "Bermuda"
 msgstr ""
 
+msgid "Bestfit"
+msgstr ""
+
 msgid "Bhutan"
 msgstr ""
 
@@ -3382,6 +3450,10 @@ msgstr "Cabo"
 msgid "Cable Scan"
 msgstr "Pesquisa cabo"
 
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Cache thumbnails"
@@ -3445,6 +3517,9 @@ msgstr ""
 msgid "Cancel"
 msgstr "Cancelar"
 
+msgid "Cancel / Close the software update screen"
+msgstr ""
+
 msgid "Cancel any changed settings and exit"
 msgstr ""
 
@@ -3479,8 +3554,18 @@ msgstr "Selecção de canal"
 
 #
 #, fuzzy
+msgid "Cancel the action selection and exit"
+msgstr "Selecção de canal"
+
+#
+#, fuzzy
 msgid "Cancel the location selection"
 msgstr "Selecção de canal"
+
+#
+#, fuzzy
+msgid "Cancel the update"
+msgstr "Actualização da lista de pacotes"
 
 msgid "Cancelled upon user request"
 msgstr ""
@@ -3580,6 +3665,10 @@ msgstr "Idioma"
 
 msgid "Change PIN Pressing [OK]"
 msgstr ""
+
+#, fuzzy
+msgid "Change Timer"
+msgstr "Alterar agendamento"
 
 #
 msgid "Change bouquets in quickzap"
@@ -3753,6 +3842,14 @@ msgstr ""
 msgid "Chinese - Traditional"
 msgstr ""
 
+#, fuzzy
+msgid "Choice Box Actions"
+msgstr "Outras opções"
+
+#, fuzzy
+msgid "Choice Box Order Actions"
+msgstr "Selecção de gravação"
+
 msgid "Choose Tuner"
 msgstr ""
 
@@ -3916,6 +4013,11 @@ msgstr ""
 #
 msgid "Close"
 msgstr "Fechar"
+
+#
+#, fuzzy
+msgid "Close Event View screen"
+msgstr "Fechar a selecção de título"
 
 msgid "Close PiP with 'exit' button"
 msgstr "Fechar PiP ao sair"
@@ -4090,6 +4192,11 @@ msgstr "Configuração"
 #, fuzzy
 msgid "Configuration"
 msgstr "Configuração"
+
+#
+#, fuzzy, python-format
+msgid "Configuration file '%s' has been modified since it was installed, would you like to keep the modified version?"
+msgstr "Alguns ficheiros (%s) foram alterados depois da instalação. Deseja manter a sua configuração?"
 
 #
 #, fuzzy
@@ -4617,6 +4724,9 @@ msgstr "Continuar reprodução"
 msgid "Continue playing"
 msgstr "Continuar reprodução"
 
+msgid "Continue with the on-line update"
+msgstr ""
+
 msgid "Continues play (loop)"
 msgstr "Repetir reprodução"
 
@@ -4668,9 +4778,6 @@ msgstr ""
 
 msgid "Cote d'Ivoire / Ivory Coast"
 msgstr ""
-
-msgid "Could not find installed channel list."
-msgstr "Não foi possível encontrar a Lista de Canais instalada."
 
 msgid "Could not find suitable media - Please remove some downloaded images or insert a media (e.g. USB stick) with sufficiant free space and try again!"
 msgstr ""
@@ -4778,10 +4885,6 @@ msgstr "Notícias actualidade e política"
 msgid "Current CEC address"
 msgstr "Endereço actual de CEC"
 
-#, fuzzy
-msgid "Current MAC address"
-msgstr "Endereço actual de CEC"
-
 #
 #, fuzzy
 msgid "Current crash log"
@@ -4819,6 +4922,11 @@ msgstr "Transponder actual"
 #
 msgid "Current value: "
 msgstr "Valor actual: "
+
+#
+#, fuzzy
+msgid "Current version unknown"
+msgstr "Transponder actual"
 
 #
 #, fuzzy
@@ -5332,6 +5440,10 @@ msgstr "Eliminar agendamento"
 msgid "Delete Loc"
 msgstr "Eliminar"
 
+#, fuzzy
+msgid "Delete Timer"
+msgstr "Eliminar agendamento"
+
 #
 #, fuzzy
 msgid "Delete all log files"
@@ -5482,6 +5594,10 @@ msgstr "Descrição"
 #
 msgid "Deselect"
 msgstr "Desseleccionar"
+
+#, python-format
+msgid "Deselected packages usually occur because those packaged are incompatible with existing packages.  While this is mostly harmless it is possible that your %s %s may experience issues."
+msgstr ""
 
 msgid "Destination of fallback remote receiver"
 msgstr ""
@@ -5678,6 +5794,11 @@ msgstr ""
 
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "Espaço reservado no disco para gravações (GB)"
+
+#
+#, fuzzy
+msgid "Disk state: "
+msgstr "estado da pesquisa"
 
 #
 msgid "Display 16:9 content as"
@@ -6000,14 +6121,6 @@ msgstr ""
 msgid "Do you want to update the package:\n"
 msgstr "Deseja actualizar o pacote:\n"
 
-#, fuzzy, python-format
-msgid "Do you want to update to %s"
-msgstr "Deseja actualizar o receptor para %s ?"
-
-#, fuzzy, python-format
-msgid "Do you want to update your %s %s?"
-msgstr "Deseja actualizar o receptor para %s ?"
-
 #, fuzzy
 msgid "Documentary"
 msgstr "documentário"
@@ -6075,6 +6188,10 @@ msgstr[1] "Concluído - Instalados, actualizados, ou removidos %d pacotes com %d
 msgid "Down"
 msgstr ""
 
+#, fuzzy
+msgid "Download error"
+msgstr "Descarregando"
+
 #
 #, fuzzy
 msgid "Download plugins"
@@ -6101,6 +6218,11 @@ msgstr "Descarregando"
 
 #
 msgid "Downloading a new packet list. Please wait..."
+msgstr "A tentar descarregar uma nova lista de pacotes. Por favor aguarde..."
+
+#
+#, fuzzy
+msgid "Downloading latest update list.  Please wait..."
 msgstr "A tentar descarregar uma nova lista de pacotes. Por favor aguarde..."
 
 #
@@ -6238,6 +6360,11 @@ msgstr "Editar o DNS"
 #, fuzzy
 msgid "Edit Tags"
 msgstr "Editar definições"
+
+#
+#, fuzzy
+msgid "Edit Timer"
+msgstr "Menu principal"
 
 #
 msgid "Edit alternatives"
@@ -6479,6 +6606,9 @@ msgid "Enable this option to add action map / remote control mapping data to the
 msgstr ""
 
 msgid "Enable this option to add keyboard keymap data to the debug log file."
+msgstr ""
+
+msgid "Enable this option to add opkg output data to the debug log file."
 msgstr ""
 
 msgid "Enable this option to add remote control data to the debug log file."
@@ -6866,6 +6996,16 @@ msgstr "Interface de rede Ethernet"
 msgid "Ethiopia"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Event View Actions"
+msgstr "Extensões"
+
+#
+#, fuzzy
+msgid "Event View Context Menu"
+msgstr "Menu da Lista de Filmes"
+
 #, fuzzy
 msgid "Event font size (relative to skin size)"
 msgstr "Tamanho de letra do programa (relativo ao tamanho do tema)"
@@ -6878,15 +7018,13 @@ msgstr ""
 msgid "Event view"
 msgstr "Ver programa"
 
-msgid "Event view context menu"
-msgstr ""
-
 #, fuzzy
 msgid "Event view menu"
 msgstr "Menu de programa"
 
-msgid "Events info menu"
-msgstr ""
+#, fuzzy
+msgid "Events Info Menu"
+msgstr "Menu de programa"
 
 msgid "Every 12 hours"
 msgstr ""
@@ -7060,11 +7198,13 @@ msgid "Extensions"
 msgstr "Extensões"
 
 #
+#, fuzzy
+msgid "Extensions Menu"
+msgstr "Extensões"
+
+#
 msgid "Extensions management"
 msgstr "Gestor de extensões"
-
-msgid "Extensions menu"
-msgstr ""
 
 msgid "External"
 msgstr ""
@@ -7329,6 +7469,19 @@ msgstr "Favoritos"
 msgid "Favourites"
 msgstr "Favoritos"
 
+#
+#, fuzzy
+msgid "Feed disabled!"
+msgstr "desactivar"
+
+#
+#, fuzzy
+msgid "Feed stable."
+msgstr "desactivar"
+
+msgid "Feed unstable!"
+msgstr ""
+
 msgid "Fiji"
 msgstr ""
 
@@ -7361,6 +7514,9 @@ msgid "Final scroll delay"
 msgstr ""
 
 msgid "Find currently played service"
+msgstr ""
+
+msgid "Find similar events in the EPG"
 msgstr ""
 
 msgid "Fine movement"
@@ -7581,6 +7737,10 @@ msgstr "Transparência total"
 
 msgid "Full view resolution"
 msgstr "Resolução em vista completa"
+
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "Flash"
 
 msgid "Function of OK button"
 msgstr "Função do botão OK"
@@ -8468,6 +8628,10 @@ msgid "Include keyboard data"
 msgstr "Configuração do teclado"
 
 #, fuzzy
+msgid "Include opkg output data"
+msgstr "Incluir AIT nos Streams HTTP"
+
+#, fuzzy
 msgid "Include remote control data"
 msgstr "Configurar o tipo de controlo remoto"
 
@@ -9073,8 +9237,11 @@ msgid "Label"
 msgstr ""
 
 #
+#, fuzzy
 msgid "Language"
-msgstr "Idioma"
+msgid_plural "Languages"
+msgstr[0] "Idioma"
+msgstr[1] "Idioma"
 
 #, python-format
 msgid "Language %s (%s) installed and selected."
@@ -9093,11 +9260,6 @@ msgstr "Selecção do idioma"
 #
 msgid "Language selection"
 msgstr "Selecção do idioma"
-
-#
-#, fuzzy
-msgid "Languages"
-msgstr "Idioma"
 
 msgid "Lao"
 msgstr ""
@@ -9134,10 +9296,6 @@ msgstr "Últimos commits"
 
 msgid "Latest revision on github"
 msgstr ""
-
-#, fuzzy
-msgid "Latest update log"
-msgstr "Última actualização: "
 
 #
 #, fuzzy
@@ -9369,7 +9527,9 @@ msgstr "Rede local"
 #
 #, fuzzy
 msgid "Locale"
-msgstr "Rede local"
+msgid_plural "Locales"
+msgstr[0] "Rede local"
+msgstr[1] "Rede local"
 
 #, python-format
 msgid "Locale %s (%s) installed and selected."
@@ -9415,11 +9575,6 @@ msgstr "Seleccionar acção"
 #, fuzzy
 msgid "Locale/Language Setup"
 msgstr "Configurações do Gestor de Software"
-
-#
-#, fuzzy
-msgid "Locales"
-msgstr "Rede local"
 
 msgid "Locales to be displayed"
 msgstr ""
@@ -9556,6 +9711,9 @@ msgstr ""
 msgid "MENU"
 msgstr ""
 
+msgid "MHz"
+msgstr ""
+
 #
 #, fuzzy
 msgid "MMC card"
@@ -9652,6 +9810,10 @@ msgstr "Gerir extensões"
 
 msgid "Manage extensions or plugins for your receiver."
 msgstr "Gestão das extensões e Plugins do seu receptor."
+
+#, fuzzy
+msgid "Manage sleep timer"
+msgstr "Alterar agendamento"
 
 #
 msgid "Manage your receiver's software"
@@ -10034,6 +10196,11 @@ msgstr "Ir para baixo na lista"
 
 #
 #, fuzzy
+msgid "Move down a page / screen"
+msgstr "mover para a última entrada"
+
+#
+#, fuzzy
 msgid "Move down a screen"
 msgstr "mover para a última entrada"
 
@@ -10081,6 +10248,15 @@ msgstr "Mover este"
 #, fuzzy
 msgid "Move main picture to PiP"
 msgstr "Mover o PiP para a imagem principal"
+
+#
+#, fuzzy
+msgid "Move the current item down one line"
+msgstr "mover para a entrada seguinte"
+
+#, fuzzy
+msgid "Move the current item up one line"
+msgstr "Ir para cima na lista"
 
 msgid "Move the keyboard cursor down"
 msgstr ""
@@ -10160,6 +10336,16 @@ msgstr "Movido para a posição de índice"
 #, fuzzy
 msgid "Move up a page"
 msgstr "Movido para a posição de índice"
+
+#
+#, fuzzy
+msgid "Move up a page / screen"
+msgstr "mover para a entrada anterior"
+
+#
+#, fuzzy
+msgid "Move up a page /screen"
+msgstr "mover para a entrada anterior"
 
 msgid "Move up a screen"
 msgstr ""
@@ -10493,6 +10679,10 @@ msgstr "Configuração de rede..."
 msgid "Network information"
 msgstr "Configuração de rede..."
 
+#, fuzzy
+msgid "Network interface for MAC address."
+msgstr "Endereço actual de CEC"
+
 #
 #, fuzzy
 msgid "Network mount"
@@ -10748,11 +10938,12 @@ msgstr ""
 
 #
 #, fuzzy
-msgid "No updates available"
+msgid "No updates available."
 msgstr "Nenhuma actualização disponível."
 
 # #TODO
-msgid "No updates available. Please try again later."
+#, fuzzy
+msgid "No updates were available.  Please try again later."
 msgstr "Nenhuma actualização disponível. Por favor, tente novamente mais tarde."
 
 msgid "No wireless networks found! Searching..."
@@ -10801,6 +10992,11 @@ msgstr ""
 
 msgid "No, never"
 msgstr "Não, nunca"
+
+#
+#, fuzzy
+msgid "Non Linear"
+msgstr "Não linear"
 
 #
 msgid "None"
@@ -10941,6 +11137,9 @@ msgid "Nothing to scan! Setup your tuner and try again."
 msgstr ""
 "Nada para pesquisar!\n"
 "Por favor configure o receptor antes de iniciar uma pesquisa."
+
+msgid "Nothing to upgrade"
+msgstr ""
 
 msgid "Now"
 msgstr ""
@@ -11161,6 +11360,11 @@ msgstr "Instalar Lista de Canais"
 
 #
 #, fuzzy
+msgid "Open context menu"
+msgstr "Menu da Lista de Canais"
+
+#
+#, fuzzy
 msgid "Open current transponder"
 msgstr "Transponder actual"
 
@@ -11192,6 +11396,15 @@ msgstr ""
 #, fuzzy
 msgid "Open the movie list"
 msgstr "Voltar à Lista de Filmes"
+
+#
+#, fuzzy
+msgid "Open the multi service EPG view"
+msgstr "Voltar à Lista de Filmes"
+
+#, fuzzy
+msgid "Open the single service EPG view"
+msgstr "Mostrar Guia de Programação por canal"
 
 msgid "OpenDNS FamilyShield"
 msgstr ""
@@ -11375,9 +11588,6 @@ msgstr ""
 msgid "Packages and associated locales"
 msgstr ""
 
-msgid "Packages to update"
-msgstr ""
-
 #
 msgid "Packet management"
 msgstr "Gestor dos pacotes"
@@ -11509,6 +11719,9 @@ msgstr "Percentagem restante"
 #, fuzzy
 msgid "Percentage right"
 msgstr "Percentagem da direita"
+
+msgid "Perform an on-line flash instead"
+msgstr ""
 
 msgid "Permanent sort key changes"
 msgstr ""
@@ -11701,6 +11914,11 @@ msgstr "Por favor escolha uma extensão..."
 
 #
 #, fuzzy
+msgid "Please choose an extension:"
+msgstr "Por favor escolha uma extensão..."
+
+#
+#, fuzzy
 msgid "Please choose reader"
 msgstr "Por favor escolha uma extensão..."
 
@@ -11805,7 +12023,7 @@ msgstr "Por favor seleccione um subcanal..."
 
 #
 #, fuzzy
-msgid "Please select a sub service..."
+msgid "Please select a sub service:"
 msgstr "Por favor seleccione um sub-canal..."
 
 #
@@ -11828,7 +12046,7 @@ msgstr "Por favor seleccione uma Lista de Reprodução..."
 
 #
 #, fuzzy
-msgid "Please select an aspect ratio..."
+msgid "Please select an aspect ratio:"
 msgstr "Por favor seleccione um subcanal..."
 
 #
@@ -12242,7 +12460,7 @@ msgstr "Prima OK para continuar."
 
 #
 #, fuzzy
-msgid "Press OK to activate the MAC address."
+msgid "Press OK to activate current MAC address."
 msgstr "Prima OK para activar as definições."
 
 #
@@ -12253,6 +12471,11 @@ msgstr "Prima OK para activar o tema seleccionado."
 #
 msgid "Press OK to activate the settings."
 msgstr "Prima OK para activar as definições."
+
+#
+#, fuzzy
+msgid "Press OK to continue."
+msgstr "Por favor pressione OK para continuar."
 
 #
 #, fuzzy
@@ -12388,6 +12611,11 @@ msgstr "Prioridade"
 #, fuzzy
 msgid "Proc model"
 msgstr "Modo de sintonia"
+
+#
+#, fuzzy
+msgid "Proceed with the update"
+msgstr "Actualização da lista de pacotes"
 
 #
 msgid "Process"
@@ -12822,9 +13050,6 @@ msgstr ""
 msgid "Reenter PIN"
 msgstr ""
 
-msgid "Reflash recommended!"
-msgstr ""
-
 msgid "Refresh"
 msgstr ""
 
@@ -12844,6 +13069,9 @@ msgstr "Selecção da taxa de refrescamento."
 #, fuzzy
 msgid "Refresh the screen"
 msgstr "Selecção da taxa de refrescamento."
+
+msgid "Refresh the update-able package list"
+msgstr ""
 
 #
 #, fuzzy
@@ -13190,6 +13418,14 @@ msgstr "Reset"
 msgid "Reset and renumerate title names"
 msgstr "Reiniciar e renumerar os títulos"
 
+#, fuzzy
+msgid "Reset list order to default"
+msgstr "Definir como padrão"
+
+#, fuzzy
+msgid "Reset list order to default?"
+msgstr "Definir como padrão"
+
 msgid "Reset order (All)"
 msgstr ""
 
@@ -13427,6 +13663,25 @@ msgstr "Arredondar o tempo de início em"
 
 msgid "Run how often ?"
 msgstr ""
+
+msgid "Run the BLUE action"
+msgstr ""
+
+msgid "Run the GREEN action"
+msgstr ""
+
+msgid "Run the RED action"
+msgstr ""
+
+msgid "Run the YELLOW action"
+msgstr ""
+
+msgid "Run the currently highlighted action"
+msgstr ""
+
+#, fuzzy
+msgid "Run the numbered action"
+msgstr "educação"
 
 msgid "Rundi"
 msgstr ""
@@ -14641,10 +14896,6 @@ msgstr ""
 msgid "Set PIN Pressing [OK]"
 msgstr ""
 
-#, fuzzy
-msgid "Set a new MAC address"
-msgstr "Endereço actual de CEC"
-
 msgid "Set a temporary sort method for this directory"
 msgstr ""
 
@@ -14681,6 +14932,10 @@ msgstr "Definir interface como padrão"
 #, fuzzy
 msgid "Set limits"
 msgstr "Definir limites"
+
+#, fuzzy
+msgid "Set new MAC address"
+msgstr "Endereço actual de CEC"
 
 msgid "Set persistent PIN code"
 msgstr ""
@@ -15102,12 +15357,6 @@ msgstr "Novos Plugins para descarregar"
 msgid "Show latest commit log information"
 msgstr "Informação do Gestor de Software"
 
-msgid "Show latest commits"
-msgstr ""
-
-msgid "Show latest update log"
-msgstr ""
-
 #
 #, fuzzy
 msgid "Show live tv when movie stopped"
@@ -15147,8 +15396,17 @@ msgid "Show multi channel EPG"
 msgstr "Mostrar Guia de Programação Múltiplo canal"
 
 #, fuzzy
+msgid "Show next event"
+msgstr "Ir para o programa seguinte"
+
+#, fuzzy
 msgid "Show next image"
 msgstr "Eliminar agendamento"
+
+#
+#, fuzzy
+msgid "Show next page of description"
+msgstr "Mostrar descrição alargada"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
 msgstr ""
@@ -15168,9 +15426,6 @@ msgid "Show or hide the extended description, (skin dependant)."
 msgstr "Mostrar descrição alargada"
 
 msgid "Show packagegroup-base in plugin browser"
-msgstr ""
-
-msgid "Show packages to be updated"
 msgstr ""
 
 msgid "Show pam-plugin in plugin browser"
@@ -15197,10 +15452,18 @@ msgstr "Mostrar movimento do posicionador"
 msgid "Show positioner position"
 msgstr ""
 
+#, fuzzy
+msgid "Show previous event"
+msgstr "Ir para o programa seguinte"
+
 #
 #, fuzzy
 msgid "Show previous image"
 msgstr "Trocar para o canal anterior"
+
+#, fuzzy
+msgid "Show previous page of description"
+msgstr "Ir para a página anterior de canais"
 
 #, fuzzy
 msgid "Show python in plugin browser"
@@ -15644,6 +15907,11 @@ msgstr "Software"
 msgid "Software Update"
 msgstr "Actualização de software"
 
+#
+#, fuzzy
+msgid "Software Update Actions"
+msgstr "Actualização de software"
+
 #, fuzzy
 msgid "Software information"
 msgstr "Informação do Gestor de Software"
@@ -15658,6 +15926,15 @@ msgstr "Configurações do Gestor de Software"
 #
 msgid "Software update"
 msgstr "Actualização de software"
+
+#
+#, fuzzy
+msgid ""
+"Software update starting, please wait.\n"
+"\n"
+msgstr ""
+"\n"
+"Depois de pressionar OK, aguarde por favor!"
 
 msgid "Softwaremanager information"
 msgstr "Informação do Gestor de Software"
@@ -15732,9 +16009,6 @@ msgstr "Ordenar por"
 #, fuzzy
 msgid "Sort by default"
 msgstr "Definir como padrão"
-
-msgid "Sort list to default and exit?"
-msgstr ""
 
 msgid "Sort list:"
 msgstr "Ordenar lista:"
@@ -16029,6 +16303,10 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
+#, fuzzy
+msgid "Status unavailable!"
+msgstr "indisponível"
+
 #
 #, fuzzy
 msgid "Step back"
@@ -16156,6 +16434,9 @@ msgstr "Parar o plano de testes depois dos # Transponders falharem"
 #
 msgid "Stop testing plane after # successful transponders"
 msgstr "Parar o plano de testes depois dos # Transponders terem sucesso"
+
+msgid "Stop the update, if running, then exit"
+msgstr ""
 
 msgid "Stop timer recording"
 msgstr "Parar agendamentos de gravações"
@@ -16839,14 +17120,6 @@ msgstr ""
 msgid "The command to wake from standby will be sent multiple times."
 msgstr ""
 
-#, fuzzy, python-format
-msgid ""
-"The current image might not be stable.\n"
-"For more information see %s."
-msgstr ""
-"A imagem beta actual não poderá não estar estável.\n"
-"Para mais informações: %s."
-
 msgid "The detailed information is intended for developers only."
 msgstr ""
 
@@ -16995,6 +17268,10 @@ msgstr "Eliminar Lista de Reprodução gravada"
 msgid "There are no updates available."
 msgstr "Não existem actualizações disponíveis."
 
+#, python-format
+msgid "There is a risk that your %s %s will not boot or may malfunction after such a large on-line update."
+msgstr ""
+
 msgid "There is no signal to lock on !"
 msgstr "Não há sinal para estabelecer ligação!"
 
@@ -17007,6 +17284,11 @@ msgid ""
 msgstr ""
 "Não existe espaço suficiente na partição seleccionada.\n"
 "Deseja mesmo continuar?"
+
+#
+#, fuzzy
+msgid "There was an error downloading the update list.  Please try again."
+msgstr "Ocorreu um erro ao fazer o download da lista de pacotes. Por favor tente de novo."
 
 #
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
@@ -17991,6 +18273,11 @@ msgstr "LNB Universal "
 msgid "Unknown"
 msgstr "Desconhecido"
 
+#
+#, fuzzy
+msgid "Unknown Service"
+msgstr "canal desconhecido"
+
 msgid "Unmark service as dedicated 3D service"
 msgstr ""
 
@@ -18013,30 +18300,12 @@ msgid "Update"
 msgstr "Actualizar"
 
 #, fuzzy
-msgid "Update and ask to reboot"
-msgstr "Actualizar e perguntar para reiniciar"
-
-#, fuzzy
-msgid "Update and ask to reboot (recommended)"
-msgstr "Actualizar e reiniciar (recomendado)"
-
-#
-#, fuzzy
-msgid "Update channel list only"
-msgstr "Actualizar apenas Lista de Canais"
-
-#, python-format
-msgid "Update completed, %d package was installed."
-msgid_plural "Update completed, %d packages were installed."
-msgstr[0] "Actualização completa, %d pacote foi instalado."
-msgstr[1] "Actualização completa, %d pacotes foram instalados."
+msgid "Update completed."
+msgstr "A actualização foi concluída."
 
 #, fuzzy, python-format
-msgid "Update completed. Do you want to reboot your %s %s?"
+msgid "Update completed. A reboot is strongly recommended.  Do you want to reboot your %s %s now?"
 msgstr "Actualização completa. Deseja reiniciar o seu receptor?"
-
-msgid "Update failed. Your receiver does not have a working internet connection."
-msgstr "A actualização falhou. O seu receptor não tem uma ligação à Internet funcional."
 
 #
 msgid "Update feed not available."
@@ -18049,6 +18318,19 @@ msgstr "A actualização foi concluída."
 #, fuzzy
 msgid "Update interval (in seconds)"
 msgstr "Intervalo do visualizador de imagens (seg.)"
+
+#
+#, fuzzy
+msgid "Updated"
+msgstr "Actualizar"
+
+msgid "Updated version unknown"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Updates available:"
+msgstr "Nenhuma actualização disponível."
 
 #
 msgid "Updating"
@@ -18710,6 +18992,11 @@ msgstr ""
 msgid "Warning: Overrides are currently active!"
 msgstr ""
 
+#
+#, fuzzy, python-format
+msgid "Warning: There are %d update packages!"
+msgstr "Não existem actualizações disponíveis."
+
 msgid "Warning: no LNB; using factory defaults."
 msgstr "Aviso: nenhum LNB. Usando as configurações por defeito."
 
@@ -18822,6 +19109,9 @@ msgid "What day of week ?"
 msgstr ""
 
 msgid "What type of service scan do you want?"
+msgstr ""
+
+msgid "What would you like to do?"
 msgstr ""
 
 #, fuzzy
@@ -19409,6 +19699,9 @@ msgstr ""
 msgid "You seem to be in timeshift!"
 msgstr ""
 
+msgid "You should flash a new image!"
+msgstr ""
+
 #, fuzzy
 msgid "Your %s %s (kernel %s) does not have an internet connection"
 msgstr "O receptor não tem uma ligação à Internet."
@@ -19425,10 +19718,6 @@ msgid "Your %s %s reads the stored EPG data every (hours)."
 msgstr ""
 
 msgid "Your %s %s stores the EPG data every (hours)."
-msgstr ""
-
-#, python-format
-msgid "Your %s %s?"
 msgstr ""
 
 msgid "Your PIN code is 0000. This is the default PIN code and it disables parental control!\n"
@@ -19510,7 +19799,7 @@ msgstr ""
 "Pressione OK para continuar..."
 
 #, fuzzy, python-format
-msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your %s %s."
+msgid "Your receiver might be unusable now.  Please consult the manual for further assistance before rebooting your %s %s."
 msgstr "O receptor poderá estar inutilizável. Por favor, consulte o manual para obter mais assistência antes de reiniciar o seu receptor."
 
 #, fuzzy, python-format
@@ -19678,6 +19967,10 @@ msgstr "activar configuração do adaptador de rede"
 
 #, fuzzy
 msgid "active"
+msgstr "Relativo"
+
+#, fuzzy
+msgid "active "
 msgstr "Relativo"
 
 msgid "actual time only"
@@ -19863,10 +20156,6 @@ msgstr "comédia"
 #, fuzzy
 msgid "comedy (general)"
 msgstr "filmes/drama"
-
-#
-msgid "config menu"
-msgstr "menu de configuração"
 
 #
 msgid "confirmed"
@@ -20726,6 +21015,11 @@ msgstr "notícias de desporto"
 msgid "standard"
 msgstr "standard"
 
+#
+#, fuzzy
+msgid "standby "
+msgstr "Standby"
+
 msgid "stepsize"
 msgstr "tamanho do passo"
 
@@ -20833,10 +21127,6 @@ msgstr "desconhecido"
 
 msgid "unknown error"
 msgstr ""
-
-#
-msgid "unknown service"
-msgstr "canal desconhecido"
 
 msgid "unpublished"
 msgstr "não publicado"

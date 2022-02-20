@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Project Slovenia\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-13 15:09+0000\n"
+"POT-Creation-Date: 2022-02-20 02:01+0000\n"
 "PO-Revision-Date: 2020-05-16 18:48+0200\n"
 "Last-Translator: Taykun345 <support@satnigmo.com>\n"
 "Language-Team: Satnigmo <support@satnigmo.com>\n"
@@ -301,6 +301,14 @@ msgstr ""
 
 #, python-format
 msgid "%.0f MB"
+msgstr ""
+
+#, python-format
+msgid "%.1f?? E"
+msgstr ""
+
+#, python-format
+msgid "%.1f?? W"
 msgstr ""
 
 #, python-format
@@ -1301,10 +1309,6 @@ msgstr ""
 
 #, python-format
 msgid "%s MHz"
-msgstr ""
-
-#, python-format
-msgid "%s imported from fallback tuner"
 msgstr ""
 
 #. TRANSLATORS: The satellite with name '%s' is no longer used after a configuration change. The user is asked whether or not the satellite should be deleted.
@@ -4917,7 +4921,8 @@ msgstr "Trenutna vrednost:"
 msgid "Current Affairs"
 msgstr "Trenutni CEC naslov"
 
-msgid "Current CEC address"
+#, fuzzy
+msgid "Current CEC address:"
 msgstr "Trenutni CEC naslov"
 
 #
@@ -8627,10 +8632,6 @@ msgid "Import channels and/or EPG from remote receiver URL when receiver is boot
 msgstr "Naslov rezervnega oddaljenega sprejemnika"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr ""
-
-#, python-format
-msgid "Import from fallback tuner failed, %s"
 msgstr ""
 
 #, fuzzy
@@ -18644,7 +18645,7 @@ msgstr ""
 msgid "Using LNB %d"
 msgstr "V uporabi je LNB %d"
 
-msgid "Using fixed address"
+msgid "Using fixed address:"
 msgstr ""
 
 #, python-format

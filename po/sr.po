@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-20 02:01+0000\n"
+"POT-Creation-Date: 2022-02-23 19:44+0000\n"
 "PO-Revision-Date: 2011-04-14 00:02+0200\n"
 "Last-Translator: majevica <jovanovic@gmx.ch>\n"
 "Language-Team: veselin & majevica CRNABERZA <jovanovic@gmx.ch>\n"
@@ -5796,12 +5796,10 @@ msgstr "Pretraživač direktorijuma"
 msgid "Disable"
 msgstr "Onemogući"
 
-#
-#, fuzzy
-msgid "Disable FCC"
-msgstr "Onemogući"
-
 msgid "Disable FCC during recordings"
+msgstr ""
+
+msgid "Disable Fast Channel Change"
 msgstr ""
 
 #
@@ -6525,10 +6523,8 @@ msgstr "Omogući"
 msgid "Enable EIT EPG"
 msgstr ""
 
-#
-#, fuzzy
-msgid "Enable FCC"
-msgstr "Omogući"
+msgid "Enable Fast Channel Change"
+msgstr ""
 
 msgid "Enable FreeSat EPG"
 msgstr ""
@@ -7471,6 +7467,11 @@ msgstr "Persijski"
 #
 msgid "Fast"
 msgstr "Brzo"
+
+#
+#, fuzzy
+msgid "Fast Channel Change"
+msgstr "Kanal"
 
 msgid "Fast Channel Change Setup"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-20 02:01+0000\n"
+"POT-Creation-Date: 2022-02-23 19:44+0000\n"
 "PO-Revision-Date: 2012-03-08 10:40+0330\n"
 "Last-Translator: \n"
 "Language-Team: Arabic <moustafagamal@hotmail.com>\n"
@@ -5386,11 +5386,10 @@ msgstr "סייר תיקיות"
 msgid "Disable"
 msgstr "השבת"
 
-#, fuzzy
-msgid "Disable FCC"
-msgstr "השבת"
-
 msgid "Disable FCC during recordings"
+msgstr ""
+
+msgid "Disable Fast Channel Change"
 msgstr ""
 
 #
@@ -6044,10 +6043,8 @@ msgstr "אפשר"
 msgid "Enable EIT EPG"
 msgstr ""
 
-#
-#, fuzzy
-msgid "Enable FCC"
-msgstr "אפשר"
+msgid "Enable Fast Channel Change"
+msgstr ""
 
 msgid "Enable FreeSat EPG"
 msgstr ""
@@ -6931,6 +6928,11 @@ msgstr ""
 #
 msgid "Fast"
 msgstr "מהיר"
+
+#
+#, fuzzy
+msgid "Fast Channel Change"
+msgstr "ערוץ"
 
 msgid "Fast Channel Change Setup"
 msgstr ""

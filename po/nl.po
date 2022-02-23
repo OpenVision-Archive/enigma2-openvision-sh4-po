@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-20 02:01+0000\n"
+"POT-Creation-Date: 2022-02-23 19:44+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Frenske <voorzitter@openpli.org>\n"
 "Language-Team: PLiteam <translators@openpli.org>\n"
@@ -5478,12 +5478,12 @@ msgid "Disable"
 msgstr "Uit"
 
 #, fuzzy
-msgid "Disable FCC"
-msgstr "Uit"
-
-#, fuzzy
 msgid "Disable FCC during recordings"
 msgstr "Voeg de ECM altijd toe aan opnames"
+
+#, fuzzy
+msgid "Disable Fast Channel Change"
+msgstr "Wilt u de Fastscan zendernamen gebruiken"
 
 msgid "Disable Picture in Picture"
 msgstr "Picture In Picture uitschakelen"
@@ -6105,8 +6105,8 @@ msgid "Enable EIT EPG"
 msgstr "EIT EPG inschakelen"
 
 #, fuzzy
-msgid "Enable FCC"
-msgstr "Aan"
+msgid "Enable Fast Channel Change"
+msgstr "Activeer de automatische kabelscan"
 
 #, fuzzy
 msgid "Enable FreeSat EPG"
@@ -6980,6 +6980,10 @@ msgstr "Perzisch"
 
 msgid "Fast"
 msgstr "Snel"
+
+#, fuzzy
+msgid "Fast Channel Change"
+msgstr "Zenderinfo"
 
 msgid "Fast Channel Change Setup"
 msgstr ""

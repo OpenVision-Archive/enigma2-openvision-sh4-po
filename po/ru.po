@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-20 02:01+0000\n"
+"POT-Creation-Date: 2022-02-23 19:44+0000\n"
 "PO-Revision-Date: 2021-05-24 17:48+0300\n"
 "Last-Translator: Dimitrij <Dima-73@inbox.lv>\n"
 "Language-Team: openPLi Dimitrij\n"
@@ -5293,12 +5293,12 @@ msgid "Disable"
 msgstr "Отключить"
 
 #, fuzzy
-msgid "Disable FCC"
-msgstr "Отключить"
-
-#, fuzzy
 msgid "Disable FCC during recordings"
 msgstr "Всегда включать ECM в записи"
+
+#, fuzzy
+msgid "Disable Fast Channel Change"
+msgstr "Названия каналов из быстрого поиска"
 
 msgid "Disable Picture in Picture"
 msgstr "Отключить PiP (картинку в картинке)"
@@ -5912,8 +5912,8 @@ msgid "Enable EIT EPG"
 msgstr "Включить EIT EPG"
 
 #, fuzzy
-msgid "Enable FCC"
-msgstr "Включить"
+msgid "Enable Fast Channel Change"
+msgstr "Включить кабельное автосканирование"
 
 #, fuzzy
 msgid "Enable FreeSat EPG"
@@ -6782,6 +6782,10 @@ msgstr "Фризский"
 
 msgid "Fast"
 msgstr "Быстро"
+
+#, fuzzy
+msgid "Fast Channel Change"
+msgstr "Информация канала"
 
 msgid "Fast Channel Change Setup"
 msgstr ""

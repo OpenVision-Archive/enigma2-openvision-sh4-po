@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-20 02:01+0000\n"
+"POT-Creation-Date: 2022-02-23 19:44+0000\n"
 "PO-Revision-Date: 2013-10-20 19:13-0300\n"
 "Last-Translator: Diogo <pingflood@gmail.com>\n"
 "Language-Team: Traduzido por Frank Viana <franksrviana@gmail.com>\n"
@@ -5194,12 +5194,12 @@ msgstr "Navegador de arquivos"
 msgid "Disable"
 msgstr "Desativar"
 
-#, fuzzy
-msgid "Disable FCC"
-msgstr "Desativar"
-
 msgid "Disable FCC during recordings"
 msgstr ""
+
+#, fuzzy
+msgid "Disable Fast Channel Change"
+msgstr "Usar o nome dos canais da operadora"
 
 msgid "Disable Picture in Picture"
 msgstr "Desativar PiP"
@@ -5823,9 +5823,8 @@ msgstr "Ativar"
 msgid "Enable EIT EPG"
 msgstr "Ativar EPG EIT"
 
-#, fuzzy
-msgid "Enable FCC"
-msgstr "Ativar"
+msgid "Enable Fast Channel Change"
+msgstr ""
 
 #, fuzzy
 msgid "Enable FreeSat EPG"
@@ -6678,6 +6677,10 @@ msgstr "Persa"
 
 msgid "Fast"
 msgstr "Rápido"
+
+#, fuzzy
+msgid "Fast Channel Change"
+msgstr "Informação do canal"
 
 msgid "Fast Channel Change Setup"
 msgstr ""

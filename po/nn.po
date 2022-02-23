@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-20 02:01+0000\n"
+"POT-Creation-Date: 2022-02-23 19:44+0000\n"
 "PO-Revision-Date: 2013-10-23 19:15+0100\n"
 "Last-Translator: andy1 <dmmm8000pvr@gmail.com>\n"
 "Language-Team: none\n"
@@ -5453,13 +5453,12 @@ msgstr "Søk i kataloger"
 msgid "Disable"
 msgstr "Deaktivere"
 
-#
-#, fuzzy
-msgid "Disable FCC"
-msgstr "Deaktivere"
-
 msgid "Disable FCC during recordings"
 msgstr ""
+
+#, fuzzy
+msgid "Disable Fast Channel Change"
+msgstr "Bruk kanaler beregnet for 'fastscan'"
 
 msgid "Disable Picture in Picture"
 msgstr "Stopp bilde i bilde funksjon"
@@ -6157,10 +6156,8 @@ msgstr "Aktivere"
 msgid "Enable EIT EPG"
 msgstr "Aktivere EIT EPG"
 
-#
-#, fuzzy
-msgid "Enable FCC"
-msgstr "Aktivere"
+msgid "Enable Fast Channel Change"
+msgstr ""
 
 #, fuzzy
 msgid "Enable FreeSat EPG"
@@ -7094,6 +7091,11 @@ msgstr "Persisk"
 #
 msgid "Fast"
 msgstr "Hurtig"
+
+#
+#, fuzzy
+msgid "Fast Channel Change"
+msgstr "Kanal"
 
 msgid "Fast Channel Change Setup"
 msgstr ""

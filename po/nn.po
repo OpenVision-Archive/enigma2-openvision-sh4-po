@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-06 02:04+0000\n"
+"POT-Creation-Date: 2022-03-20 02:10+0000\n"
 "PO-Revision-Date: 2013-10-23 19:15+0100\n"
 "Last-Translator: andy1 <dmmm8000pvr@gmail.com>\n"
 "Language-Team: none\n"
@@ -7264,6 +7264,9 @@ msgstr "Følgende oppgaver vil bli utført etter at du trykker OK!"
 msgid "Font size"
 msgstr ""
 
+msgid "For Media Scanner, enabled will take search more time, but will do a full scan of all subdirs where your media files or extensions are located."
+msgstr ""
+
 #
 #, fuzzy
 msgid "Force disabled"
@@ -13406,6 +13409,9 @@ msgstr "Søk %s bånd"
 msgid "Scan additional SR"
 msgstr "Søk etter flere SR"
 
+msgid "Scan and search files and extensions in subdirs"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Scan backwards"
@@ -15200,6 +15206,10 @@ msgid "Software"
 msgstr "Programvare"
 
 #, fuzzy
+msgid "Software Manager Setup"
+msgstr "Programvare oppsett"
+
+#, fuzzy
 msgid "Software Update"
 msgstr "Programvareoppdatering"
 
@@ -15214,9 +15224,6 @@ msgstr "Programvareadministrasjon"
 #
 msgid "Software management"
 msgstr "Programvareadministrasjon"
-
-msgid "Software manager setup"
-msgstr "Programvare oppsett"
 
 msgid "Software update"
 msgstr "Programvareoppdatering"
